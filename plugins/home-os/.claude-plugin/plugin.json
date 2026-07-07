@@ -1,0 +1,10 @@
+{
+  "name": "home-os",
+  "displayName": "Home OS",
+  "description": "The operating system for real life: family calendar, meal planning, chores, school comms, trips, and household admin.",
+  "author": {
+    "name": "AI Her Way",
+    "email": "nici@aiherway.com.au"
+  },
+  "homepage": "https://os.aiherway.com.au"
+}

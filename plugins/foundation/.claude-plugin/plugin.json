@@ -1,0 +1,10 @@
+{
+  "name": "foundation",
+  "displayName": "Foundation",
+  "description": "The shared spine every department uses: brand voice, brand check, voice check, citation check, and the responsible AI review.",
+  "author": {
+    "name": "AI Her Way",
+    "email": "nici@aiherway.com.au"
+  },
+  "homepage": "https://os.aiherway.com.au"
+}

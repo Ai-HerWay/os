@@ -1,0 +1,1566 @@
+{
+  "catalogue_version": "1.0",
+  "catalogue_date": "2026-06-10",
+  "note": "Bundled snapshot fallback. The skill fetches the live catalogue first; this is used only if the live fetch fails.",
+  "departments": [
+    "Foundation",
+    "Admin & Ops OS",
+    "Marketing OS",
+    "Sales OS",
+    "Client Delivery OS",
+    "Strategy OS",
+    "Finance & Legal OS",
+    "CEO OS",
+    "Scaling & Exiting OS",
+    "Household OS"
+  ],
+  "skills": [
+    {
+      "id": "agent-card",
+      "title": "Agent Card",
+      "department": "Foundation",
+      "path": "foundation/agent-card.md",
+      "tier": "starter",
+      "access": "standard",
+      "audiences": [
+        "founder",
+        "professional",
+        "life"
+      ],
+      "tags": [
+        "foundations",
+        "governance",
+        "autonomy"
+      ],
+      "description": "The job description for your AI: what it can do, decide, and must check first.",
+      "version": "1.0",
+      "dateAdded": "2026-06-01",
+      "new": false
+    },
+    {
+      "id": "personaliser",
+      "title": "The Personaliser",
+      "department": "Foundation",
+      "path": "foundation/personaliser.md",
+      "tier": "starter",
+      "access": "standard",
+      "audiences": [
+        "founder",
+        "professional",
+        "life"
+      ],
+      "tags": [
+        "foundations",
+        "setup"
+      ],
+      "description": "A short questionnaire and master prompt that writes your business context for you.",
+      "version": "1.0",
+      "dateAdded": "2026-06-01",
+      "new": false
+    },
+    {
+      "id": "safety-checklist",
+      "title": "Governance & Safety Checklist",
+      "department": "Foundation",
+      "path": "foundation/governance/safety-checklist.md",
+      "tier": "connected",
+      "access": "standard",
+      "audiences": [
+        "founder",
+        "professional",
+        "life"
+      ],
+      "tags": [
+        "governance",
+        "safety",
+        "responsible-use"
+      ],
+      "description": "Read before raising autonomy on any skill. The lines that never move.",
+      "version": "1.0",
+      "dateAdded": "2026-06-01",
+      "new": false
+    },
+    {
+      "id": "voice-check",
+      "title": "Voice Check",
+      "department": "Foundation",
+      "path": "foundation/skills/voice-check.md",
+      "tier": "starter",
+      "access": "standard",
+      "audiences": [
+        "founder",
+        "professional",
+        "life"
+      ],
+      "tags": [
+        "voice",
+        "quality-gate",
+        "shared"
+      ],
+      "description": "Before anything is published in your name, check it sounds like you, not generic AI.",
+      "version": "1.0",
+      "dateAdded": "2026-06-09",
+      "new": true
+    },
+    {
+      "id": "brand-check",
+      "title": "Brand Check",
+      "department": "Foundation",
+      "path": "foundation/skills/brand-check.md",
+      "tier": "starter",
+      "access": "standard",
+      "audiences": [
+        "founder",
+        "professional",
+        "life"
+      ],
+      "tags": [
+        "brand",
+        "ethics",
+        "quality-gate",
+        "shared"
+      ],
+      "description": "Check output against your brand and the ethical floor: no fabrication, no hype, AI disclosed.",
+      "version": "1.0",
+      "dateAdded": "2026-06-09",
+      "new": true
+    },
+    {
+      "id": "citation-check",
+      "title": "Citation Check",
+      "department": "Foundation",
+      "path": "foundation/skills/citation-check.md",
+      "tier": "starter",
+      "access": "standard",
+      "audiences": [
+        "founder",
+        "professional",
+        "life"
+      ],
+      "tags": [
+        "accuracy",
+        "anti-fabrication",
+        "quality-gate",
+        "shared"
+      ],
+      "description": "Verify every claim, statistic, quote, and credential is real and sourced before it ships.",
+      "version": "1.0",
+      "dateAdded": "2026-06-09",
+      "new": true
+    },
+    {
+      "id": "responsible-ai-review",
+      "title": "Responsible AI Review",
+      "department": "Foundation",
+      "path": "foundation/skills/responsible-ai-review.md",
+      "tier": "connected",
+      "access": "standard",
+      "audiences": [
+        "founder",
+        "professional",
+        "life"
+      ],
+      "tags": [
+        "ethics",
+        "governance",
+        "responsible-ai",
+        "shared"
+      ],
+      "description": "A pre-publication ethical review: bias and harm, privacy, disclosure, and the never-list.",
+      "version": "1.0",
+      "dateAdded": "2026-06-09",
+      "new": true
+    },
+    {
+      "id": "brand-voice",
+      "title": "Brand Voice Guide",
+      "department": "Foundation",
+      "path": "foundation/skills/brand-voice.md",
+      "tier": "starter",
+      "access": "standard",
+      "audiences": [
+        "founder",
+        "professional",
+        "life"
+      ],
+      "tags": [
+        "voice",
+        "brand",
+        "foundations",
+        "shared"
+      ],
+      "description": "Tone, hallmark phrases, banned words, and the voice-check. The single voice every department writes in.",
+      "version": "1.0",
+      "dateAdded": "2026-06-01",
+      "new": false
+    },
+    {
+      "id": "content-strategy",
+      "title": "Content Strategy",
+      "department": "Marketing OS",
+      "path": "marketing/skills/content-strategy.md",
+      "tier": "connected",
+      "access": "standard",
+      "audiences": [
+        "founder",
+        "professional"
+      ],
+      "tags": [
+        "strategy",
+        "planning",
+        "content"
+      ],
+      "description": "Pillars, platforms, primary goal, and the editorial criteria.",
+      "version": "1.0",
+      "dateAdded": "2026-06-01",
+      "new": false
+    },
+    {
+      "id": "marketing-strategy",
+      "title": "Marketing Strategy",
+      "department": "Marketing OS",
+      "path": "marketing/skills/marketing-strategy.md",
+      "tier": "starter",
+      "access": "standard",
+      "audiences": [
+        "founder",
+        "professional"
+      ],
+      "tags": [
+        "strategy",
+        "positioning",
+        "channels",
+        "funnel"
+      ],
+      "description": "Positioning, the primary objective, channel choice, and the funnel that ties it together.",
+      "version": "1.0",
+      "dateAdded": "2026-06-10",
+      "new": true
+    },
+    {
+      "id": "campaign-strategy",
+      "title": "Campaign Strategy",
+      "department": "Marketing OS",
+      "path": "marketing/skills/campaign-strategy.md",
+      "tier": "connected",
+      "access": "standard",
+      "audiences": [
+        "founder",
+        "professional"
+      ],
+      "tags": [
+        "campaigns",
+        "launches",
+        "promotions",
+        "conversion"
+      ],
+      "description": "Plan and run a launch end to end. Honest urgency only.",
+      "version": "1.0",
+      "dateAdded": "2026-06-10",
+      "new": true
+    },
+    {
+      "id": "content-formula",
+      "title": "Content Formulas",
+      "department": "Marketing OS",
+      "path": "marketing/skills/content-formula.md",
+      "tier": "connected",
+      "access": "standard",
+      "audiences": [
+        "founder",
+        "professional"
+      ],
+      "tags": [
+        "content",
+        "frameworks",
+        "hooks"
+      ],
+      "description": "Hooks, structures, story arcs, and length defaults.",
+      "version": "1.0",
+      "dateAdded": "2026-06-01",
+      "new": false
+    },
+    {
+      "id": "linkedin-voice",
+      "title": "LinkedIn Voice",
+      "department": "Marketing OS",
+      "path": "marketing/skills/linkedin-voice.md",
+      "tier": "connected",
+      "access": "standard",
+      "audiences": [
+        "founder",
+        "professional"
+      ],
+      "tags": [
+        "linkedin",
+        "voice",
+        "social"
+      ],
+      "description": "How you sound on LinkedIn specifically.",
+      "version": "1.0",
+      "dateAdded": "2026-06-01",
+      "new": false
+    },
+    {
+      "id": "instagram-strategy",
+      "title": "Instagram Strategy",
+      "department": "Marketing OS",
+      "path": "marketing/skills/instagram-strategy.md",
+      "tier": "connected",
+      "access": "standard",
+      "audiences": [
+        "founder"
+      ],
+      "tags": [
+        "instagram",
+        "social",
+        "reels"
+      ],
+      "description": "Formats, cadence, caption structure, and reels rules.",
+      "version": "1.0",
+      "dateAdded": "2026-06-01",
+      "new": false
+    },
+    {
+      "id": "youtube-strategy",
+      "title": "YouTube Strategy",
+      "department": "Marketing OS",
+      "path": "marketing/skills/youtube-strategy.md",
+      "tier": "connected",
+      "access": "standard",
+      "audiences": [
+        "founder",
+        "professional"
+      ],
+      "tags": [
+        "youtube",
+        "video",
+        "retention",
+        "seo"
+      ],
+      "description": "Titles, thumbnails, retention, chapters, SEO, and Shorts.",
+      "version": "1.0",
+      "dateAdded": "2026-06-10",
+      "new": true
+    },
+    {
+      "id": "tiktok-strategy",
+      "title": "TikTok Strategy",
+      "department": "Marketing OS",
+      "path": "marketing/skills/tiktok-strategy.md",
+      "tier": "connected",
+      "access": "standard",
+      "audiences": [
+        "founder",
+        "professional"
+      ],
+      "tags": [
+        "tiktok",
+        "short-form",
+        "hook",
+        "trends"
+      ],
+      "description": "The first-second hook, completion rate, trends, sounds, and cadence.",
+      "version": "1.0",
+      "dateAdded": "2026-06-10",
+      "new": true
+    },
+    {
+      "id": "carousel-format",
+      "title": "Carousel Format",
+      "department": "Marketing OS",
+      "path": "marketing/skills/carousel-format.md",
+      "tier": "connected",
+      "access": "standard",
+      "audiences": [
+        "founder"
+      ],
+      "tags": [
+        "instagram",
+        "carousel",
+        "social"
+      ],
+      "description": "The exact batch markdown format the carousel maker understands.",
+      "version": "1.0",
+      "dateAdded": "2026-06-09",
+      "new": true
+    },
+    {
+      "id": "blog-seo-guide",
+      "title": "Blog SEO Guide",
+      "department": "Marketing OS",
+      "path": "marketing/skills/blog-seo-guide.md",
+      "tier": "connected",
+      "access": "standard",
+      "audiences": [
+        "founder",
+        "professional"
+      ],
+      "tags": [
+        "blog",
+        "seo",
+        "writing"
+      ],
+      "description": "Article structure, SEO basics, and word count defaults.",
+      "version": "1.0",
+      "dateAdded": "2026-06-01",
+      "new": false
+    },
+    {
+      "id": "email-marketing",
+      "title": "Email Marketing",
+      "department": "Marketing OS",
+      "path": "marketing/skills/email-marketing.md",
+      "tier": "connected",
+      "access": "standard",
+      "audiences": [
+        "founder",
+        "professional"
+      ],
+      "tags": [
+        "email",
+        "newsletter"
+      ],
+      "description": "Newsletter and broadcast format, subject patterns, and send rules.",
+      "version": "1.0",
+      "dateAdded": "2026-06-01",
+      "new": false
+    },
+    {
+      "id": "email-sequences",
+      "title": "Email Sequences",
+      "department": "Marketing OS",
+      "path": "marketing/skills/email-sequences.md",
+      "tier": "connected",
+      "access": "pro",
+      "audiences": [
+        "founder"
+      ],
+      "tags": [
+        "email",
+        "automation",
+        "nurture"
+      ],
+      "description": "Automated welcome, nurture, sales, and re-engagement sequences with triggers.",
+      "version": "1.0",
+      "dateAdded": "2026-06-09",
+      "new": true
+    },
+    {
+      "id": "newsletter-format",
+      "title": "Newsletter Format",
+      "department": "Marketing OS",
+      "path": "marketing/skills/newsletter-format.md",
+      "tier": "connected",
+      "access": "standard",
+      "audiences": [
+        "founder",
+        "professional"
+      ],
+      "tags": [
+        "newsletter",
+        "email"
+      ],
+      "description": "The newsletter backbone you write to each week.",
+      "version": "1.0",
+      "dateAdded": "2026-06-01",
+      "new": false
+    },
+    {
+      "id": "newsletter-to-social",
+      "title": "Newsletter to Social",
+      "department": "Marketing OS",
+      "path": "marketing/skills/newsletter-to-social.md",
+      "tier": "connected",
+      "access": "standard",
+      "audiences": [
+        "founder"
+      ],
+      "tags": [
+        "repurposing",
+        "social",
+        "content"
+      ],
+      "description": "Repurpose a newsletter into 8 to 15 social pieces with revenue functions.",
+      "version": "1.0",
+      "dateAdded": "2026-06-01",
+      "new": false
+    },
+    {
+      "id": "dm-conversation-scripts",
+      "title": "DM Conversation Scripts",
+      "department": "Marketing OS",
+      "path": "marketing/skills/dm-conversation-scripts.md",
+      "tier": "connected",
+      "access": "pro",
+      "audiences": [
+        "founder"
+      ],
+      "tags": [
+        "dm",
+        "social",
+        "sales"
+      ],
+      "description": "Conversation flows for direct messages, including codeword automation.",
+      "version": "1.0",
+      "dateAdded": "2026-06-09",
+      "new": true
+    },
+    {
+      "id": "video-scripts",
+      "title": "Video Scripts",
+      "department": "Marketing OS",
+      "path": "marketing/skills/video-scripts.md",
+      "tier": "connected",
+      "access": "pro",
+      "audiences": [
+        "founder"
+      ],
+      "tags": [
+        "video",
+        "scripts",
+        "reels"
+      ],
+      "description": "Reels, shorts, and long-form video scripts with hooks and structures.",
+      "version": "1.0",
+      "dateAdded": "2026-06-09",
+      "new": true
+    },
+    {
+      "id": "sales-page-copy",
+      "title": "Sales Page Copy",
+      "department": "Marketing OS",
+      "path": "marketing/skills/sales-page-copy.md",
+      "tier": "full-os",
+      "access": "pro",
+      "audiences": [
+        "founder"
+      ],
+      "tags": [
+        "sales",
+        "copywriting",
+        "conversion"
+      ],
+      "description": "Long-form sales page structure, offer framing, and objection handling.",
+      "version": "1.0",
+      "dateAdded": "2026-06-09",
+      "new": true
+    },
+    {
+      "id": "platform-playbook",
+      "title": "Platform Playbook",
+      "department": "Marketing OS",
+      "path": "marketing/skills/platform-playbook.md",
+      "tier": "connected",
+      "access": "standard",
+      "audiences": [
+        "founder"
+      ],
+      "tags": [
+        "platforms",
+        "algorithm",
+        "social"
+      ],
+      "description": "Algorithm intelligence, format specs, and posting strategy across active platforms.",
+      "version": "1.0",
+      "dateAdded": "2026-06-01",
+      "new": false
+    },
+    {
+      "id": "ai-performance-review",
+      "title": "AI Performance Review",
+      "department": "Admin & Ops OS",
+      "path": "admin-ops/skills/ai-performance-review.md",
+      "tier": "full-os",
+      "access": "standard",
+      "audiences": [
+        "founder",
+        "professional"
+      ],
+      "tags": [
+        "governance",
+        "quality",
+        "feedback",
+        "continuous-improvement",
+        "rubric"
+      ],
+      "description": "You are the Quality Reviewer for this AI Operating System.",
+      "version": "1.0",
+      "dateAdded": "2026-06-09",
+      "new": true
+    },
+    {
+      "id": "automation-opportunity-finder",
+      "title": "Automation Opportunity Finder",
+      "department": "Admin & Ops OS",
+      "path": "admin-ops/skills/automation-opportunity-finder.md",
+      "tier": "full-os",
+      "access": "standard",
+      "audiences": [
+        "founder",
+        "professional"
+      ],
+      "tags": [
+        "automation",
+        "operations",
+        "time-audit",
+        "workflow",
+        "governance"
+      ],
+      "description": "You are the Automation Scout for this person or business.",
+      "version": "1.0",
+      "dateAdded": "2026-06-09",
+      "new": true
+    },
+    {
+      "id": "bottleneck-spotter",
+      "title": "Bottleneck & Inefficiency Spotter",
+      "department": "Admin & Ops OS",
+      "path": "admin-ops/skills/bottleneck-spotter.md",
+      "tier": "full-os",
+      "access": "standard",
+      "audiences": [
+        "founder",
+        "professional"
+      ],
+      "tags": [
+        "operations",
+        "process",
+        "efficiency",
+        "diagnostics",
+        "throughput"
+      ],
+      "description": "You are the Operations Diagnostician for this business, role, or household.",
+      "version": "1.0",
+      "dateAdded": "2026-06-09",
+      "new": true
+    },
+    {
+      "id": "boundary-protector",
+      "title": "Boundary Protector",
+      "department": "Admin & Ops OS",
+      "path": "admin-ops/skills/boundary-protector.md",
+      "tier": "full-os",
+      "access": "standard",
+      "audiences": [
+        "founder",
+        "professional"
+      ],
+      "tags": [
+        "boundaries",
+        "focus",
+        "calendar",
+        "recovery",
+        "governance"
+      ],
+      "description": "You are the Boundary Protector for this person.",
+      "version": "1.0",
+      "dateAdded": "2026-06-09",
+      "new": true
+    },
+    {
+      "id": "calendar-management",
+      "title": "Calendar Management",
+      "department": "Admin & Ops OS",
+      "path": "admin-ops/skills/calendar-management.md",
+      "tier": "starter",
+      "access": "standard",
+      "audiences": [
+        "founder",
+        "professional"
+      ],
+      "tags": [
+        "calendar",
+        "time",
+        "scheduling"
+      ],
+      "description": "Protect your time, shape the week around priorities, and keep the diary honest.",
+      "version": "1.0",
+      "dateAdded": "2026-06-09",
+      "new": false
+    },
+    {
+      "id": "daily-brief",
+      "title": "Daily Brief",
+      "department": "Admin & Ops OS",
+      "path": "admin-ops/skills/daily-brief.md",
+      "tier": "connected",
+      "access": "standard",
+      "audiences": [
+        "founder",
+        "professional"
+      ],
+      "tags": [
+        "brief",
+        "routine",
+        "morning"
+      ],
+      "description": "Start the day decided, not reactive. One screen: calendar, inbox, tasks, escalations.",
+      "version": "1.0",
+      "dateAdded": "2026-06-09",
+      "new": true
+    },
+    {
+      "id": "data-entry-record-updater",
+      "title": "Data Entry & Record Updater",
+      "department": "Admin & Ops OS",
+      "path": "admin-ops/skills/data-entry-record-updater.md",
+      "tier": "full-os",
+      "access": "standard",
+      "audiences": [
+        "founder",
+        "professional"
+      ],
+      "tags": [
+        "data-quality",
+        "records",
+        "verification",
+        "crm",
+        "accuracy"
+      ],
+      "description": "You are the Records Keeper for this business.",
+      "version": "1.0",
+      "dateAdded": "2026-06-09",
+      "new": true
+    },
+    {
+      "id": "deadline-renewal-tracking",
+      "title": "Deadline & Renewal Tracking",
+      "department": "Admin & Ops OS",
+      "path": "admin-ops/skills/deadline-renewal-tracking.md",
+      "tier": "connected",
+      "access": "standard",
+      "audiences": [
+        "founder",
+        "professional"
+      ],
+      "tags": [
+        "deadlines",
+        "compliance",
+        "renewals"
+      ],
+      "description": "Never miss a date. Renewals, licences, and compliance, surfaced early with lead time.",
+      "version": "1.0",
+      "dateAdded": "2026-06-09",
+      "new": true
+    },
+    {
+      "id": "decision-log-keeper",
+      "title": "Decision Log Keeper",
+      "department": "Admin & Ops OS",
+      "path": "admin-ops/skills/decision-log-keeper.md",
+      "tier": "full-os",
+      "access": "standard",
+      "audiences": [
+        "founder",
+        "professional"
+      ],
+      "tags": [
+        "decisions",
+        "governance",
+        "judgement",
+        "accountability",
+        "record-keeping"
+      ],
+      "description": "You are the Decision Recorder for this business, role, or household.",
+      "version": "1.0",
+      "dateAdded": "2026-06-09",
+      "new": true
+    },
+    {
+      "id": "delegation-router",
+      "title": "Delegation Router",
+      "department": "Admin & Ops OS",
+      "path": "admin-ops/skills/delegation-router.md",
+      "tier": "full-os",
+      "access": "standard",
+      "audiences": [
+        "founder",
+        "professional"
+      ],
+      "tags": [
+        "delegation",
+        "prioritisation",
+        "raci",
+        "triage",
+        "workload"
+      ],
+      "description": "You are the Delegation Router for this business.",
+      "version": "1.0",
+      "dateAdded": "2026-06-09",
+      "new": true
+    },
+    {
+      "id": "document-formatter-templater",
+      "title": "Document Formatter & Templater",
+      "department": "Admin & Ops OS",
+      "path": "admin-ops/skills/document-formatter-templater.md",
+      "tier": "full-os",
+      "access": "standard",
+      "audiences": [
+        "founder",
+        "professional"
+      ],
+      "tags": [
+        "templates",
+        "formatting",
+        "consistency",
+        "readability",
+        "documents"
+      ],
+      "description": "You are the Document Formatter for this business.",
+      "version": "1.0",
+      "dateAdded": "2026-06-09",
+      "new": true
+    },
+    {
+      "id": "file-organisation-naming",
+      "title": "File Organisation & Naming",
+      "department": "Admin & Ops OS",
+      "path": "admin-ops/skills/file-organisation-naming.md",
+      "tier": "full-os",
+      "access": "standard",
+      "audiences": [
+        "founder",
+        "professional"
+      ],
+      "tags": [
+        "files",
+        "naming",
+        "findability",
+        "information-architecture",
+        "organisation"
+      ],
+      "description": "You are the librarian.",
+      "version": "1.0",
+      "dateAdded": "2026-06-09",
+      "new": true
+    },
+    {
+      "id": "follow-up-chaser",
+      "title": "Follow-up & Reply Chaser",
+      "department": "Admin & Ops OS",
+      "path": "admin-ops/skills/follow-up-chaser.md",
+      "tier": "full-os",
+      "access": "standard",
+      "audiences": [
+        "founder",
+        "professional"
+      ],
+      "tags": [
+        "follow-up",
+        "cadence",
+        "reminders",
+        "relationships",
+        "reciprocity"
+      ],
+      "description": "You are the Follow-up Manager for this person.",
+      "version": "1.0",
+      "dateAdded": "2026-06-09",
+      "new": true
+    },
+    {
+      "id": "inbox-triage",
+      "title": "Inbox Triage",
+      "department": "Admin & Ops OS",
+      "path": "admin-ops/skills/inbox-triage.md",
+      "tier": "starter",
+      "access": "standard",
+      "audiences": [
+        "founder",
+        "professional"
+      ],
+      "tags": [
+        "email",
+        "triage",
+        "productivity"
+      ],
+      "description": "Keep the inbox trim. Classify, draft, delegate, and surface only what needs you.",
+      "version": "1.0",
+      "dateAdded": "2026-06-09",
+      "new": false
+    },
+    {
+      "id": "internal-onboarding-doc",
+      "title": "Internal Onboarding Doc Generator",
+      "department": "Admin & Ops OS",
+      "path": "admin-ops/skills/internal-onboarding-doc.md",
+      "tier": "full-os",
+      "access": "standard",
+      "audiences": [
+        "founder",
+        "professional"
+      ],
+      "tags": [
+        "onboarding",
+        "processes",
+        "ramp-time",
+        "documentation",
+        "handover"
+      ],
+      "description": "You are the Onboarding Architect for this business.",
+      "version": "1.0",
+      "dateAdded": "2026-06-09",
+      "new": true
+    },
+    {
+      "id": "meeting-notes-followup",
+      "title": "Meeting Notes & Follow-up",
+      "department": "Admin & Ops OS",
+      "path": "admin-ops/skills/meeting-notes-followup.md",
+      "tier": "connected",
+      "access": "standard",
+      "audiences": [
+        "founder",
+        "professional"
+      ],
+      "tags": [
+        "meetings",
+        "notes",
+        "follow-up"
+      ],
+      "description": "The full meeting lifecycle: prep brief, decisions and actions, recap, and follow-ups.",
+      "version": "1.0",
+      "dateAdded": "2026-06-09",
+      "new": true
+    },
+    {
+      "id": "meeting-prep-brief",
+      "title": "Meeting Prep Brief",
+      "department": "Admin & Ops OS",
+      "path": "admin-ops/skills/meeting-prep-brief.md",
+      "tier": "starter",
+      "access": "standard",
+      "audiences": [
+        "founder",
+        "professional"
+      ],
+      "tags": [
+        "meetings",
+        "preparation",
+        "calendar",
+        "chief-of-staff",
+        "briefing"
+      ],
+      "description": "You are the Chief of Staff for this person's meetings.",
+      "version": "1.0",
+      "dateAdded": "2026-06-09",
+      "new": true
+    },
+    {
+      "id": "meeting-request-handler",
+      "title": "Meeting Request Handler",
+      "department": "Admin & Ops OS",
+      "path": "admin-ops/skills/meeting-request-handler.md",
+      "tier": "full-os",
+      "access": "standard",
+      "audiences": [
+        "founder",
+        "professional"
+      ],
+      "tags": [
+        "meetings",
+        "calendar",
+        "async",
+        "scheduling",
+        "time-protection"
+      ],
+      "description": "You are the Calendar Guardian for this person.",
+      "version": "1.0",
+      "dateAdded": "2026-06-09",
+      "new": true
+    },
+    {
+      "id": "process-wiki-updater",
+      "title": "Process & Wiki Updater",
+      "department": "Admin & Ops OS",
+      "path": "admin-ops/skills/process-wiki-updater.md",
+      "tier": "full-os",
+      "access": "standard",
+      "audiences": [
+        "founder",
+        "professional"
+      ],
+      "tags": [
+        "documentation",
+        "wiki",
+        "sop",
+        "knowledge-management",
+        "governance"
+      ],
+      "description": "You are the Knowledge Keeper for this business.",
+      "version": "1.0",
+      "dateAdded": "2026-06-09",
+      "new": true
+    },
+    {
+      "id": "project-status-updater",
+      "title": "Project Status Updater",
+      "department": "Admin & Ops OS",
+      "path": "admin-ops/skills/project-status-updater.md",
+      "tier": "full-os",
+      "access": "standard",
+      "audiences": [
+        "founder",
+        "professional"
+      ],
+      "tags": [
+        "status-reporting",
+        "rag",
+        "stakeholder-communication",
+        "project-management",
+        "transparency"
+      ],
+      "description": "You are the Status Reporter for this business.",
+      "version": "1.0",
+      "dateAdded": "2026-06-09",
+      "new": true
+    },
+    {
+      "id": "reschedule-booking-handler",
+      "title": "Reschedule & Booking Handler",
+      "department": "Admin & Ops OS",
+      "path": "admin-ops/skills/reschedule-booking-handler.md",
+      "tier": "full-os",
+      "access": "standard",
+      "audiences": [
+        "founder",
+        "professional"
+      ],
+      "tags": [
+        "scheduling",
+        "calendar",
+        "bookings",
+        "boundaries",
+        "no-shows"
+      ],
+      "description": "You are the Scheduling Coordinator for this business or household.",
+      "version": "1.0",
+      "dateAdded": "2026-06-09",
+      "new": true
+    },
+    {
+      "id": "routine-correspondence",
+      "title": "Routine Correspondence",
+      "department": "Admin & Ops OS",
+      "path": "admin-ops/skills/routine-correspondence.md",
+      "tier": "connected",
+      "access": "standard",
+      "audiences": [
+        "founder",
+        "professional"
+      ],
+      "tags": [
+        "email",
+        "drafting",
+        "writing"
+      ],
+      "description": "Standard replies, confirmations, and simple letters drafted in your voice.",
+      "version": "1.0",
+      "dateAdded": "2026-06-09",
+      "new": true
+    },
+    {
+      "id": "sop-capture",
+      "title": "SOP Capture",
+      "department": "Admin & Ops OS",
+      "path": "admin-ops/skills/sop-capture.md",
+      "tier": "starter",
+      "access": "standard",
+      "audiences": [
+        "founder",
+        "professional"
+      ],
+      "tags": [
+        "sop",
+        "process",
+        "delegation"
+      ],
+      "description": "The skill that builds skills. Turn a task in your head into a clean, reusable skill file.",
+      "version": "1.0",
+      "dateAdded": "2026-06-09",
+      "new": false
+    },
+    {
+      "id": "sop-to-skill-converter",
+      "title": "SOP to Skill Converter",
+      "department": "Admin & Ops OS",
+      "path": "admin-ops/skills/sop-to-skill-converter.md",
+      "tier": "full-os",
+      "access": "standard",
+      "audiences": [
+        "founder",
+        "professional"
+      ],
+      "tags": [
+        "sops",
+        "knowledge-capture",
+        "process",
+        "automation",
+        "governance"
+      ],
+      "description": "You are the Process Translator.",
+      "version": "1.0",
+      "dateAdded": "2026-06-09",
+      "new": true
+    },
+    {
+      "id": "task-tracking",
+      "title": "Task & Open-Loop Tracking",
+      "department": "Admin & Ops OS",
+      "path": "admin-ops/skills/task-tracking.md",
+      "tier": "connected",
+      "access": "standard",
+      "audiences": [
+        "founder",
+        "professional"
+      ],
+      "tags": [
+        "tasks",
+        "productivity",
+        "follow-up"
+      ],
+      "description": "Nothing slips. Every commitment has an owner and a next action, with a weekly roundup.",
+      "version": "1.0",
+      "dateAdded": "2026-06-09",
+      "new": true
+    },
+    {
+      "id": "tool-subscription-audit",
+      "title": "Tool & Subscription Audit",
+      "department": "Admin & Ops OS",
+      "path": "admin-ops/skills/tool-subscription-audit.md",
+      "tier": "full-os",
+      "access": "standard",
+      "audiences": [
+        "founder",
+        "professional"
+      ],
+      "tags": [
+        "subscriptions",
+        "cost-control",
+        "spend",
+        "audit",
+        "governance"
+      ],
+      "description": "You are the Spend Steward for this person or business.",
+      "version": "1.0",
+      "dateAdded": "2026-06-09",
+      "new": true
+    },
+    {
+      "id": "travel-itinerary",
+      "title": "Travel Itinerary Builder",
+      "department": "Admin & Ops OS",
+      "path": "admin-ops/skills/travel-itinerary.md",
+      "tier": "starter",
+      "access": "standard",
+      "audiences": [
+        "founder",
+        "professional"
+      ],
+      "tags": [
+        "travel",
+        "itinerary",
+        "logistics",
+        "checklist",
+        "coordination"
+      ],
+      "description": "You are the Travel Coordinator.",
+      "version": "1.0",
+      "dateAdded": "2026-06-09",
+      "new": true
+    },
+    {
+      "id": "travel-research-booking",
+      "title": "Travel Research & Booking Brief",
+      "department": "Admin & Ops OS",
+      "path": "admin-ops/skills/travel-research-booking.md",
+      "tier": "full-os",
+      "access": "standard",
+      "audiences": [
+        "founder",
+        "professional"
+      ],
+      "tags": [
+        "travel",
+        "research",
+        "decision-brief",
+        "logistics",
+        "booking"
+      ],
+      "description": "You are the Travel Researcher for this business or household.",
+      "version": "1.0",
+      "dateAdded": "2026-06-09",
+      "new": true
+    },
+    {
+      "id": "trip-prep-checklist",
+      "title": "Trip Prep Checklist",
+      "department": "Admin & Ops OS",
+      "path": "admin-ops/skills/trip-prep-checklist.md",
+      "tier": "full-os",
+      "access": "standard",
+      "audiences": [
+        "founder",
+        "professional"
+      ],
+      "tags": [
+        "travel",
+        "checklists",
+        "planning",
+        "logistics",
+        "preparation"
+      ],
+      "description": "You are the Trip Logistics Coordinator for this person.",
+      "version": "1.0",
+      "dateAdded": "2026-06-09",
+      "new": true
+    },
+    {
+      "id": "weekly-ops-scorecard",
+      "title": "Weekly Ops Scorecard",
+      "department": "Admin & Ops OS",
+      "path": "admin-ops/skills/weekly-ops-scorecard.md",
+      "tier": "full-os",
+      "access": "standard",
+      "audiences": [
+        "founder",
+        "professional"
+      ],
+      "tags": [
+        "metrics",
+        "kpis",
+        "operations",
+        "reporting",
+        "governance"
+      ],
+      "description": "You are the Scorekeeper for this operation.",
+      "version": "1.0",
+      "dateAdded": "2026-06-09",
+      "new": true
+    },
+    {
+      "id": "weekly-review-planning",
+      "title": "Weekly Review & Planning",
+      "department": "Admin & Ops OS",
+      "path": "admin-ops/skills/weekly-review-planning.md",
+      "tier": "full-os",
+      "access": "standard",
+      "audiences": [
+        "founder",
+        "professional"
+      ],
+      "tags": [
+        "planning",
+        "productivity",
+        "review",
+        "prioritisation",
+        "gtd"
+      ],
+      "description": "You are the Chief of Staff for this person's week.",
+      "version": "1.0",
+      "dateAdded": "2026-06-09",
+      "new": true
+    },
+    {
+      "id": "weekly-time-blocking",
+      "title": "Weekly Time-Blocking",
+      "department": "Admin & Ops OS",
+      "path": "admin-ops/skills/weekly-time-blocking.md",
+      "tier": "full-os",
+      "access": "standard",
+      "audiences": [
+        "founder",
+        "professional"
+      ],
+      "tags": [
+        "time-blocking",
+        "deep-work",
+        "planning",
+        "calendar",
+        "focus"
+      ],
+      "description": "You are the Time Architect for this person.",
+      "version": "1.0",
+      "dateAdded": "2026-06-09",
+      "new": true
+    },
+    {
+      "id": "workflow-mapper",
+      "title": "Workflow Mapper",
+      "department": "Admin & Ops OS",
+      "path": "admin-ops/skills/workflow-mapper.md",
+      "tier": "full-os",
+      "access": "standard",
+      "audiences": [
+        "founder",
+        "professional"
+      ],
+      "tags": [
+        "process-mapping",
+        "swimlanes",
+        "handoffs",
+        "operations",
+        "sops"
+      ],
+      "description": "You are the Process Cartographer for this business.",
+      "version": "1.0",
+      "dateAdded": "2026-06-09",
+      "new": true
+    },
+    {
+      "id": "family-inbox-triage",
+      "title": "Family Inbox Triage",
+      "department": "Household OS",
+      "path": "household/skills/family-inbox-triage.md",
+      "tier": "starter",
+      "access": "standard",
+      "audiences": [
+        "life"
+      ],
+      "tags": [
+        "inbox",
+        "household",
+        "school",
+        "admin",
+        "mental-load"
+      ],
+      "description": "Read the family inbox so you do not have to. Sorts it, flags what needs action, drafts the replies.",
+      "version": "1.0",
+      "dateAdded": "2026-06-10",
+      "new": true
+    },
+    {
+      "id": "family-calendar",
+      "title": "Family Calendar",
+      "department": "Household OS",
+      "path": "household/skills/family-calendar.md",
+      "tier": "starter",
+      "access": "standard",
+      "audiences": [
+        "life"
+      ],
+      "tags": [
+        "calendar",
+        "scheduling",
+        "coordination",
+        "household"
+      ],
+      "description": "Hold the whole family's week in one place. Spots clashes, gaps, and what is not yet sorted.",
+      "version": "1.0",
+      "dateAdded": "2026-06-10",
+      "new": true
+    },
+    {
+      "id": "family-rundown",
+      "title": "Family Rundown",
+      "department": "Household OS",
+      "path": "household/skills/family-rundown.md",
+      "tier": "starter",
+      "access": "standard",
+      "audiences": [
+        "life"
+      ],
+      "tags": [
+        "brief",
+        "routine",
+        "family",
+        "mental-load"
+      ],
+      "description": "One short rundown each morning or week: who is where, what is due, what needs a decision.",
+      "version": "1.0",
+      "dateAdded": "2026-06-10",
+      "new": true
+    },
+    {
+      "id": "due-dates-and-renewals",
+      "title": "Due Dates & Renewals",
+      "department": "Household OS",
+      "path": "household/skills/due-dates-and-renewals.md",
+      "tier": "starter",
+      "access": "standard",
+      "audiences": [
+        "life"
+      ],
+      "tags": [
+        "renewals",
+        "deadlines",
+        "reminders",
+        "household"
+      ],
+      "description": "Never miss a date at home: rego, insurance, subscriptions, medical, school. Reminded in time to act.",
+      "version": "1.0",
+      "dateAdded": "2026-06-10",
+      "new": true
+    },
+    {
+      "id": "ideal-week-and-priorities",
+      "title": "Ideal Week & Priorities",
+      "department": "Household OS",
+      "path": "household/skills/ideal-week-and-priorities.md",
+      "tier": "starter",
+      "access": "standard",
+      "audiences": [
+        "life"
+      ],
+      "tags": [
+        "planning",
+        "priorities",
+        "recovery",
+        "mental-load"
+      ],
+      "description": "Design your ideal week and protect time for what matters before everything else fills it.",
+      "version": "1.0",
+      "dateAdded": "2026-06-10",
+      "new": true
+    },
+    {
+      "id": "meal-planner",
+      "title": "Meal Planner",
+      "department": "Household OS",
+      "path": "household/skills/meal-planner.md",
+      "tier": "connected",
+      "access": "standard",
+      "audiences": [
+        "life"
+      ],
+      "tags": [
+        "meals",
+        "groceries",
+        "planning",
+        "food-waste"
+      ],
+      "description": "Answer 'what's for dinner' for the week, with a grocery list and less food waste.",
+      "version": "1.0",
+      "dateAdded": "2026-06-10",
+      "new": true
+    },
+    {
+      "id": "chore-roster",
+      "title": "Chore Roster",
+      "department": "Household OS",
+      "path": "household/skills/chore-roster.md",
+      "tier": "connected",
+      "access": "standard",
+      "audiences": [
+        "life"
+      ],
+      "tags": [
+        "fairness",
+        "routine",
+        "household",
+        "mental-load"
+      ],
+      "description": "Share the household load fairly and visibly, so it is not all on one person.",
+      "version": "1.0",
+      "dateAdded": "2026-06-10",
+      "new": true
+    },
+    {
+      "id": "school-comms-notes",
+      "title": "School Comms & Notes",
+      "department": "Household OS",
+      "path": "household/skills/school-comms-notes.md",
+      "tier": "connected",
+      "access": "standard",
+      "audiences": [
+        "life"
+      ],
+      "tags": [
+        "school",
+        "family",
+        "admin",
+        "reminders"
+      ],
+      "description": "Read everything the school sends and turn it into clear actions, dates, and reminders.",
+      "version": "1.0",
+      "dateAdded": "2026-06-10",
+      "new": true
+    },
+    {
+      "id": "family-correspondence",
+      "title": "Family Correspondence",
+      "department": "Household OS",
+      "path": "household/skills/family-correspondence.md",
+      "tier": "connected",
+      "access": "standard",
+      "audiences": [
+        "life"
+      ],
+      "tags": [
+        "correspondence",
+        "rsvp",
+        "voice",
+        "mental-load"
+      ],
+      "description": "Draft the routine messages, RSVPs, thank-yous, school notes, in your voice.",
+      "version": "1.0",
+      "dateAdded": "2026-06-10",
+      "new": true
+    },
+    {
+      "id": "household-sop",
+      "title": "Household SOP",
+      "department": "Household OS",
+      "path": "household/skills/household-sop.md",
+      "tier": "connected",
+      "access": "standard",
+      "audiences": [
+        "life"
+      ],
+      "tags": [
+        "routines",
+        "handover",
+        "household",
+        "mental-load"
+      ],
+      "description": "Capture how your home actually runs, so anyone (or your AI) can keep it going.",
+      "version": "1.0",
+      "dateAdded": "2026-06-10",
+      "new": true
+    },
+    {
+      "id": "family-project-planner",
+      "title": "Family Project Planner",
+      "department": "Household OS",
+      "path": "household/skills/family-project-planner.md",
+      "tier": "full-os",
+      "access": "standard",
+      "audiences": [
+        "life"
+      ],
+      "tags": [
+        "planning",
+        "projects",
+        "milestones",
+        "household"
+      ],
+      "description": "Plan a big family project (a move, a reno, a milestone trip) into milestones and next steps.",
+      "version": "1.0",
+      "dateAdded": "2026-06-10",
+      "new": true
+    },
+    {
+      "id": "family-travel-itinerary",
+      "title": "Family Travel Itinerary",
+      "department": "Household OS",
+      "path": "household/skills/family-travel-itinerary.md",
+      "tier": "full-os",
+      "access": "standard",
+      "audiences": [
+        "life"
+      ],
+      "tags": [
+        "travel",
+        "packing",
+        "checklist",
+        "planning"
+      ],
+      "description": "Turn scattered booking confirmations into one clear trip plan and packing checklist.",
+      "version": "1.0",
+      "dateAdded": "2026-06-10",
+      "new": true
+    }
+  ]
+}

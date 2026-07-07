@@ -1,0 +1,60 @@
+{
+  "name": "aiherway",
+  "owner": {
+    "name": "AI Her Way",
+    "email": "nici@aiherway.com.au"
+  },
+  "description": "The AI Her Way AI Operating System: your AI departments, delivered as plugins that stay current.",
+  "plugins": [
+    {
+      "name": "optimise",
+      "source": "./plugins/optimise",
+      "displayName": "Optimise",
+      "description": "Keep your AI OS sharp: Skills Health Check, Tool Stack Audit, and Hub Gap-Finder & Sync.",
+      "author": {
+        "name": "AI Her Way",
+        "email": "nici@aiherway.com.au"
+      }
+    },
+    {
+      "name": "foundation",
+      "source": "./plugins/foundation",
+      "displayName": "Foundation",
+      "description": "The shared spine every department uses: brand voice, brand check, voice check, citation check, and the responsible AI review.",
+      "author": {
+        "name": "AI Her Way",
+        "email": "nici@aiherway.com.au"
+      }
+    },
+    {
+      "name": "marketing-os",
+      "source": "./plugins/marketing-os",
+      "displayName": "Marketing OS",
+      "description": "Your AI marketing department: strategy, campaigns, content, email, social, and platform playbooks. Evidence-based and draft-and-approve.",
+      "author": {
+        "name": "AI Her Way",
+        "email": "nici@aiherway.com.au"
+      }
+    },
+    {
+      "name": "admin-ops-os",
+      "source": "./plugins/admin-ops-os",
+      "displayName": "Admin & Ops OS",
+      "description": "Your AI operations department: inbox, calendar, meetings, tasks, SOPs, travel, and the weekly rhythm that keeps the business running.",
+      "author": {
+        "name": "AI Her Way",
+        "email": "nici@aiherway.com.au"
+      }
+    },
+    {
+      "name": "home-os",
+      "source": "./plugins/home-os",
+      "displayName": "Home OS",
+      "description": "The operating system for real life: family calendar, meal planning, chores, school comms, trips, and household admin.",
+      "author": {
+        "name": "AI Her Way",
+        "email": "nici@aiherway.com.au"
+      }
+    }
+  ]
+}
