@@ -68,10 +68,10 @@ Everything here follows the AI Her Way EquiAI standard:
 
 Prefer plain downloads? Every pack is also available as `.skill` file downloads from the Hub, if you would rather not subscribe. Subscribing is simply the version that keeps itself current.
 
----
-
-This repository is assembled automatically from our canonical templates. Please do not edit files here directly; changes land via the AI Her Way build pipeline.
-
 ## Questions or stuck?
 
 Email [nici@aiherway.com.au](mailto:nici@aiherway.com.au) or ask in the Hub community. If a skill misbehaves, run the Skills Health Check from the `optimise` pack; it usually finds the cause.
+
+---
+
+This repository is assembled automatically from our canonical templates. Please do not edit files here directly; changes land via the AI Her Way build pipeline.
