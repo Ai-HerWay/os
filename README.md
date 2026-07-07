@@ -70,7 +70,7 @@ Prefer plain downloads? Every pack is also available as `.skill` file downloads 
 
 ## Questions or stuck?
 
-Email [nici@aiherway.com.au](mailto:nici@aiherway.com.au) or ask in the Hub community. If a skill misbehaves, run the Skills Health Check from the `optimise` pack; it usually finds the cause.
+Post in the Hub community first; that is where answers live and where others learn from your question. If it is urgent or a tech issue, email [hello@aiherway.com.au](mailto:hello@aiherway.com.au). If a skill misbehaves, run the Skills Health Check from the `optimise` pack; it usually finds the cause.
 
 ---
 

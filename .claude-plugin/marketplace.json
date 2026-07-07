@@ -2,7 +2,7 @@
   "name": "aiherway",
   "owner": {
     "name": "AI Her Way",
-    "email": "nici@aiherway.com.au"
+    "email": "hello@aiherway.com.au"
   },
   "description": "The AI Her Way AI Operating System: your AI departments, delivered as plugins that stay current.",
   "plugins": [
@@ -13,7 +13,7 @@
       "description": "Keep your AI OS sharp: Skills Health Check, Tool Stack Audit, and Hub Gap-Finder & Sync.",
       "author": {
         "name": "AI Her Way",
-        "email": "nici@aiherway.com.au"
+        "email": "hello@aiherway.com.au"
       }
     },
     {
@@ -23,7 +23,7 @@
       "description": "The shared spine every department uses: brand voice, brand check, voice check, citation check, and the responsible AI review.",
       "author": {
         "name": "AI Her Way",
-        "email": "nici@aiherway.com.au"
+        "email": "hello@aiherway.com.au"
       }
     },
     {
@@ -33,7 +33,7 @@
       "description": "Your AI marketing department: strategy, campaigns, content, email, social, and platform playbooks. Evidence-based and draft-and-approve.",
       "author": {
         "name": "AI Her Way",
-        "email": "nici@aiherway.com.au"
+        "email": "hello@aiherway.com.au"
       }
     },
     {
@@ -43,7 +43,7 @@
       "description": "Your AI operations department: inbox, calendar, meetings, tasks, SOPs, travel, and the weekly rhythm that keeps the business running.",
       "author": {
         "name": "AI Her Way",
-        "email": "nici@aiherway.com.au"
+        "email": "hello@aiherway.com.au"
       }
     },
     {
@@ -53,7 +53,7 @@
       "description": "The operating system for real life: family calendar, meal planning, chores, school comms, trips, and household admin.",
       "author": {
         "name": "AI Her Way",
-        "email": "nici@aiherway.com.au"
+        "email": "hello@aiherway.com.au"
       }
     }
   ]
