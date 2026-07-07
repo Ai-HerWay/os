@@ -1613,6 +1613,373 @@
       "version": "1.0",
       "dateAdded": "2026-07-07",
       "new": true
+    },
+    {
+      "id": "lead-qualification",
+      "title": "Lead Qualification",
+      "department": "Sales OS",
+      "path": "sales/skills/lead-qualification.md",
+      "tier": "starter",
+      "access": "standard",
+      "audiences": [
+        "founder",
+        "professional"
+      ],
+      "tags": [
+        "leads",
+        "qualification",
+        "icp",
+        "scoring"
+      ],
+      "description": "Score a lead against your ideal-customer fit, recommend qualify or a gracious decline.",
+      "version": "1.0",
+      "dateAdded": "2026-07-07",
+      "new": true
+    },
+    {
+      "id": "fast-inbound-response",
+      "title": "Fast Inbound Response",
+      "department": "Sales OS",
+      "path": "sales/skills/fast-inbound-response.md",
+      "tier": "starter",
+      "access": "standard",
+      "audiences": [
+        "founder",
+        "professional"
+      ],
+      "tags": [
+        "speed-to-lead",
+        "enquiries",
+        "first-reply"
+      ],
+      "description": "Surface a new enquiry fast and draft a warm, helpful first reply while the lead is hot.",
+      "version": "1.0",
+      "dateAdded": "2026-07-07",
+      "new": true
+    },
+    {
+      "id": "discovery-call-prep",
+      "title": "Discovery Call Prep",
+      "department": "Sales OS",
+      "path": "sales/skills/discovery-call-prep.md",
+      "tier": "starter",
+      "access": "standard",
+      "audiences": [
+        "founder",
+        "professional"
+      ],
+      "tags": [
+        "discovery",
+        "research",
+        "questions",
+        "calls"
+      ],
+      "description": "Research the prospect and draft consultative, open questions and a clear call goal.",
+      "version": "1.0",
+      "dateAdded": "2026-07-07",
+      "new": true
+    },
+    {
+      "id": "pre-call-confidence-primer",
+      "title": "Pre-Call Confidence Primer",
+      "department": "Sales OS",
+      "path": "sales/skills/pre-call-confidence-primer.md",
+      "tier": "starter",
+      "access": "standard",
+      "audiences": [
+        "founder",
+        "professional"
+      ],
+      "tags": [
+        "confidence",
+        "mindset",
+        "calls"
+      ],
+      "description": "A 60-second reframe and the three things to remember before a sales conversation.",
+      "version": "1.0",
+      "dateAdded": "2026-07-07",
+      "new": true
+    },
+    {
+      "id": "call-capture-to-next-steps",
+      "title": "Call Capture to Next Steps",
+      "department": "Sales OS",
+      "path": "sales/skills/call-capture-to-next-steps.md",
+      "tier": "starter",
+      "access": "standard",
+      "audiences": [
+        "founder",
+        "professional"
+      ],
+      "tags": [
+        "notes",
+        "crm",
+        "next-steps",
+        "calls"
+      ],
+      "description": "Turn call notes or a transcript into clean notes, a pipeline update, and a clear next step.",
+      "version": "1.0",
+      "dateAdded": "2026-07-07",
+      "new": true
+    },
+    {
+      "id": "proposal-builder",
+      "title": "Proposal Builder",
+      "department": "Sales OS",
+      "path": "sales/skills/proposal-builder.md",
+      "tier": "starter",
+      "access": "standard",
+      "audiences": [
+        "founder",
+        "professional"
+      ],
+      "tags": [
+        "proposals",
+        "quotes",
+        "scope",
+        "pricing"
+      ],
+      "description": "Draft a same-day, on-brand proposal from the call: scope, value, and honest pricing.",
+      "version": "1.0",
+      "dateAdded": "2026-07-07",
+      "new": true
+    },
+    {
+      "id": "objection-handling-coach",
+      "title": "Objection Handling Coach",
+      "department": "Sales OS",
+      "path": "sales/skills/objection-handling-coach.md",
+      "tier": "starter",
+      "access": "standard",
+      "audiences": [
+        "founder",
+        "professional"
+      ],
+      "tags": [
+        "objections",
+        "concerns",
+        "honesty"
+      ],
+      "description": "Find the real concern under an objection and answer it honestly, never defensively.",
+      "version": "1.0",
+      "dateAdded": "2026-07-07",
+      "new": true
+    },
+    {
+      "id": "pricing-confidence-coach",
+      "title": "Pricing Confidence Coach",
+      "department": "Sales OS",
+      "path": "sales/skills/pricing-confidence-coach.md",
+      "tier": "starter",
+      "access": "standard",
+      "audiences": [
+        "founder",
+        "professional"
+      ],
+      "tags": [
+        "pricing",
+        "discounts",
+        "value"
+      ],
+      "description": "Set and hold a fair price, articulate value, and respond to discount requests without caving.",
+      "version": "1.0",
+      "dateAdded": "2026-07-07",
+      "new": true
+    },
+    {
+      "id": "follow-up-guardian",
+      "title": "Follow-Up Guardian",
+      "department": "Sales OS",
+      "path": "sales/skills/follow-up-guardian.md",
+      "tier": "starter",
+      "access": "standard",
+      "audiences": [
+        "founder",
+        "professional"
+      ],
+      "tags": [
+        "follow-up",
+        "pipeline",
+        "no-dropped-leads"
+      ],
+      "description": "Watch every open deal, surface who needs a nudge today, and draft a warm, no-pressure message.",
+      "version": "1.0",
+      "dateAdded": "2026-07-07",
+      "new": true
+    },
+    {
+      "id": "follow-up-sequence-writer",
+      "title": "Follow-Up Sequence Writer",
+      "department": "Sales OS",
+      "path": "sales/skills/follow-up-sequence-writer.md",
+      "tier": "starter",
+      "access": "standard",
+      "audiences": [
+        "founder",
+        "professional"
+      ],
+      "tags": [
+        "follow-up",
+        "sequences",
+        "nurture"
+      ],
+      "description": "Write a multi-touch follow-up that adds value each time and never uses fake urgency.",
+      "version": "1.0",
+      "dateAdded": "2026-07-07",
+      "new": true
+    },
+    {
+      "id": "re-engage-dormant-leads",
+      "title": "Re-Engage Dormant Leads",
+      "department": "Sales OS",
+      "path": "sales/skills/re-engage-dormant-leads.md",
+      "tier": "connected",
+      "access": "standard",
+      "audiences": [
+        "founder",
+        "professional"
+      ],
+      "tags": [
+        "dormant",
+        "re-engagement",
+        "warm"
+      ],
+      "description": "Surface dormant enquiries and past clients and draft a soft, value-first reopener.",
+      "version": "1.0",
+      "dateAdded": "2026-07-07",
+      "new": true
+    },
+    {
+      "id": "referral-and-warm-intro-asker",
+      "title": "Referral and Warm-Intro Asker",
+      "department": "Sales OS",
+      "path": "sales/skills/referral-and-warm-intro-asker.md",
+      "tier": "starter",
+      "access": "standard",
+      "audiences": [
+        "founder",
+        "professional"
+      ],
+      "tags": [
+        "referrals",
+        "introductions",
+        "advocates"
+      ],
+      "description": "Spot the right moment and draft a specific, easy-to-say-yes-to referral request.",
+      "version": "1.0",
+      "dateAdded": "2026-07-07",
+      "new": true
+    },
+    {
+      "id": "pipeline-review",
+      "title": "Pipeline Review",
+      "department": "Sales OS",
+      "path": "sales/skills/pipeline-review.md",
+      "tier": "connected",
+      "access": "standard",
+      "audiences": [
+        "founder",
+        "professional"
+      ],
+      "tags": [
+        "pipeline",
+        "review",
+        "focus",
+        "weekly"
+      ],
+      "description": "A weekly read of your pipeline that names the few deals to focus on and the one action each needs.",
+      "version": "1.0",
+      "dateAdded": "2026-07-07",
+      "new": true
+    },
+    {
+      "id": "win-loss-reflection",
+      "title": "Win-Loss Reflection",
+      "department": "Sales OS",
+      "path": "sales/skills/win-loss-reflection.md",
+      "tier": "connected",
+      "access": "standard",
+      "audiences": [
+        "founder",
+        "professional"
+      ],
+      "tags": [
+        "win-loss",
+        "learning",
+        "reflection"
+      ],
+      "description": "After a deal closes or dies, a short reflection that extracts the lesson and updates your playbook.",
+      "version": "1.0",
+      "dateAdded": "2026-07-07",
+      "new": true
+    },
+    {
+      "id": "post-sale-handoff",
+      "title": "Post-Sale Handoff",
+      "department": "Sales OS",
+      "path": "sales/skills/post-sale-handoff.md",
+      "tier": "connected",
+      "access": "standard",
+      "audiences": [
+        "founder",
+        "professional"
+      ],
+      "tags": [
+        "handoff",
+        "onboarding",
+        "delivery"
+      ],
+      "description": "When you win, start the relationship well and kick off onboarding so the seam is seamless.",
+      "version": "1.0",
+      "dateAdded": "2026-07-07",
+      "new": true
+    },
+    {
+      "id": "internal-selling",
+      "title": "Internal Selling (Influence Without Authority)",
+      "department": "Sales OS",
+      "path": "sales/skills/internal-selling.md",
+      "tier": "starter",
+      "access": "standard",
+      "audiences": [
+        "founder",
+        "professional"
+      ],
+      "tags": [
+        "influence",
+        "stakeholders",
+        "professional",
+        "buy-in"
+      ],
+      "description": "For professionals: win internal buy-in by building the case, mapping stakeholders, and proposing a pilot.",
+      "version": "1.0",
+      "dateAdded": "2026-07-07",
+      "new": true
+    },
+    {
+      "id": "slack-teams-setup",
+      "title": "Slack and Teams Setup",
+      "department": "Foundation",
+      "path": "foundation/skills/slack-teams-setup.md",
+      "tier": "connected",
+      "access": "standard",
+      "audiences": [
+        "founder",
+        "professional",
+        "life"
+      ],
+      "tags": [
+        "slack",
+        "teams",
+        "approvals",
+        "coordination",
+        "team",
+        "setup"
+      ],
+      "description": "Wire your OS to your own Slack or Teams: DFY channel structure, the OS posting briefs and drafts, and in-channel approval by a named human before anything ships.",
+      "version": "1.0",
+      "dateAdded": "2026-07-07",
+      "new": true
     }
   ]
 }
