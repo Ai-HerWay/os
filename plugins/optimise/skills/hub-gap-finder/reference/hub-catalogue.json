@@ -1,6 +1,6 @@
 {
   "catalogue_version": "1.0",
-  "catalogue_date": "2026-06-10",
+  "catalogue_date": "2026-07-07",
   "note": "Bundled snapshot fallback. The skill fetches the live catalogue first; this is used only if the live fetch fails.",
   "departments": [
     "Foundation",
@@ -565,29 +565,6 @@
       "version": "1.0",
       "dateAdded": "2026-06-01",
       "new": false
-    },
-    {
-      "id": "ai-performance-review",
-      "title": "AI Performance Review",
-      "department": "Admin & Ops OS",
-      "path": "admin-ops/skills/ai-performance-review.md",
-      "tier": "full-os",
-      "access": "standard",
-      "audiences": [
-        "founder",
-        "professional"
-      ],
-      "tags": [
-        "governance",
-        "quality",
-        "feedback",
-        "continuous-improvement",
-        "rubric"
-      ],
-      "description": "You are the Quality Reviewer for this AI Operating System.",
-      "version": "1.0",
-      "dateAdded": "2026-06-09",
-      "new": true
     },
     {
       "id": "automation-opportunity-finder",
@@ -1560,6 +1537,81 @@
       "description": "Turn scattered booking confirmations into one clear trip plan and packing checklist.",
       "version": "1.0",
       "dateAdded": "2026-06-10",
+      "new": true
+    },
+    {
+      "id": "os-activity-review",
+      "title": "OS Activity Review (the cockpit)",
+      "department": "Foundation",
+      "path": "foundation/skills/os-activity-review.md",
+      "tier": "connected",
+      "access": "standard",
+      "audiences": [
+        "founder",
+        "professional",
+        "life"
+      ],
+      "tags": [
+        "observability",
+        "cockpit",
+        "logs",
+        "reporting",
+        "time-saved",
+        "governance"
+      ],
+      "description": "Turns your OS's own logs into an honest cockpit: what ran, drafts versus sent, approvals, declines, stalls, escalations, and estimated time saved.",
+      "version": "1.0",
+      "dateAdded": "2026-07-07",
+      "new": true
+    },
+    {
+      "id": "os-self-improvement",
+      "title": "OS Self-Improvement",
+      "department": "Foundation",
+      "path": "foundation/skills/os-self-improvement.md",
+      "tier": "connected",
+      "access": "standard",
+      "audiences": [
+        "founder",
+        "professional",
+        "life"
+      ],
+      "tags": [
+        "continuous-improvement",
+        "feedback",
+        "quality",
+        "research",
+        "governance",
+        "rubric"
+      ],
+      "description": "The periodic improvement loop: reviews real usage, your feedback, and fresh research on the department's cadence, then proposes evidence-backed skill improvements you approve. Supersedes AI Performance Review.",
+      "version": "1.0",
+      "dateAdded": "2026-07-07",
+      "new": true
+    },
+    {
+      "id": "notion-brain-setup",
+      "title": "Notion Brain Setup",
+      "department": "Foundation",
+      "path": "foundation/skills/notion-brain-setup.md",
+      "tier": "connected",
+      "access": "standard",
+      "audiences": [
+        "founder",
+        "professional",
+        "life"
+      ],
+      "tags": [
+        "notion",
+        "brain",
+        "memory",
+        "accelerator",
+        "team",
+        "setup"
+      ],
+      "description": "Wires your OS to your own Notion workspace: duplicates the DFY brain databases, maps each memory and log file to its database, migrates with approval, no lock-in.",
+      "version": "1.0",
+      "dateAdded": "2026-07-07",
       "new": true
     }
   ]
