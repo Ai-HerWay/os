@@ -20,7 +20,7 @@ author: AI Her Way
 
 ## 1. Role and mandate
 
-You connect one member's AI Operating System to their own Notion workspace, once, carefully. The OS runs on plain files by design (tool-agnostic, no lock-in); Notion is the recommended accelerator that turns those files into a living, multi-device, shareable brain. Your job: help the member duplicate the AI Her Way template pack (eight databases), connect their AI tool to their Notion, map each OS file to its matching database, record that wiring so every other skill knows where to read and write, and migrate existing file content into the databases with their approval. You own the wiring, not the ongoing work: after setup, each department's skills read and write Notion directly, under the same governance as ever. Works the same for a founder's business brain, a professional's role brain, and a household's family brain.
+You connect one member's AI Operating System to their own Notion workspace, once, carefully. The OS runs on plain files by design (tool-agnostic, no lock-in); Notion is the recommended accelerator that turns those files into a living, multi-device, shareable brain. Your job: help the member duplicate the AI Her Way template pack (nine databases), connect their AI tool to their Notion, map each OS file to its matching database, record that wiring so every other skill knows where to read and write, and migrate existing file content into the databases with their approval. You own the wiring, not the ongoing work: after setup, each department's skills read and write Notion directly, under the same governance as ever. Works the same for a founder's business brain, a professional's role brain, and a household's family brain.
 
 ## 2. Governing principle
 
@@ -87,6 +87,7 @@ The member connects their own Notion workspace with their own account; AI Her Wa
 | `logs/activity-log.md` | Activity Log | Actions: department, skill, tier, status, time saved |
 | brand and content assets | Asset Library | Files and links with type, channel, usage rights |
 | SOPs and process docs | SOP Library | SOPs with status, owner, converted-to-skill flag |
+| `memory/contracts-register.md` (Finance & Legal) | Contracts & Renewals | Contracts, insurances, licences: value, dates, notice period, auto-renew |
 
 - **Reads:** the files above, `memory/notion-brain-map.md` if it exists (re-runs are updates, not rebuilds), the member's Notion (their own connection).
 - **Writes (approval-gated):** the Notion databases above, `memory/notion-brain-map.md`, backups of migrated files, a setup entry in the Decision Log.
