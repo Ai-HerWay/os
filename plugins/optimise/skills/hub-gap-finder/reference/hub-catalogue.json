@@ -1,6 +1,6 @@
 {
   "catalogue_version": "1.0",
-  "catalogue_date": "2026-07-07",
+  "catalogue_date": "2026-07-09",
   "note": "Bundled snapshot fallback. The skill fetches the live catalogue first; this is used only if the live fetch fails.",
   "departments": [
     "Foundation",
@@ -565,6 +565,138 @@
       "version": "1.0",
       "dateAdded": "2026-06-01",
       "new": false
+    },
+    {
+      "id": "carousel-designer",
+      "title": "Carousel Designer",
+      "department": "Marketing OS",
+      "path": "marketing/skills/carousel-designer.md",
+      "tier": "full-os",
+      "access": "standard",
+      "audiences": [
+        "founder",
+        "professional",
+        "life"
+      ],
+      "tags": [
+        "content",
+        "design",
+        "canva"
+      ],
+      "description": "Turns your approved carousel copy into finished, on-brand slides, in Canva by default.",
+      "version": "1.0",
+      "dateAdded": "2026-07-09",
+      "new": true
+    },
+    {
+      "id": "brand-image-generator",
+      "title": "Brand Image Generator",
+      "department": "Marketing OS",
+      "path": "marketing/skills/brand-image-generator.md",
+      "tier": "full-os",
+      "access": "standard",
+      "audiences": [
+        "founder",
+        "professional",
+        "life"
+      ],
+      "tags": [
+        "content",
+        "design",
+        "images"
+      ],
+      "description": "Makes on-brand graphics like quote cards, tiles, and thumbnails straight from your brand kit.",
+      "version": "1.0",
+      "dateAdded": "2026-07-09",
+      "new": true
+    },
+    {
+      "id": "reel-producer",
+      "title": "Reel Producer",
+      "department": "Marketing OS",
+      "path": "marketing/skills/reel-producer.md",
+      "tier": "full-os",
+      "access": "standard",
+      "audiences": [
+        "founder",
+        "professional",
+        "life"
+      ],
+      "tags": [
+        "content",
+        "video",
+        "reels"
+      ],
+      "description": "Turns a video script into a full reel package: b-roll, cover frame, captions, and a shotlist.",
+      "version": "1.0",
+      "dateAdded": "2026-07-09",
+      "new": true
+    },
+    {
+      "id": "post-packager",
+      "title": "Post Packager",
+      "department": "Marketing OS",
+      "path": "marketing/skills/post-packager.md",
+      "tier": "full-os",
+      "access": "standard",
+      "audiences": [
+        "founder",
+        "professional",
+        "life"
+      ],
+      "tags": [
+        "content",
+        "publishing",
+        "qa"
+      ],
+      "description": "Bundles your week of approved posts into upload-ready packages and QA-checks each one.",
+      "version": "1.0",
+      "dateAdded": "2026-07-09",
+      "new": true
+    },
+    {
+      "id": "content-scheduler",
+      "title": "Content Scheduler",
+      "department": "Marketing OS",
+      "path": "marketing/skills/content-scheduler.md",
+      "tier": "full-os",
+      "access": "standard",
+      "audiences": [
+        "founder",
+        "professional",
+        "life"
+      ],
+      "tags": [
+        "content",
+        "publishing",
+        "scheduling"
+      ],
+      "description": "Loads your approved posts into your scheduler as drafts or a queue, on your cadence.",
+      "version": "1.0",
+      "dateAdded": "2026-07-09",
+      "new": true
+    },
+    {
+      "id": "content-repurposer",
+      "title": "Content Repurposer",
+      "department": "Marketing OS",
+      "path": "marketing/skills/content-repurposer.md",
+      "tier": "full-os",
+      "access": "standard",
+      "audiences": [
+        "founder",
+        "professional",
+        "life"
+      ],
+      "tags": [
+        "content",
+        "repurposing",
+        "video"
+      ],
+      "description": "Atomises one video, podcast, or talk into a multi-platform content pack.",
+      "version": "1.0",
+      "dateAdded": "2026-07-09",
+      "new": true
     },
     {
       "id": "automation-opportunity-finder",
