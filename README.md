@@ -4,6 +4,19 @@ Your AI business departments, delivered as plugins that stay current.
 
 This is the official plugin marketplace for the [AI Her Way](https://aiherway.com.au) AI Operating System. Add it once, install the departments you run, and every improvement we ship arrives automatically. No re-downloading, no stale files.
 
+> **Please read first: these are templates, not pre-filled with your details.**
+> Every skill here is generic on purpose. Out of the box it does not know your business, your voice, or your rules. It becomes yours when it reads your context at runtime. The fastest way: once you have installed a pack, just ask your AI to set it up for you, for example:
+>
+> ```
+> Read the AI Her Way skills I just installed. Interview me to build my
+> context (my business, who I serve, my voice, my rules), or use what you
+> already know about me from our past work, and save it to
+> memory/business-context.md so these skills run as me. Ask one question
+> at a time, and show me the file before you save it.
+> ```
+>
+> Or run the [OS Builder](https://ai-os-builder.vercel.app) interview, which writes your Foundation for you. Either way, do this once and every department reads it. See **Make it yours** below.
+
 ## Add it once
 
 Open Claude Code or the Claude desktop app (Cowork) and type:
@@ -46,10 +59,13 @@ Updates flow automatically if you turn on auto-update in `/plugin` (Marketplaces
 
 ## Make it yours
 
-These skills are generic by design: they read who you are, your voice, your audience, and your rules from your own context files (`memory/business-context.md` and friends) at runtime. Two ways to set that up:
+These skills are generic by design: they read who you are, your voice, your audience, and your rules from your own context files (`memory/business-context.md` and friends) at runtime. Until you set that up, they run on sensible defaults, not on you. Three ways to make them yours:
 
-1. **The OS Builder** (recommended): [ai-os-builder.vercel.app](https://ai-os-builder.vercel.app) interviews you and generates your personalised Foundation: your AGENT.md brain file, voice rules, governance, and memory files. The skills here then read them automatically.
-2. **By hand:** create `memory/business-context.md` describing your business, audience, offers, and voice. The skills will tell you anything else they need.
+1. **Ask your AI to do it** (fastest): once a pack is installed, paste the prompt at the top of this page. Your AI interviews you (or uses what it already knows about you from past work) and writes your `memory/business-context.md`. One conversation, and every department reads it.
+2. **The OS Builder** (most guided): [ai-os-builder.vercel.app](https://ai-os-builder.vercel.app) interviews you and generates your personalised Foundation: your AGENT.md brain file, voice rules, governance, and memory files. The skills here then read them automatically.
+3. **By hand:** create `memory/business-context.md` describing your business, audience, offers, and voice. The skills will tell you anything else they need.
+
+Whichever you choose, do it once. It is the difference between generic output and output that sounds and decides like you.
 
 ## The rules these skills live by
 
