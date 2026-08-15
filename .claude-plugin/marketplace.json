@@ -57,6 +57,16 @@
       }
     },
     {
+      "name": "client-delivery-os",
+      "source": "./plugins/client-delivery-os",
+      "displayName": "Client Delivery OS",
+      "description": "Your AI client delivery department: onboarding, expectations, status on cadence, scope defended kindly, hard conversations handled well, surprise and delight, case studies, and endings worth referring.",
+      "author": {
+        "name": "AI Her Way",
+        "email": "hello@aiherway.com.au"
+      }
+    },
+    {
       "name": "home-os",
       "source": "./plugins/home-os",
       "displayName": "Home OS",
