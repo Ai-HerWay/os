@@ -32,6 +32,8 @@ That is the whole setup. You only ever do this once.
 ```
 /plugin install foundation@aiherway
 /plugin install marketing-os@aiherway
+/plugin install sales-os@aiherway
+/plugin install client-delivery-os@aiherway
 /plugin install admin-ops-os@aiherway
 /plugin install home-os@aiherway
 /plugin install optimise@aiherway
@@ -42,7 +44,9 @@ Start with `foundation` (the shared spine: voice, checks, responsible AI review)
 | Pack | What it is |
 |---|---|
 | `foundation` | The shared spine: brand voice, brand check, voice check, citation check, responsible AI review. |
-| `marketing-os` | Your AI marketing department: strategy, campaigns, content, email, social. |
+| `marketing-os` | Your AI marketing department: strategy, campaigns, content, email, social, plus the Content Studio. |
+| `sales-os` | Your AI sales department: qualification, fast inbound response, discovery, proposals, objection and pricing coaching, and the follow-up guardian. Honest urgency only. |
+| `client-delivery-os` | Your AI client delivery department: onboarding, expectations, status on cadence, scope defended kindly, hard conversations, surprise and delight, case studies, and endings worth referring. |
 | `admin-ops-os` | Your AI operations department: inbox, calendar, meetings, tasks, SOPs, travel. |
 | `home-os` | The operating system for real life: family calendar, meals, chores, school comms. |
 | `optimise` | Tune-up tools: Skills Health Check, Tool Stack Audit, Hub Gap-Finder & Sync. |
