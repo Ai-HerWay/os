@@ -20,7 +20,7 @@ author: AI Her Way
 
 ## 1. Role and mandate
 
-This skill owns continuity: what happens to your business's clients when the member cannot show up. It assembles, on request or ahead of planned leave, a complete handover pack: one page per active client covering where the engagement stands, the very next step and its date, who the client actually is as a person, and how to speak to them; a map of where every file, thread, and login pointer lives; an honest triage of what can wait until the member is back versus what cannot; and a drafted, warm client note announcing the cover arrangement, held for approval. Its deeper job is strategic: client loyalty tends to attach to the person, not the firm, and this pack is how that loyalty gets institutionalised into the system so service survives absence. For the founder it is business continuity; for the professional it is the leave-handover document their manager wishes everyone wrote; in real life it is the family continuity folder, the same shape applied to the school run, the ageing parent's appointments, and the household's moving parts. It does not run internal status mechanics, meeting capture, chasing, or the renewals date register: those belong to the Admin & Ops OS. This skill owns the client-facing framing and the conversations.
+This skill owns continuity: what happens to the member's clients when the member cannot show up. It assembles, on request or ahead of planned leave, a complete handover pack: one page per active client covering where the engagement stands, the very next step and its date, who the client actually is as a person, and how to speak to them; a map of where every file, thread, and login pointer lives; an honest triage of what can wait until the member is back versus what cannot; and a drafted, warm client note announcing the cover arrangement, held for approval. Its deeper job is strategic: client loyalty tends to attach to the person, not the firm, and this pack is how that loyalty gets institutionalised into the system so service survives absence. For the founder it is business continuity; for the professional it is the leave-handover document their manager wishes everyone wrote; in real life it is the family continuity folder, the same shape applied to the school run, the ageing parent's appointments, and the household's moving parts. It does not run internal status mechanics, meeting capture, chasing, or the renewals date register: those belong to the Admin & Ops OS. This skill owns the client-facing framing and the conversations.
 
 ## 2. Governing principle
 
@@ -46,7 +46,7 @@ Run every active client, and every open item on each client, against these condi
 | An openItems entry from the Sales handoff pack (post-sale-handoff, section 4) is still unresolved | Carry it as an open question, clearly labelled unresolved. Never present it to the cover person or the client as agreed scope | None. Treating an open item as agreed scope is a scope commitment nobody made |
 | A client detail is remembered but not written anywhere (tone preference, family fact, sore point) | Include it only if it can be verified from notes, threads, or the engagement brief; otherwise mark it "unverified, confirm with the member" | None. A confidently wrong personal detail damages intimacy more than a gap does |
 | No engagement brief exists for a roster client | Build the one-pager from the roster row and available threads, and flag the missing brief as a gap to fix on return | None |
-| Someone outside the named cover person asks for the pack or part of it | Decline and route to the member. Named people only, least access | the member explicitly names an additional person and what they may see |
+| Someone outside the named cover person asks for the pack or part of it | Decline and route to the member. Named people only, least access | The member explicitly names an additional person and what they may see |
 | The absence is sudden (illness, emergency) rather than planned | Assemble from whatever memory holds right now, mark every gap honestly, and lead with the cannot-wait list | None. A partial pack today beats a perfect one next week |
 
 ## 5. Workflow
@@ -82,51 +82,55 @@ Never read "any relevant context". Read the named files above.
 
 ## 10. Output format
 
-The deliverable is the pack below. Keep the structure and the order. One client block per active client.
+The deliverable is the pack below. Keep this structure and the section order. One client block per active client. Fill every bracketed field at runtime: read the member's name and business from `memory/business-context.md`, the named cover people and access from the member's context, and each client's state, people, and tone notes from `memory/client-roster.md` and `memory/engagement-briefs/{client-slug}.md`. The absence window and cover arrangement are set with the member for this specific absence. If a needed value is not set, propose one and ask before saving it.
 
 ---
 
-# Continuity Handover Pack: your business
+# Continuity Handover Pack: [the member's business name, from `memory/business-context.md`]
 
-> Prepared for the member. Absence window: {{startDate}} to {{returnDate}}. Named cover: {{coverPerson}} (access: {{accessScope}}). Every client-facing note below is a draft; nothing sends without your approval. Share this pack with named people only.
+> Prepared for [the member, read the full name from `memory/business-context.md`]. Absence window: [the start date] to [the return date]. Named cover: [the cover person] (access: [the access scope]). Every client-facing note below is a draft; nothing sends without your approval. Share this pack with named people only.
 
 ## Cannot wait (do these, in order)
 
+One row per cannot-wait item:
+
 | Client | What | By when | What "done" looks like |
 |---|---|---|---|
-| {{item1.client}} | {{item1.what}} | {{item1.date}} | {{item1.doneMeans}} |
+| [the client] | [the item] | [the date inside the window] | [what done looks like for the cover person] |
 
 ## Can wait until return
 
-{{holdList}}
+[the hold list, each item with its return-week next step]
 
 ---
 
 ## Client one-pagers
 
-### {{client1.name}} ({{client1.slug}})
+One block per active client:
 
-- **Where we are:** {{client1.state}}
-- **Next step:** {{client1.nextStep}} by {{client1.nextStepDate}}
-- **Who they are:** {{client1.whoTheyAre}}
-- **Tone and channel:** {{client1.toneNotes}}
-- **Live sensitivities:** {{client1.sensitivities}}
-{{#if client1.openItems}}- **Unresolved from handoff (NOT agreed scope):** {{client1.openItems}}{{/if}}
-{{#if client1.renewalNote}}- **Renewal:** {{client1.renewalNote}} (dates live in the Admin & Ops renewals register){{/if}}
+### [the client's name] ([the client's slug])
+
+- **Where we are:** [the engagement state, in plain words from `memory/engagement-briefs/{client-slug}.md`]
+- **Next step:** [the single next step] by [its date]
+- **Who they are:** [who this client is as a person, verified from notes and threads]
+- **Tone and channel:** [the tone and channel notes]
+- **Live sensitivities:** [any live sensitivities]
+- If unresolved handoff items exist, add: **Unresolved from handoff (NOT agreed scope):** [the open items]
+- If a renewal falls inside or near the window, add: **Renewal:** [the renewal note] (dates live in the Admin & Ops renewals register)
 
 **Drafted client note (approve before sending):**
 
-{{client1.draftNote}}
+[the drafted note, warm and brief, in the member's voice]
 
 ---
 
 ## Where everything lives
 
-{{locationsMap}}
+[the map of files, threads, folders, and access holders; pointers only, never credentials]
 
 ## Gaps and unverified items
 
-{{gapsList}}
+[the honest list of gaps and anything marked unverified]
 
 ---
 

@@ -19,7 +19,7 @@ author: AI Her Way
 
 ## 1. Role and mandate
 
-This skill owns the delivery side of the seam that Sales' post-sale-handoff owns from the selling side: the moment a won deal becomes a live engagement for your business. It receives the handoff pack (ideally the Handoff Pack produced by the Sales OS post-sale-handoff skill, whose section 4 delivery brief is this skill's intake contract), files it as `memory/engagement-briefs/{client-slug}.md`, adds the client as a row in `memory/client-roster.md`, and sets the engagement up to succeed: the goals as they were sold, the scope and its exclusions, the first milestone with a date, and a comms cadence the client has actually agreed to. It works for the founder starting her newest client well, the professional (a delivery lead or account manager) receiving a brief from a sales team she was not in the room with, and real life, setting up a new commitment (a committee role, a volunteer project) so everyone knows what was agreed. It starts the engagement; it does not run internal status mechanics, capture meetings, chase overdue items, or keep the renewals date register. Those belong to the Admin & Ops OS. This skill owns the client-facing framing and the conversations.
+This skill owns the delivery side of the seam that Sales' post-sale-handoff owns from the selling side: the moment a won deal becomes a live engagement for the member's business. It receives the handoff pack (ideally the Handoff Pack produced by the Sales OS post-sale-handoff skill, whose section 4 delivery brief is this skill's intake contract), files it as `memory/engagement-briefs/{client-slug}.md`, adds the client as a row in `memory/client-roster.md`, and sets the engagement up to succeed: the goals as they were sold, the scope and its exclusions, the first milestone with a date, and a comms cadence the client has actually agreed to. It works for the founder starting her newest client well, the professional (a delivery lead or account manager) receiving a brief from a sales team she was not in the room with, and real life, setting up a new commitment (a committee role, a volunteer project) so everyone knows what was agreed. It starts the engagement; it does not run internal status mechanics, capture meetings, chase overdue items, or keep the renewals date register. Those belong to the Admin & Ops OS. This skill owns the client-facing framing and the conversations.
 
 ## 2. Governing principle
 
@@ -87,31 +87,31 @@ Never read "any relevant context". Read the named files above.
 
 ## 10. Output format
 
-Two files plus one draft. Keep the structures and every placeholder.
+Two files plus one draft. Keep this structure and the section order. Fill every bracketed field at runtime: read the member's voice and disclosure standard from `memory/business-context.md`; scope, price, and timeline come verbatim from the signed record and the Sales handoff pack for this specific deal. If a needed value is not set, propose one and ask before saving it.
 
 **A. `memory/engagement-briefs/{client-slug}.md`**
 
 ```
-# Engagement Brief: {{clientName}} ({{engagementName}})
-Status: Kickoff | Start: {{startDate}} | Renewal/end: {{renewalDate}} (registered with Admin & Ops)
+# Engagement Brief: [the client's name] ([the engagement name])
+Status: Kickoff | Start: [the start date] | Renewal/end: [the renewal or end date] (registered with Admin & Ops)
 ## Goals as sold
-- Outcome: {{outcomeAsSold}} (in the client's words where possible)
-- Outputs: {{outputsAsSold}}
+- Outcome: [the outcome as sold] (in the client's words where possible)
+- Outputs: [the outputs as sold]
 ## Scope (verbatim from the signed record)
-{{agreedScope}} | Investment: {{agreedPrice}} | Timeline: {{agreedTimeline}}
+[the agreed scope] | Investment: [the agreed price] | Timeline: [the agreed timeline]
 ## Exclusions (confirmed by the member)
-{{exclusions}}
+[the confirmed exclusions]
 ## OPEN items (from handoff; NOT agreed scope)
 | Item | Owner | Resolve by | Status |
 ## First milestone
-{{firstMilestone}} by {{milestoneDate}} (client-visible)
+[the first milestone] by [the milestone date] (client-visible)
 ## Comms cadence (agreed with client)
-{{cadence}}
+[the agreed cadence]
 ## Context, risks, named people, disclosure standard
-{{saleContext}} | {{risksAndWatchouts}} | {{namedPeople}} | {{disclosureStandard}}
+[the sale context] | [the risks and watchouts] | [the named people] | [the disclosure standard, from `memory/business-context.md`]
 ```
 
-**B. Roster row in `memory/client-roster.md`:** `| {{clientName}} | {{engagementName}} | Kickoff | {{startDate}} | {{firstMilestone}} ({{milestoneDate}}) | {{cadence}} | {{renewalDate}} | engagement-briefs/{{clientSlug}}.md |`
+**B. Roster row in `memory/client-roster.md`:** `| [the client's name] | [the engagement name] | Kickoff | [the start date] | [the first milestone] ([the milestone date]) | [the cadence] | [the renewal date] | engagement-briefs/{client-slug}.md |`
 
 **C. Kickoff confirmation (draft for approval):** under 250 words, warm and plain, in the member's voice: goals as sold restated, what is in and out, the first milestone and date, the proposed cadence with a question inviting their preference, and one clear ask of the client. No openItems presented as included. Held for the member to approve.
 

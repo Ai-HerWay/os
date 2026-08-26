@@ -22,7 +22,7 @@ author: AI Her Way
 
 This skill is the member's YouTube strategist. It owns the decisions that sit upstream of any single upload: the title and thumbnail that earn the click, the hook that earns the first thirty seconds, the retention curve that holds the rest of the video, the chapters that let people navigate, the description and tags that feed search, the end screen and CTA that send a satisfied viewer somewhere useful, and the call on long-form versus Shorts. It works for any channel in any niche by reading the member's brand, pillars, and audience from memory at runtime, then producing titles, thumbnail briefs, retention-shaped outlines, descriptions, and a publishing plan. It does not record, edit, or publish. It plans the video and hands ready-to-make briefs to the member or to a downstream content skill.
 
-This works the same for three people: a founder building authority for her offer on [your YouTube channel], a professional growing a personal brand inside her industry, and someone in real life teaching a craft, cause, or community. The structure logic is identical, only the pillars and the audience change, and both of those come from the member's context file.
+This works the same for three people: a founder building authority for her offer on YouTube, a professional growing a personal brand inside her industry, and someone in real life teaching a craft, cause, or community. The structure logic is identical, only the pillars and the audience change, and both of those come from the member's context file.
 
 ## 2. Governing principle
 
@@ -101,14 +101,14 @@ Writes:
 
 ## 10. Output format
 
-Produce the strategy and briefs in this structure. Keep all placeholders so the output is personalised at runtime.
+Produce the strategy and briefs in this structure. Read the member's channel, cadence, audience, pillars, and primary goal from `memory/business-context.md` at runtime and fill them in. If a value is not set, propose one and ask before saving.
 
 ### Channel overview
-- Channel: [your YouTube channel]
-- Posting frequency: [your Instagram cadence] (default to one long-form a week plus two to three Shorts if unset)
-- Target audience: your ideal customer, as described in memory/business-context.md
-- Content pillars: your content pillars
-- Primary goal: [your primary goal]
+- Channel: the member's YouTube handle
+- Posting frequency: the member's documented cadence (default to one long-form a week plus two to three Shorts if unset)
+- Target audience: the member's full audience descriptor
+- Content pillars: the member's content pillars
+- Primary goal: the member's primary goal
 
 ### Ranking signals to optimise for (current)
 | Signal | What it means | Why it matters |
@@ -124,7 +124,7 @@ Deprioritised or penalised, avoid: misleading titles and thumbnails, padding to 
 The title and the thumbnail are read together and must promise the same thing. Write them together.
 
 Title patterns:
-- The Search Match: "How to [outcome your ideal customer searches for]" (best for evergreen discovery)
+- The Search Match: "How to [outcome the member's audience searches for]" (best for evergreen discovery)
 - The Promise: "[X] ways to [desirable outcome] (without [common objection])"
 - The Curiosity Gap: "Why your [thing] keeps [failing], and the fix" (only if the video actually delivers the fix)
 - The Result: "How I [real result] in [timeframe]" (only if the result is real and in memory)
@@ -148,7 +148,7 @@ The first fifteen seconds of a long-form video decide whether the click converts
 Long-form hook (first 15 seconds):
 ```
 [0-3s]   RESTATE THE PROMISE: confirm the title's value is coming
-[3-8s]   THE STAKES: why this matters to your ideal customer right now
+[3-8s]   THE STAKES: why this matters to the member's audience right now
 [8-15s]  THE PROOF OF VALUE: a quick preview of the payoff, then "here is how"
 ```
 
@@ -172,17 +172,17 @@ For any long-form video over a few minutes, add chapters as clear, scannable ste
 - First two lines: repeat the search promise from the title, because this is what shows in search and suggested.
 - Then: short context paragraph, timestamps (the chapters), and links.
 - One primary link matched to the goal (lead magnet, offer, or next video).
-- Tags: 5 to 10 that match the real search query plus the pillars, drawn from your content pillars.
-- Include your website where a home base link is useful.
+- Tags: 5 to 10 that match the real search query plus the pillars, drawn from the member's content pillars.
+- Include the member's website where a home base link is useful (read it from `memory/business-context.md`; omit if none is set).
 
 ### End screen and CTA (one ask)
 - Place the primary CTA after the payoff, where the viewer is most satisfied, and reinforce it on the end screen.
 - End screen: one suggested next video (continue the journey) plus a subscribe element.
 - CTA matched to the goal:
   - Discovery and trust: "Subscribe so the next one finds you"
-  - Lead generation: "Comment `[your codeword]` or grab [resource] in the description"
-  - Lead magnet active: point to [your lead magnet] in the description and end screen.
-  - Conversion: "Ready to the transformation you deliver? Link in the description"
+  - Lead generation: "Comment [the member's codeword] or grab [resource] in the description" (read the codeword from `memory/business-context.md`)
+  - Lead magnet: if the member has a lead magnet in `memory/audience-and-offers.md`, point to it in the description and end screen
+  - Conversion: if the member has a transformation promise in `memory/audience-and-offers.md`, use "Ready to [that transformation]? Link in the description"
 
 ### Long-form versus Shorts
 | Format | Use it for | Length | Hook |
@@ -190,7 +190,7 @@ For any long-form video over a few minutes, add chapters as clear, scannable ste
 | Long-form | Authority, depth, search, watch time | The length that satisfies, no padding | First 15 seconds |
 | Short | New-audience reach, testing an idea, repurposing a moment | Under 60 seconds, loopable | First 1 second |
 
-Shorts are evaluated on their own and are the fastest way to reach non-subscribers. Default mix: one long-form plus two to three Shorts a week, adjusted to [your Instagram cadence].
+Shorts are evaluated on their own and are the fastest way to reach non-subscribers. Default mix: one long-form plus two to three Shorts a week, adjusted to the member's documented cadence (read from `memory/business-context.md`).
 
 ## 11. What good looks like
 
@@ -218,7 +218,7 @@ Why this is good:
 - The hook confirms the promise inside fifteen seconds and previews the payoff, so the click converts to watch time (annotation: average view duration and retention).
 - The video delivers the full payoff before the recap and is only as long as it needs to be, so viewers leave satisfied (annotation: viewer satisfaction, the higher-order signal).
 
-Three audiences, same logic: a founder titles "How to plan a year of content in an afternoon"; a professional titles "How to [industry task] in an afternoon"; someone in real life titles "How to meal-prep a fortnight in an afternoon". The packaging and retention logic do not change, only the topic, which comes from your content pillars and your ideal customer.
+Three audiences, same logic: a founder titles "How to plan a year of content in an afternoon"; a professional titles "How to [industry task] in an afternoon"; someone in real life titles "How to meal-prep a fortnight in an afternoon". The packaging and retention logic do not change, only the topic, which comes from the member's pillars and audience in `memory/business-context.md`.
 
 ### Bad example (named failure mode)
 

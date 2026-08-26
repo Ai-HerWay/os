@@ -20,7 +20,7 @@ author: AI Her Way
 
 ## 1. Role and mandate
 
-This skill turns a finished piece of work into proof, at the Review and Offboarding stages of your business's client lifecycle (Intake, Onboarding, Active delivery, Review, Renewal, Offboarding). It takes a completed or clearly successful engagement and assembles one honest case study: the client's problem in the terms they used when they bought, what was actually done, the measurable result, and the client's own words, built only on documented evidence and only with the client's recorded consent to publish. It works from `memory/client-roster.md` and the client's brief in `memory/engagement-briefs/`, and it pulls its raw material from the outputs of `milestone-review` (verified results) and `client-feedback-loop` (the client's own words). It serves the founder writing a case study for her marketing, the professional (account or delivery lead) writing an internal win or impact write-up for stakeholders, and real life, writing up what a volunteer project or committee term actually achieved. It does not gather the testimonial or run the referral ask (`offboarding-into-referral` owns that timing), and it does not publish or distribute anything (Marketing owns channels). It owns one thing: the honest, specific story of a real result, drafted and held for sign-off. Most businesses either never write these up or inflate them into fiction. This skill produces the version a buyer actually believes because it is true.
+This skill turns a finished piece of work into proof, at the Review and Offboarding stages of the member's client lifecycle (Intake, Onboarding, Active delivery, Review, Renewal, Offboarding). It takes a completed or clearly successful engagement and assembles one honest case study: the client's problem in the terms they used when they bought, what was actually done, the measurable result, and the client's own words, built only on documented evidence and only with the client's recorded consent to publish. It works from `memory/client-roster.md` and the client's brief in `memory/engagement-briefs/`, and it pulls its raw material from the outputs of `milestone-review` (verified results) and `client-feedback-loop` (the client's own words). It serves the founder writing a case study for her marketing, the professional (account or delivery lead) writing an internal win or impact write-up for stakeholders, and real life, writing up what a volunteer project or committee term actually achieved. It does not gather the testimonial or run the referral ask (`offboarding-into-referral` owns that timing), and it does not publish or distribute anything (Marketing owns channels). It owns one thing: the honest, specific story of a real result, drafted and held for sign-off. Most businesses either never write these up or inflate them into fiction. This skill produces the version a buyer actually believes because it is true.
 
 ## 2. Governing principle
 
@@ -90,42 +90,44 @@ Never read "any relevant context". Read the named files above.
 
 ## 10. Output format
 
-The deliverable is the Case Study Pack below. Keep the structure and order. Nothing in it is published until both the client and the member have signed off.
+The deliverable is the Case Study Pack below. Keep this structure and the section order. Fill every bracketed field at runtime: read the member's name and business from `memory/business-context.md`, and the client's problem, scope, and consent flags from `memory/client-roster.md` and `memory/engagement-briefs/{client-slug}.md`. The engagement details, results, and quotes come from the milestone review, feedback responses, and delivery records for this specific engagement. If a needed value is not set, propose one and ask before saving it. Nothing in the pack is published until both the client and the member have signed off.
 
 ---
 
-# Case Study Pack: {{clientName}}
+# Case Study Pack: [the client's name]
 
-> Prepared for the member, your business. Every number below is substantiated against the
+> Prepared for [the member, read the name and business from `memory/business-context.md`]. Every number below is substantiated against the
 > engagement brief, milestone review, and delivery records, or it has been removed. Every quote is
 > the client's actual words. Nothing here is published until the client and you have both signed off.
 
-**Engagement:** {{engagementName}}, {{startDate}} to {{endDate}}
-**Delivery-type angle:** {{deliveryType}} ({{angleReason}})
-**Consent status:** {{consentStatus}} (identifiability level: {{identifiabilityLevel}})
-{{#if resultIsExceptional}}**Note:** this result is stronger than typical; the draft flags it as such.{{/if}}
+**Engagement:** [the engagement name], [the start date] to [the end date]
+**Delivery-type angle:** [service, digital product, physical product, or other] ([why this angle fits what was delivered])
+**Consent status:** [the documented consent status, from `memory/client-roster.md`] (identifiability level: [the level the client consented to])
+
+If the result is stronger than typical, add: **Note:** this result is stronger than typical; the draft flags it as such.
 
 ## The client's problem (their words)
-{{clientProblem}}
+[the client's original problem, in their own words from `memory/engagement-briefs/{client-slug}.md`]
 
 ## What was done
-{{whatWasDone}}
+[what was actually done, plainly, from the delivery records]
 
 ## The result (substantiated)
-{{result}} (source: {{resultSource}})
+[the verified result, from the latest `milestone-review` output] (source: [where the number is traceable to])
 
 ## In the client's own words
-> "{{clientQuote}}" ({{clientAttribution}})
+> "[the client's actual words, verbatim, from `client-feedback-loop` responses]" ([the attribution, at the consented level])
 
-{{#if unverifiedClaims}}## Flagged for you: claims we could not substantiate
-{{unverifiedClaims}} (confirm with evidence, correct, or we cut them)
-{{/if}}
+If any claims could not be substantiated, add this section; otherwise omit it.
+
+## Flagged for you: claims we could not substantiate
+[the unverified claims] (confirm with evidence, correct, or we cut them)
 
 ---
 
 **Sign-off checklist (both required before publishing):**
 - [ ] Client has approved this wording and their quote and attribution
-- [ ] the member has approved the final piece
+- [ ] The member has approved the final piece
 - [ ] Every number is substantiated; every quote is genuine and consented
 - [ ] Nothing identifies the client beyond their consented level; no other client appears
 

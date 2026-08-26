@@ -19,7 +19,7 @@ author: AI Her Way
 
 ## 1. Role and mandate
 
-This skill helps the member respond to a single objection well. The member pastes what a prospect actually said, and the skill returns three things: the real concern most likely sitting underneath the stated words, a calm, honest, non-defensive way to respond in the member's own voice, and the one diagnostic question to ask next to confirm what is really going on. It owns the objection moment end to end for your business: reading the stated objection, separating the surface words from the underlying worry, drafting a reply that lowers the buyer's risk rather than raising the pressure, and naming honestly when the right answer is "we may not be the right fit for you". It works for the person facing the objection: a founder handling a price objection on a service, a professional (AE) handling buyer indecision and internal-stakeholder objections, or someone in real life answering hesitation from a potential volunteer or donor. It does not run outreach, write proposals, qualify the lead from scratch, or set price. It coaches one honest response, and it never trades the buyer's good decision for a closed deal.
+This skill helps the member respond to a single objection well. The member pastes what a prospect actually said, and the skill returns three things: the real concern most likely sitting underneath the stated words, a calm, honest, non-defensive way to respond in the member's own voice, and the one diagnostic question to ask next to confirm what is really going on. It owns the objection moment end to end for the member's business: reading the stated objection, separating the surface words from the underlying worry, drafting a reply that lowers the buyer's risk rather than raising the pressure, and naming honestly when the right answer is "we may not be the right fit for you". It works for the person facing the objection: a founder handling a price objection on a service, a professional (AE) handling buyer indecision and internal-stakeholder objections, or someone in real life answering hesitation from a potential volunteer or donor. It does not run outreach, write proposals, qualify the lead from scratch, or set price. It coaches one honest response, and it never trades the buyer's good decision for a closed deal.
 
 ## 2. Governing principle
 
@@ -87,46 +87,46 @@ Never read "any relevant context". Read the named files above.
 
 ## 10. Output format
 
-The deliverable is the Objection Response block below. Keep this structure, the section order, and every placeholder. Gate optional parts with the conditional blocks shown, and keep those blocks side by side, never one inside another.
+The deliverable is the Objection Response block below. Keep this structure and the section order. Fill every bracketed field at runtime: read the member's name and voice from `memory/business-context.md` (or `memory/job-context.md` for a professional in a role), and check the known objections and verified prospect notes in `memory/prospect-insights.md`. The prospect's name, the stated objection, and the diagnosed concern are set with the member for this specific objection. If a needed value is not set, propose one and ask before saving it.
 
 ---
 
-# Objection Response: {{prospectName}}
+# Objection Response: [the prospect's name]
 
-> Prepared for the member at your business. A calm, honest answer in your voice. The goal is the buyer's good decision, including no.
+> Prepared for [the member, read the name from `memory/business-context.md`]. A calm, honest answer in your voice. The goal is the buyer's good decision, including no.
 
 ---
 
 ## The stated objection
 
-> "{{statedObjection}}"
+> "[the objection, pasted exactly as the prospect said it]"
 
 ---
 
 ## The likely real concern
 
-{{realConcern}} (marked: {{concernStatus}} confirmed / likely)
+[the likely real concern underneath the stated words] (marked: confirmed or likely, never asserted)
 
-Why this reading: {{concernReasoning}}
+Why this reading: [the reasoning, grounded in what the prospect actually said and any verified notes in `memory/prospect-insights.md`]
 
 ---
 
 ## The diagnostic question to confirm it
 
-> {{diagnosticQuestion}}
+> [the one diagnostic question]
 
-Ask this before responding in full. It confirms the real concern and lets {{prospectFirstName}} put the value or the true blocker into their own words.
+Ask this before responding in full. It confirms the real concern and lets [the prospect's first name] put the value or the true blocker into their own words.
 
 ---
 
 ## Drafted response (in your voice, for your approval)
 
-> Hi {{prospectFirstName}},
+> Hi [the prospect's first name],
 >
-> {{draftedResponse}}
+> [the drafted response, in the member's voice from `memory/business-context.md`]
 >
 > Warm wishes,
-> The member
+> [the member's first name]
 
 This response acknowledges the concern, answers it honestly, and de-risks the decision rather than adding pressure. No manufactured urgency, no guilt, no fake scarcity.
 
@@ -134,8 +134,7 @@ This response acknowledges the concern, answers it honestly, and de-risks the de
 
 ## Right-fit note
 
-{{#if mayNotBeFit}}**The honest answer may be: we are not the right fit.** {{misfitReason}} Here is a kind, honest way to say so, for your approval: "{{misfitNote}}"{{/if}}
-{{#if isFit}}This looks like solvable hesitation, not a genuine misfit. The de-risked next step above is the honest move.{{/if}}
+Give one honest verdict here, covering whichever case applies. If the honest answer may be that the member is not the right fit, say so plainly: name the reason, and draft a kind, honest way to say it, for the member's approval. If it looks like solvable hesitation rather than a genuine misfit, say that instead: the de-risked next step above is the honest move.
 
 ---
 

@@ -39,7 +39,7 @@ This is the psychology layer. Before writing, the skill reads these conditions a
 | Condition observed | Decision the skill makes |
 |---|---|
 | Goal is reach and discovery (new audience) | Lead with a pattern-interrupt or contrarian hook, target 7 to 30 seconds, single idea, soft CTA ("follow for more"). |
-| Goal is conversion (sell an offer) | Use story or problem-led open, target 30 to 60 seconds or long-form, CTA names the specific next step (your preferred style, from your context file). |
+| Goal is conversion (sell an offer) | Use story or problem-led open, target 30 to 60 seconds or long-form, CTA names the specific next step (in the member's CTA style from `memory/business-context.md`). |
 | Goal is authority or trust | Talking head, credentials referenced once not repeated, teach a genuine framework, CTA invites a deeper resource. |
 | Topic is one quick tip | Short-form, no story, value in the first line, end before it drags (under 30 seconds). |
 | Topic needs nuance or proof | Long-form template, story sets up the lesson, 3 to 5 points, recap before the five-minute mark. |
@@ -47,7 +47,7 @@ This is the psychology layer. Before writing, the skill reads these conditions a
 | Member has no verifiable result for a claimed outcome | Reframe as a method or a question, never invent a number, testimonial, or case study. |
 | Audience is cold vs warm | Cold: more context, name the problem explicitly. Warm: skip the setup, go straight to the insight. |
 | Platform is sound-off heavy (Reels, TikTok feed) | Mandate on-screen text for the hook and key points; the script must read silently. |
-| Member's voice is high energy vs measured | Match pacing and sentence length to as defined in your voice rules; do not impose a generic "influencer" tone. |
+| Member's voice is high energy vs measured | Match pacing and sentence length to the member's voice description (read from `memory/business-context.md` and `memory/voice.md`); do not impose a generic "influencer" tone. |
 | Three or more ideas competing for one video | Split into a series. One idea per video always beats a crammed one. |
 
 ## 5. Workflow
@@ -57,7 +57,7 @@ This is the psychology layer. Before writing, the skill reads these conditions a
 3. Write the hook first and write three versions of it. The hook is the only part worth A/B testing, so give the member options (see hook formulas in Section 10).
 4. Draft the body around one idea. Make the implicit move explicit: between the hook and the body, check that the first spoken line still delivers value with the hook removed, because the platform may auto-trim.
 5. Add on-screen text cues and B-roll notes inline so the script reads silently and the member knows what to shoot.
-6. Write the CTA to match your preferred style, from your context file and the goal from the rubric, not a generic "like and subscribe".
+6. Write the CTA to match the member's CTA style and the goal from the rubric, not a generic "like and subscribe".
 7. Add the repurposing waterfall: how this one video becomes clips, a carousel, a text post, and a newsletter section.
 8. Run the quality checklist (Section 10). Log the output and any judgement call.
 
@@ -99,21 +99,19 @@ Writes:
 
 ## 10. Output format
 
-The deliverable is a ready-to-record script. Every script keeps the member's placeholders so it sounds like them.
+The deliverable is a ready-to-record script. Read the member's identity, voice, handles, language variant, emoji rule, and CTA style from `memory/business-context.md` (and `memory/voice.md` for tone) at runtime and fill the header so the script sounds like them. If a value is not set, propose one and ask before saving.
 
 ### Header (always)
-- Creator: the member
-- Business: your business
-- Primary handle: [your Instagram handle]
-- Voice: as defined in your voice rules
-- Language: your preferred variant of English
-- Emoji usage: your emoji preference
-- CTA style: your preferred style, from your context file
+- Creator: the member's name and title (read from `memory/business-context.md`)
+- Business: the member's business name
+- Primary handle: the member's primary social handle
+- Voice: the member's voice description
+- Language: the member's language variant (Australian English by default)
+- Emoji usage: the member's emoji rule
+- CTA style: the member's CTA style
 
 ### Video-enabled platforms
-- Instagram Reels ([your Instagram handle])
-- TikTok ([your TikTok handle])
-- YouTube ([your YouTube channel])
+List only the platforms the member has set in `memory/business-context.md`, each with its handle: Instagram Reels, TikTok, and YouTube where present.
 
 ### Short-form template (15 to 60 seconds)
 For TikTok, Reels, and Shorts. Hook fast, deliver one idea, drive one action.
@@ -125,7 +123,7 @@ Speak directly to camera. Say something that stops the scroll.
 
 PROBLEM (3-10 seconds)
 Name the specific problem your audience faces.
-Make them feel seen: "If you're your ideal customer who's ever..."
+Make them feel seen: "If you're [the member's audience] who's ever..."
 One problem, stated clearly.
 
 SOLUTION (10-40 seconds)
@@ -134,7 +132,7 @@ Use clear structure: "Here's what to do instead..." or "3 steps:"
 Note text overlays and demonstrations inline.
 
 CTA (40-60 seconds)
-Tell them exactly what to do next, matched to your preferred style, from your context file.
+Tell them exactly what to do next, matched to the member's CTA style.
 ```
 
 Timing guide for short-form:
@@ -146,12 +144,12 @@ Timing guide for short-form:
 | 30-60 sec | Detailed tip, story plus lesson | Reels + Shorts (depth) |
 
 ### 5 short-form hook formulas
-Built around the member's pillars. The first three seconds decide everything. Always give three hook variants per video so the member can test.
+Built around the member's pillars (read them from `memory/business-context.md`; use the member's first pillar where a single pillar is needed). The first three seconds decide everything. Always give three hook variants per video so the member can test.
 
-1. "Stop doing [common your first content pillar mistake], here's what works instead" (pattern interrupt, challenges what they think they know)
-2. "your ideal customer, you need to hear this about your first content pillar" (direct address, makes the target feel called out, in a good way)
+1. "Stop doing [common mistake in the member's first pillar], here's what works instead" (pattern interrupt, challenges what they think they know)
+2. "[The member's audience], you need to hear this about [the member's first pillar]" (direct address, makes the target feel called out, in a good way)
 3. "I spent [timeframe] figuring out [topic] so you don't have to" (social proof of effort)
-4. "The your first content pillar advice everyone gives that's actually wrong" (contrarian, opens a curiosity gap)
+4. "The [member's first pillar] advice everyone gives that's actually wrong" (contrarian, opens a curiosity gap)
 5. "3 things I wish I knew about [topic] when I started" (a specific number sets a clear expectation)
 
 Hook delivery tips:
@@ -194,7 +192,7 @@ For speaking directly to camera, the most common thought-leadership format.
 "[Hook line, the most compelling statement from your video]"
 
 [00:05] INTRO
-"I'm the member, and I help your ideal customer get to: the transformation you deliver."
+"I'm [the member's name], and I help [the member's audience] get to: [the member's transformation promise]."
 "Today I want to share [topic] because [why it matters now]."
 
 [00:30] CONTEXT
@@ -216,13 +214,15 @@ For speaking directly to camera, the most common thought-leadership format.
 "So to sum up: [point 1], [point 2], and [point 3]."
 
 [09:00] CTA
-"[Your CTA, matched to your your preferred style, from your context file]"
+"[Your CTA, matched to the member's CTA style]"
 
 [09:30] OUTRO
 "Thanks for watching. I'll see you in the next one."
 ```
 
 ### Platform-specific optimisations
+Include this block only if the member uses Instagram (check `memory/business-context.md`).
+
 **Instagram Reels.** Algorithm priorities: watch time, sends and shares (the biggest reach lever), saves, comments.
 Tips for the member:
 - Sends are the number-one growth lever, write content people want to send a friend.
@@ -233,13 +233,12 @@ Tips for the member:
 - Share the reel to Stories with a "new reel" sticker for extra reach.
 - Pair an educational carousel with a reel on the same topic.
 
-Reels-specific formats:
-1. "Watch this if you're your ideal customer struggling with [pain point]"
-2. "your first content pillar hack in under 30 seconds"
-3. "My unpopular opinion about your first content pillar"
+Reels-specific formats (drawn from the member's audience and first pillar):
+1. "Watch this if you're [the member's audience] struggling with [pain point]"
+2. "[The member's first pillar] hack in under 30 seconds"
+3. "My unpopular opinion about [the member's first pillar]"
 4. "Story time: when I learned the hard way about [lesson]"
-5. "3 signs you need to change your approach to your first content pillar"
-
+5. "3 signs you need to change your approach to [the member's first pillar]"
 
 ### B-roll and visual suggestions
 Build a library to layer over talking head:
@@ -250,7 +249,7 @@ Build a library to layer over talking head:
 5. Results footage (screenshots of wins, data; only real ones)
 6. Behind the scenes (content process, event prep)
 
-Visual enhancements: text overlays for sound-off viewers; slight zoom cuts between sentences; split screen for before and after; screen share for walkthroughs; always add captions (your preferred variant of English).
+Visual enhancements: text overlays for sound-off viewers; slight zoom cuts between sentences; split screen for before and after; screen share for walkthroughs; always add captions (in the member's language variant, Australian English by default).
 
 ### Video-to-content repurposing
 ```
@@ -268,13 +267,13 @@ Match delivery to the member's tone: polished (structured, authoritative, not st
 General: eye contact with the lens; slow down for important points; a one to two second pause after a key line; visible hands; good lighting beats good cameras; a basic lapel or USB mic (bad audio is the top reason people scroll away); clean, on-brand background.
 
 ### Content pillar video ideas (3 per pillar)
-For each pillar (your content pillars), create three angles. Applied to your first content pillar:
-1. Educational: "The your first content pillar mistake that your ideal customer keep making, and what to do instead"
-2. Story-driven: "How I discovered the truth about your first content pillar (and why it changes everything)"
-3. Actionable: "your first content pillar in 60 seconds: the quick-start guide for your ideal customer"
-Repeat for each remaining pillar: your content pillars.
+For each of the member's pillars (read from `memory/business-context.md`), create three angles. Applied to the member's first pillar:
+1. Educational: "The [first pillar] mistake that [the member's audience] keep making, and what to do instead"
+2. Story-driven: "How I discovered the truth about [first pillar] (and why it changes everything)"
+3. Actionable: "[First pillar] in 60 seconds: the quick-start guide for [the member's audience]"
+Repeat for each remaining pillar the member has set.
 
-### Weekly video calendar for the member
+### Weekly video calendar
 
 | Day | Video type | Platform | Topic source | Duration |
 |---|---|---|---|---|
@@ -285,13 +284,13 @@ Repeat for each remaining pillar: your content pillars.
 Batch recording: batch 5 to 10 short-form videos per session (change tops for variety); record 1 to 2 long-form per session; script hooks in advance, keep the rest natural; have a brief per video (hook, points, CTA).
 
 ### Video quality checklist
-Before publishing for your business:
+Before publishing for the member's business:
 - [ ] Hook grabs attention in the first 3 seconds
 - [ ] First spoken line still delivers value with the hook removed
 - [ ] Audio is clear and at consistent volume
-- [ ] Captions added and accurate (your preferred variant of English)
+- [ ] Captions added and accurate (member's language variant, Australian English by default)
 - [ ] One clear idea per video
-- [ ] CTA matches your preferred style, from your context file
+- [ ] CTA matches the member's CTA style
 - [ ] Every claim, result, and number is true and verifiable
 - [ ] Thumbnail is compelling (long-form)
 - [ ] Description includes relevant keywords and links
@@ -320,7 +319,7 @@ CTA (35-40s)
 "Follow for the AI-without-losing-yourself series."   [4]
 ```
 - [1] Hook starts mid-thought, no warm-up, and reads silently via on-screen text (the first-three-seconds and sound-off principles in Sections 3 and 4).
-- [2] One problem, named, makes the your ideal customer feel seen.
+- [2] One problem, named, makes the member's audience feel seen.
 - [3] One idea only, structured, with overlay cues so it works without sound.
 - [4] Soft CTA matched to the reach goal, not a hard sell, per the rubric.
 

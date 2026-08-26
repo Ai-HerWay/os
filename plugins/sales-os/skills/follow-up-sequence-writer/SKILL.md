@@ -20,7 +20,7 @@ author: AI Her Way
 
 ## 1. Role and mandate
 
-This skill designs a complete, reusable follow-up sequence for your business: typically four to six touches over a set period, built for one specific prospect or one repeatable situation (after a discovery call, after a proposal, after a warm enquiry that went quiet). It owns the shape of the sequence end to end: the goal, the prospect context, the number of touches, the timing and channel of each, the genuine value each touch carries, the message draft, and the call-to-action. Each touch must add something real (a resource, a relevant thought, an honest check-in, an answer to a question they raised) rather than just chasing, and every deadline used must be true. It works for the founder following up after a discovery call or proposal, the professional (AE) building a compliant cadence that sits inside company rules, and real life, where the same shape runs a gentle multi-step sequence to enrol a partner to a cause. It does not watch the live pipeline or decide who is due today (the follow-up-guardian skill does that), and it does not close the deal: it designs the sequence a human then runs and approves, touch by touch.
+This skill designs a complete, reusable follow-up sequence for the member's business: typically four to six touches over a set period, built for one specific prospect or one repeatable situation (after a discovery call, after a proposal, after a warm enquiry that went quiet). It owns the shape of the sequence end to end: the goal, the prospect context, the number of touches, the timing and channel of each, the genuine value each touch carries, the message draft, and the call-to-action. Each touch must add something real (a resource, a relevant thought, an honest check-in, an answer to a question they raised) rather than just chasing, and every deadline used must be true. It works for the founder following up after a discovery call or proposal, the professional (AE) building a compliant cadence that sits inside company rules, and real life, where the same shape runs a gentle multi-step sequence to enrol a partner to a cause. It does not watch the live pipeline or decide who is due today (the follow-up-guardian skill does that), and it does not close the deal: it designs the sequence a human then runs and approves, touch by touch.
 
 ## 2. Governing principle
 
@@ -88,34 +88,34 @@ Never read "any relevant context". Read the named files above.
 
 ## 10. Output format
 
-The deliverable is the Follow-Up Sequence below. Keep this structure, the order, and every placeholder. Optional fields are gated.
+The deliverable is the Follow-Up Sequence below. Keep this structure and the section order. Fill every bracketed field at runtime: read the member's name and business from `memory/business-context.md` (or `memory/job-context.md` for a professional in a role), the prospect's verified detail from `memory/prospect-insights.md`, and the deal's stage and history from `memory/sales-pipeline.md` or the connected CRM. The sequence name, goal, touches, and any real limit are set with the member for this specific prospect or situation. If a needed value is not set, propose one and ask before saving it.
 
 ---
 
-# Follow-Up Sequence: {{sequenceName}}
+# Follow-Up Sequence: [the sequence name]
 
-> Prepared for the member, your business. Every touch below adds genuine value and every deadline used is real. Nothing sends or schedules until you approve it.
+> Prepared for [the member, read the name from `memory/business-context.md`], [the member's business]. Every touch below adds genuine value and every deadline used is real. Nothing sends or schedules until you approve it.
 
-**Goal of this sequence:** {{sequenceGoal}}
+**Goal of this sequence:** [the goal, set with the member]
 
-**Prospect context:** {{prospectContext}} (who they are, where they are now, what a good outcome looks like, including the outcome that they decide not to proceed)
+**Prospect context:** [the prospect context] (who they are, where they are now, what a good outcome looks like, including the outcome that they decide not to proceed)
 
-{{#if realLimit}}**The real limit (true scarcity), written first so every "closing soon" can be checked against it:** {{realLimit}}{{/if}}
+**The real limit (true scarcity), written first so every "closing soon" can be checked against it:** [the real end date or true cap, confirmed with the member, or an honest note that none exists]
 
-**Touches:** {{touchCount}} over {{sequencePeriod}}
+**Touches:** [the number of touches] over [the period]
 
 ---
 
 ## The Sequence
 
+Include one numbered row per touch (typically four to six); add or drop rows to match.
+
 | # | Timing | Channel | Value added this touch | Message draft | Call-to-action |
 |---|---|---|---|---|---|
-| 1 | {{touch1.timing}} | {{touch1.channel}} | {{touch1.value}} | {{touch1.draft}} | {{touch1.cta}} |
-| 2 | {{touch2.timing}} | {{touch2.channel}} | {{touch2.value}} | {{touch2.draft}} | {{touch2.cta}} |
-| 3 | {{touch3.timing}} | {{touch3.channel}} | {{touch3.value}} | {{touch3.draft}} | {{touch3.cta}} |
-| 4 | {{touch4.timing}} | {{touch4.channel}} | {{touch4.value}} | {{touch4.draft}} | {{touch4.cta}} |
-| 5 | {{touch5.timing}} | {{touch5.channel}} | {{touch5.value}} | {{touch5.draft}} | {{touch5.cta}} |
-| 6 | {{touch6.timing}} | {{touch6.channel}} | {{touch6.value}} | {{touch6.draft}} | {{touch6.cta}} |
+| 1 | [timing] | [channel] | [the genuine value this touch carries] | [the message draft] | [one clear, easy CTA] |
+| 2 | [timing] | [channel] | [the genuine value this touch carries] | [the message draft] | [one clear, easy CTA] |
+| 3 | [timing] | [channel] | [the genuine value this touch carries] | [the message draft] | [one clear, easy CTA] |
+| 4 | [timing] | [channel] | [the genuine value this touch carries] | [the message draft] | [one clear, easy CTA] |
 
 > Note: every deadline named in any touch above must be real. If a touch has no genuine value to add, it does not go in. Value comes before the ask: the early touches give, the ask lands once value has.
 
@@ -123,10 +123,10 @@ The deliverable is the Follow-Up Sequence below. Keep this structure, the order,
 
 ## Honesty and consent check
 
-- **Every touch carries genuine value:** {{valueCheck}} (yes, or which touch still needs a real reason)
-- **Every deadline named is real:** {{deadlineCheck}} (yes, or none used)
-- **Prospect has not opted out:** {{consentCheck}}
-{{#if commercialFlag}}- **Commercial decisions routed to you (Red):** {{commercialFlag}}{{/if}}
+- **Every touch carries genuine value:** [yes, or which touch still needs a real reason]
+- **Every deadline named is real:** [yes, or none used]
+- **Prospect has not opted out:** [confirmed against the pipeline or CRM]
+- **Commercial decisions routed to you (Red):** [any price, discount, scope, or contract call held for the member; include this line only where one arose]
 
 ---
 

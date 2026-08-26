@@ -19,7 +19,7 @@ author: AI Her Way
 
 ## 1. Role and mandate
 
-This skill owns a single campaign or launch for your business from first tease to final close: a time-bound push behind one offer, with a real start and a real end. It works for the person running the push (a founder launching an offer, a professional running a time-bound initiative inside a role, or someone in real life running a fundraiser or event drive). It owns the offer and angle, the phased timeline, the channel plan, the content calendar mapped to phases, and the metrics that say whether it worked. It does not set the overall marketing strategy (the marketing-strategy skill does that) or write every individual post (content skills do that). It decides the shape of the campaign and how its pieces fit across the calendar.
+This skill owns a single campaign or launch for the member's business from first tease to final close: a time-bound push behind one offer, with a real start and a real end. It works for the person running the push (a founder launching an offer, a professional running a time-bound initiative inside a role, or someone in real life running a fundraiser or event drive). It owns the offer and angle, the phased timeline, the channel plan, the content calendar mapped to phases, and the metrics that say whether it worked. It does not set the overall marketing strategy (the marketing-strategy skill does that) or write every individual post (content skills do that). It decides the shape of the campaign and how its pieces fit across the calendar.
 
 ## 2. Governing principle
 
@@ -86,23 +86,23 @@ Never read "any relevant context". Read the named files above.
 
 ## 10. Output format
 
-The deliverable is the campaign plan below. Keep this structure, the section order, and every placeholder.
+The deliverable is the campaign plan below. Keep this structure and the section order. Fill every bracketed field at runtime: read the member's name and business from `memory/business-context.md`, the offer and transformation from `memory/audience-and-offers.md`, and the primary goal from `memory/business-context.md`. The campaign name, angle, and real limit are set with the member for this specific campaign. If a needed value is not set, propose one and ask before saving it.
 
 ---
 
-# Campaign Plan: {{campaignName}}
+# Campaign Plan: [the campaign name]
 
-> Generated for the member. A time-bound campaign for your business, run from tease to honest close. Every deadline and limit below is real.
+> Generated for [the member, read the name from `memory/business-context.md`]. A time-bound campaign for [the member's business], run from tease to honest close. Every deadline and limit below is real.
 
 ---
 
 ## The Offer and Angle
 
-- **Offer:** [the offer]
-- **Transformation:** the transformation you deliver
-- **Angle (the one reason to act now):** {{campaignAngle}}
-- **The real limit (true scarcity):** {{realLimit}} (a true end date or a true cap, written first so every "closing soon" can be checked against it)
-- **Primary goal of this campaign:** [your primary goal]
+- **Offer:** [the offer name, from `memory/audience-and-offers.md`]
+- **Transformation:** [the transformation, from `memory/audience-and-offers.md`]
+- **Angle (the one reason to act now):** [the campaign angle, set with the member]
+- **The real limit (true scarcity):** [the real end date or true cap, confirmed with the member and written first so every "closing soon" can be checked against it]
+- **Primary goal of this campaign:** [the primary goal, from `memory/business-context.md`]
 
 ---
 
@@ -110,9 +110,9 @@ The deliverable is the campaign plan below. Keep this structure, the section ord
 
 | Phase | Window | Job of this phase | What the audience feels |
 |---|---|---|---|
-| Tease (pre-launch) | {{teaseWindow}} | Teach, build anticipation, reveal the opportunity and transformation. Do not sell yet | Curious, seen, warming up |
-| Open (cart live) | {{openWindow}} | Make the offer clearly, repeatedly, across channels. One clear path to act | Ready, clear on the offer |
-| Close (honest deadline) | {{closeWindow}} | Remind of the real, true deadline or cap. Help the undecided decide | Decisive, no false pressure |
+| Tease (pre-launch) | [tease window dates] | Teach, build anticipation, reveal the opportunity and transformation. Do not sell yet | Curious, seen, warming up |
+| Open (cart live) | [open window dates] | Make the offer clearly, repeatedly, across channels. One clear path to act | Ready, clear on the offer |
+| Close (honest deadline) | [close window dates] | Remind of the real, true deadline or cap. Help the undecided decide | Decisive, no false pressure |
 
 The close uses only the real limit set above. No manufactured urgency. If the deadline genuinely changes, announce it openly to everyone with the real reason.
 
@@ -122,11 +122,13 @@ The close uses only the real limit set above. No manufactured urgency. If the de
 
 Each channel carries a phase and a re-angled message. Never copy-paste the same post everywhere.
 
+Read the member's active channels from `memory/business-context.md` and add one row per channel. Fill each cell with the re-angled message for that phase.
+
 | Channel | Tease | Open | Close |
 |---|---|---|---|
-| {{channel1}} | {{channel1Tease}} | {{channel1Open}} | {{channel1Close}} |
-| {{channel2}} | {{channel2Tease}} | {{channel2Open}} | {{channel2Close}} |
-| Email | Warm and teach | The offer in full | The honest "doors close {{closeDate}}" |
+| [channel 1, from the member's active channels] | [tease message] | [open message] | [close message] |
+| [channel 2, from the member's active channels] | [tease message] | [open message] | [close message] |
+| Email | Warm and teach | The offer in full | The honest "doors close [the real close date]" |
 
 ---
 
@@ -136,9 +138,9 @@ Every piece is tagged to a phase, a channel, and a date.
 
 | Date | Phase | Channel | Piece | CTA |
 |---|---|---|---|---|
-| {{date1}} | Tease | {{cal1Channel}} | {{cal1Piece}} | Soft (follow, watch, save) |
-| {{date2}} | Open | {{cal2Channel}} | {{cal2Piece}} | Direct (the offer) |
-| {{date3}} | Close | {{cal3Channel}} | {{cal3Piece}} | Strong, honest (real deadline) |
+| [date] | Tease | [channel] | [content piece] | Soft (follow, watch, save) |
+| [date] | Open | [channel] | [content piece] | Direct (the offer) |
+| [date] | Close | [channel] | [content piece] | Strong, honest (real deadline) |
 
 ---
 
@@ -146,7 +148,7 @@ Every piece is tagged to a phase, a channel, and a date.
 
 Set these before the tease begins, so the campaign is judged honestly against its own aim.
 
-- **Primary metric:** {{primaryMetric}} (the one number that defines success)
+- **Primary metric:** [the one number that defines success, set with the member before launch]
 - **Supporting metrics:** opt-ins during tease, open-cart conversion rate, revenue or sign-ups, refund or drop rate
 - **The honest review:** after close, compare the result to the metric set here. Do not move the target to flatter the result.
 

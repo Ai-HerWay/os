@@ -14,7 +14,7 @@ author: AI Her Way
 
 ## 1. Role and mandate
 
-This skill owns the shape of the member's newsletter, your newsletter, end to end: the structure of each send, the voice it is written in, the design it ships in, and the rule about what earns a place and what does not. It takes raw ideas, drafts, and content pillars and turns them into a finished, scannable, single-minded email that sounds like its author and moves one priority forward. It works the same for a founder building an audience, a professional running an internal or industry update, and a person sharing a personal or community letter. It does not invent results, send on anyone's behalf, or change the brand without approval.
+This skill owns the shape of the member's newsletter end to end: the structure of each send, the voice it is written in, the design it ships in, and the rule about what earns a place and what does not. Read the member's identity and newsletter name from `memory/business-context.md`. It takes raw ideas, drafts, and content pillars and turns them into a finished, scannable, single-minded email that sounds like its author and moves one priority forward. It works the same for a founder building an audience, a professional running an internal or industry update, and a person sharing a personal or community letter. It does not invent results, send on anyone's behalf, or change the brand without approval.
 
 ## 2. Governing principle
 
@@ -44,7 +44,7 @@ This is the psychology layer: how the skill decides what goes in, what gets cut,
 | Body is dense paragraphs with no headers | Add descriptive H2/H3 headers and front-load the first sentence of each section (F-pattern) |
 | Idea is genuinely big and complex | Split across two issues rather than overloading one, keep each send single-minded |
 | Resource, community, or lead-magnet section is empty this week | Omit the section cleanly rather than padding it |
-| Tone drifts from the member's brand voice | Pull back to as defined in your voice rules before structure work, voice first |
+| Tone drifts from the member's brand voice | Pull back to the member's voice (from `memory/voice.md`, `skills/brand-voice.md`, and `memory/business-context.md`) before structure work, voice first |
 | Member has set a custom rule in business-context.md | The member's rule overrides this default |
 
 Edge case: if the member explicitly wants a digest or round-up format (many short items, no single idea), honour it, but still enforce one primary CTA and clear scannable headers.
@@ -81,10 +81,13 @@ Tied to this skill's real failure modes: never fabricate subscriber counts, open
 ## 9. Inputs and memory
 
 Reads:
-- `memory/business-context.md` (brand voice, current business priority, custom newsletter rules, approved CTAs and offers)
+- `memory/business-context.md` (brand voice, current business priority, custom newsletter rules, approved CTAs, content pillars, newsletter name, frequency, subscriber count, email platform, social handles, CTA style, DM automation settings)
+- `memory/audience-and-offers.md` (audience, offers, lead magnets)
+- `memory/voice.md` and `skills/brand-voice.md` (tone, hallmark phrases, voice)
 - working-memory files for the issue (the idea list, partial drafts, reader replies, resource notes)
 - `memory/industry-context.md` if the member uses one (audience norms, sensitivities)
-- the onboarding fields surfaced as placeholders below (your newsletter, your sending cadence, [your list size], your email platform, as defined in your voice rules, your content pillars, from memory/business-context.md, your preferred style, from your context file, [your lead magnets, from memory/business-context.md], [your Instagram handle], [your lead magnet], {{dmAutomation...}})
+
+If a value is not set in the files above, propose one and ask before saving.
 
 Writes:
 - `logs/activity-log.md` (each draft produced)
@@ -93,30 +96,26 @@ Writes:
 
 ## 10. Output format
 
-The deliverable is a complete, scannable newsletter draft for your newsletter (your sending cadence, your list size, on your email platform), in the member's voice, plus a repurposing plan.
+The deliverable is a complete, scannable newsletter draft in the member's voice, plus a repurposing plan. Read the newsletter name, frequency, subscriber count, and email platform from `memory/business-context.md`. If a value is not set, propose one and ask before saving.
 
 ### Newsletter overview (header block)
-- Name: your newsletter
-- Frequency: your sending cadence
-- Current subscribers: [your list size]
-- Platform: your email platform
-- Author: the member
-- Description: [what your newsletter promises]
+Fill each line by reading the member's context:
+- Name: newsletter name from `memory/business-context.md`
+- Frequency: from `memory/business-context.md`
+- Current subscribers: from `memory/business-context.md`
+- Platform: email platform from `memory/business-context.md`
+- Author: the member's name from `memory/business-context.md`
+- Description: newsletter description from `memory/business-context.md`
 
 ### Newsletter structure
 
-1. Subject line: 40 to 60 characters, create curiosity or promise specific value, A/B test where possible, avoid spam trigger words (free, urgent, limited time), include your newsletter or a recognisable prefix if desired.
-2. Personal opening (2 to 3 paragraphs): start with a personal story, observation, or timely hook, connect that moment to the one main idea, write in the member's voice: as defined in your voice rules, end with a natural transition into the main content.
-3. Main content section: the core value, built around the one main idea, drawn from the content pillars:
-
-your content pillars, from memory/business-context.md
-
-   Use H2 for major sections, H3 for sub-sections, front-load the first sentence of each (F-pattern), include actionable insight or a step-by-step, reference personal experience where relevant.
+1. Subject line: 40 to 60 characters, create curiosity or promise specific value, A/B test where possible, avoid spam trigger words (free, urgent, limited time), include the newsletter name or a recognisable prefix if desired.
+2. Personal opening (2 to 3 paragraphs): start with a personal story, observation, or timely hook, connect that moment to the one main idea, write in the member's voice (from `memory/voice.md`, `skills/brand-voice.md`, and `memory/business-context.md`), end with a natural transition into the main content.
+3. Main content section: the core value, built around the one main idea, drawn from the member's content pillars (read them from `memory/business-context.md`). Use H2 for major sections, H3 for sub-sections, front-load the first sentence of each (F-pattern), include actionable insight or a step-by-step, reference personal experience where relevant.
 4. Resource or tool spotlight: highlight one tool or resource relevant to the audience, with a brief use case, link where applicable (approved affiliate links only). Omit if there is nothing genuine this week.
 5. Community section: real reader wins, testimonials, or questions only (never invented), social proof that reinforces value, encourage replies. Omit cleanly if empty.
-6. Call to action: one primary CTA aligned with the current business priority, CTA style: your preferred style, from your context file.
-7. Footer: social links: [your Instagram handle] and other handles, unsubscribe link (required), a brief reminder of why they subscribed.
-   - Lead magnet reminder: [your lead magnet]
+6. Call to action: one primary CTA aligned with the current business priority, in the member's CTA style from `memory/business-context.md`.
+7. Footer: social links and other handles (read from `memory/business-context.md`), unsubscribe link (required), a brief reminder of why they subscribed. If the member has a lead magnet in `memory/audience-and-offers.md`, add a one-line reminder of the first one.
 
 ### Design guidelines
 - Template style: textured
@@ -129,16 +128,11 @@ your content pillars, from memory/business-context.md
 
 ### Content integration
 
-Lead magnets to reference:
-- [your lead magnets, from memory/business-context.md]
+Lead magnets to reference: read the member's lead magnets from `memory/audience-and-offers.md`.
 
-{{#if dmAutomationActive}}DM automation integration:
-- Tool: your DM automation tool
-- Active codewords: [your DM codewords]
-- Include codeword CTAs in the newsletter when promoting social content
-{{/if}}
+If DM automation is active, read the tool and active codewords from `memory/business-context.md` and include codeword CTAs in the newsletter when promoting social content.
 
-### your email platform tips
+### Email platform tips (apply to the member's platform from `memory/business-context.md`)
 - Preview on mobile before sending (60%+ of opens are mobile)
 - Send at a consistent time each week
 - Monitor open rates: the subject line is the biggest lever

@@ -71,6 +71,8 @@ These skills are generic by design: they read who you are, your voice, your audi
 
 Whichever you choose, do it once. It is the difference between generic output and output that sounds and decides like you.
 
+**Where to work: your AI-HQ folder.** Skills look for `memory/business-context.md` relative to where you are working. Open your AI-HQ (or the department folder inside it) as your working folder in Claude Code or Cowork, and every skill reads your files. This also means it does not matter whether a skill runs from this plugin or from a downloaded copy: no skill holds your data any more. Your context lives in exactly one place, your `memory/` folder, and whichever copy runs reads it. If a skill cannot find your memory files, it will ask rather than guess.
+
 ## The rules these skills live by
 
 Everything here follows the AI Her Way EquiAI standard:

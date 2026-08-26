@@ -19,7 +19,7 @@ author: AI Her Way
 
 ## 1. Role and mandate
 
-This skill is the member's reel production assistant. It starts where the video-scripts skill ends: it takes a finished, approved script and produces everything needed to get that script onto a screen as a short-form reel. It owns the AI b-roll briefs (and generations where the member has Higgsfield connected), the cover frame, the caption file, and the reel blueprint: hook timing, a shotlist for the one or two real shots the member films themselves, and an edit and assembly brief for CapCut or Canva. It works the same for a founder promoting your business, a professional building visibility inside a role, and someone in real life making a reel for a community event. It never rewrites hooks or scripts; if the script needs changing, that work goes back to video-scripts. And it never publishes: the finished package is held in the OS until the member signs it off.
+This skill is the member's reel production assistant. It starts where the video-scripts skill ends: it takes a finished, approved script and produces everything needed to get that script onto a screen as a short-form reel. It owns the AI b-roll briefs (and generations where the member has Higgsfield connected), the cover frame, the caption file, and the reel blueprint: hook timing, a shotlist for the one or two real shots the member films themselves, and an edit and assembly brief for CapCut or Canva. It reads the member's identity, voice, audience, and tool connections from `memory/business-context.md` at runtime rather than baking them in. It works the same for a founder promoting her business, a professional building visibility inside a role, and someone in real life making a reel for a community event. It never rewrites hooks or scripts; if the script needs changing, that work goes back to video-scripts. And it never publishes: the finished package is held in the OS until the member signs it off.
 
 ## 2. Governing principle
 
@@ -49,10 +49,10 @@ Before producing anything, run the brief against these conditions. The skill mak
 | A clip brief calls for on-screen text or a caption inside the AI generation | Move the text to the edit stage (CapCut or Canva overlays). AI generators produce garbled text; editors produce exact text. |
 | Member has no footage and cannot film anything | Offer the all-b-roll variant with its limits stated plainly: atmosphere and metaphor only, no product claims, and a note that reels with at least one real human shot generally connect better. |
 | A clip brief needs complex motion (hands demonstrating, fast action, crowds) | Simplify the brief to slow, simple motion or move the moment to the real-shot list. Complex motion is a documented failure mode. |
-| Member has no Higgsfield (or declines paid tools) | Ship briefs only, plus the zero-cost path: member's own phone footage against the shotlist, {{designTool}} stock clips, and a Claude-rendered cover frame. The package is complete without any paid tool. |
+| Member has no Higgsfield (or declines paid tools) | Ship briefs only, plus the zero-cost path: member's own phone footage against the shotlist, stock clips from the member's design tool (read from `memory/business-context.md`), and a Claude-rendered cover frame. The package is complete without any paid tool. |
 | Expected clip count pushes past 3 to 4 AI clips per reel | Trim. A short reel rarely needs more; more clips means more regenerations, more cost, and a choppier edit. |
 | The brief resembles a named artist's or creator's visual style | Rewrite the brief in neutral descriptive terms. Generated visuals must not imitate a named artist. |
-| Member asks the skill to schedule or publish the finished reel | Hold at the approval gate. The package queues for sign-off; only approved content moves to {{socialScheduler}}, at draft or queued level where the tool supports it. |
+| Member asks the skill to schedule or publish the finished reel | Hold at the approval gate. The package queues for sign-off; only approved content moves to the member's connected scheduler (read from `memory/business-context.md`), at draft or queued level where the tool supports it. |
 
 ## 5. Workflow
 
@@ -60,7 +60,7 @@ Before producing anything, run the brief against these conditions. The skill mak
 2. Split the script into a shot map: for each timed beat, decide real shot, AI b-roll, or graphic overlay, using the rubric. Cap the real shots at one or two; the whole point is that the member films almost nothing.
 3. Write the AI b-roll briefs: one per clip, each 8 to 25 seconds, simple motion, no text, no product accuracy, no named-artist styling, each mapped to its beat in the script.
 4. Generate (only if Higgsfield is connected and the member has opted in): run each brief, expect 3 to 5 attempts per usable clip, and say so up front. Rough cost framing for the member: a 3-clip reel typically burns 9 to 15 generations of credits, so quote credit or plan cost on that basis, not on 3. Before the first run, confirm the member has turned off "train on my content" in Higgsfield's settings, and remind them that purely AI-generated output may not attract copyright protection in most jurisdictions.
-5. Produce the cover frame: rendered Claude-side as HTML or SVG from `memory/brand-kit.md` (pixel-exact and free), or a {{designTool}} brief if the member prefers designing there.
+5. Produce the cover frame: rendered Claude-side as HTML or SVG from `memory/brand-kit.md` (pixel-exact and free), or a brief for the member's design tool (read from `memory/business-context.md`) if the member prefers designing there.
 6. Write the caption file: the full spoken script as timed captions, plus the platform caption (the text under the post) with hashtags per the member's preferences. Captions are mandatory (Section 3).
 7. Assemble the reel blueprint: hook timing (what appears on screen in seconds 0 to 3 and why), the ordered shot map, the one-or-two-shot real shotlist with plain filming notes (the member can shoot these on a phone), and the edit brief for CapCut or Canva: clip order, cut points, overlay text with exact wording and timing, music note, and export specs for the target platform.
 8. Package everything into the named output folder, log the work, and queue the package for the member's approval. Nothing moves to the scheduler until sign-off.
@@ -68,7 +68,7 @@ Before producing anything, run the brief against these conditions. The skill mak
 ## 6. Autonomy tiers
 
 - **Always safe (act, then log):** shot maps, AI b-roll briefs, cover-frame renders, caption files, shotlists, edit briefs, the assembled package held in the OS.
-- **Draft and wait for approval:** running paid Higgsfield generations beyond an agreed credit budget; any package before it moves to {{socialScheduler}}; anything showing a recognisable third party; the all-b-roll variant (the member must accept its limits explicitly).
+- **Draft and wait for approval:** running paid Higgsfield generations beyond an agreed credit budget; any package before it moves to the member's connected scheduler; anything showing a recognisable third party; the all-b-roll variant (the member must accept its limits explicitly).
 - **Never (no matter the tier):** publish or schedule live (queued or draft level only, after approval; in most tools scheduled means live, so never schedule-then-review); fake the product working with AI; put fabricated results, testimonials, or demand on screen; imitate a named artist's style; store API keys in OS files; delete the member's footage or drafts; move money or upgrade a tool plan without the member.
 
 ## 7. Escalation
@@ -108,11 +108,11 @@ The deliverable is one reel package per script, in the output folder above, cont
 
 1. **Shot map** (table): beat time from the script, spoken line, source (REAL / AI B-ROLL / GRAPHIC), and the asset name.
 2. **AI b-roll briefs**: one per clip, each under 80 words, stating subject, setting, mood, simple camera movement, 8 to 25 second target, and the explicit exclusions (no text, no product, no faces implying real people, no named-artist style). If generated: the selected clip files plus a one-line note of attempts used.
-3. **Cover frame**: one on-brand image rendered from `memory/brand-kit.md` (or a {{designTool}} brief), with the hook line as the visible text, legible at grid size.
+3. **Cover frame**: one on-brand image rendered from `memory/brand-kit.md` (or a brief for the member's design tool), with the hook line as the visible text, legible at grid size.
 4. **Caption file**: timed captions for the full script, plus the platform caption under 150 words with the CTA and hashtags per the member's preferences.
 5. **Reel blueprint** (one page): hook timing (seconds 0 to 3, exactly what is seen and read); real shotlist (one or two shots, each with framing, action, and a phone-friendly filming note); edit brief for CapCut or Canva (clip order, cut points, overlay text with exact wording and in/out times, music guidance, export specs for the target platform); and an honesty footer restating that this reel is AI b-roll plus the member's real shots, with disclosure per their preference.
 
-Everything in the member's output language, your preferred variant of English by default.
+Everything in the member's output language (read from `memory/business-context.md`), Australian English by default.
 
 ## 11. What good looks like
 

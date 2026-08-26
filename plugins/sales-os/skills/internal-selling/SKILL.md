@@ -86,44 +86,44 @@ Specific to this skill's failure modes. For professionals, use only approved com
 
 ## 10. Output format
 
-The deliverable is the Internal Buy-In Plan below. Keep this structure, the section order, and every placeholder. Use optional gated blocks only where shown; never nest them.
+The deliverable is the Internal Buy-In Plan below. Keep this structure and the section order. Fill every bracketed field at runtime: read the member's name, role, and organisation from `memory/job-context.md` (or `memory/business-context.md` for a founder), and each stakeholder's interests from `memory/prospect-insights.md` where they are recorded. The idea, the ask, the stakeholders, the advocate, and the pilot are set with the member for this specific case. If a needed value is not set, propose one and ask before saving it.
 
 ---
 
-# Internal Buy-In Plan: {{ideaName}}
+# Internal Buy-In Plan: [the idea name]
 
-> Prepared for the member at {{organisationName}}. A case for {{ideaName}}, framed to stated priorities and won through honest persuasion. The human has every conversation and approves anything that reaches a stakeholder.
+> Prepared for [the member, read the name from `memory/job-context.md` or `memory/business-context.md`] at [the organisation]. A case for [the idea name], framed to stated priorities and won through honest persuasion. The human has every conversation and approves anything that reaches a stakeholder.
 
 ---
 
 ## The Idea, Framed to Stated Priorities
 
-- **The idea in one sentence:** {{ideaOneLine}}
-- **The real ask (what, how much, by when):** {{theAsk}}
-- **Stated organisational priority it maps to (in the organisation's own words):** {{statedPriority}}
-- **How it contributes to that priority:** {{contributionToPriority}}
-- **The cost of doing nothing:** {{costOfInaction}}
+- **The idea in one sentence:** [the idea in one sentence]
+- **The real ask (what, how much, by when):** [the ask]
+- **Stated organisational priority it maps to (in the organisation's own words):** [the stated priority, quoted from the company source of truth the member supplied]
+- **How it contributes to that priority:** [the contribution]
+- **The cost of doing nothing:** [the cost of inaction]
 
 ---
 
 ## Stakeholder Map
 
-Expect a group, not one decider, and expect some disagreement. For each person: what they care about, what they fear, and where they stand.
+Expect a group, not one decider, and expect some disagreement. For each person: what they care about, what they fear, and where they stand. Add one row per stakeholder who decides, influences, or can block.
 
 | Stakeholder | Role in the decision | What they care about | What they fear | Where they stand |
 |---|---|---|---|---|
-| {{stakeholder1}} | {{role1}} | {{cares1}} | {{fears1}} | {{stance1}} |
-| {{stakeholder2}} | {{role2}} | {{cares2}} | {{fears2}} | {{stance2}} |
-| {{stakeholder3}} | {{role3}} | {{cares3}} | {{fears3}} | {{stance3}} |
+| [the stakeholder] | [their role in the decision] | [what they care about] | [what they fear] | [for / neutral / against / unknown] |
+| [the stakeholder] | [their role in the decision] | [what they care about] | [what they fear] | [for / neutral / against / unknown] |
+| [the stakeholder] | [their role in the decision] | [what they care about] | [what they fear] | [for / neutral / against / unknown] |
 
 ---
 
 ## The Business Case (in brief)
 
-- **The problem:** {{problem}}
-- **The proposed change:** {{proposedChange}}
-- **The evidence (backed claims only):** {{evidence}}
-- **The expected outcome:** {{expectedOutcome}}
+- **The problem:** [the problem]
+- **The proposed change:** [the proposed change]
+- **The evidence (backed claims only):** [the evidence, each claim backed or marked unverified]
+- **The expected outcome:** [the expected outcome]
 
 Every claim above is one you can stand behind. Anything unverified is marked as such, not stated as fact.
 
@@ -131,11 +131,13 @@ Every claim above is one you can stand behind. Anything unverified is marked as 
 
 ## Anticipated Objections and Honest Responses
 
+Add one row per real objection the stakeholders will raise.
+
 | Likely objection | Who raises it | Honest response |
 |---|---|---|
-| {{objection1}} | {{objectionOwner1}} | {{response1}} |
-| {{objection2}} | {{objectionOwner2}} | {{response2}} |
-| {{objection3}} | {{objectionOwner3}} | {{response3}} |
+| [the objection] | [who raises it] | [the honest response] |
+| [the objection] | [who raises it] | [the honest response] |
+| [the objection] | [who raises it] | [the honest response] |
 
 Where the true answer is "we test that in the pilot", say exactly that.
 
@@ -143,11 +145,11 @@ Where the true answer is "we test that in the pilot", say exactly that.
 
 ## The Advocate to Recruit
 
-- **Who:** {{advocateName}} ({{advocateRole}})
-- **Why them (credible with the group, motivated to drive it):** {{advocateRationale}}
-- **What they need from you to carry the case:** {{advocateNeeds}}
+- **Who:** [the advocate's name] ([their role])
+- **Why them (credible with the group, motivated to drive it):** [the rationale]
+- **What they need from you to carry the case:** [what they need]
 
-{{#if advocateRisk}}**A note on this advocate:** {{advocateRisk}}{{/if}}
+**A note on this advocate:** [any risk or caveat about this advocate; include this line only where one exists]
 
 ---
 
@@ -155,11 +157,11 @@ Where the true answer is "we test that in the pilot", say exactly that.
 
 The smallest honest first step that proves the idea and lets a yes be reversed cheaply.
 
-- **Scope:** {{pilotScope}}
-- **Duration:** {{pilotDuration}}
-- **Cost:** {{pilotCost}}
-- **Success measure (agreed up front):** {{pilotSuccessMeasure}}
-- **How a yes can be reversed if it does not work:** {{pilotExit}}
+- **Scope:** [the pilot scope]
+- **Duration:** [the duration]
+- **Cost:** [the cost]
+- **Success measure (agreed up front):** [the success measure]
+- **How a yes can be reversed if it does not work:** [the exit]
 
 ---
 

@@ -10,15 +10,15 @@ updated: 2026-06-09
 author: AI Her Way
 ---
 
-# Skill: DM Conversation Scripts for your business
+# Skill: DM Conversation Scripts
 
-> Generated for the member. These scripts are starting points, always personalise to the individual conversation. Sound like a human, not a bot.
+> These scripts are starting points, always personalise to the individual conversation and to the member's own voice. Sound like a human, not a bot. Read the member's identity, voice, offers, and rules from `memory/business-context.md`, their audience, offers, and pain points from `memory/audience-and-offers.md`, and their tone and hallmark phrases from `memory/voice.md` and `skills/brand-voice.md` before drafting anything.
 
 ## 1. Role and mandate
 
 This skill owns one-to-one conversations in the direct-message channel from first reply to the moment an offer is made or the conversation is gracefully closed. It works for whoever runs the inbox: the founder doing it herself, a team member or virtual assistant handling DMs on the founder's behalf, or a professional managing a personal brand alongside a day job. It covers codeword openers, lead-magnet delivery, qualification, soft and direct closes, objection responses, follow-up sequences, and cold outreach. It does not own paid ads, broadcast email, or public comment threads. The jump it supports is L1 (you write each DM by hand) to L3 (a personal DM assistant that drafts in your voice and you approve), with optional L2 automation for the first codeword reply only.
 
-Three audiences, same skill: a founder uses it to convert [your Instagram handle] followers into [your primary revenue path]; a professional uses it to answer LinkedIn enquiries and book calls without sounding scripted; in real life the same patterns help with any one-to-one ask (a community group reply, a school fundraising message, a polite decline) where warmth and a clear next step matter.
+Three audiences, same skill: a founder uses it to convert social followers into her primary revenue path; a professional uses it to answer LinkedIn enquiries and book calls without sounding scripted; in real life the same patterns help with any one-to-one ask (a community group reply, a school fundraising message, a polite decline) where warmth and a clear next step matter. Read the member's active social channels and primary revenue path from `memory/business-context.md` and `memory/audience-and-offers.md`.
 
 ## 2. Governing principle
 
@@ -43,7 +43,7 @@ This is the psychology layer. Read the conversation, then choose the move. Defau
 | What you observe in the conversation | What it usually means | The move to make |
 |---|---|---|
 | They used a codeword or downloaded a lead magnet | Warm, opted in, low friction | Deliver immediately, then ask one open question. Do not pitch yet. |
-| They asked a specific question about an offer | Buying signal, mid-funnel | Answer plainly, then offer the soft close. Match to [your primary revenue path]. |
+| They asked a specific question about an offer | Buying signal, mid-funnel | Answer plainly, then offer the soft close. Match to the member's primary revenue path (from `memory/audience-and-offers.md`). |
 | They shared a problem but not a goal | Aware, not yet committed | Ask the goal question (magic-wand) before any offer. |
 | Replies are short, slow, or one word | Low energy or busy, not rejection | Slow down, add value, do not chase. One light touch, then wait. |
 | "I don't have time / it's too expensive / I need to think" | Hesitation, not no | Validate first, reframe once, then leave the door open. Never push twice. |
@@ -61,8 +61,8 @@ Edge case that overrides every default: if continuing would feel like pressure t
 2. **Classify the conversation** using the rubric in section 4. Decide the move before you draft.
 3. **Deliver value or answer the question first.** If they downloaded something, send it. If they asked something, answer it. Earn the next message.
 4. **Ask one open question**, not four. Space qualification across the conversation. Listen more than you pitch.
-5. **Match to an offer only when a fit is clear.** Map their answers to your active offers ([your offers, from memory/business-context.md]) and your primary revenue path ([your primary revenue path]). If nothing fits, say so honestly.
-6. **Close at the right energy.** Soft close for explorers, direct close for ready buyers. Anchor to [your primary revenue path].
+5. **Match to an offer only when a fit is clear.** Map their answers to the member's active offers and primary revenue path (both from `memory/audience-and-offers.md`). If nothing fits, say so honestly.
+6. **Close at the right energy.** Soft close for explorers, direct close for ready buyers. Anchor to the member's primary revenue path.
 7. **Handle hesitation once.** Validate, reframe, leave the door open. Do not re-pitch in the same breath.
 8. **Follow up with value, capped at three touches.** Each touch must add something, not just "checking in".
 9. **Respect the no.** When it comes, thank them and stop.
@@ -84,8 +84,8 @@ This skill talks to real people in a private channel, so the failure modes are s
 
 ## 9. Inputs and memory
 
-- **Reads:** `memory/business-context.md` (voice, offers, primary revenue path, objections, CTA style, emoji and language rules, codewords, automation tool); any active working-memory files for the current conversation or campaign (for example `working-memory/dm-threads.md` or a campaign brief if one exists); `memory/industry-context.md` if present, for sector-specific language.
-- **Writes:** `logs/activity-log.md` (every send and delivery), `logs/decision-log.md` (every escalation and judgement call), and any named conversation tracker the member uses{{#if dmAutomationActive}} (for example notes in your DM automation tool){{/if}}.
+- **Reads:** `memory/business-context.md` (identity, voice, CTA style, emoji and language rules, codewords, DM automation tool); `memory/audience-and-offers.md` (ideal client, offers, primary revenue path, pain points, transformation, objections, lead magnets); `memory/voice.md` and `skills/brand-voice.md` (tone, hallmark phrases); any active working-memory files for the current conversation or campaign (for example `working-memory/dm-threads.md` or a campaign brief if one exists); `memory/industry-context.md` if present, for sector-specific language.
+- **Writes:** `logs/activity-log.md` (every send and delivery), `logs/decision-log.md` (every escalation and judgement call), and any named conversation tracker the member uses (for example notes in the member's DM automation tool, where one is set in `memory/business-context.md`).
 
 Never act on "any relevant context". If a value is not in business-context or a named working-memory file, ask, do not assume.
 
@@ -93,21 +93,21 @@ Never act on "any relevant context". If a value is not in business-context or a 
 
 Each output is a ready-to-send DM or a short sequence of them. Format rules:
 
-- Conversational and warm, matched to the member's tone (as defined in your voice rules).
-- your preferred variant of English spelling, every message.
-- Emoji usage: your emoji preference. CTA style: your preferred style, from your context file.
+- Conversational and warm, matched to the member's tone and voice (read from `memory/voice.md`, `skills/brand-voice.md`, and `memory/business-context.md`).
+- Use the member's English variant (from `memory/business-context.md`; if not set, default to Australian English) for every message.
+- Emoji usage and CTA style: read both from `memory/business-context.md`. If a value is not set, propose one and ask before saving.
 - 2 to 4 sentences per message in most cases. Break anything longer into 2 or 3 shorter messages, never a wall of text.
 - Respond within 2 hours during business hours where possible.
 - Bracketed cues like [name], [LINK], [their specific challenge] are fill-ins, always replace before sending.
-{{#if dmAutomationActive}}- DM automation tool: your DM automation tool. Active codewords: [your DM codewords]. Automation sends only the first reply, a human follows up.{{/if}}
+- If the member runs a DM automation tool (set in `memory/business-context.md`), that tool sends only the first reply for an active codeword, then a human follows up. If no automation is set, reply to codewords by hand using the same pattern.
 
-### Codeword Opener Scripts{{#if dmAutomationActive}}
+### Codeword Opener Scripts
 
-Triggered when someone uses a codeword. Your tool (your DM automation tool) sends the first reply, then you follow up personally.
+If the member runs DM automation, read the automation tool and active codewords from `memory/business-context.md`; the tool sends the first reply, then a human follows up personally. If no automation is set, reply to codewords by hand using the same pattern: deliver the resource, then ask one open question.
 
-**Automated first reply (for `[your codeword]`):**
+**Automated first reply (use the member's first active codeword in place of [codeword]):**
 ```
-Hey! Thanks so much for commenting `[your codeword]`. 🎉
+Hey! Thanks so much for commenting `[codeword]`. 🎉
 
 Here's what you asked for: [LINK or RESOURCE]
 
@@ -120,18 +120,14 @@ Hey [name]! Just checking you got the link okay.
 
 What's the one thing you're hoping this helps you with?
 ```
-{{else}}
-
-(Codeword automation is off. Reply to codewords by hand using the same pattern: deliver the resource, then ask one open question.)
-{{/if}}
 
 ### Lead Magnet Delivery Scripts
 
-Use these when delivering free resources via DM. The goal is to give value and open a conversation that may lead to an offer.
+Use these when delivering free resources via DM. The goal is to give value and open a conversation that may lead to an offer. Read the member's lead magnets and primary revenue path from `memory/audience-and-offers.md`, and use the specific magnet the person requested in place of [lead magnet] below.
 
-**Delivering: [your lead magnet]**
+**Delivering: [lead magnet]**
 ```
-Here's your copy of [your lead magnet]! 🎉
+Here's your copy of [lead magnet]! 🎉
 
 [Attach file or provide access instructions]
 
@@ -142,13 +138,12 @@ And if you have any questions, just reply here, I read every message.
 
 **Follow-up (24 hours later):**
 ```
-Hey! Just checking in, did you get a chance to look at [your lead magnet]?
+Hey! Just checking in, did you get a chance to look at [lead magnet]?
 
 What stood out to you most?
 
-[If relevant: I go further into this inside [your primary revenue path], happy to share more if you're curious.]
+[If relevant: I go further into this inside [primary revenue path], happy to share more if you're curious.]
 ```
-
 
 ### Qualification Questions
 
@@ -159,7 +154,7 @@ Ask these before pitching, spaced naturally through the conversation. Do not fir
 3. Gauge readiness: `Have you tried anything to solve this before? What worked and what didn't?`
 4. Check fit: `Are you at the point where you're ready to invest in solving this properly, or still exploring?`
 
-Map their answers to your active offers ([your offers, from memory/business-context.md]) and point toward your primary revenue path: [your primary revenue path].
+Map their answers to the member's active offers and point toward the member's primary revenue path (both from `memory/audience-and-offers.md`).
 
 ### Close Scripts
 
@@ -177,11 +172,11 @@ Honestly, [relevant offer] is built for exactly what you've described.
 Here's the link to join: [LINK]. Any questions before you jump in, I'm right here.
 ```
 
-Anchor every close to your primary revenue path: [your primary revenue path].
+Anchor every close to the member's primary revenue path (from `memory/audience-and-offers.md`).
 
 ### Objection Responses
 
-Validate first, reframe once, leave the door open. These cover common objections: [the objections you commonly hear].
+Validate first, reframe once, leave the door open. Read the member's common objections from `memory/audience-and-offers.md` and adapt these to them; the three below are the most common patterns.
 
 **"I don't have time right now":**
 ```
@@ -238,12 +233,12 @@ Hi [name]! One last follow-up from me.
 
 I know things get busy, so I just wanted to say: if [your offer] is still on your radar, I'm here to answer any questions.
 
-And if it's not the right time, no worries at all, I'll keep sharing on [your Instagram handle] and you're always welcome to reach out when you're ready.
+And if it's not the right time, no worries at all, I'll keep sharing on [the member's main social channel] and you're always welcome to reach out when you're ready.
 
 Wishing you all the best! 💛
 ```
 
-Follow-up rules: never more than three touches without a response; always add value, never a bare "checking in"; respect silence after three touches and let them come to you.{{#if dmAutomationActive}} Track where each person sits in your DM automation tool.{{/if}}
+Follow-up rules: never more than three touches without a response; always add value, never a bare "checking in"; respect silence after three touches and let them come to you. Where the member runs a DM automation tool (set in `memory/business-context.md`), track where each person sits in it.
 
 ### Cold DM Strategy
 
@@ -253,13 +248,13 @@ For collaborators, podcast hosts, or ideal clients who have not engaged yet. War
 2. Find common ground: shared audience, mutual connection, similar values.
 3. Open with value: lead with what you can offer, not what you want.
 
-**Cold DM template:**
+**Cold DM template** (fill the member's name, audience, and transformation from `memory/business-context.md` and `memory/audience-and-offers.md`):
 ```
 Hey [name]! I've been loving your content about [specific topic they post about].
 
 [Specific compliment about a recent post or piece of work]
 
-I'm the member, I help your ideal customer. the transformation you deliver
+I'm [member's name], I help [audience]. [the transformation the member delivers]
 
 [Specific reason for reaching out: collaboration idea, resource to share, genuine question]
 
@@ -268,14 +263,16 @@ Would love to connect if you're open to it!
 
 ### Voice Guidelines
 
+Read the member's voice, English variant, emoji guideline, and hallmark phrases from `memory/business-context.md`, `memory/voice.md`, and `skills/brand-voice.md` before applying these.
+
 Do:
 - Sound like the member in a one-on-one conversation.
-- Use your preferred variant of English spelling.
-- Match the emoji guideline: your emoji preference.
+- Use the member's English variant (default Australian English if not set).
+- Match the member's emoji guideline.
 - Keep messages concise, 2 to 4 sentences in most cases.
 - Use voice notes where appropriate, they add warmth.
 - Sign off naturally, no formal sign-offs in DMs.
-- Use the member's signature phrases where they fit naturally: [your hallmark phrases].
+- Where the member has hallmark phrases set, use them where they fit naturally.
 
 Don't:
 - Send walls of text, break long messages into 2 or 3 shorter ones.
@@ -285,32 +282,7 @@ Don't:
 - Send follow-ups too frequently, respect their time and inbox.
 - Use banned words: game changer, deep dive, synergy, hustle, grind.
 
-### Banned Words & Phrases
-
-Never use these in any content:
-
-- game changer
-- deep dive
-- synergy
-- leverage (as verb)
-- hustle / grind
-- low-hanging fruit
-- unlock / skyrocket / supercharge
-
-Add your own banned words in `memory/business-context.md`; they override this default list.
-
-### Voice Non-Negotiables
-
-1. Always sound like the member wrote it: conversational, not corporate
-2. Use first person naturally
-3. Mix short punchy sentences with longer explanatory ones
-4. Include personal context or story where relevant
-5. Reference expertise naturally without bragging
-6. Never start with "I'm excited to announce" or "I'm thrilled to share"
-7. Never sound like a press release or marketing copy
-8. Never be condescending or preachy
-9. The member's preferred English variant spelling throughout: no exceptions
-10. When uncertain about tone, err on the side of being more human, not more polished
+Apply any additional voice rules from the member's `skills/brand-voice.md`.
 
 ## 11. What good looks like
 
@@ -326,7 +298,7 @@ Out of everything on your plate, what's the one task you'd hand off tomorrow if 
 ```
 Why it is good: [1] validates the real feeling first and matches a warm, human voice instead of pivoting straight to a pitch. [2] asks one open qualification question (the rubric's "shared a problem but not a goal" move) rather than four at once. It honours the governing principle: the next message is earned, not assumed. No offer yet, because no fit is clear yet.
 
-Three audiences, same shape: a **founder** turns this into a [your primary revenue path] conversation; a **professional** uses the identical pattern to qualify a LinkedIn enquiry before booking a call; in **real life** the same "validate, then ask one question" move handles a community or family message without it feeling transactional.
+Three audiences, same shape: a **founder** turns this into a conversation toward her primary revenue path; a **professional** uses the identical pattern to qualify a LinkedIn enquiry before booking a call; in **real life** the same "validate, then ask one question" move handles a community or family message without it feeling transactional.
 
 ### Bad example (named failure mode)
 

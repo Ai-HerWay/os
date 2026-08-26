@@ -5,8 +5,8 @@ description: >
   Takes member-approved content packages from the post-packager and places them into the member's
   scheduler as drafts or queued posts on the cadence in their calendar. Purely executional: it never
   writes content and never decides the mix. Use this when approved posts need to go into the queue;
-  when you hear "schedule this week's posts", "queue the approved content", "push these to
-  {{socialScheduler}}", "load the calendar", "get these posts scheduled", "add this to the queue",
+  when you hear "schedule this week's posts", "queue the approved content", "push these to my
+  scheduler", "load the calendar", "get these posts scheduled", "add this to the queue",
   or "put the approved pack into the scheduler".
 audiences: [founder, professional, life]
 level: L3 to L4
@@ -19,7 +19,7 @@ author: AI Her Way
 
 ## 1. Role and mandate
 
-This skill owns the last step of the Content Studio pipeline for your business: taking packages the member has already approved and placing them into the member's own scheduler ({{socialScheduler}}) at the dates and times set by the member's content calendar. It works the same for a founder queuing the week's posts, a professional loading an internal comms or events calendar in her role, and real life (a school fete page, a community group, a family newsletter). It is purely executional. It does not write, edit, or re-order content, and it never decides the content mix or the cadence; the content-strategy skill owns those. Its whole job is faithful, logged placement of approved work.
+This skill owns the last step of the Content Studio pipeline for the member: taking packages the member has already approved and placing them into the member's own scheduler (read the scheduler tool from `memory/business-context.md`) at the dates and times set by the member's content calendar. It works the same for a founder queuing the week's posts, a professional loading an internal comms or events calendar in her role, and real life (a school fete page, a community group, a family newsletter). It is purely executional. It does not write, edit, or re-order content, and it never decides the content mix or the cadence; the content-strategy skill owns those. Its whole job is faithful, logged placement of approved work.
 
 ## 2. Governing principle
 
@@ -77,27 +77,27 @@ Specific to this skill's real failure modes: never place unapproved content in a
 
 ## 9. Inputs and memory
 
-- **Reads:** `memory/business-context.md` (the member's business, channels, scheduler `{{socialScheduler}}`, disclosure preference, and overridable defaults); `memory/brand-kit.md` (only to sanity-check that placed media references match the brand assets named there); the approved packages output by the post-packager skill, each carrying its approval marker; the content calendar output from the content-strategy skill (the cadence and slots); the campaign plan where a queued post claims a deadline.
+- **Reads:** `memory/business-context.md` (the member's business, channels, scheduler tool, disclosure preference, and overridable defaults); `memory/brand-kit.md` (only to sanity-check that placed media references match the brand assets named there); the approved packages output by the post-packager skill, each carrying its approval marker; the content calendar output from the content-strategy skill (the cadence and slots); the campaign plan where a queued post claims a deadline.
 - **Writes:** `logs/activity-log.md` (one row per action: date, department, skill, action, tier, status, time saved); `logs/decision-log.md` (conflicts, fallbacks, and refusals, flagged for review); the scheduling receipt output the member keeps for this skill.
 
 Never read "any relevant context". Read the named files above. Never write an API key anywhere.
 
 ## 10. Output format
 
-The deliverable is the scheduling receipt below, produced after every run. Keep the structure and the columns. When the manual fallback fires, append the paste-ready queue underneath in the same column order.
+The deliverable is the scheduling receipt below, produced after every run. Keep the structure and the columns. Fill the header line and every row from the member's context and the run itself: read the member's name, business name, and scheduler tool from `memory/business-context.md`, and populate each row from the packages actually placed. When the manual fallback fires, append the paste-ready queue underneath in the same column order.
 
 ---
 
-# Scheduling Receipt: week of {{weekStarting}}
+# Scheduling Receipt: week of [week starting date]
 
-> Generated for the member at your business. Every row below was member-approved before it entered {{socialScheduler}}. Nothing here goes live without you.
+> Generated for [member's name] at [business name]. Every row below was member-approved before it entered [scheduler tool]. Nothing here goes live without you.
 
 | # | Platform | Date and time | Post (first line) | Media | Landed as | Approval ref |
 |---|---|---|---|---|---|---|
-| 1 | {{platform1}} | {{slot1}} | {{post1FirstLine}} | {{media1}} | Draft / Queued | {{approval1}} |
-| 2 | {{platform2}} | {{slot2}} | {{post2FirstLine}} | {{media2}} | Draft / Queued | {{approval2}} |
+| 1 | [platform] | [date and time slot] | [post first line] | [media reference] | Draft / Queued | [approval reference] |
+| 2 | [platform] | [date and time slot] | [post first line] | [media reference] | Draft / Queued | [approval reference] |
 
-**Flags for you:** {{flagsOrNone}} (conflicts, held posts, anything refused and why)
+**Flags for you:** [conflicts, held posts, anything refused and why, or "none"]
 **Not queued:** any package without approval, listed with the reason, waiting on your sign-off.
 
 ---

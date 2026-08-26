@@ -85,29 +85,27 @@ Never read "any relevant context". Read the named files above. Start read-only o
 
 ## 10. Output format
 
-The deliverable is the Weekly Pipeline Review block below. Keep this structure, the order, and every placeholder. Keep the focus list to three to five deals: the cut is the point.
+The deliverable is the Weekly Pipeline Review block below. Keep this structure and the section order. Fill every bracketed field at runtime: read the member's name from `memory/business-context.md` (or `memory/job-context.md` for a professional in a role), and the live deals, stages, values, last buyer actions, and next steps from `memory/sales-pipeline.md` or the connected CRM. The review date, counts, and per-deal reads are produced fresh for this specific weekly review. If a needed value is not set, propose one and ask before saving it. Keep the focus list to three to five deals: the cut is the point.
 
 ---
 
-# Weekly Pipeline Review: {{reviewDate}}
+# Weekly Pipeline Review: [the review date]
 
-> Prepared for the member, your business. A weekly read to cut the overwhelm. Every stage and next step below reflects an observable buyer action, or is flagged where it does not.
+> Prepared for [the member, read the name from `memory/business-context.md`]. A weekly read to cut the overwhelm. Every stage and next step below reflects an observable buyer action, or is flagged where it does not.
 
-**Health summary:** {{openDealCount}} open deals. {{noNextStepCount}} with no next step (target: 0). {{goneQuietCount}} gone quiet.
+**Health summary:** [the open-deal count] open deals. [the no-next-step count] with no next step (target: 0). [the gone-quiet count] gone quiet.
 
 ---
 
 ## The few to focus on this week
 
-The three to five deals worth your attention now, each with the why-now and the one most useful action.
+The three to five deals worth your attention now, each with the why-now and the one most useful action. Fill one row per deal from the pipeline; add a fourth or fifth row only when it genuinely earns a place (for example a real, buyer-stated deadline).
 
 | Deal | Stage | Value | Why now | The one action |
 |---|---|---|---|---|
-| {{deal1Name}} | {{deal1Stage}} | {{deal1Value}} | {{deal1WhyNow}} | {{deal1Action}} |
-| {{deal2Name}} | {{deal2Stage}} | {{deal2Value}} | {{deal2WhyNow}} | {{deal2Action}} |
-| {{deal3Name}} | {{deal3Stage}} | {{deal3Value}} | {{deal3WhyNow}} | {{deal3Action}} |
-{{#if deal4Name}}| {{deal4Name}} | {{deal4Stage}} | {{deal4Value}} | {{deal4WhyNow}} | {{deal4Action}} |{{/if}}
-{{#if deal5Name}}| {{deal5Name}} | {{deal5Stage}} | {{deal5Value}} | {{deal5WhyNow}} | {{deal5Action}} |{{/if}}
+| [deal name] | [stage] | [value] | [why now, anchored to an observable buyer action] | [the one most useful action] |
+| [deal name] | [stage] | [value] | [why now, anchored to an observable buyer action] | [the one most useful action] |
+| [deal name] | [stage] | [value] | [why now, anchored to an observable buyer action] | [the one most useful action] |
 
 ---
 
@@ -115,24 +113,21 @@ The three to five deals worth your attention now, each with the why-now and the 
 
 **No next step (fix first, target is zero):**
 
-- {{noNextStepList}}
+- [each deal with no recorded next step, or "none" when the target is met]
 
 **Gone quiet (re-engage honestly or close):**
 
-- {{goneQuietList}}
+- [each deal past its expected cadence with no buyer contact and no future step booked]
 
 **Stage not earned by a buyer action (confirm or move back):**
 
-- {{stageNotEarnedList}}
+- [each deal whose stage has no observable buyer action behind it]
 
-{{#if closeLostSuggested}}**Worth closing honestly:**
-
-- {{closeLostList}}
-{{/if}}
+**Worth closing honestly:** include this list only when a deal genuinely should be closed-lost; name each deal and the reason, and leave the heading out otherwise.
 
 ---
 
-**Coverage read (directional):** {{coverageNote}} (a note on whether the pipeline is qualified, not just full; at ~19% median B2B win rates, qualified pipeline matters more than raw volume).
+**Coverage read (directional):** [a note on whether the pipeline is qualified, not just full; at ~19% median B2B win rates, qualified pipeline matters more than raw volume].
 
 **Any outreach suggested above is drafted for your approval, not sent.**
 

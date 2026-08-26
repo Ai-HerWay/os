@@ -42,7 +42,7 @@ For every piece of bad news, run these conditions before drafting. The override 
 
 | Condition the skill looks for | Default decision | Edge case that overrides |
 |---|---|---|
-| A problem is known and the client does not yet know | Draft the disclosure today. Delay is the enemy; stealing thunder only works if we go first | Facts still moving so fast that a draft would be wrong within hours: draft a holding note instead ("we have found an issue, full picture by {{time}}") |
+| A problem is known and the client does not yet know | Draft the disclosure today. Delay is the enemy; stealing thunder only works if we go first | Facts still moving so fast that a draft would be wrong within hours: draft a holding note instead ("we have found an issue, full picture by [a stated time]") |
 | The client has already found out from elsewhere | Draft still goes, now including an honest acknowledgement that they should have heard it from us first | None. Never pretend we were about to tell them |
 | Root cause is not yet known | Say plainly what is known, what is not, and when the next update comes. Never speculate or guess a cause | None. A confident wrong cause is worse than an honest "we are still confirming" |
 | The problem touches money, refunds, compensation, discounts, or contract terms | Draft the disclosure without any commercial offer; route the commercial decision to the member (Red) before anything is promised | None. Money and terms always need a human decision first |
@@ -85,32 +85,33 @@ Never read "any relevant context". Read the named files above.
 
 ## 10. Output format
 
-The deliverable is the Bad News Draft below. Keep the structure and order.
+The deliverable is the Bad News Draft below. Keep this structure and the section order. Fill every bracketed field at runtime: read the member's name and voice from `memory/business-context.md`, and the client's status, scope, and communication preferences from `memory/client-roster.md` and `memory/engagement-briefs/{client-slug}.md`. The facts, severity call, channel, and new commitment are set with the member for this specific incident. If a needed value is not set, propose one and ask before saving it.
 
 ---
 
-# Bad News Draft: {{clientName}}, {{date}}
+# Bad News Draft: [the client's name], [the date]
 
-> Prepared for the member. Severity: {{severity}}. Nothing here sends until you approve it. Facts marked unconfirmed must not be stated to the client as fact.
+> Prepared for [the member, read the name from `memory/business-context.md`]. Severity: [the severity call]. Nothing here sends until you approve it. Facts marked unconfirmed must not be stated to the client as fact.
 
-**Facts list:** known: {{knownFacts}} | unconfirmed: {{unconfirmedFacts}} | client's likely discovery route if we wait: {{discoveryRisk}}
+**Facts list:** known: [the confirmed facts] | unconfirmed: [the unconfirmed facts] | client's likely discovery route if we wait: [the discovery risk]
 
-**Escalation flags:** {{escalationFlags}}
+**Escalation flags:** [any escalation flags raised by the rubric, or "none"]
 
-## The draft ({{channel}})
+## The draft ([the channel, from the client's communication preferences in `memory/engagement-briefs/{client-slug}.md`])
 
-1. **What happened:** {{whatHappened}}
-2. **Impact on them:** {{impactOnClient}}
-3. **What we are doing:** {{whatWeAreDoing}}
-4. **The new commitment:** {{newCommitment}} (margin checked: {{marginNote}})
-5. **So it does not repeat:** {{preventionStep}}
+1. **What happened:** [what happened, plain and unspun]
+2. **Impact on them:** [the impact on the client, from their side]
+3. **What we are doing:** [the action already under way]
+4. **The new commitment:** [the new commitment, one we are confident of keeping] (margin checked: [the margin note])
+5. **So it does not repeat:** [the specific prevention step]
 
-{{#if holdingNoteNeeded}}## Holding-note alternative (facts still moving)
+## Holding-note alternative (facts still moving)
 
-{{holdingNote}}
-{{/if}}
+Include this section only when the facts are moving too fast for a full disclosure to stay accurate; otherwise omit it.
 
-**On approval:** send via {{channel}}, then record the new commitment in `memory/engagement-briefs/{{clientSlug}}.md` and log the send.
+[the holding note: what is known, what is not yet confirmed, and when the full picture comes]
+
+**On approval:** send via [the channel], then record the new commitment in `memory/engagement-briefs/{client-slug}.md` and log the send.
 
 ---
 

@@ -89,8 +89,12 @@ Specific to this skill's failure modes: never fabricate social proof (the most c
 
 ## 9. Inputs and memory
 
+Read the member's voice, pillars, handle, cadence, DM automation status and tool from `memory/business-context.md`; their audience, offer, transformation, lead magnets and codewords from `memory/audience-and-offers.md`; and their tone and hallmark phrases from `memory/voice.md` and `skills/brand-voice.md`. If a value is not set, propose one and ask before saving.
+
 Reads:
-- `memory/business-context.md` (brand voice, audience, pillars, handle, offer, transformation, cadence, codewords, DM automation status and tool)
+- `memory/business-context.md` (brand voice, pillars, handle, cadence, DM automation status and tool)
+- `memory/audience-and-offers.md` (audience, offer, transformation, lead magnets, codewords)
+- `memory/voice.md` and `skills/brand-voice.md` (tone, hallmark phrases, voice)
 - `memory/working-memory/instagram-performance.md` if present (recent post performance, what has landed)
 - `memory/industry-context.md` if present (niche-specific language and search terms for hashtags)
 
@@ -101,14 +105,14 @@ Writes:
 
 ## 10. Output format
 
-Produce the strategy and briefs in this structure. Keep all placeholders so the output is personalised at runtime.
+Produce the strategy and briefs in this structure, filled in for the member by reading their context at runtime. Read the member's handle, posting frequency, primary format, audience, and content pillars from `memory/business-context.md` and `memory/audience-and-offers.md`. If a value is not set, propose one and ask before saving.
 
 ### Account overview
-- Handle: [your Instagram handle]
-- Posting frequency: [your Instagram cadence] (default to 3 to 5 feed posts a week plus daily Stories if unset)
-- Primary format: [your primary Instagram format]
-- Target audience: your ideal customer, as described in memory/business-context.md
-- Content pillars: your content pillars
+- Handle: read from `memory/business-context.md`
+- Posting frequency: read from `memory/business-context.md` (default to 3 to 5 feed posts a week plus daily Stories if unset)
+- Primary format: read from `memory/business-context.md`
+- Target audience: read the full audience descriptor from `memory/audience-and-offers.md`
+- Content pillars: read from `memory/business-context.md`
 
 ### Ranking signals to optimise for (current)
 | Signal | What it means | Why it matters |
@@ -127,10 +131,10 @@ Carousels are the member's highest-value format for authority and saves.
 - Slides 2 to N: one idea per slide, 10 to 20 words.
 - Final slide (CTA): one clear next step, ideally a save or send prompt.
 
-Hook patterns for slide 1:
-- The Promise: "[X] ways to [desirable outcome] (without [common objection from your ideal customer])"
+Hook patterns for slide 1 (fill the audience references by reading the short audience label from `memory/audience-and-offers.md`):
+- The Promise: "[X] ways to [desirable outcome] (without [common objection from the member's audience])"
 - The Mistake List: "[X] mistakes killing your [thing] (and what to do instead)"
-- The Direct Address: "If you're your ideal customer struggling with [problem], this is for you"
+- The Direct Address: "If you're [the member's audience] struggling with [problem], this is for you"
 - The Result: "How I [result] in [timeframe] (step by step)" (only if the result is real and in memory)
 
 Design specs:
@@ -155,9 +159,9 @@ Length guidance:
 
 Reel script templates:
 
-Quick Tip (15 to 20s):
+Quick Tip (15 to 20s), using the member's short audience label from `memory/audience-and-offers.md`:
 ```
-[0-3s]  HOOK: bold on-screen text, "[Topic] tip most your ideal customer miss"
+[0-3s]  HOOK: bold on-screen text, "[Topic] tip most [the member's audience] miss"
 [3-8s]  CONTEXT: "If you're dealing with [problem]..."
 [8-15s] THE TIP: actionable advice
 [15-20s] CTA: "Save this" or "Send this to someone who needs it"
@@ -172,9 +176,9 @@ Story + Lesson (30 to 45s):
 [35-45s] CTA: "What's your experience? Comment below"
 ```
 
-Myth Buster (15 to 25s):
+Myth Buster (15 to 25s), using the member's first content pillar from `memory/business-context.md`:
 ```
-[0-3s]   HOOK: "Everyone says [common advice about your first content pillar]. They're wrong."
+[0-3s]   HOOK: "Everyone says [common advice about the member's first pillar]. They're wrong."
 [3-10s]  THE MYTH: what most people believe
 [10-20s] THE TRUTH: what actually works
 [20-25s] CTA: "Agree or disagree? Comment below"
@@ -186,17 +190,17 @@ Myth Buster (15 to 25s):
 - Keep text large and high-contrast. Add captions to any speaking stories.
 
 ### Hashtag formula
-- 3 to 5 niche hashtags related to your content pillars
-- 3 to 5 audience hashtags: terms your ideal customer would search
+Build the sets by reading the member's content pillars from `memory/business-context.md` and their short audience label from `memory/audience-and-offers.md`.
+- 3 to 5 niche hashtags related to the member's content pillars
+- 3 to 5 audience hashtags: terms the member's audience would search
 - 2 to 3 broad-reach hashtags
 - Total 10 to 15 per post, placed in the caption, not the comments.
-- Pillar-based set: [your pillar hashtags]
 
 ### CTAs (one per post, matched to the goal)
 - Engagement: "Save this for later", "Send this to someone who needs it", "Which one resonates? Comment below"
-- Lead generation: "Comment `[your codeword]` and I'll send you [resource]"
-{{#if dmAutomationActive}}- DM automation: enabled via your DM automation tool. Active codewords: [your DM codewords]{{/if}}
-- Conversion: "Ready to the transformation you deliver? Link in bio"
+- Lead generation: "Comment `[the member's first codeword]` and I'll send you [resource]". Read the member's active lead magnets and codewords from `memory/audience-and-offers.md`.
+- If DM automation is active, name the tool and active codewords by reading them from `memory/business-context.md`.
+- Conversion: if the member has a stated transformation in `memory/audience-and-offers.md`, use "Ready to [the member's transformation]? Link in bio".
 
 ### Weekly calendar template
 | Day | Format | Topic source | Function |
@@ -206,7 +210,7 @@ Myth Buster (15 to 25s):
 | Fri | Carousel or Reel | Social proof or client story (with permission) | Conversion |
 | Daily | Stories | Polls, tips, teasers | Engagement |
 
-Adjust to the member's [your Instagram cadence] cadence, holding within 3 to 5 quality feed posts a week.
+Adjust to the member's Instagram cadence from `memory/business-context.md`, holding within 3 to 5 quality feed posts a week.
 
 ## 11. What good looks like
 
@@ -226,7 +230,7 @@ Why this is good:
 - The CTA asks for a send to a specific person, the strongest signal for reaching non-followers (annotation: sends per reach).
 - It claims a real, member-supplied result ("reach tripled") and nothing invented (annotation: never fabricate; this only ships if the result is in memory).
 
-Three audiences, same logic: a founder sends "to a founder whose reels deserve more eyes"; a professional sends "to a colleague drowning in [industry] busywork"; someone in real life sends "to a friend who keeps asking how you make these". The format and signal logic do not change, only the audience line, which comes from your ideal customer.
+Three audiences, same logic: a founder sends "to a founder whose reels deserve more eyes"; a professional sends "to a colleague drowning in [industry] busywork"; someone in real life sends "to a friend who keeps asking how you make these". The format and signal logic do not change, only the audience line, which comes from the member's short audience label in `memory/audience-and-offers.md`.
 
 ### Bad example (named failure mode)
 

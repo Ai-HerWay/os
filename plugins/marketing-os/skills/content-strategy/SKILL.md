@@ -14,7 +14,7 @@ author: AI Her Way
 
 ## 1. Role and mandate
 
-This skill owns the strategic content blueprint for your business: the decision layer that sits above every individual post, newsletter, or video. It works for the person whose content it governs (a founder building authority, a professional building a personal brand inside a role, or someone in real life building a community around a cause). It owns the full chain from audience need to content pillar to platform to repurposing flow to posting rhythm to call to action, and it keeps every one of those choices tied back to one primary goal. It does not write the individual posts (other skills do that). It decides what is worth writing and why.
+This skill owns the strategic content blueprint for the member: the decision layer that sits above every individual post, newsletter, or video. Read the member's identity, primary goal, voice, and platforms from `memory/business-context.md`, and their audience, pain points, transformation, offers, and lead magnets from `memory/audience-and-offers.md`, before deciding anything. It works for the person whose content it governs (a founder building authority, a professional building a personal brand inside a role, or someone in real life building a community around a cause). It owns the full chain from audience need to content pillar to platform to repurposing flow to posting rhythm to call to action, and it keeps every one of those choices tied back to one primary goal. It does not write the individual posts (other skills do that). It decides what is worth writing and why.
 
 ## 2. Governing principle
 
@@ -81,62 +81,34 @@ Never read "any relevant context". Read the named files above.
 
 ## 10. Output format
 
-The deliverable is the content strategy document below. Keep this structure, the section order, and every placeholder.
+The deliverable is a content strategy document produced for the member by reading their context, following the structure and section order below. Do not bake any member value into this skill file: read every member-specific value at runtime from `memory/business-context.md` and `memory/audience-and-offers.md`, and where a value is not set, propose one and ask before saving. The generic frameworks below (content angles, platform roles, the anchor-then-repurpose model, the content-mix ratio, and the CTA-by-type table) stay constant for every member; only the member-specific values change.
 
 ---
 
-# Content Strategy: your business
+### Building the document
 
-> Generated for the member. This is the strategic blueprint for all content creation: what to talk about, where, how often, and why.
+Produce the sections below in order. Fill each bracketed cue by reading the member's context files.
 
----
+**Header.** Title it "Content Strategy: [business name]" and open with one line naming who it is for (read the member's name from `memory/business-context.md`). State that this is the strategic blueprint for all content: what to talk about, where, how often, and why.
 
-## Content Pillars
+**Content Pillars.** Read the member's content pillars from `memory/business-context.md` (or `memory/audience-and-offers.md` where they live there). List them as the core topics that define the member's content universe; every piece of content should connect to at least one pillar. For each pillar, name the core audience job it serves (the job the audience is trying to get done), read from the member's audience and pain points in `memory/audience-and-offers.md`. If pillars are not set, propose a set and ask before saving.
 
-These are the core topics that define the member's content universe. Every piece of content should connect to at least one pillar.
-
-your content pillars, from memory/business-context.md
-
-**Why this matters to your ideal customer:**
-Each pillar connects to a core audience need (the job the audience is trying to get done).
-
-**Content angles for every pillar:**
+Apply these content angles to every pillar (generic, keep as is):
 - Educational: teach the fundamentals and advanced strategies
 - Story: share personal experiences and client results
 - Contrarian: challenge common misconceptions
 - Practical: step-by-step guides and frameworks
 - Curated: best resources, tools, and examples
 
----
+**Platform Strategy.** Read the member's active platforms and their cadence and formats from `memory/business-context.md`. Never assume a platform the member does not use. For each active platform, state its role using the platform-role guide below, then its frequency and primary format from the member's context. If a cadence or format is not set, propose one and ask before saving.
 
-## Platform Strategy
+Platform-role guide (generic, keep as is; apply only to the member's active platforms):
+- **Instagram:** brand building, community engagement, visual storytelling
+- **LinkedIn:** authority building, professional networking, lead generation
+- **Blog:** SEO, thought leadership, evergreen content
+- Any other platform the member uses: name its role in the member's ecosystem before assigning cadence
 
-### Active Platforms
-
-[your active platforms]
-
-### Platform Roles
-
-Each platform serves a specific purpose in the content ecosystem:
-
-**Instagram:** brand building, community engagement, visual storytelling
-- Frequency: [your Instagram cadence]
-- Primary format: [your primary Instagram format]
-
-**LinkedIn:** authority building, professional networking, lead generation
-- Frequency: [your LinkedIn cadence]
-- Primary format: [your primary LinkedIn format]
-
-**Blog:** SEO, thought leadership, evergreen content
-- Frequency: [your blog cadence]
-
----
-
-## The Anchor-Then-Repurpose Model
-
-The member's content system follows a simple principle: create once, repurpose many times.
-
-### The Flow
+**The Anchor-Then-Repurpose Model.** The member's content system follows one principle: create once, repurpose many times. Map the flow to the member's own active platforms rather than the illustrative set. The illustrative flow (adapt to the member's platforms):
 
 ```
 Anchor Content (Newsletter or long-form piece)
@@ -150,62 +122,39 @@ Anchor Content (Newsletter or long-form piece)
   +-- Blog post (SEO-optimised expansion)
 ```
 
-### Repurposing Rules
-
+Repurposing rules (generic, keep as is):
 1. **Never copy-paste** across platforms. Adapt the message for each audience and format
 2. **Change the angle:** one idea can be educational, personal, contrarian, or motivational
 3. **Lead with the strongest hook** for each platform
 4. **Adjust length and structure:** LinkedIn wants depth, Instagram wants visual, TikTok wants speed
 5. **Stagger timing:** spread repurposed content across the week so it feels fresh
 
-**Stated approach:** [your repurposing approach]
+State the member's own repurposing approach where they have set one in `memory/business-context.md`.
 
----
+**Posting Rhythm.** Build the weekly cadence from the member's platform frequencies above. A balanced week alternates pillars and content types across the available slots.
 
-## Posting Rhythm
-
-### Weekly Cadence
-
-Use the platform frequencies above to build the weekly cadence. A balanced week alternates pillars and content types across the available slots.
-
-### Content Mix (Weekly)
-
+Content mix, weekly (generic ratio, keep as is):
 - **40%** Authority content: educational, frameworks, insights
 - **25%** Trust content: stories, social proof, vulnerability
 - **20%** Community content: engagement, questions, relatable moments
 - **10%** Lead generation: lead magnet promotion, email list growth
 - **5%** Direct conversion: offer promotion
 
-This ratio ensures the audience always gets more value than asks, maintaining trust while driving commercial outcomes.
+This ratio ensures the audience always gets more value than asks, maintaining trust while driving commercial outcomes. It is also the ceiling in the decision rubric (Section 4): do not raise direct conversion above 10% outside a declared launch window.
 
----
-
-## CTA Strategy
-
-**Primary CTA style:** your preferred style, from your context file
-
-### CTA by Content Type
+**CTA Strategy.** Read the member's primary CTA style from `memory/business-context.md`. Apply the CTA-by-content-type table below (generic, keep as is). Where an example needs a codeword, use the member's own first codeword from `memory/business-context.md`; if none is set, propose one and ask before saving.
 
 | Content Type | CTA Intensity | Example |
 |---|---|---|
 | Educational / Value | Soft | "Save this for later" / "Share with someone who needs this" |
 | Story / Vulnerability | Medium | "If this resonates, drop a comment below" |
-| Framework / Process | Medium-Strong | "Comment [your codeword] and I'll send you the full framework" |
+| Framework / Process | Medium-Strong | "Comment [the member's codeword] and I'll send you the full framework" |
 | Social Proof / Results | Strong | "Ready for results like this? DM me" |
 | Contrarian / Hot Take | Soft | "Agree or disagree? I want to hear your take" |
 
-### Lead Magnet CTAs
+Where the member has lead magnets in `memory/audience-and-offers.md`, add a short "Lead Magnet CTAs" block listing a CTA for each.
 
-- [your lead magnets, from memory/business-context.md]
-
-
----
-
-## Primary Goal
-
-[your primary goal]
-
-Everything in this strategy serves this goal. When in doubt about what to post, ask: "Does this move us closer to this goal?"
+**Primary Goal.** Read the member's primary goal from `memory/business-context.md` and state it plainly. Everything in the strategy serves this goal. When in doubt about what to post, ask: "Does this move us closer to this goal?" If the primary goal is not set, propose one and ask before saving.
 
 ---
 
@@ -213,7 +162,7 @@ Everything in this strategy serves this goal. When in doubt about what to post, 
 
 **Good example (annotated).**
 
-> Pillar: "AI for time-poor founders". This week's anchor: a newsletter on "the three tasks every founder should automate first". [1] Derivatives: a LinkedIn thought-leadership post on the cost of doing those tasks by hand, a contrarian LinkedIn post ("automation is not about doing more, it is about doing less"), and an Instagram carousel of the three tasks. [2] Mix for the week sits at 40 authority / 25 trust / 20 community / 10 lead-gen / 5 conversion. [3] The carousel call to action is soft ("save this"), the lead-gen email is medium ("comment [your codeword] for the checklist"). [4]
+> Pillar: "AI for time-poor founders". This week's anchor: a newsletter on "the three tasks every founder should automate first". [1] Derivatives: a LinkedIn thought-leadership post on the cost of doing those tasks by hand, a contrarian LinkedIn post ("automation is not about doing more, it is about doing less"), and an Instagram carousel of the three tasks. [2] Mix for the week sits at 40 authority / 25 trust / 20 community / 10 lead-gen / 5 conversion. [3] The carousel call to action is soft ("save this"), the lead-gen email is medium ("comment [the member's codeword] for the checklist"). [4]
 
 1. Every piece maps to a named pillar and a real audience job (save time), per the governing principle and Jobs to Be Done.
 2. One anchor, many platform-native angles, never a copy-paste.

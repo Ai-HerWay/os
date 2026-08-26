@@ -10,11 +10,11 @@ updated: 2026-06-09
 author: AI Her Way
 ---
 
-# Skill: Content Formulas (Hooks, Structures and CTAs) for the member
+# Skill: Content Formulas (Hooks, Structures and CTAs)
 
 ## 1. Role and mandate
 
-This skill is the content-formatting brain for the Marketing OS. It owns the shape of a piece of content, not the strategy behind it: the hook that earns the first three seconds, the structure that carries attention to the end, and the call to action that turns attention into a next step. It works for the member, drawing on her voice, her audience (your ideal customer), her content pillars (listed in your context file), and her offers, so every output sounds like her and points at something real. It is generic by design: a solo founder uses it to build authority, a professional uses it to grow a personal profile inside an industry, and someone documenting a passion project or community uses it to grow a following. The same formulas serve all three because they are built on how people read, not on one niche. The skill produces starting points that a human adapts, never finished copy to paste unedited.
+This skill is the content-formatting brain for the Marketing OS. It owns the shape of a piece of content, not the strategy behind it: the hook that earns the first three seconds, the structure that carries attention to the end, and the call to action that turns attention into a next step. It works for the member, drawing on their voice, their audience, their content pillars, and their offers (all read at runtime from `memory/business-context.md` and `memory/audience-and-offers.md`), so every output sounds like them and points at something real. It is generic by design: a solo founder uses it to build authority, a professional uses it to grow a personal profile inside an industry, and someone documenting a passion project or community uses it to grow a following. The same formulas serve all three because they are built on how people read, not on one niche. The skill produces starting points that a human adapts, never finished copy to paste unedited.
 
 ## 2. Governing principle
 
@@ -39,7 +39,7 @@ Read the brief, then choose the formula by condition, not by habit. This table i
 | Goal is to shift a belief or change a mind | Story structure (Story Opener hook, Structure C, Template B) | Narrative transportation lowers counterarguing (Green and Brock, 2000) |
 | Goal is to teach a repeatable method | Educational framework (Structure A, Template A) | Clear steps suit scanning readers (Nielsen Norman F-pattern) |
 | Audience already believes the common advice and you have a better way | Contrarian or Myth-Busting (Structure B, F, Template C) | Pattern interrupt earns Attention; the surprise holds Interest |
-| You have a real, specific result or transformation | Before and After (Structure E) with the transformation you deliver | Concrete proof builds Desire (the D in AIDA) |
+| You have a real, specific result or transformation | Before and After (Structure E), using the member's real transformation from `memory/audience-and-offers.md` if one is set | Concrete proof builds Desire (the D in AIDA) |
 | You have no verifiable proof yet | Education or Story, never Result hooks | Result and metric hooks without proof break the governing principle |
 | Primary aim is reach and saves | Listicle or Promise hook plus "Save this" CTA | Low-friction value invites the save behaviour |
 | Primary aim is replies and community | Question hook plus engagement CTA | A genuine question is the lowest-friction Action to ask for |
@@ -48,17 +48,17 @@ Read the brief, then choose the formula by condition, not by habit. This table i
 | The hook promises more than the body delivers | Reject the hook, rewrite to match the payoff | Governing principle: earn attention honestly |
 | Member voice, audience, or pillars are missing from memory | Pause and ask (see Escalation) | Generic output that does not sound like the member fails the mandate |
 
-Three-audience read of the same rubric: a founder picking "shift a belief" might tell the story of why she built your business; a professional might tell the story of a project that changed how she sees her field; someone in real life might tell the story of a personal turning point. Same structure, same mechanism, three contexts.
+Three-audience read of the same rubric: a founder picking "shift a belief" might tell the story of why she built her business; a professional might tell the story of a project that changed how she sees her field; someone in real life might tell the story of a personal turning point. Same structure, same mechanism, three contexts.
 
 ## 5. Workflow
 
-1. Load context. Read `memory/business-context.md` for the member's voice, your ideal customer, pillars (listed in your context file), offers, and any active lead magnet or DM automation. Read any working-memory file named in the brief (for example a newsletter to repurpose).
+1. Load context. Read `memory/business-context.md` for the member's voice, content pillars, social handles, and any active lead magnet or DM automation, and `memory/audience-and-offers.md` for the audience, offers, and lead magnets. Read any working-memory file named in the brief (for example a newsletter to repurpose). If a needed value is not set, propose one and ask before saving it.
 2. Name the job. From the brief, identify the goal (belief shift, teach, reach, replies, lead, sale) and the platform (LinkedIn, Instagram carousel, reel).
 3. Choose the formula. Use the decision rubric. Pick the hook type and the structure that match the goal, not the one used last time.
 4. Check for proof. If the formula needs a result, story, or transformation, confirm it exists and is real in the member's context. If it does not exist, switch to a formula that does not require it. Never invent it.
 5. Draft the hook first. Put the strongest, most specific words in the first two words and the whole hook inside the platform's visible window. Create a genuine curiosity gap, not clickbait.
 6. Build the body to the chosen structure. Make every slide or beat earn the next one. Keep the reader moving through Attention, Interest, Desire.
-7. Match the CTA to warmth. Cold audience gets value plus follow; warm gets the lead magnet ([your lead magnet]); hot gets the direct offer. Ask for one action only.
+7. Match the CTA to warmth. Cold audience gets value plus follow; warm gets the member's lead magnet (read the active lead magnet from `memory/audience-and-offers.md` if one is set); hot gets the direct offer. Ask for one action only.
 8. Sense-check against the hook. Does the body pay off the promise the hook made? If not, fix the hook or the body until they match.
 9. Hand back as a starting point. Mark it as a draft to adapt, list the formula used, and flag anything you assumed.
 10. Log it. Write the piece and the formula used to `logs/activity-log.md`, and any judgement call (for example switching formulas because proof was missing) to `logs/decision-log.md`.
@@ -71,7 +71,7 @@ Three-audience read of the same rubric: a founder picking "shift a belief" might
 
 ## 7. Escalation
 
-When the brief is unclear or the context is missing, do not guess. If voice, audience, or pillars are missing from `memory/business-context.md`, pause and ask the member directly in the working channel before drafting, because generic content that does not sound like the member fails the mandate. If a brief asks for a result, metric, or testimonial that is not in memory, raise it the same way and offer a proof-free alternative. For lower-stakes ambiguity (tone, which of two valid structures), proceed with the best choice, note the assumption in the draft, and record it in the decision log for end-of-session review.
+When the brief is unclear or the context is missing, do not guess. If voice, audience, or pillars are missing from `memory/business-context.md` or `memory/audience-and-offers.md`, pause and ask the member directly in the working channel before drafting, because generic content that does not sound like the member fails the mandate. If a brief asks for a result, metric, or testimonial that is not in memory, raise it the same way and offer a proof-free alternative. For lower-stakes ambiguity (tone, which of two valid structures), proceed with the best choice, note the assumption in the draft, and record it in the decision log for end-of-session review.
 
 ## 8. Responsible use
 
@@ -80,7 +80,8 @@ This skill's real failure modes are fabrication and over-promising. The specific
 ## 9. Inputs and memory
 
 Reads:
-- `memory/business-context.md` (required): the member's voice and tone, your ideal customer, content pillars (listed in your context file), offers, active lead magnet ([your lead magnet]), social handles ([your Instagram handle]), and DM automation settings {{#if dmAutomationActive}}(tool: your DM automation tool, codewords: [your DM codewords]){{/if}}.
+- `memory/business-context.md` (required): the member's voice and tone, content pillars, social handles, English variant, emoji and CTA style, and DM automation settings (tool and codewords, if DM automation is active).
+- `memory/audience-and-offers.md`: the audience, offers, transformation, pain points, and the active lead magnet if one is set.
 - Any working-memory file named in the brief (for example a newsletter or transcript to repurpose).
 - `memory/industry-context.md` if the member uses one, for industry language and norms.
 
@@ -97,9 +98,9 @@ Deliver content as a clearly marked draft to adapt, never as copy-paste-ready te
 
 These hooks go in the first 210 characters (before "see more"). Every hook should create a curiosity gap, and the strongest, most specific words go first.
 
-Pillar-specific examples:
-> I stopped [old approach to your first content pillar] 6 months ago. Here's what happened.
-> Everyone tells you to [common advice about your first content pillar]. They're wrong. Here's why.
+Pillar-specific examples (fill the pillar from the member's first content pillar in `memory/business-context.md`):
+> I stopped [old approach to the member's pillar topic] 6 months ago. Here's what happened.
+> Everyone tells you to [common advice about the member's pillar topic]. They're wrong. Here's why.
 
 The Bold Claim:
 > I stopped [common practice] 6 months ago. My [metric] went up [X]%.
@@ -110,16 +111,16 @@ The Story Opener:
 > A client said something to me last week that I can't stop thinking about.
 
 The Contrarian Take:
-> Unpopular opinion: [common belief] is holding your ideal customer back.
+> Unpopular opinion: [common belief] is holding [the member's audience] back.
 > Everyone's talking about [trend]. But they're missing the bigger picture.
 
-The Question:
-> What would change in your business if the transformation you deliver?
-> Why do most your ideal customer struggle with [specific challenge]?
+The Question (if the member's transformation is set in `memory/audience-and-offers.md`, use it in the first line):
+> What would change in your business if [the member's transformation]?
+> Why do most [the member's audience] struggle with [specific challenge]?
 
 The Vulnerable Admission:
 > I used to think [old belief]. I was completely wrong.
-> Here's what I don't share on social media about [running your business].
+> Here's what I don't share on social media about [running the member's business].
 
 ### Hook Formulas (Instagram)
 
@@ -134,7 +135,7 @@ The "You're Doing It Wrong" Hook:
 > (and what to do instead)
 
 The Direct Address:
-> If you're your ideal customer
+> If you're [the member's audience]
 > struggling with [specific problem]
 > this is for you
 
@@ -145,19 +146,21 @@ The Result Hook (only with real, verifiable results):
 
 ### Carousel Structures
 
+Fill the pillar, audience, transformation, and handle placeholders below from the member's context files at runtime.
+
 Structure A: Educational Framework
-1. Hook slide (problem plus promise related to your first content pillar)
-2. Context: why this matters to your ideal customer
+1. Hook slide (problem plus promise related to the member's chosen pillar)
+2. Context: why this matters to the member's audience
 3. Step 1 (with brief explanation)
 4. Step 2
 5. Step 3
 6. Step 4
 7. Common mistake to avoid
 8. Summary or key takeaway
-9. CTA slide: Follow [your Instagram handle] for more
+9. CTA slide: Follow the member's handle for more
 
 Structure B: Myth Busting
-1. Hook slide ("[X] myths about [your first content pillar]")
+1. Hook slide ("[X] myths about [the member's pillar topic]")
 2. Myth 1 to Reality 1
 3. Myth 2 to Reality 2
 4. Myth 3 to Reality 3
@@ -171,7 +174,7 @@ Structure C: Story Arc
 4. What I did differently
 5. The result
 6. What I learned
-7. How your ideal customer can apply this
+7. How the member's audience can apply this
 8. CTA slide
 
 Structure D: Listicle
@@ -184,13 +187,13 @@ Structure E: Before and After (good for social proof)
 2. The "before" state, a relatable problem
 3. What wasn't working
 4. The shift (what changed)
-5. The "after" state: the transformation you deliver
+5. The "after" state: the member's real transformation, if one is set in `memory/audience-and-offers.md`
 6. Key lessons
 7. How to start
 8. CTA slide
 
 Structure F: Contrarian Take
-1. Hook slide (bold, contrarian statement about your first content pillar)
+1. Hook slide (bold, contrarian statement about the member's pillar topic)
 2. What most people believe
 3. Why it's wrong (evidence or experience)
 4. The alternative approach
@@ -201,12 +204,14 @@ Structure F: Contrarian Take
 
 ### Reel Script Templates
 
+Fill the audience, handle, and pillar placeholders below from the member's context files at runtime.
+
 Template A: Quick Tip (15 to 20 seconds)
 ```
 [0-3s] HOOK: Bold text on screen, "[Topic] tip most people miss"
-[3-8s] CONTEXT: "If you're your ideal customer dealing with [problem]..."
+[3-8s] CONTEXT: "If you're [the member's audience] dealing with [problem]..."
 [8-15s] THE TIP: The actual actionable advice
-[15-20s] CTA: "Save this" or "Follow [your Instagram handle] for more"
+[15-20s] CTA: "Save this" or "Follow [the member's handle] for more"
 ```
 
 Template B: Story plus Lesson (30 to 45 seconds)
@@ -220,13 +225,15 @@ Template B: Story plus Lesson (30 to 45 seconds)
 
 Template C: Myth Buster (15 to 25 seconds)
 ```
-[0-3s] HOOK: "Everyone says [common advice about your first content pillar]. They're wrong."
+[0-3s] HOOK: "Everyone says [common advice about the member's pillar topic]. They're wrong."
 [3-10s] THE MYTH: What most people believe
 [10-20s] THE TRUTH: What actually works
 [20-25s] CTA: "Agree or disagree? Comment below"
 ```
 
-### CTA Frameworks (customised for the member)
+### CTA Frameworks
+
+Customise these to the member by reading their handles, pillars, lead magnet, and DM automation settings from the context files at runtime.
 
 Engagement CTAs (drive comments and saves):
 - "What's your experience with [topic]? Drop it in the comments"
@@ -234,22 +241,20 @@ Engagement CTAs (drive comments and saves):
 - "Which one resonates most? Tell me below"
 - "Share this with someone who needs to hear it"
 
-Lead generation CTAs:
-- "Want the full breakdown? Grab my free **[your lead magnet]**, link in bio"
+Lead generation CTAs (only when the member has an active lead magnet in `memory/audience-and-offers.md`):
+- "Want the full breakdown? Grab my free **[the member's lead magnet]**, link in bio"
 
 Authority CTAs:
-- "Follow [your Instagram handle] for more your first content pillar content"
-- "I share your content pillars every week. Hit follow so you don't miss it"
+- "Follow [the member's handle] for more [the member's pillar topic, lowercased] content"
+- "I share [the member's content pillars] every week. Hit follow so you don't miss it"
 
 Conversion CTAs:
 - "Ready to [outcome]? DM me 'READY' to learn more"
-- "This is exactly what I help your ideal customer do. If that's you, let's talk"
+- "This is exactly what I help [the member's audience] do. If that's you, let's talk"
 
-{{#if dmAutomationActive}}Codeword CTAs (DM automation):
-**Tool:** your DM automation tool
-**Active codewords:** [your DM codewords]
-- "Comment `[your codeword]` and I'll send you [resource]"
-{{/if}}
+Codeword CTAs (only when DM automation is active in `memory/business-context.md`):
+- Read the DM automation tool and the active codewords from `memory/business-context.md`.
+- "Comment `[the member's first codeword]` and I'll send you [resource]"
 
 ### Content Repurposing Formulas
 
@@ -275,10 +280,10 @@ The Angle Multiplier: take one idea and create content from 5 angles:
 
 ### Revenue-Driving Content Patterns
 
-The ideal weekly mix for the member:
-- 40% Authority content (educational, frameworks, insights from your content pillars)
+The ideal weekly mix (anchor the authority content to the member's content pillars from `memory/business-context.md`):
+- 40% Authority content (educational, frameworks, insights from the member's content pillars)
 - 25% Trust content (stories, social proof, vulnerability)
-- 10% Lead generation ([your lead magnet] promotion, email list growth)
+- 10% Lead generation (promoting the member's lead magnet, email list growth) if the member has an active lead magnet in `memory/audience-and-offers.md`
 - 20% Community content (engagement-driving, questions, relatable)
 - 5% Direct conversion (offer promotion)
 
@@ -288,11 +293,11 @@ This ratio means the audience always gets more value than asks, keeping trust wh
 
 ### Good example (annotated)
 
-Brief: founder, goal is to shift a belief, has a real story, audience is your ideal customer, pillar is your first content pillar. Formula chosen: Story Opener hook plus Structure C.
+Brief: founder, goal is to shift a belief, has a real story, audience and pillar read from the member's context files. In the worked example below, read the audience and pillar from `memory/audience-and-offers.md` and `memory/business-context.md`; here they stand in as "[the member's audience]" and "[the member's pillar topic]". Formula chosen: Story Opener hook plus Structure C.
 
 > A client told me last week she nearly cancelled our first call. [1]
 >
-> She thought your first content pillar was something only "technical people" got to do.
+> She thought [the member's pillar topic] was something only "technical people" got to do.
 >
 > Six weeks earlier she could not have told you the difference between a prompt and a plugin. Last Tuesday she ran a full session for her own team. [2]
 >
@@ -312,7 +317,7 @@ Three-audience note: a professional would tell a project story from inside her f
 
 ### Bad example (named failure mode: fabricated proof and an unpaid hook)
 
-> How I made $50K in 30 days using your first content pillar (step by step)
+> How I made $50K in 30 days using [the member's pillar topic] (step by step)
 >
 > [body that never shows any real numbers and gives three vague tips]
 >

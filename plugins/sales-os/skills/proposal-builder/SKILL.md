@@ -19,7 +19,7 @@ author: AI Her Way
 
 ## 1. Role and mandate
 
-This skill turns a single discovery call for your business into a same-day, on-brand proposal or quote while the conversation is still warm. It works for whoever ran the call: a founder proposing a service package, a professional (an account executive) building a proposal inside the company price book, or someone in real life proposing to a sponsor or partner for a cause. It owns the structure of the proposal end to end: restating the buyer's problem in their own words, defining the proposed scope and outcome, quantifying the value in the buyer's terms, laying out honest pricing (tiered where that helps the buyer choose), drawing the line between what is included and excluded, setting a timeline, and giving one clear next step to proceed. It drafts; it does not set or change price, and it does not send. The human approves the price and scope, and the human sends.
+This skill turns a single discovery call for the member's business into a same-day, on-brand proposal or quote while the conversation is still warm. It works for whoever ran the call: a founder proposing a service package, a professional (an account executive) building a proposal inside the company price book, or someone in real life proposing to a sponsor or partner for a cause. It owns the structure of the proposal end to end: restating the buyer's problem in their own words, defining the proposed scope and outcome, quantifying the value in the buyer's terms, laying out honest pricing (tiered where that helps the buyer choose), drawing the line between what is included and excluded, setting a timeline, and giving one clear next step to proceed. It drafts; it does not set or change price, and it does not send. The human approves the price and scope, and the human sends.
 
 ## 2. Governing principle
 
@@ -33,7 +33,7 @@ Three named bases underpin this skill.
 
 **Speed while the call is warm.** Practitioner benchmarks suggest that proposals sent quickly, within roughly a day of the call while the buyer is still warm, tend to convert better than proposals that arrive days later, because the problem is still vivid and the relationship is still front of mind. We attribute this as practitioner benchmarks suggest and do not state an exact percentage as fact. This is the reason the skill is built for same-day turnaround and reuses the call capture directly rather than starting from a blank page.
 
-**Honest pricing and no fabricated scarcity.** Robert Cialdini, in "Influence: The Psychology of Persuasion" (revised edition, 2021), establishes that scarcity and deadlines genuinely move people, but his ethical reading is explicit: real limits and real deadlines may be stated, invented ones never. Applied to proposals, this means a true validity window ("this quote holds until {{quoteValidUntil}}") or a true capacity limit may appear, but a manufactured "offer expires tonight" or a fabricated case study or result may not. Source: Robert B. Cialdini, "Influence: The Psychology of Persuasion", revised edition, 2021.
+**Honest pricing and no fabricated scarcity.** Robert Cialdini, in "Influence: The Psychology of Persuasion" (revised edition, 2021), establishes that scarcity and deadlines genuinely move people, but his ethical reading is explicit: real limits and real deadlines may be stated, invented ones never. Applied to proposals, this means a true validity window ("this quote holds until [the date the quote is valid until]") or a true capacity limit may appear, but a manufactured "offer expires tonight" or a fabricated case study or result may not. Source: Robert B. Cialdini, "Influence: The Psychology of Persuasion", revised edition, 2021.
 
 Three audiences, same evidence: a **founder** quantifies the value of a service package in the client's own numbers; a **professional** builds the proposal within the company price book and quantifies value against the buyer's metric, routing any discount to approval; in **real life** the same shape proposes to a sponsor or partner, quantifying the impact on the cause in terms that sponsor measures.
 
@@ -87,51 +87,50 @@ Never read "any relevant context". Read the named files above.
 
 ## 10. Output format
 
-The deliverable is the proposal below. Keep this structure, the section order, and every placeholder. Every price is a placeholder for the member to approve before anything is sent.
+The deliverable is the proposal below. Keep this structure and the section order. Fill every bracketed field at runtime: read the member's name, business, offers, pricing model, and voice from `memory/business-context.md` (or `memory/job-context.md` for a professional in a role), and what is known about this buyer from `memory/prospect-insights.md`. The client's name, the call date, the problem in the buyer's words, the value, the scope, the timeline, and the next step are set with the member for this specific deal, drawn from the call capture. Every price is a placeholder for the member to approve before anything is sent. If a needed value is not set, propose one and ask before saving it.
 
 ---
 
-# Proposal: [the offer] for {{clientName}}
+# Proposal: [the offer name, from the member's offers in `memory/business-context.md`] for [the client's name]
 
-> Prepared by the member, your business. Drafted same-day from our call on {{callDate}}. Every result, number, and limit below is true and approved before sending.
+> Prepared by [the member's name and business, from `memory/business-context.md`]. Drafted same-day from our call on [the call date]. Every result, number, and limit below is true and approved before sending.
 
 ---
 
 ## The problem, in your words
 
-{{problemInBuyerWords}}
+[the buyer's problem, restated in their own words from the call capture]
 
-(Restated from the call in {{clientName}}'s own language, not paraphrased.)
+(Restated from the call in the client's own language, not paraphrased.)
 
 ---
 
 ## The outcome we propose
 
-- **The result:** {{proposedOutcome}}
-- **How we get there (scope):** {{proposedScope}}
+- **The result:** [the proposed outcome]
+- **How we get there (scope):** [the proposed scope: the specific deliverables that produce the result]
 
 ---
 
 ## The value, in your terms
 
-{{valueQuantified}}
+[the value, quantified in the buyer's own numbers from the call]
 
-(Quantified in {{clientName}}'s own numbers where the call gave them: time saved, money gained or protected, risk reduced. Where a number was not available, the value is stated plainly and not invented.)
+(Quantified in the client's own numbers where the call gave them: time saved, money gained or protected, risk reduced. Where a number was not available, the value is stated plainly and not invented.)
 
 ---
 
 ## Pricing (honest, and built so you can choose)
 
-{{#if tiered}}
+Where tiers genuinely help the buyer choose, present the pricing as a table, one row per tier:
+
 | Tier | What it is for | What is included | Investment |
 |---|---|---|---|
-| [tier 1 name] | [who tier 1 is for] | [what tier 1 includes] | [tier 1 price] |
-| [tier 2 name] | [who tier 2 is for] | [what tier 2 includes] | [tier 2 price] |
-| [tier 3 name] | [who tier 3 is for] | [what tier 3 includes] | [tier 3 price] |
-{{/if}}
-{{#if singlePrice}}
-- **Investment:** [your price] for the scope above.
-{{/if}}
+| [tier name] | [who this tier is for] | [what is included] | [tier price, held for approval] |
+
+Where a single clean scope makes tiers unnecessary, state one line instead:
+
+- **Investment:** [the price, held for approval] for the scope above.
 
 Every price above is held for the member to approve before sending. No price is set, changed, or discounted by the AI.
 
@@ -139,11 +138,11 @@ Every price above is held for the member to approve before sending. No price is 
 
 ## What is included
 
-- {{inclusions}}
+- [each inclusion, one per line]
 
 ## What is not included
 
-- {{exclusions}}
+- [each exclusion, one per line]
 
 (Named deliberately, so the boundary is clear from the start.)
 
@@ -153,17 +152,15 @@ Every price above is held for the member to approve before sending. No price is 
 
 | Stage | What happens | When |
 |---|---|---|
-| {{stage1Name}} | {{stage1What}} | {{stage1When}} |
-| {{stage2Name}} | {{stage2What}} | {{stage2When}} |
-| {{stage3Name}} | {{stage3What}} | {{stage3When}} |
+| [stage name] | [what happens in this stage] | [when it happens] |
 
-{{#if quoteValidUntil}}This quote holds until {{quoteValidUntil}} (a real validity window, not manufactured pressure).{{/if}}
+Add one row per stage. If a real validity window exists, state it plainly: "This quote holds until [the date the quote is valid until]" (a real validity window, not manufactured pressure). If none exists, leave it out; never invent one.
 
 ---
 
 ## The next step
 
-{{nextStep}}
+[the single next step, set with the member for this deal]
 
 (One clear, easy, true action to proceed. No pressure.)
 
@@ -173,7 +170,7 @@ Every price above is held for the member to approve before sending. No price is 
 
 **Good example (annotated).**
 
-> The problem, in your words: "We are losing two days a week reconciling spreadsheets by hand, and we have missed two invoices this quarter." [1] The outcome: a single reconciled view, owned by your team in 30 days. Value: at the two days a week and the hourly cost {{clientName}} named on the call, that is roughly {{valueQuantified}} recovered a year, plus the missed-invoice risk closed. [2] Pricing, tiered: Essentials, Standard, and Done-with-you, each a placeholder held for the member to approve. [3] Inclusions and exclusions both named. This quote holds until the real date {{quoteValidUntil}}. [4] One next step: "reply yes to the tier that fits and we book the kickoff."
+> The problem, in your words: "We are losing two days a week reconciling spreadsheets by hand, and we have missed two invoices this quarter." [1] The outcome: a single reconciled view, owned by your team in 30 days. Value: at the two days a week and the hourly cost the client named on the call, that is roughly [the quantified yearly value] recovered a year, plus the missed-invoice risk closed. [2] Pricing, tiered: Essentials, Standard, and Done-with-you, each a placeholder held for the member to approve. [3] Inclusions and exclusions both named. This quote holds until [the real validity date]. [4] One next step: "reply yes to the tier that fits and we book the kickoff."
 
 1. The problem is the buyer's own words from the call, not the seller's paraphrase.
 2. Value is quantified in the buyer's own numbers (time and money the buyer named), per the value-selling and MEDDIC Metrics base, not as a feature list.
@@ -184,7 +181,7 @@ Across the three audiences this holds: a **founder** quantifies a package in the
 
 **Bad example (named failure mode: fabricated proof and unapproved discount).**
 
-> "Clients like you typically see a 312% return" (no such client, no such figure). [invented metric] "Here is what {{anotherClient}} achieved" (a case study that did not happen). [fabricated testimonial] "I have dropped the price 20% just for you, offer expires tonight." [unapproved discount and manufactured deadline]
+> "Clients like you typically see a 312% return" (no such client, no such figure). [invented metric] "Here is what [a named client] achieved" (a case study that did not happen). [fabricated testimonial] "I have dropped the price 20% just for you, offer expires tonight." [unapproved discount and manufactured deadline]
 
 Failure mode: fabricated results and pricing the member never approved. The return figure is invented, the case study did not happen, the discount was applied without approval (and, for a professional, outside the company process), and the deadline is manufactured. Each breaks the governing principle. The skill must refuse all of it and route to the honest pattern above: verified proof only, every price held for approval, and only real limits stated.
 

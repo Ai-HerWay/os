@@ -86,33 +86,34 @@ Never read "any relevant context". Read the named files above.
 
 ## 10. Output format
 
-The deliverable is the Upward Brief. Keep the structure and order; it is built to be read in under two minutes. Deliver in the channel the recipient actually reads (email body by default, never an attachment for a three-line situation).
+The deliverable is the Upward Brief. Keep this structure and the section order; it is built to be read in under two minutes. Fill every bracketed field at runtime: read the member's name from `memory/business-context.md`, and the recipient and sponsor details from `memory/client-roster.md` and `memory/engagement-briefs/{client-slug}.md`. The topic, situation, options, and ask are set with the member for this specific brief. If a needed value is not set, propose one and ask before saving it. Deliver in the channel the recipient actually reads (email body by default, never an attachment for a three-line situation).
 
 ---
 
-# Upward Brief: {{topic}}
+# Upward Brief: [the topic]
 
-**To:** {{recipientName}} | **From:** the member | **Date:** {{briefDate}} | **Type:** {{briefType}}
+**To:** [the recipient's name, from `memory/engagement-briefs/{client-slug}.md`] | **From:** [the member, read the full name from `memory/business-context.md`] | **Date:** [the brief date] | **Type:** [cadence, change, or decision brief]
 
 ## Situation (three lines)
 
-1. {{whatIsHappening}}
-2. {{whyItMattersToYou}}
-3. {{whereItHeadsIfNothingChanges}}
+1. [what is happening]
+2. [why it matters to the reader]
+3. [where it heads if nothing changes]
 
 ## Options
 
-- **A. {{optionA}}** ({{optionACost}})
-- **B. {{optionB}}** ({{optionBCost}})
-{{#if optionC}}- **C. {{optionC}}** ({{optionCCost}}){{/if}}
+Two or three real options, each with its cost in one line:
 
-**Recommendation: {{recommendedOption}}.** {{recommendationReason}}
+- **A. [the option]** ([its cost and consequence])
+- **B. [the option]** ([its cost and consequence])
+
+**Recommendation: [the recommended option].** [the reason, in one sentence, serving the reader]
 
 ## What I need from you
 
-{{theAsk}} **by {{askDate}}.** {{costOfDelay}}
+[the exact ask] **by [the ask date].** [the honest cost of deciding late]
 
-{{#if noActionNeeded}}*No action needed from you; this is for awareness. I will flag it again if that changes.*{{/if}}
+If no action is needed, replace the ask with: *No action needed from you; this is for awareness. I will flag it again if that changes.*
 
 ---
 

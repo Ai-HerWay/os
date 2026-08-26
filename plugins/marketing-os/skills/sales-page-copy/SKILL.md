@@ -89,7 +89,9 @@ Specific never-rules for this skill's real failure modes:
 ## 9. Inputs and memory
 
 Reads:
-- `memory/business-context.md` (voice, audience, offers, transformation, objections, CTA style, spelling variant, emoji rule, hallmark phrases, primary revenue path).
+- `memory/business-context.md` (identity, voice, rules, CTA style, spelling variant, emoji rule, primary revenue path).
+- `memory/audience-and-offers.md` (ideal client, what they want, pain points, transformation, offers, lead magnets, objections).
+- `memory/voice.md` and `skills/brand-voice.md` (tone, hallmark phrases, voice).
 - Any named working-memory files for this offer (the offer brief, audience research, the testimonial bank).
 - `memory/industry-context.md` if the member uses one (sector norms, compliance limits on claims).
 
@@ -106,21 +108,23 @@ The deliverable is a complete sales page draft (or a review with rewritten secti
 
 ### Header (every page draft)
 
-> # Sales Page Copy Guide: the member
+Read the member's name, title, business name, voice, audience, offers, and transformation from `memory/business-context.md` and `memory/audience-and-offers.md` at runtime and fill the header. If a value is not set, propose one and ask before saving.
+
+> # Sales Page Copy Guide: [the member's name and title]
 >
 > Customised for the member's voice, audience, and offers. A framework to write, review, or brief sales pages. Adapt the templates with specific stories, proof, and details, never copy-paste them.
 
-**Core promise.** Transformation: the transformation you deliver. For: your ideal customer, as described in memory/business-context.md. By: the member (your business).
+**Core promise.** Transformation: [the member's transformation]. For: [the member's full audience descriptor]. By: [the member's name and title] ([the member's business name]).
 
 ### Hero section formulas
 
 The first thing visitors see. It must communicate the transformation, identify the audience, and signal why now, in seconds. Pick the formula that matches the reader's awareness (section 4).
 
-- Formula 1, Pain to Promise (problem-aware, cold): "Stop [biggest frustration]. Start [desired outcome]. your business helps your ideal customer get to: the transformation you deliver."
-- Formula 2, Identity to Outcome (solution-aware): "For your ideal customer who are ready to the transformation you deliver, without the [common frustration or fear]."
-- Formula 3, Question to Aspiration (warm): "What if you could [the transformation you deliver]? The member shows you exactly how."
+- Formula 1, Pain to Promise (problem-aware, cold): "Stop [biggest frustration]. Start [desired outcome]. [The member's business] helps [the member's audience] get to: [the member's transformation]."
+- Formula 2, Identity to Outcome (solution-aware): "For [the member's audience] who are ready to [the member's transformation], without the [common frustration or fear]."
+- Formula 3, Question to Aspiration (warm): "What if you could [the member's transformation]? [The member] shows you exactly how."
 
-Sub-headline template: "your business is the [system/method/programme] that gives your ideal customer everything they need to [specific outcome], even if [common objection or limiting belief]."
+Sub-headline template: "[The member's business] is the [system/method/programme] that gives [the member's audience] everything they need to [specific outcome], even if [common objection or limiting belief]."
 
 ### Full page structure
 
@@ -133,13 +137,13 @@ Section 2, Problem (liking + unity, "this person gets me"). Describe their curre
 ```
 ## Sound familiar?
 
-- [your audience's pain points]
+- [list the member's real pain points from memory/audience-and-offers.md]
 
 You've tried [common failed solutions]. You've spent [time/money] on [things that didn't work].
 
 And you're still stuck.
 
-It's not your fault. The [industry/conventional approach] wasn't built for your ideal customer.
+It's not your fault. The [industry/conventional approach] wasn't built for [the member's audience].
 ```
 
 Section 3, Solution (the bridge). Show the "what", hold back the full "how".
@@ -149,18 +153,18 @@ Section 3, Solution (the bridge). Show the "what", hold back the full "how".
 
 What if instead of [painful current approach], you had [your unique mechanism]?
 
-your business gives you:
+[The member's business] gives you:
 - [Benefit 1, tied to pain point 1]
 - [Benefit 2, tied to pain point 2]
 - [Benefit 3, tied to pain point 3]
 
-So you can finally the transformation you deliver.
+So you can finally [the member's transformation].
 ```
 
 Section 4, Social Proof (consensus + authority). Real, specific, attributable only.
 
 ```
-## What your ideal customer are saying
+## What [the member's audience] are saying
 
 > "[Testimonial that addresses the transformation promise]"
 > [Client name], [relevant credential or result]
@@ -187,7 +191,7 @@ Section 7, Pricing (reciprocity + anchoring). Anchor against the cost of NOT act
 
 Think about it this way:
 - The cost of staying stuck: [quantify in time, money, or opportunity]
-- The value of the transformation you deliver: [quantify the positive outcome]
+- The value of [the member's transformation]: [quantify the positive outcome]
 - Your investment: [price], a fraction of the return
 
 [Guarantee statement if applicable]
@@ -199,7 +203,7 @@ Section 8, FAQ (remove final friction). 5 to 8 questions on logistics, fit, and 
 ## Frequently Asked Questions
 
 **Who is this for?**
-your ideal customer who want to the transformation you deliver. If that's you, this was built for you.
+[The member's audience] who want to [the member's transformation]. If that's you, this was built for you.
 
 **Who is this NOT for?**
 People looking for a quick fix or who aren't willing to [key commitment required].
@@ -217,11 +221,11 @@ People looking for a quick fix or who aren't willing to [key commitment required
 Section 9, Final CTA (one push for the ready buyer). Recap the transformation, make the next step crystal clear.
 
 ```
-## Ready to the transformation you deliver?
+## Ready to [the member's transformation]?
 
 You've read this far because something needs to change.
 
-your business gives you the [method/system/support] to make it happen.
+[The member's business] gives you the [method/system/support] to make it happen.
 
 [Primary CTA button]
 
@@ -230,16 +234,17 @@ Your future self will thank you. Click the button.
 
 ### Offer-specific sections
 
-For each offer, build a tailored section that names the offer, leads with its specific benefit, and links to the transformation. Your offers: [your offers, from memory/business-context.md]
-Use **[your lead magnet]** as a low-friction entry point on the page (an opt-in that warms cold traffic before the main pitch).
+For each offer the member has in `memory/audience-and-offers.md`, build a tailored section that names the offer, leads with its specific benefit, and links to the transformation.
 
-Primary revenue path: [your primary revenue path]
+If the member has a lead magnet, use it as a low-friction entry point on the page (an opt-in that warms cold traffic before the main pitch).
+
+Primary revenue path: read the member's primary revenue path from `memory/business-context.md`.
 
 ### Objection handling
 
 Use these reframes throughout: in a dedicated section, in FAQ answers, and woven into testimonials.
 
-Address these specific objections from your audience research: [the objections you commonly hear]
+Address the member's specific audience objections from `memory/audience-and-offers.md` (and any offer-specific objection notes in working memory).
 
 Reframe pattern, "I hear you, and here's the thing":
 
@@ -261,7 +266,7 @@ Common objection examples:
 
 ### CTA patterns
 
-Your CTA style: your preferred style, from your context file.
+Use the member's CTA style, read from `memory/business-context.md`.
 
 Button text options: "Get access now", "Join the waitlist", "Claim your spot", "Start today", "I'm in, let's go".
 
@@ -274,12 +279,14 @@ CTA placement rules:
 
 ### Voice rules
 
-- Language: your preferred variant of English spelling throughout.
-- Emoji usage: your emoji preference.
-- CTA style: your preferred style, from your context file.
-- Voice description: as defined in your voice rules.
+Read the member's voice, tone, hallmark phrases, language variant, emoji rule, and CTA style from `memory/business-context.md`, `memory/voice.md`, and `skills/brand-voice.md` at runtime. If a value is not set, propose one and ask before saving.
 
-Hallmark phrases, weave in naturally where they fit, never force: [your hallmark phrases]
+- Language: the member's language variant (Australian English by default) throughout.
+- Emoji usage: the member's emoji rule.
+- CTA style: the member's CTA style.
+- Voice description: the member's voice description.
+
+Hallmark phrases: weave the member's hallmark phrases in naturally where they fit, never force.
 
 Voice principles:
 1. Write like you talk. The page should sound like the member in conversation, not a copywriter performing.
@@ -290,7 +297,7 @@ Voice principles:
 
 ### Sales page checklist
 
-Before publishing any page for your business, verify:
+Before publishing any page for the member's business, verify:
 
 - [ ] Hero headline communicates the core transformation clearly and matches reader awareness.
 - [ ] Problem section makes the reader feel deeply understood.
@@ -300,8 +307,8 @@ Before publishing any page for your business, verify:
 - [ ] Pricing is anchored against the cost of inaction.
 - [ ] FAQ covers the top 5 to 8 questions from real prospects.
 - [ ] Any deadline or scarcity claim is genuinely true.
-- [ ] CTA buttons use your defined CTA style and the placement rules.
-- [ ] Page uses your preferred variant of English spelling throughout.
+- [ ] CTA buttons use the member's defined CTA style and the placement rules.
+- [ ] Page uses the member's language variant (Australian English by default) throughout.
 - [ ] Voice matches the member's brand: conversational, not corporate.
 - [ ] Mobile experience is tested (50 percent or more of traffic is mobile).
 - [ ] Page loads quickly (under 3 seconds).

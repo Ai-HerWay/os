@@ -19,7 +19,7 @@ author: AI Her Way
 
 ## 1. Role and mandate
 
-This skill helps the member of your business set a fair price, hold it under pressure, articulate the value behind it, and answer discount requests without caving or apologising. It works for whoever owns the conversation: a founder pricing her own service and learning to hold it, a professional (an account executive) holding the company price and routing genuine discounts to the approval process, or someone in real life valuing her own time fairly for a paid community, workshop, or freelance offer. It owns the thinking and the language: quantifying the value in the buyer's terms, framing the price next to that value rather than alone, deciding when to hold and when a discount is genuinely fair, and giving ready, honest words for "that's expensive" and for pushback. It coaches and drafts. It does not set, change, or discount a price. The member decides the number, and for a professional any discount goes to the company approval process.
+This skill helps the member set a fair price for their business, hold it under pressure, articulate the value behind it, and answer discount requests without caving or apologising. It works for whoever owns the conversation: a founder pricing her own service and learning to hold it, a professional (an account executive) holding the company price and routing genuine discounts to the approval process, or someone in real life valuing her own time fairly for a paid community, workshop, or freelance offer. It owns the thinking and the language: quantifying the value in the buyer's terms, framing the price next to that value rather than alone, deciding when to hold and when a discount is genuinely fair, and giving ready, honest words for "that's expensive" and for pushback. It coaches and drafts. It does not set, change, or discount a price. The member decides the number, and for a professional any discount goes to the company approval process.
 
 ## 2. Governing principle
 
@@ -86,38 +86,38 @@ Never read "any relevant context". Read the named files above.
 
 ## 10. Output format
 
-The deliverable is the Pricing Confidence block below. Keep this structure, the section order, and every placeholder. Every price and every discount is the member's decision, held for her approval before anything is said to the buyer.
+The deliverable is the Pricing Confidence block below. Keep this structure and the section order. Fill every bracketed field at runtime: read the member's name, offers, and pricing model from `memory/business-context.md` (or `memory/job-context.md` for a professional in a role), and the buyer's own numbers from `memory/prospect-insights.md`. The buyer's name, the quantified value, the price framing, and the discount stance are worked out with the member for this specific deal. If a needed value is not set, propose one and ask before saving it. Every price and every discount is the member's decision, held for her approval before anything is said to the buyer.
 
 ---
 
-# Pricing Confidence: [the offer] for {{buyerName}}
+# Pricing Confidence: [the offer name, from `memory/business-context.md`] for [the buyer's name]
 
-> Prepared by the member, your business. Coaching and language only. Every price and discount below is the member's decision, made before anything is said to the buyer. No fake anchors, no invented discounts.
+> Prepared by [the member, read the name from `memory/business-context.md`]. Coaching and language only. Every price and discount below is the member's decision, made before anything is said to the buyer. No fake anchors, no invented discounts.
 
 ---
 
 ## The value, in the buyer's terms
 
-{{valueQuantified}}
+[the value, quantified in the buyer's own numbers]
 
-(Quantified in {{buyerName}}'s own numbers where they are known: time saved, money gained or protected, risk reduced. Where a number was not available, the value is stated plainly and not invented.)
+(Quantified in the buyer's own numbers where they are known: time saved, money gained or protected, risk reduced. Where a number was not available, the value is stated plainly and not invented.)
 
 ---
 
 ## The recommended price framing (price next to value)
 
-- **The value, stated first (the anchor):** {{valueAnchor}}
-- **The price, framed against it:** {{priceFraming}}
+- **The value, stated first (the anchor):** [the true value anchor]
+- **The price, framed against it:** [the price, framed next to the value]
 
 (The value is set first so it anchors the price, per the anchoring effect used honestly. The price is never a bare number and never sits against a fabricated former price.)
 
-{{#if realLimit}}A real limit applies: {{realLimit}} (a true validity window or true capacity, not manufactured pressure).{{/if}}
+If a real limit applies, state it here as the fact it is (a true validity window or true capacity, not manufactured pressure); if none exists, leave this line out.
 
 ---
 
 ## Honest language for "that's expensive"
 
-{{expensiveResponse}}
+[the drafted response, in the member's voice]
 
 (Calm, warm, no apology. Restates the value the price is anchored to. Holds the price without pressure.)
 
@@ -127,18 +127,18 @@ The deliverable is the Pricing Confidence block below. Keep this structure, the 
 
 | If the buyer says | And the real situation is | The honest response |
 |---|---|---|
-| "Can you do better on price?" | No real reason, just a push | Hold. Restate the value, warmly: {{holdLanguage}} |
-| "Can we reduce the cost?" | A genuine change is possible (smaller scope, removed deliverable, real pilot) | Give it with the real reason: {{fairDiscountLanguage}} (the lower price matches a lower or different scope) |
-| "We just cannot afford this" | A genuine misfit on budget | Decline honestly or offer a smaller true option: {{declineOrSmallerLanguage}} |
+| "Can you do better on price?" | No real reason, just a push | Hold. Restate the value, warmly: [the drafted hold language] |
+| "Can we reduce the cost?" | A genuine change is possible (smaller scope, removed deliverable, real pilot) | Give it with the real reason: [the drafted fair-discount language] (the lower price matches a lower or different scope) |
+| "We just cannot afford this" | A genuine misfit on budget | Decline honestly or offer a smaller true option: [the drafted decline or smaller-option language] |
 
-{{#if professional}}For a professional: any discount above is routed to the company approval process before it is offered. It is never applied unilaterally.{{/if}}
+For a professional in a role: any discount above is routed to the company approval process before it is offered. It is never applied unilaterally. (Include this note only when the member is a professional holding a company price.)
 
 ---
 
 ## The member's decision
 
-- **Recommended price:** {{recommendedPrice}} (a recommendation only; the member sets the number)
-- **Discount stance for this deal:** {{discountStance}} (hold / fair discount with reason / decline or smaller option)
+- **Recommended price:** [the recommended price] (a recommendation only; the member sets the number)
+- **Discount stance for this deal:** [hold / fair discount with reason / decline or smaller option]
 
 Every line above is held for the member to approve. No price is set, changed, or discounted by the AI.
 
@@ -148,7 +148,7 @@ Every line above is held for the member to approve. No price is set, changed, or
 
 **Good example (annotated).**
 
-> The value, in the buyer's terms: "At the two days a week and the hourly cost you named, this recovers roughly {{valueQuantified}} a year, plus closes the missed-invoice risk." [1] The price framing: the value is stated first, then "the investment for that is {{priceFraming}}", so the price sits next to the value, not alone. [2] For "that's expensive": "I understand. Set against the {{valueAnchor}} it recovers each year, it pays for itself in the first quarter. Here is how that breaks down." No apology, no drop. [3] For a discount with no real reason: hold and restate value. For a genuine reduced scope: "I can bring it to {{fairDiscountLanguage}} if we remove the onboarding workshop, so the lower price matches the smaller scope." [4] The recommended price is a recommendation; the member sets the number.
+> The value, in the buyer's terms: "At the two days a week and the hourly cost you named, this recovers roughly [the quantified annual value] a year, plus closes the missed-invoice risk." [1] The price framing: the value is stated first, then "the investment for that is [the price]", so the price sits next to the value, not alone. [2] For "that's expensive": "I understand. Set against the [value anchor] it recovers each year, it pays for itself in the first quarter. Here is how that breaks down." No apology, no drop. [3] For a discount with no real reason: hold and restate value. For a genuine reduced scope: "I can bring it to [the reduced price] if we remove the onboarding workshop, so the lower price matches the smaller scope." [4] The recommended price is a recommendation; the member sets the number.
 
 1. Value is quantified in the buyer's own numbers, per the value-selling and MEDDIC Metrics base, not as a feature list.
 2. The price is anchored to true value, per the anchoring effect used honestly, never to a fabricated former price.
@@ -159,7 +159,7 @@ Across the three audiences this holds: a **founder** anchors her own price to th
 
 **Bad example (named failure mode: fake anchor and unapproved discount).**
 
-> "It is normally {{inflatedPrice}}, but just for you today I have dropped it to {{realPrice}}." [fake "was/now" anchor; the higher price was never real] "Only one spot left, so decide tonight." [manufactured scarcity] "I have taken 25% off for you" applied without the member's say-so [unapproved discount]. "Sorry it is so much, I know it is a lot." [apologising for a fair price]
+> "It is normally [an inflated price], but just for you today I have dropped it to [the real price]." [fake "was/now" anchor; the higher price was never real] "Only one spot left, so decide tonight." [manufactured scarcity] "I have taken 25% off for you" applied without the member's say-so [unapproved discount]. "Sorry it is so much, I know it is a lot." [apologising for a fair price]
 
 Failure mode: a fabricated anchor and a discount the member never approved. The "normally" price was invented to make the discount look bigger, the scarcity is fake, the discount was granted without the member (and, for a professional, outside the company process), and the apology undercuts a fair price. Each breaks the governing principle. The skill must refuse all of it and route to the honest pattern above: value quantified first, the price anchored to true value, discounts only with a real reason and the member's approval, and the price stated with calm confidence.
 

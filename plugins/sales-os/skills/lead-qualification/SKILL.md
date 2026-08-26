@@ -19,7 +19,7 @@ author: AI Her Way
 
 ## 1. Role and mandate
 
-This skill answers one question for your business: should I take this? It scores a single new lead or enquiry against the member's ideal-customer fit and the reality of the deal, then recommends one of three calls: qualify and pursue, qualify with caution, or decline graciously. It owns the fit assessment end to end: reading the member's ICP, checking the buying reality, naming the real risk, and producing either a recommended next step or a drafted gracious decline note with a referral-out where one is possible. It works for the person deciding where to spend scarce selling time: a founder vetting a client enquiry, a professional (AE or BDR) qualifying an opportunity against the company ICP and buying group, or someone in real life deciding which volunteer or community commitment to take on. It does not run outreach, write proposals, or set price. It decides whether this lead deserves the member's time at all, and it is willing to say no.
+This skill answers one question for the member's business: should I take this? It scores a single new lead or enquiry against the member's ideal-customer fit and the reality of the deal, then recommends one of three calls: qualify and pursue, qualify with caution, or decline graciously. It owns the fit assessment end to end: reading the member's ICP, checking the buying reality, naming the real risk, and producing either a recommended next step or a drafted gracious decline note with a referral-out where one is possible. It works for the person deciding where to spend scarce selling time: a founder vetting a client enquiry, a professional (AE or BDR) qualifying an opportunity against the company ICP and buying group, or someone in real life deciding which volunteer or community commitment to take on. It does not run outreach, write proposals, or set price. It decides whether this lead deserves the member's time at all, and it is willing to say no.
 
 ## 2. Governing principle
 
@@ -89,21 +89,21 @@ Never read "any relevant context". Read the named files above.
 
 ## 10. Output format
 
-The deliverable is the Fit Assessment below. Keep this structure, the section order, and every placeholder. Gate optional parts with the conditional blocks shown, and keep those blocks side by side, never one inside another.
+The deliverable is the Fit Assessment below. Keep this structure and the section order. Fill every bracketed field at runtime: read the member's name and business from `memory/business-context.md` (or `memory/job-context.md` for a professional in a role), the ICP and anti-persona from the same file, and what is verified about this lead from `memory/prospect-insights.md` and `memory/sales-pipeline.md` or the connected CRM. The lead's name, the verdict, the reads, and the drafted note are produced for this specific lead. If a needed value is not set, propose one and ask before saving it.
 
 ---
 
-# Fit Assessment: {{leadName}}
+# Fit Assessment: [the lead's name]
 
-> Prepared for the member at your business. An honest read on whether this lead deserves your scarce time. Saying no is a valid, valuable answer.
+> Prepared for [the member, read the name from `memory/business-context.md`] at [the member's business]. An honest read on whether this lead deserves your scarce time. Saying no is a valid, valuable answer.
 
 ---
 
 ## Verdict
 
-**{{fitVerdict}}** (good / maybe / decline)
+**[the verdict: good / maybe / decline]**
 
-One-line reason: {{verdictReason}}
+One-line reason: [the one-line reason]
 
 ---
 
@@ -111,46 +111,34 @@ One-line reason: {{verdictReason}}
 
 | Check | Read | Confirmed / unknown / absent |
 |---|---|---|
-| ICP fit (vs your ideal customer) | {{icpFitRead}} | {{icpFitStatus}} |
-| Real pain (MEDDIC: Identify the pain) | {{painRead}} | {{painStatus}} |
-| Economic buyer / budget (MEDDIC) | {{buyerRead}} | {{buyerStatus}} |
-| Decision process / timeline (MEDDIC) | {{processRead}} | {{processStatus}} |
-| Lead source and warmth | {{sourceRead}} | {{sourceStatus}} |
+| ICP fit (vs your ideal customer) | [the read against the member's ICP] | [confirmed / unknown / absent] |
+| Real pain (MEDDIC: Identify the pain) | [the read] | [confirmed / unknown / absent] |
+| Economic buyer / budget (MEDDIC) | [the read] | [confirmed / unknown / absent] |
+| Decision process / timeline (MEDDIC) | [the read] | [confirmed / unknown / absent] |
+| Lead source and warmth | [the read] | [confirmed / unknown / absent] |
 
-Anti-persona check: {{antiPersonaCheck}}
+Anti-persona check: [the read against the member's stated anti-persona]
 
 ---
 
 ## The real concern or risk
 
-{{#if hasRisk}}The one thing most likely to make this a poor-fit or painful deal: {{realRisk}}{{/if}}
-{{#if noRisk}}No material risk surfaced against your ICP and the reality checks.{{/if}}
+[the one thing most likely to make this a poor-fit or painful deal, or an honest statement that no material risk surfaced against the ICP and the reality checks]
 
 ---
 
 ## Recommendation
 
-{{#if qualify}}**Pursue.** Recommended next step: {{recommendedNextStep}} (the single best action to confirm fit and move honestly forward, for your approval before it goes out).{{/if}}
-{{#if declineNoReferral}}**Decline graciously.** Drafted note for your review, ready to send once approved:
+State the verdict's recommendation. If the verdict is pursue: "**Pursue.** Recommended next step: [the single best action to confirm fit and move honestly forward, for the member's approval before it goes out]." If the verdict is decline: "**Decline graciously.**" (adding "with a referral" only where a genuine referral-out exists), followed by the drafted note below for the member's review, ready to send once approved:
 
-> Hi {{leadFirstName}},
+> Hi [the lead's first name],
 >
-> {{declineNoteBody}}
+> [the warm, honest decline note body]
+>
+> If it helps, [the referral suggestion] may be a better fit for what you need. (include this line only where a genuine referral-out exists)
 >
 > Warm wishes,
-> The member
-{{/if}}
-{{#if declineWithReferral}}**Decline graciously, with a referral.** Drafted note for your review, ready to send once approved:
-
-> Hi {{leadFirstName}},
->
-> {{declineNoteBody}}
->
-> If it helps, {{referralSuggestion}} may be a better fit for what you need.
->
-> Warm wishes,
-> The member
-{{/if}}
+> [the member's first name]
 
 ---
 

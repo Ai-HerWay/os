@@ -19,7 +19,7 @@ author: AI Her Way
 
 ## 1. Role and mandate
 
-This skill finds the quiet money already sitting in your business's history: the enquiries that went cold and the past clients who drifted, where trust and context already exist. It looks across the old pipeline (a connected CRM or `memory/sales-pipeline.md`) and the member's records, decides which dormant contacts are genuinely worth reviving and why now, and for each drafts a value-first re-opener in the member's voice that leads with something useful before any ask. It works for the founder reviving old enquiries and past clients, the professional (AE or account manager) reactivating closed-lost or dormant accounts inside company rules, and real life, re-inviting past participants to a community offering. It owns the surfacing and the drafting. It does not qualify brand-new leads, run live campaigns, or close the deal: it reopens an honest door that is already half-open, and only where there is a real relationship and something real to say.
+This skill finds the quiet money already sitting in the member's business history: the enquiries that went cold and the past clients who drifted, where trust and context already exist. It looks across the old pipeline (a connected CRM or `memory/sales-pipeline.md`) and the member's records, decides which dormant contacts are genuinely worth reviving and why now, and for each drafts a value-first re-opener in the member's voice that leads with something useful before any ask. It works for the founder reviving old enquiries and past clients, the professional (AE or account manager) reactivating closed-lost or dormant accounts inside company rules, and real life, re-inviting past participants to a community offering. It owns the surfacing and the drafting. It does not qualify brand-new leads, run live campaigns, or close the deal: it reopens an honest door that is already half-open, and only where there is a real relationship and something real to say.
 
 ## 2. Governing principle
 
@@ -46,7 +46,7 @@ This is the psychology layer. For every dormant contact, run their state against
 | Contact has opted out, unsubscribed, or asked not to be contacted | Never re-contact. Remove from the run, do not draft anything | None. This never bends. An opt-out is permanent until they themselves re-engage |
 | No genuine prior relationship or opt-in (a scraped name, a bought list, a passing contact) | Do not treat as warm. Do not surface for re-engagement | None. Old does not mean warm. No real relationship means no re-opener |
 | Nothing of value to lead with (no honest reason, nothing useful to say) | Wait. Find a real reason (a relevant resource, an update, an answer) before touching, or hold | A real, contact-side event (their stated timeline returning, a renewal date they named) can itself be the value |
-| Dormant contact with a real prior relationship and something useful to offer now | Surface for a value-first re-opener; draft a low-pressure message that leads with the value | A note saying "do not contact until {{date}}", which is honoured |
+| Dormant contact with a real prior relationship and something useful to offer now | Surface for a value-first re-opener; draft a low-pressure message that leads with the value | A note saying "do not contact until [a stated date]", which is honoured |
 | A real deadline or limit exists (a true cap, a real expiry, their stated timeline) | Name it honestly to help an undecided contact decide | None on honesty. If you would have to soften or stretch the truth to use it, do not use it |
 | No real reason for urgency exists | Keep the re-opener calm and useful, no pressure language, no invented "closing soon" | None. Manufactured urgency is forbidden whatever the projected lift |
 | Contact was re-contacted very recently, or the gap since dormancy is too short | Hold. A re-opener is a single soft touch, not a sequence; do not stack messages | A direct request from the contact ("reach out next quarter") resets to their stated preference |
@@ -86,66 +86,51 @@ Never read "any relevant context". Read the named files above.
 
 ## 10. Output format
 
-The deliverable is the Re-Engagement Run below. Keep this structure, the order, and every placeholder. Optional fields are gated.
+The deliverable is the Re-Engagement Run below. Keep this structure and the section order. Fill every bracketed field at runtime: read the member's name and business from `memory/business-context.md` (or `memory/job-context.md` for a professional in a role), the dormant records from `memory/sales-pipeline.md` or the connected CRM, and what is known about each contact from `memory/prospect-insights.md`. The run date, the shortlist, each draft, and each next step are set with the member for this specific run. If a needed value is not set, propose one and ask before saving it.
 
 ---
 
-# Re-Engagement Run: {{runDate}}
+# Re-Engagement Run: [the run date]
 
-> Prepared for the member, your business. Every contact below has a genuine prior relationship and has not opted out. Each re-opener leads with something useful before any ask. Nothing sends until you approve it.
+> Prepared for [the member, read the name and business from `memory/business-context.md`]. Every contact below has a genuine prior relationship and has not opted out. Each re-opener leads with something useful before any ask. Nothing sends until you approve it.
 
-**Dormant contacts worth reviving: {{shortlistCount}}** (of {{dormantReviewedCount}} reviewed)
+**Dormant contacts worth reviving: [the shortlist count]** (of [the number of dormant records reviewed])
 
 ---
 
 ## Shortlist: who is worth reviving now
 
+Add one row per shortlisted contact, drawn from `memory/sales-pipeline.md` or the connected CRM and verified against `memory/prospect-insights.md`.
+
 | Contact | Last contact | Prior relationship | Why worth it now |
 |---|---|---|---|
-| {{contact1.name}} | {{contact1.lastContact}} | {{contact1.relationship}} | {{contact1.whyNow}} |
-| {{contact2.name}} | {{contact2.lastContact}} | {{contact2.relationship}} | {{contact2.whyNow}} |
-| {{contact3.name}} | {{contact3.lastContact}} | {{contact3.relationship}} | {{contact3.whyNow}} |
+| [contact name] | [last contact date] | [the genuine prior relationship] | [why this contact is worth reviving now] |
 
 ---
 
 ## Drafted value-first re-openers
 
-### {{contact1.name}} ({{contact1.channel}})
+Repeat the block below for each contact on the shortlist.
 
-{{contact1.draft}}
+### [contact name] ([the channel for this contact])
 
-- **Value this re-opener leads with:** {{contact1.valueLed}}
-{{#if contact1.realDeadline}}- **Honest deadline named:** {{contact1.realDeadline}}{{/if}}
-- **One easy next step:** {{contact1.nextStep}}
+[the drafted value-first re-opener, in the member's voice]
 
-### {{contact2.name}} ({{contact2.channel}})
-
-{{contact2.draft}}
-
-- **Value this re-opener leads with:** {{contact2.valueLed}}
-{{#if contact2.realDeadline}}- **Honest deadline named:** {{contact2.realDeadline}}{{/if}}
-- **One easy next step:** {{contact2.nextStep}}
-
-### {{contact3.name}} ({{contact3.channel}})
-
-{{contact3.draft}}
-
-- **Value this re-opener leads with:** {{contact3.valueLed}}
-{{#if contact3.realDeadline}}- **Honest deadline named:** {{contact3.realDeadline}}{{/if}}
-- **One easy next step:** {{contact3.nextStep}}
+- **Value this re-opener leads with:** [the useful thing this message gives before any ask]
+- **Honest deadline named:** [the real deadline, only where one genuinely exists; leave this line out otherwise]
+- **One easy next step:** [the low-pressure next step]
 
 ---
 
-{{#if heldContacts}}## Held or skipped (and why)
+## Held or skipped (and why)
 
-{{heldContacts}}
-{{/if}}
+[each contact held or skipped, with the reason: an opt-out, no genuine relationship, nothing of value to lead with, or too soon. If nothing was held, say so.]
 
 ## Consent and honesty check
 
-- **Opt-outs honoured this run:** {{optOutCount}}
-- **Records dropped for no genuine relationship:** {{noRelationshipCount}}
-- **Contacts held for nothing of value to lead with:** {{noValueCount}}
+- **Opt-outs honoured this run:** [the number of opt-outs honoured]
+- **Records dropped for no genuine relationship:** [the number dropped]
+- **Contacts held for nothing of value to lead with:** [the number held]
 
 ---
 

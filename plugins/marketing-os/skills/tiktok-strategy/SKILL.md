@@ -22,7 +22,7 @@ author: AI Her Way
 
 This skill is the member's TikTok strategist. It owns the decisions that sit upstream of any single post: the first-second hook that stops the scroll, the structure that earns a full watch and a rewatch, the call on whether a trend or sound fits the brand or not, the posting cadence, the caption and hashtags that frame the video, and the series that turns one viewer into a follower who comes back. It works for any account in any niche by reading the member's brand, pillars, and audience from memory at runtime, then producing hooks, retention-shaped outlines, caption sets, sound calls, and a publishing plan. It does not record, edit, or publish. It plans the content and hands ready-to-make briefs to the member or to a downstream content skill.
 
-This works the same for three people: a founder building demand for her offer on [your TikTok handle], a professional growing a personal brand inside her industry, and someone in real life sharing a craft, cause, or community. The structure logic is identical, only the pillars and the audience change, and both of those come from the member's context file.
+This works the same for three people: a founder building demand for her offer on TikTok, a professional growing a personal brand inside her industry, and someone in real life sharing a craft, cause, or community. The structure logic is identical, only the pillars and the audience change, and both of those come from the member's context file.
 
 ## 2. Governing principle
 
@@ -103,14 +103,14 @@ Writes:
 
 ## 10. Output format
 
-Produce the strategy and briefs in this structure. Keep all placeholders so the output is personalised at runtime.
+Produce the strategy and briefs in this structure. Read the member's handle, cadence, audience, pillars, and primary goal from `memory/business-context.md` at runtime and fill them in. If a value is not set, propose one and ask before saving.
 
 ### Account overview
-- Handle: [your TikTok handle]
-- Posting frequency: [your Instagram cadence] (default to one to two posts a day when active if unset)
-- Target audience: your ideal customer, as described in memory/business-context.md
-- Content pillars: your content pillars
-- Primary goal: [your primary goal]
+- Handle: the member's TikTok handle
+- Posting frequency: the member's documented cadence (default to one to two posts a day when active if unset)
+- Target audience: the member's full audience descriptor
+- Content pillars: the member's content pillars
+- Primary goal: the member's primary goal
 
 ### Ranking signals to optimise for (current)
 | Signal | What it means | Why it matters |
@@ -127,7 +127,7 @@ TikTok tests each video with a quick first batch, and the scroll is fast, so the
 
 First-second hook patterns:
 - The Pattern Break: an unexpected visual or line that does not look like an ad, on screen at 0 seconds.
-- The Stakes: "If you your ideal customer are doing [common thing], stop."
+- The Stakes: "If you [the member's audience] are doing [common thing], stop."
 - The Promise: "Here is how to [outcome] in the next 20 seconds."
 - The Curiosity Gap: "Nobody tells you the real reason your [thing] is not working." (only if the video delivers it)
 - The Result: "I [real result] doing this one thing." (only if the result is real and in memory)
@@ -156,7 +156,7 @@ Short hook-led script (15 to 25s):
 
 ### Captions and hashtags
 - The caption adds context and a searchable keyword. It does not carry the hook (that lives on screen in the first second).
-- 3 to 5 hashtags: a mix of niche tags from your content pillars and terms your ideal customer would search. Avoid stuffing.
+- 3 to 5 hashtags: a mix of niche tags from the member's pillars and terms the member's audience would search. Avoid stuffing.
 - One keyword phrase in the caption that matches how the audience searches, for TikTok search discovery.
 
 ### Series (the follower play)
@@ -168,12 +168,12 @@ A series turns a one-time viewer into a follower. Build content in named, recurr
 ### CTAs (one per post, matched to the goal, heavy actions first)
 - Reach and completion: "Watch it again, it lands the second time", "Send this to someone who needs it"
 - Followers: "Follow for Part 2", "Follow the series"
-- Lead generation: "Comment `[your codeword]` for [resource]"
-- Lead magnet active: point to [your lead magnet].
-- Conversion: "Ready to the transformation you deliver? Link in bio"
+- Lead generation: "Comment [the member's codeword] for [resource]" (read the codeword from `memory/business-context.md`)
+- Lead magnet: if the member has a lead magnet in `memory/audience-and-offers.md`, point to it
+- Conversion: if the member has a transformation promise in `memory/audience-and-offers.md`, use "Ready to [that transformation]? Link in bio"
 
 ### Posting cadence
-Default to one to two posts a day when active, adjusted to [your Instagram cadence]. Because every video is tested on its own, consistency matters more than perfection on any single post. Hold quality over volume past two a day unless the context file overrides.
+Default to one to two posts a day when active, adjusted to the member's documented cadence (read from `memory/business-context.md`). Because every video is tested on its own, consistency matters more than perfection on any single post. Hold quality over volume past two a day unless the context file overrides.
 
 ## 11. What good looks like
 
@@ -194,7 +194,7 @@ Why this is good:
 - It is short, single-idea, and written to loop, so a rewatch feels seamless and completion climbs above 100 per cent (annotation: rewatches are a top distribution signal).
 - The CTA asks for the heavy action (a rewatch), not a like (annotation: the engagement hierarchy weights completion and rewatches far above likes).
 
-Three audiences, same logic: a founder hooks "Stop ending your videos like this"; a professional hooks "Stop opening your [industry] emails like this"; someone in real life hooks "Stop plating your dinners like this". The first-second, completion, and loop logic do not change, only the topic, which comes from your content pillars and your ideal customer.
+Three audiences, same logic: a founder hooks "Stop ending your videos like this"; a professional hooks "Stop opening your [industry] emails like this"; someone in real life hooks "Stop plating your dinners like this". The first-second, completion, and loop logic do not change, only the topic, which comes from the member's pillars and audience in `memory/business-context.md`.
 
 ### Bad example (named failure mode)
 

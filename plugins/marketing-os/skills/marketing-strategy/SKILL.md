@@ -4,7 +4,7 @@ department: Marketing OS
 description: >
   Sets the overall marketing plan that sits above all content and campaigns: positioning and
   differentiation, the single primary objective, which channels to invest in and which to ignore,
-  and the funnel from first awareness to [your primary goal]. Use this when you need to decide the
+  and the funnel from first awareness to the member's primary goal. Use this when you need to decide the
   strategy before the tactics; when choosing where to compete and where not to; when nothing is
   converting and the cause is upstream of the posts; when picking channels; when defining
   positioning; or when a member asks "what is our actual marketing strategy" or "where should we
@@ -20,7 +20,7 @@ author: AI Her Way
 
 ## 1. Role and mandate
 
-This skill owns the marketing strategy for your business: the layer that decides what to do before any post, campaign, or ad is made. It works for the person whose growth it governs (a founder building a market, a professional building a reputation inside an industry, or someone in real life building support for a cause). It owns the full chain from positioning to primary objective to channel choice to the funnel that moves a stranger to [your primary goal]. It decides where to compete, where to refuse to compete, and how the pieces connect into one coherent plan. It does not write the content or run the campaigns (other skills do that). It decides what those pieces are for and why they are worth doing.
+This skill owns the marketing strategy for the member's business: the layer that decides what to do before any post, campaign, or ad is made. Read the member's business name, primary goal, and audience from `memory/business-context.md` and `memory/audience-and-offers.md`. It works for the person whose growth it governs (a founder building a market, a professional building a reputation inside an industry, or someone in real life building support for a cause). It owns the full chain from positioning to primary objective to channel choice to the funnel that moves a stranger to the member's primary goal. It decides where to compete, where to refuse to compete, and how the pieces connect into one coherent plan. It does not write the content or run the campaigns (other skills do that). It decides what those pieces are for and why they are worth doing.
 
 ## 2. Governing principle
 
@@ -49,7 +49,7 @@ This is the psychology layer. Before any strategic call, run the conditions agai
 | Effort is spread across four or more channels with none owned | Cut to one or two channels where the audience already pays attention; pause the rest | A genuinely tested channel already converting stays, even if it is the third |
 | A channel is "industry default" but the audience is not there | Ignore it and say so explicitly | Distribution channel the buyer literally uses to find and buy (physical availability) stays in |
 | A tactic is proposed with no link to the primary objective | Reject it, no matter how on-trend | A low-cost brand-awareness play that builds mental availability for the stated audience |
-| Funnel has a strong top and no defined path to [your primary goal] | Build the missing middle and bottom before adding more awareness | A deliberate pure-awareness phase declared for a new market |
+| Funnel has a strong top and no defined path to the member's primary goal | Build the missing middle and bottom before adding more awareness | A deliberate pure-awareness phase declared for a new market |
 | Member wants to copy a competitor's channel mix | Re-derive the mix from this audience and positioning, not the competitor | The competitor is genuinely fishing in the same pond and it is tested, not assumed |
 | Two channels compete for limited budget | Fund the one closer to where the audience already is and the primary objective | A time-sensitive distribution opportunity with a real deadline |
 
@@ -58,7 +58,7 @@ This is the psychology layer. Before any strategic call, run the conditions agai
 1. Read inputs (Section 9) before deciding anything: the member's business context, any existing positioning or strategy, and working-memory notes on current campaigns or markets.
 2. Define or confirm positioning in Dunford's order: competitive alternatives, unique attributes, value, best-fit customers, market category. The implicit move here: name what the audience would do instead of choosing the member ("do nothing", "hire someone", "use a spreadsheet") before claiming any differentiation.
 3. Set the single primary objective. Every later choice is checked against it. If two objectives compete, force a choice and demote the rest.
-4. Map the funnel from awareness to [your primary goal]: how a stranger becomes aware, interested, trusting, and ready to act. Note silently where the funnel currently leaks before adding anything new.
+4. Map the funnel from awareness to the member's primary goal: how a stranger becomes aware, interested, trusting, and ready to act. Note silently where the funnel currently leaks before adding anything new.
 5. Choose channels by where this audience already is and what builds mental and physical availability, not by industry default. Name the channels to invest in and, explicitly, the channels to ignore.
 6. Connect the pieces: each channel has a job in the funnel, and each funnel stage has a channel and a next step. No orphan tactics.
 7. Pressure-test the whole plan against the decision rubric, then log the strategy and any positioning or objective changes.
@@ -79,55 +79,55 @@ Tied to this skill's real failure modes: never fabricate market size, competitor
 
 ## 9. Inputs and memory
 
-- **Reads:** `memory/business-context.md` (the member's business, audience, offer, primary goal, voice, current channels, budget posture, and any overridable thresholds such as a declared launch window); any working-memory files for the current period (a current-campaign note, a market or competitor note); `memory/industry-context.md` where the member uses one.
+- **Reads:** `memory/business-context.md` (the member's business, primary goal, voice, current channels, budget posture, and any overridable thresholds such as a declared launch window); `memory/audience-and-offers.md` (audience, offer, transformation, lead magnets); any working-memory files for the current period (a current-campaign note, a market or competitor note); `memory/industry-context.md` where the member uses one. If a value is not set, propose one and ask before saving.
 - **Writes:** `logs/activity-log.md` (what was drafted or recommended), `logs/decision-log.md` (positioning changes, objective changes, channel changes flagged for review), and the named strategy and funnel-map outputs the member keeps for this skill.
 
 Never read "any relevant context". Read the named files above.
 
 ## 10. Output format
 
-The deliverable is the marketing strategy document below. Keep this structure, the section order, and every placeholder.
+The deliverable is the marketing strategy document below, produced for the member by reading their context at runtime. Read the member's business name, audience, primary goal and current channels from `memory/business-context.md` and `memory/audience-and-offers.md`. If a value is not set, propose one and ask before saving. Keep this structure and the section order.
 
 ---
 
-# Marketing Strategy: your business
+# Marketing Strategy: [the member's business name]
 
-> Generated for the member. This is the plan above all content and campaigns: where we compete, where we do not, and how a stranger becomes [your primary goal].
+> Produced for the member. This is the plan above all content and campaigns: where we compete, where we do not, and how a stranger becomes [the member's primary goal].
 
 ---
 
 ## Positioning
 
-How the member is understood and why the right person chooses your business over the alternatives. Built in order.
+How the member is understood and why the right person chooses their business over the alternatives. Built in order. Read the audience descriptor from `memory/audience-and-offers.md`.
 
-1. **Competitive alternatives:** what your ideal customer would do instead (often "do nothing", a manual workaround, or a generalist).
-2. **Unique attributes:** what your business has that the alternatives do not.
-3. **Value:** the concrete outcome those attributes create for your ideal customer.
-4. **Best-fit audience:** your ideal customer, as described in memory/business-context.md, the people who care most about that value.
+1. **Competitive alternatives:** what the member's audience would do instead (often "do nothing", a manual workaround, or a generalist).
+2. **Unique attributes:** what the member's business has that the alternatives do not.
+3. **Value:** the concrete outcome those attributes create for the member's audience.
+4. **Best-fit audience:** the full audience descriptor from `memory/audience-and-offers.md`, the people who care most about that value.
 5. **Market category:** the frame the member sits in so the value is obvious at a glance.
 
-**Positioning statement:** [your positioning statement]
+**Positioning statement:** produce this for the member from the five elements above. If a positioning statement is already saved in memory, use it; otherwise draft one and ask before saving.
 
 ---
 
 ## Primary Objective
 
-[your primary goal]
+Read the member's primary goal from `memory/business-context.md`.
 
 This is the one objective. Secondary goals support it; they never compete with it. Every channel and tactic below is checked against this objective before it ships.
 
 ---
 
-## The Funnel (awareness to [your primary goal])
+## The Funnel (awareness to the member's primary goal)
 
-How a stranger becomes a customer, member, or supporter.
+How a stranger becomes a customer, member, or supporter. Read the audience label and primary goal from the member's context, and set each primary channel by working through section 5.
 
 | Stage | Audience state | Job of marketing here | Primary channel |
 |---|---|---|---|
-| Awareness | Does not know your business exists | Be seen by the right your ideal customer; build mental availability | [your awareness channel] |
-| Interest | Knows, not yet convinced | Teach and demonstrate value; earn attention | [your interest-building channel] |
-| Trust | Convinced of value, not yet acting | Proof, stories, and a low-risk next step | [your highest-trust channel] |
-| Action | Ready to move | One clear path to [your primary goal], easy to act on (physical availability) | [your action channel] |
+| Awareness | Does not know the member's business exists | Be seen by the right audience; build mental availability | [awareness channel] |
+| Interest | Knows, not yet convinced | Teach and demonstrate value; earn attention | [interest channel] |
+| Trust | Convinced of value, not yet acting | Proof, stories, and a low-risk next step | [trust channel] |
+| Action | Ready to move | One clear path to the member's primary goal, easy to act on (physical availability) | [action channel] |
 
 Each stage must have a defined next step into the stage below. A funnel with a strong top and no middle leaks.
 
@@ -137,15 +137,11 @@ Each stage must have a defined next step into the stage below. A funnel with a s
 
 ### Invest in
 
-These are where your ideal customer already pays attention and where your business can build presence over time.
-
-[the channels you invest in]
+These are where the member's audience already pays attention and where the business can build presence over time. Name them by working through section 5 against the member's audience and positioning.
 
 ### Deliberately ignore
 
-Saying no is the strategy. These channels are skipped on purpose, with the reason, so effort is not spread thin.
-
-[the channels you deliberately ignore]
+Saying no is the strategy. Name the channels to skip on purpose, each with the reason, so effort is not spread thin.
 
 **Why ignore matters:** focus beats presence everywhere. One or two owned channels outperform five neglected ones.
 
@@ -166,7 +162,7 @@ When in doubt about any marketing decision, ask: "Does this serve the primary ob
 
 **Good example (annotated).**
 
-> Positioning: "For time-poor founders who would otherwise muddle through AI alone [1], your business is the structured AI operating system, not another course." Primary objective: 50 Hub members this quarter. [2] Funnel: awareness on LinkedIn (founders are there), interest via the newsletter, trust via member stories, action via one Hub page. [3] Invest in: LinkedIn and the newsletter. Deliberately ignore: TikTok and X, because this audience is not there and the team cannot sustain both. [4]
+> Positioning: "For time-poor founders who would otherwise muddle through AI alone [1], the business is the structured AI operating system, not another course." Primary objective: 50 Hub members this quarter. [2] Funnel: awareness on LinkedIn (founders are there), interest via the newsletter, trust via member stories, action via one Hub page. [3] Invest in: LinkedIn and the newsletter. Deliberately ignore: TikTok and X, because this audience is not there and the team cannot sustain both. [4]
 
 1. Positioning names the real alternative ("muddle through alone") before the differentiation, per Dunford's order.
 2. One primary objective, not three.

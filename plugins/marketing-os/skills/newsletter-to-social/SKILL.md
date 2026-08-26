@@ -2,12 +2,12 @@
 name: newsletter-to-social
 department: Marketing OS
 description: >
-  Repurpose newsletters into high-converting Instagram and LinkedIn content for your business.
+  Repurpose newsletters into high-converting Instagram and LinkedIn content for the member.
   Use whenever the user wants to turn a newsletter, email, blog post, or long-form written content
   into platform-specific social posts. Triggers: "repurpose this newsletter", "turn this into social
   content", "create posts from this email", "LinkedIn post from my newsletter", "Instagram carousel
   from this", "social media batch", "content repurposing", "atomise this content".
-  Always use your preferred variant of English spelling.
+  Always use the member's English variant (from memory/business-context.md).
 audiences: [founder, professional, life]
 level: L1 to L4
 version: 1.0
@@ -75,17 +75,17 @@ Between steps, check each extracted item against the source to confirm it is rea
 Run every extracted element through the decision rubric in section 4. Assign platform, format, and revenue function. Resolve multi-fit elements using the weighting rule against `business-context.md`.
 
 ### Phase 3: Content creation
-Draft each mapped piece in the member's voice. Every piece must:
+Draft each mapped piece in the member's voice (read it from `memory/voice.md`, `skills/brand-voice.md`, and `memory/business-context.md`). Every piece must:
 - Sound like the member wrote it.
-- Use your preferred variant of English spelling.
-- Follow the your emoji preference guideline.
-- Include an appropriate CTA in the your preferred style, from your context file style.
+- Use the member's English variant (from `memory/business-context.md`).
+- Follow the member's emoji guideline (from `memory/business-context.md`).
+- Include an appropriate CTA in the member's CTA style (from `memory/business-context.md`).
 - Serve a clear revenue function from the rubric.
 
 ### Phase 4: Revenue audit
 Before finalising, audit every post against these functions:
 1. Authority: positions the member as the go-to expert.
-2. Lead generation: drives to [your lead magnet] or the email list.
+2. Lead generation: if the member has a lead magnet in `memory/audience-and-offers.md`, drive to the first one or the email list.
 3. Trust and nurture: social proof and stories that reduce buying objections.
 4. Conversion: a direct CTA to an offer.
 5. Reach and shareability: content valuable enough that people share it.
@@ -117,10 +117,14 @@ Transparency line: when content is drafted by this skill on the member's behalf,
 ## 9. Inputs and memory
 
 Reads:
-- `memory/business-context.md`: voice, offers, lead magnets, content pillars, current priority, social handles, CTA style, emoji and language rules.
+- `memory/business-context.md`: voice, content pillars, current priority, social handles, CTA style, emoji and language rules, DM automation settings.
+- `memory/audience-and-offers.md`: audience, offers, lead magnets, transformation.
+- `memory/voice.md` and `skills/brand-voice.md`: tone, hallmark phrases, voice.
 - The source newsletter, email, or blog post provided in the session.
 - `platform-playbook.md` and `content-formula.md` working-memory files where present.
 - `memory/industry-context.md` where the member uses one (for sector-specific language and proof points).
+
+If a value is not set in the files above, propose one and ask before saving.
 
 Writes:
 - `logs/activity-log.md`: that a batch was produced, from which source, with counts per format.
@@ -131,30 +135,25 @@ Never read "any relevant context". Only the named files above.
 
 ## 10. Output format
 
-### Brand context (from memory)
-- Author: the member
-- Business: your business
-- Primary handle: [your Instagram handle]
-- Voice: as defined in your voice rules
-- CTA style: your preferred style, from your context file
-- Language: your preferred variant of English
-- Emoji usage: your emoji preference
+### Brand context (read from memory)
+Fill each line by reading the member's context. If a value is not set, propose one and ask before saving.
+- Author: the member's name from `memory/business-context.md`
+- Business: business name from `memory/business-context.md`
+- Primary handle: primary social handle from `memory/business-context.md`
+- Voice: from `memory/voice.md`, `skills/brand-voice.md`, and `memory/business-context.md`
+- CTA style: from `memory/business-context.md`
+- Language: the member's English variant from `memory/business-context.md`
+- Emoji usage: from `memory/business-context.md`
 
-Social handles:
-- Instagram: [your Instagram handle]
-- LinkedIn: [your LinkedIn profile]
+Social handles: read the member's Instagram and LinkedIn handles from `memory/business-context.md` and list any that are set.
 
-Content pillars: your content pillars, from memory/business-context.md
+Content pillars: read from `memory/business-context.md`.
 
-Active offers: [your offers, from memory/business-context.md]
+Active offers: read from `memory/audience-and-offers.md`.
 
-Lead magnets: [your lead magnets, from memory/business-context.md]
+Lead magnets: read from `memory/audience-and-offers.md`.
 
-{{#if dmAutomationActive}}DM automation:
-- Tool: your DM automation tool
-- Codewords: [your DM codewords]
-- Include at least one codeword CTA per content batch
-{{/if}}
+If DM automation is active, read the tool and codewords from `memory/business-context.md` and include at least one codeword CTA per content batch.
 
 ### Batch delivery structure
 
@@ -185,10 +184,10 @@ Target output per newsletter:
 - 1 to 2 Instagram story sequences
 
 ### Formatting rules
-- your preferred variant of English spelling always.
+- The member's English variant (from `memory/business-context.md`) always.
 - LinkedIn: 1 to 2 sentence paragraphs, a line break between each, 3 to 5 hashtags maximum.
 - Instagram captions: storytelling format, 15 to 20 hashtags.
-- Emoji usage: your emoji preference.
+- Emoji usage: per the member's setting in `memory/business-context.md`.
 - Never start a LinkedIn post with "I'm excited to announce".
 - Never start an Instagram caption with a hashtag.
 
@@ -198,32 +197,7 @@ Target output per newsletter:
 - Font style: serif (editorial feel)
 - Visual style: elegant, textured
 
-### Banned Words & Phrases
-
-Never use these in any content:
-
-- game changer
-- deep dive
-- synergy
-- leverage (as verb)
-- hustle / grind
-- low-hanging fruit
-- unlock / skyrocket / supercharge
-
-Add your own banned words in `memory/business-context.md`; they override this default list.
-
-### Voice Non-Negotiables
-
-1. Always sound like the member wrote it: conversational, not corporate
-2. Use first person naturally
-3. Mix short punchy sentences with longer explanatory ones
-4. Include personal context or story where relevant
-5. Reference expertise naturally without bragging
-6. Never start with "I'm excited to announce" or "I'm thrilled to share"
-7. Never sound like a press release or marketing copy
-8. Never be condescending or preachy
-9. The member's preferred English variant spelling throughout: no exceptions
-10. When uncertain about tone, err on the side of being more human, not more polished
+Apply the member's voice rules from `skills/brand-voice.md` and `memory/voice.md`.
 
 ### Content quality checks
 Every piece must pass all of these:
@@ -233,7 +207,7 @@ Every piece must pass all of these:
 4. Platform test: is this optimised for how the platform actually works?
 5. Revenue test: does this connect to a commercial outcome?
 6. Shareability test: would someone send this to a colleague or friend?
-7. Brand test: does this align with your business's values and tone?
+7. Brand test: does this align with the member's values and tone?
 
 ## 11. What good looks like
 
@@ -253,12 +227,12 @@ LinkedIn post produced:
 >
 > If your content feels like a Sunday tax, the problem is probably not your writing speed. It is your system.
 >
-> [your preferred style, from your context file CTA: e.g. comment "SYSTEM" and I will send you the breakdown]
+> [CTA in the member's style: e.g. comment "SYSTEM" and I will send you the breakdown]
 
 Annotations:
 1. The hook is the member's real number (four hours), pulled straight from the source. Nothing invented (governing principle held).
 2. Short, line-broken paragraphs match the LinkedIn formatting rule and the platform test.
-3. The CTA serves a clear revenue function (lead generation), in the member's your preferred style, from your context file, not a generic "follow for more".
+3. The CTA serves a clear revenue function (lead generation), in the member's CTA style, not a generic "follow for more".
 
 Three-audience read: a founder runs this from a brand newsletter, a professional runs it from a thought-leadership piece or team update, and someone in real life runs it from a personal essay or community update. The skill does not change, only the source does.
 

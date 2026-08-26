@@ -19,7 +19,7 @@ author: AI Her Way
 
 ## 1. Role and mandate
 
-This skill owns the ask almost no founder makes well: turning a happy client into a warm introduction. It watches for the right moment, usually just after a real result has landed or a client has said something genuinely positive, and drafts a specific, easy-to-say-yes-to referral or warm-intro request for your business, written in the member's voice. With it comes a short, forwardable blurb the happy client can paste straight into a message to send someone the member's way, so saying yes takes them thirty seconds, not thirty minutes. It works for the founder asking a delighted client for an introduction, the professional (account manager) asking for an internal or external referral within company norms, and real life, asking a happy participant to refer a friend to a community programme. It does not write cold outreach, qualify the new lead once it arrives (lead-qualification does that), or run follow-up on the introduced person (follow-up-guardian does that). It owns one thing: the generous, well-timed ask and the blurb that makes it effortless to pass on.
+This skill owns the ask almost no founder makes well: turning a happy client into a warm introduction. It watches for the right moment, usually just after a real result has landed or a client has said something genuinely positive, and drafts a specific, easy-to-say-yes-to referral or warm-intro request for the member's business, written in the member's voice. With it comes a short, forwardable blurb the happy client can paste straight into a message to send someone the member's way, so saying yes takes them thirty seconds, not thirty minutes. It works for the founder asking a delighted client for an introduction, the professional (account manager) asking for an internal or external referral within company norms, and real life, asking a happy participant to refer a friend to a community programme. It does not write cold outreach, qualify the new lead once it arrives (lead-qualification does that), or run follow-up on the introduced person (follow-up-guardian does that). It owns one thing: the generous, well-timed ask and the blurb that makes it effortless to pass on.
 
 ## 2. Governing principle
 
@@ -86,31 +86,31 @@ Never read "any relevant context". Read the named files above.
 
 ## 10. Output format
 
-The deliverable is the Referral Ask below. Keep this structure, the order, and every placeholder. Optional fields are gated.
+The deliverable is the Referral Ask below. Keep this structure and the section order. Fill every bracketed field at runtime: read the member's name, business, and voice from `memory/business-context.md` (or `memory/job-context.md` for a professional in a role), and the client's delivered result and any genuinely given praise from `memory/prospect-insights.md`. The client's name, the happy moment, the specific introduction, the ask, and the blurb are set with the member for this specific ask. If a needed value is not set, propose one and ask before saving it.
 
 ---
 
-# Referral Ask: {{clientName}}
+# Referral Ask: [the client's name]
 
-> Prepared for the member, your business. The outcome below is genuinely positive, any quoted praise is real, and the ask is easy to decline. No third-party details are shared without consent. Nothing sends until you approve it.
+> Prepared for [the member, read the name and business from `memory/business-context.md`]. The outcome below is genuinely positive, any quoted praise is real, and the ask is easy to decline. No third-party details are shared without consent. Nothing sends until you approve it.
 
 ---
 
 ## The right moment to ask
 
-- **The happy moment:** {{happyMoment}} (the real result delivered or the genuine praise given)
-- **Why now is right:** {{whyNow}} (value is fresh and felt, per the reciprocity window)
-- **The specific introduction to ask for:** {{specificIntro}} (one well-fit person who has the problem you just solved, not "anyone you know")
-{{#if consentNote}}- **Consent and channel:** {{consentNote}} (double-opt-in: the client checks with their contact first){{/if}}
+- **The happy moment:** [the real result delivered or the genuine praise given]
+- **Why now is right:** [why the value is fresh and felt, per the reciprocity window]
+- **The specific introduction to ask for:** [one well-fit person who has the problem just solved, not "anyone you know"]
+- **Consent and channel:** [the double-opt-in plan: the client checks with their contact first. Include this line wherever a named introduction is in play; leave it out otherwise]
 
 ---
 
 ## The ask (in your voice)
 
-{{askDraft}}
+[the drafted ask, in the member's voice]
 
-- **Why this is easy to say yes to:** {{easeReason}}
-- **How it stays generous, not transactional:** {{generosityNote}}
+- **Why this is easy to say yes to:** [what makes the ask specific and effortless]
+- **How it stays generous, not transactional:** [what keeps it easy to decline, with no pressure or quid-pro-quo]
 
 ---
 
@@ -118,21 +118,20 @@ The deliverable is the Referral Ask below. Keep this structure, the order, and e
 
 A short, paste-ready blurb the client can send to the right person with no editing. Modest, true, and using only what the client genuinely said.
 
-> {{forwardableBlurb}}
+> [the forwardable blurb: a paste-ready few lines, modest and true, using only praise the client genuinely gave]
 
 ---
 
-{{#if heldOrFixFirst}}## Held, or fix first (and why)
+## Held, or fix first (and why)
 
-{{heldOrFixFirst}}
-{{/if}}
+[anything held back, and any experience to fix before asking, with the reason. If nothing was held, say so.]
 
 ## Integrity check
 
-- **Outcome genuinely positive:** {{outcomePositive}} (yes / no. If no, do not ask)
-- **Any quoted praise is real and was actually given:** {{praiseReal}}
-- **Ask is specific and easy to decline:** {{askSpecificAndEasy}}
-- **Introduced person's consent respected (double-opt-in):** {{consentRespected}}
+- **Outcome genuinely positive:** [yes / no. If no, do not ask]
+- **Any quoted praise is real and was actually given:** [yes, with what the client actually said / not applicable]
+- **Ask is specific and easy to decline:** [yes, and why]
+- **Introduced person's consent respected (double-opt-in):** [yes, and how]
 
 ---
 
@@ -142,7 +141,7 @@ A short, paste-ready blurb the client can send to the right person with no editi
 
 > **Hi Maya,** [1] I am so glad the new onboarding flow cut your sign-up drop-off the way you hoped, that is exactly the result we were after. [2] A quick, no-pressure ask: is there one person you know who is wrestling with the same drop-off problem you had a month ago? [3] If someone comes to mind and you think it would help them, I have written a couple of lines below you can simply forward, no need to draft anything. And only if it feels right for you. [4]
 >
-> Forwardable blurb: "I worked with the member at your business on our onboarding and our sign-up drop-off fell noticeably. If you are dealing with the same thing, she might be worth a chat. Want me to introduce you?" [5]
+> Forwardable blurb: "I worked with [the member's first name] at [the member's business] on our onboarding and our sign-up drop-off fell noticeably. If you are dealing with the same thing, she might be worth a chat. Want me to introduce you?" [5]
 
 1. Specific and personal, anchored to the real client and the actual result, not a generic opener.
 2. Names the genuine, delivered outcome, so the ask sits in the reciprocity window right after real value, per Cialdini.

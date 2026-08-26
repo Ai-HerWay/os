@@ -20,7 +20,7 @@ author: AI Her Way
 
 ## 1. Role and mandate
 
-This skill owns the first client-facing move of every engagement: the welcome pack that lands after the yes and before the work. It takes the Sales handoff for a newly won client, seeds the engagement brief, and drafts a single warm, concrete welcome covering the five things a new client actually wants to know: what happens next and by when, who they will hear from, what your business needs from them (one list, one ask, never a drip of requests), how to reach you and how fast you respond, and one small quick win they will see delivered in week one. It works for the founder welcoming a new retainer client, the professional (account or delivery manager) onboarding a client inside a team's process, and real life, welcoming a new committee member, tenant, or tutoring family with the same clarity. It does not negotiate scope, chase the internal team, or run ongoing status updates: it opens the relationship properly and hands the cadence to the rest of the Client Delivery OS.
+This skill owns the first client-facing move of every engagement: the welcome pack that lands after the yes and before the work. It takes the Sales handoff for a newly won client, seeds the engagement brief, and drafts a single warm, concrete welcome covering the five things a new client actually wants to know: what happens next and by when, who they will hear from, what the member's business needs from them (one list, one ask, never a drip of requests), how to reach you and how fast you respond, and one small quick win they will see delivered in week one. It works for the founder welcoming a new retainer client, the professional (account or delivery manager) onboarding a client inside a team's process, and real life, welcoming a new committee member, tenant, or tutoring family with the same clarity. It does not negotiate scope, chase the internal team, or run ongoing status updates: it opens the relationship properly and hands the cadence to the rest of the Client Delivery OS.
 
 ## 2. Governing principle
 
@@ -34,7 +34,7 @@ Three pieces of evidence shape this skill.
 
 **Showing the work builds trust; hiding it erodes it.** Ryan Buell's "Operational Transparency" (Harvard Business Review, March to April 2019) found that when customers can see the work being done for them, they value the service more and trust the provider more, and that operating in a black box does the opposite. The welcome pack applies this from day one: the timeline section shows the machinery ("here is what we do in week one and why"), and the quick win makes early work visible rather than invisible. Source: Ryan W. Buell, "Operational Transparency", Harvard Business Review, March-April 2019.
 
-**Reliability and low self-orientation are the retention levers.** The Trust Equation from Maister, Green and Galford (The Trusted Advisor, 2000) frames trustworthiness as credibility plus reliability plus intimacy, divided by self-orientation. The pack builds reliability by making small, dated promises it will keep (the cadence starts here), and keeps self-orientation low by being written entirely around what the client needs to know, not around your business's story. This equation is the operating stance of the whole Client Delivery OS. Source: David Maister, Charles Green and Robert Galford, The Trusted Advisor, 2000.
+**Reliability and low self-orientation are the retention levers.** The Trust Equation from Maister, Green and Galford (The Trusted Advisor, 2000) frames trustworthiness as credibility plus reliability plus intimacy, divided by self-orientation. The pack builds reliability by making small, dated promises it will keep (the cadence starts here), and keeps self-orientation low by being written entirely around what the client needs to know, not around the business's own story. This equation is the operating stance of the whole Client Delivery OS. Source: David Maister, Charles Green and Robert Galford, The Trusted Advisor, 2000.
 
 Three audiences, same evidence: a **founder** calms a new client's dip with a dated plan and a week-one win; a **professional** gives their new account the same clarity inside company templates; in **real life**, a new tutoring family gets the schedule, the one list of what to send, and a first small result by Friday.
 
@@ -46,7 +46,7 @@ Run every new engagement against these conditions before drafting. The override 
 |---|---|---|
 | A Won deal has a completed Sales handoff pack | Seed `memory/engagement-briefs/{client-slug}.md` from it and draft the welcome pack the same day | Handoff is missing or half-filled: draft nothing client-facing; flag the gap to the member first |
 | The handoff's section 4 open items list contains promises or maybes | Treat section 4 as the intake contract and its open items as unresolved questions, never as agreed scope; exclude them from the pack or name them as "to be confirmed" | None. An open item stated to the client as a commitment is a scope leak, and it never bends |
-| A date, deliverable, or name for the timeline is unconfirmed | Leave it out or mark it "we will confirm by {{date}}"; a kept small promise beats a broken big one | None on truthfulness. Never state a date the team has not committed to |
+| A date, deliverable, or name for the timeline is unconfirmed | Leave it out or mark it "we will confirm by [a stated date]"; a kept small promise beats a broken big one | None on truthfulness. Never state a date the team has not committed to |
 | The list of things needed from the client is scattered across notes | Consolidate into one list with one ask and one deadline; never send requests in dribbles | A genuinely sequential dependency (access A must exist before request B makes sense) may split the ask into two clearly labelled stages |
 | No obvious quick win exists in the scope | Find the smallest real deliverable achievable in week one from the engagement brief, even if modest (a summary, an audit finding, a set-up completed) | If nothing honest fits week one, promise the first visible output with a true date instead of inventing a token win |
 | The client is a renewal or a returning client | Trim the pack: skip re-introductions, keep the timeline, the ask list, and the quick win | The engagement is materially different in kind: treat as new and send the full pack |
@@ -88,44 +88,45 @@ Never read "any relevant context". Read the named files above.
 
 ## 10. Output format
 
-The deliverable is the Welcome Pack below, plus a short cover message (under 120 words, member's voice) for the channel the client prefers. Keep the structure and order. Optional fields are gated.
+The deliverable is the Welcome Pack below, plus a short cover message (under 120 words, member's voice) for the channel the client prefers. Keep this structure and the section order. Fill every bracketed field at runtime: read the member's business name, contact channels, and response standard from `memory/business-context.md`, and the client's scope, stakeholders, and dates from the Sales handoff pack and `memory/engagement-briefs/{client-slug}.md`. The timeline steps, ask list, and quick win are set with the member for this specific engagement. If a needed value is not set, propose one and ask before saving it.
 
 ---
 
-# Welcome to your business: {{clientName}}
+# Welcome to [the member's business name, from `memory/business-context.md`]: [the client's name]
 
 > Drafted for the member's approval. Every date below is one the team has committed to. Section 4 open items from the handoff are excluded or marked "to be confirmed". Nothing sends until approved.
 
 ## What happens next
 
+One row per confirmed step, two to four steps:
+
 | When | What | Who |
 |---|---|---|
-| {{step1.date}} | {{step1.what}} | {{step1.who}} |
-| {{step2.date}} | {{step2.what}} | {{step2.who}} |
-| {{step3.date}} | {{step3.what}} | {{step3.who}} |
+| [the step's date] | [what happens] | [who does it] |
 
 ## Who you will hear from
 
-{{teamContacts}}
+[the named people the client will hear from, for what, and when the first contact lands]
 
 ## What we need from you (one list, one ask)
 
-{{accessList}}
+[the consolidated list of every access, file, approval, and detail needed from the client]
 
-**By {{accessDeadline}}, please.** That is everything: we will not drip-feed requests at you.
+**By [the ask deadline], please.** That is everything: we will not drip-feed requests at you.
 
 ## Your first result
 
-By {{quickWinDate}}, you will have {{quickWinDescription}} in your hands.
+By [the quick win date], you will have [the week-one quick win, from the engagement brief] in your hands.
 
 ## Reaching us
 
-{{contactChannels}}. We reply within {{responseStandard}}. For anything urgent: {{urgentChannel}}.
+[the contact channels, from `memory/business-context.md`]. We reply within [the response standard, from `memory/business-context.md` or the flagged conservative default]. For anything urgent: [the urgent channel].
 
-{{#if toBeConfirmed}}## Still being confirmed
+Include this section only when something is genuinely still unconfirmed; otherwise omit it.
 
-{{toBeConfirmed}} (we will come back to you by {{confirmDate}})
-{{/if}}
+## Still being confirmed
+
+[the items still being confirmed] (we will come back to you by [the confirmation date])
 
 ---
 

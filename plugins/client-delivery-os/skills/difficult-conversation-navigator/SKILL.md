@@ -100,54 +100,54 @@ Never read "any relevant context". Read the named files above.
 
 ## 10. Output format
 
-The deliverable is the Conversation Prep Brief below. Keep the structure, order, and every placeholder. Optional blocks are gated. All drafted lines are adaptable prompts in the member's voice, never a script to read verbatim. No offer figures appear unless the member has authorised the range. Output in the member's set output language.
+The deliverable is the Conversation Prep Brief below. Keep this structure and the section order. Fill every bracketed field at runtime: read the member's name, voice, and delivery type from `memory/business-context.md`, and the client's history, scope, and communication preferences from `memory/client-roster.md` and `memory/engagement-briefs/{client-slug}.md`. The conversation type, goal, facts map, and feared reactions are set with the member for this specific conversation. If a needed value is not set, propose one and ask before saving it. All drafted lines are adaptable prompts in the member's voice, never a script to read verbatim. No offer figures appear unless the member has authorised the range. Output in the member's set output language.
 
 ---
 
-# Conversation Prep Brief: {{clientName}}, {{date}}
+# Conversation Prep Brief: [the client's name], [the date]
 
-> Prepared for the member. This is your preparation, not the conversation. Nothing here reaches {{clientName}} until you say and do it yourself. Facts marked assumed must not be stated as certain.
+> Prepared for [the member, read the name from `memory/business-context.md`]. This is your preparation, not the conversation. Nothing here reaches [the client's name] until you say and do it yourself. Facts marked assumed must not be stated as certain.
 
-**Conversation type:** {{conversationType}} (complaint / disappointment / tension / renegotiation / saying no / relationship reset)
-**Delivery type friction lens:** {{deliveryTypeLens}}
-**Your goal (workable path, not a win):** {{goal}}
-**Escalation flags:** {{escalationFlags}}
+**Conversation type:** [the conversation type] (complaint / disappointment / tension / renegotiation / saying no / relationship reset)
+**Delivery type friction lens:** [the delivery-type lens, from the member's delivery type in `memory/business-context.md`]
+**Your goal (workable path, not a win):** [the goal, set with the member]
+**Escalation flags:** [any escalation flags raised by the rubric, or "none"]
 
 ## The three conversations (Stone, Patton, Heen)
 
-- **What happened:** known: {{knownFacts}} | assumed / to check: {{assumedFacts}}
-- **Feelings (likely, both sides):** {{feelings}}
-- **Identity stakes:** {{identityStakes}}
+- **What happened:** known: [the confirmed facts] | assumed / to check: [the assumed facts]
+- **Feelings (likely, both sides):** [the likely feelings on each side]
+- **Identity stakes:** [what the situation threatens about how each side sees themselves]
 
 ## The negotiation frame (Fisher and Ury)
 
-- **Their likely interests (beneath their position):** {{theirInterests}}
-- **Your interests:** {{yourInterests}}
-- **Options for mutual gain:** {{options}}
-- **Your walk-away (BATNA):** {{batna}}
-{{#if offerRangeAuthorised}}- **Authorised offer range:** {{offerRange}} (set by the member){{/if}}
-{{#unless offerRangeAuthorised}}- **Offer range:** not yet authorised. The member sets this before you discuss money or terms.{{/unless}}
+- **Their likely interests (beneath their position):** [the client's likely interests]
+- **Your interests:** [the member's interests]
+- **Options for mutual gain:** [the options]
+- **Your walk-away (BATNA):** [the member's walk-away]
+- If the member has authorised an offer range, add: **Authorised offer range:** [the range] (set by the member). Otherwise add: **Offer range:** not yet authorised. The member sets this before you discuss money or terms.
 
 ## Your conversation scaffold (adapt, do not read out)
 
-1. **Open (safety and shared purpose):** {{openingLine}}
-2. **Listen first (prompts and reflecting-back lines):** {{listeningPrompts}}
-3. **Your hard sentences (observation, feeling, need, request):** {{nvcLines}}
-4. **Options to put on the table:** {{optionFramings}}
-5. **Close (confirm next steps):** {{closingLine}}
+1. **Open (safety and shared purpose):** [the opening line]
+2. **Listen first (prompts and reflecting-back lines):** [the listening prompts]
+3. **Your hard sentences (observation, feeling, need, request):** [the hard sentences in NVC shape]
+4. **Options to put on the table:** [the option framings]
+5. **Close (confirm next steps):** [the closing line]
 
 ## If they say... (responses to the reactions you fear)
 
-- **"{{fearedReaction1}}"** -> {{response1}}
-- **"{{fearedReaction2}}"** -> {{response2}}
-- **"{{fearedReaction3}}"** -> {{response3}}
+One entry per feared reaction, typically three:
 
-{{#if roleplayOffered}}## Rehearsal
+- **"[the feared reaction, in the client's likely words]"** -> [the de-escalating, honest response that holds the boundary]
 
-I can play {{clientName}} at {{difficultyLevel}} difficulty so you can practise out loud, then give you calm, specific feedback. Nothing said in rehearsal is a commitment. Say the word to start.
-{{/if}}
+## Rehearsal
 
-**After the conversation:** tell me what was agreed and I will, on your confirmation, record the outcome and any change in `memory/engagement-briefs/{{clientSlug}}.md`.
+Offer this when the member wants to practise; otherwise omit it.
+
+I can play [the client's name] at [the chosen difficulty level] difficulty so you can practise out loud, then give you calm, specific feedback. Nothing said in rehearsal is a commitment. Say the word to start.
+
+**After the conversation:** tell me what was agreed and I will, on your confirmation, record the outcome and any change in `memory/engagement-briefs/{client-slug}.md`.
 
 ---
 

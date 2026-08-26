@@ -19,7 +19,7 @@ author: AI Her Way
 
 ## 1. Role and mandate
 
-This skill owns the moment after a sales conversation ends for your business: it turns raw notes or a transcript into a clean, factual record, the key things learned, a staged pipeline or CRM update, and one clear, dated next step. It works for the person who had the conversation (a founder writing up a discovery call, a professional producing forecast-grade CRM notes a manager will rely on, or someone in real life capturing the outcome of a chat with a potential collaborator). It owns the capture and the staged update; it does not commit anything to the CRM-of-record and it does not send anything to the buyer. Its job is to make sure that what happened is recorded accurately and the deal has a real next step, so nothing drifts because nobody wrote it down.
+This skill owns the moment after a sales conversation ends for the member's business: it turns raw notes or a transcript into a clean, factual record, the key things learned, a staged pipeline or CRM update, and one clear, dated next step. It works for the person who had the conversation (a founder writing up a discovery call, a professional producing forecast-grade CRM notes a manager will rely on, or someone in real life capturing the outcome of a chat with a potential collaborator). It owns the capture and the staged update; it does not commit anything to the CRM-of-record and it does not send anything to the buyer. Its job is to make sure that what happened is recorded accurately and the deal has a real next step, so nothing drifts because nobody wrote it down.
 
 ## 2. Governing principle
 
@@ -86,29 +86,29 @@ Never read "any relevant context". Read the named files above.
 
 ## 10. Output format
 
-The deliverable is the Call Capture block below. Keep this structure, the section order, and every placeholder. Every line in "What we learned" is marked (stated) or (inferred).
+The deliverable is the Call Capture below. Keep this structure and the section order. Every line in "What we learned" is marked (stated) or (inferred). Fill every bracketed field at runtime: read the member's name from `memory/business-context.md` (or `memory/job-context.md` for a professional in a role), and the deal's current stage from `memory/sales-pipeline.md` or the connected CRM. The prospect, the call date, and everything captured come from this specific call's notes or transcript. If a needed value is not set, propose one and ask before saving it.
 
 ---
 
-# Call Capture: {{prospectName}} ({{accountName}})
+# Call Capture: [the prospect's name] ([the account or organisation])
 
-> Captured for the member on {{callDate}}. A factual record of the conversation. Inferred lines are marked and never treated as fact. The staged update is for you to commit.
+> Captured for [the member, name read from `memory/business-context.md`] on [the call date]. A factual record of the conversation. Inferred lines are marked and never treated as fact. The staged update is for you to commit.
 
 ---
 
 ## Factual summary
 
-{{factualSummary}} (what happened, drawn only from the notes or transcript)
+[the factual summary] (what happened, drawn only from the notes or transcript)
 
 ---
 
 ## What we learned
 
-- **Real problem:** {{realProblem}} ({{problemSource}})
-- **Decision criteria:** {{decisionCriteria}} ({{criteriaSource}})
-- **Who is involved:** {{stakeholders}} ({{stakeholderSource}})
-- **Timeline:** {{timeline}} ({{timelineSource}})
-{{#if budgetSignal}}- **Budget signal:** {{budgetSignal}} ({{budgetSource}}){{/if}}
+- **Real problem:** [the real problem] ([stated or inferred, with the basis])
+- **Decision criteria:** [the decision criteria] ([stated or inferred, with the basis])
+- **Who is involved:** [the stakeholders] ([stated or inferred, with the basis])
+- **Timeline:** [the timeline] ([stated or inferred, with the basis])
+- **Budget signal:** [the budget signal, only where the call actually gave one] ([stated or inferred, with the basis]); where none was given, write "none stated", never a guess
 
 Each source tag reads either (stated) or (inferred: basis). No line is promoted from inferred to stated.
 
@@ -116,10 +116,10 @@ Each source tag reads either (stated) or (inferred: basis). No line is promoted 
 
 ## Staged pipeline / CRM update (for you to commit)
 
-- **Current stage:** {{currentStage}}
-- **Proposed stage:** {{proposedStage}} (unchanged unless the call genuinely moved the deal)
-- **Next step:** {{nextStep}}
-- **Next-step date:** {{nextStepDate}}
+- **Current stage:** [the current stage, from `memory/sales-pipeline.md` or the connected CRM]
+- **Proposed stage:** [the proposed stage] (unchanged unless the call genuinely moved the deal)
+- **Next step:** [the next step]
+- **Next-step date:** [the next-step date]
 
 This is staged, not committed. You move the deal and commit the fields.
 
@@ -127,7 +127,7 @@ This is staged, not committed. You move the deal and commit the fields.
 
 ## Risk to flag
 
-{{riskFlag}} (hesitation, a missing decision-maker, a soft timeline, a fit concern, or "none observed")
+[the risk to flag] (hesitation, a missing decision-maker, a soft timeline, a fit concern, or "none observed")
 
 ---
 
@@ -135,7 +135,7 @@ This is staged, not committed. You move the deal and commit the fields.
 
 **Good example (annotated).**
 
-> Factual summary: 30-minute discovery call. The buyer described losing two days a week to manual reporting and said the current tool "just does not talk to anything else". [1] What we learned: Real problem: reporting is manual and disconnected (stated). Decision criteria: integration with their existing stack came up twice (stated); ease of onboarding (inferred: they asked how long setup takes). [2] Who is involved: the buyer plus "my ops lead and probably finance" (stated). Timeline: "before the new financial year" (stated). Budget signal: none stated. [3] Staged update: stage stays Discovery, proposed next step: send a short integration overview and book a follow-up; next-step date: {{nextStepDate}}. Risk to flag: finance is named but absent, so budget authority is unconfirmed. [4]
+> Factual summary: 30-minute discovery call. The buyer described losing two days a week to manual reporting and said the current tool "just does not talk to anything else". [1] What we learned: Real problem: reporting is manual and disconnected (stated). Decision criteria: integration with their existing stack came up twice (stated); ease of onboarding (inferred: they asked how long setup takes). [2] Who is involved: the buyer plus "my ops lead and probably finance" (stated). Timeline: "before the new financial year" (stated). Budget signal: none stated. [3] Staged update: stage stays Discovery, proposed next step: send a short integration overview and book a follow-up; next-step date: [the next-step date]. Risk to flag: finance is named but absent, so budget authority is unconfirmed. [4]
 
 1. The summary is built only from what was said; nothing is added for colour.
 2. The criteria are split cleanly: integration is marked stated, ease of onboarding is marked inferred with the basis, per the governing principle.

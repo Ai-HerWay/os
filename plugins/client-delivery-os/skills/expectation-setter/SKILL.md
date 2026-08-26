@@ -20,7 +20,7 @@ author: AI Her Way
 
 ## 1. Role and mandate
 
-This skill owns the first real act of delivery for your business: converting what Sales sold into one plain-language page that both sides read, understand, and confirm before any work starts. It takes the Sales handoff pack (the intake contract), the proposal, and any signed terms, and produces the Expectations One-Pager: what is included, what is explicitly not, the timeline set against the member's real capacity rather than their optimism, what the client must provide and by when, the path a change request follows, and how either side raises a concern early. It updates the engagement brief `engagement-kickoff` created at `memory/engagement-briefs/{client-slug}.md` with the confirmed baseline, and updates the client's roster row accordingly (`engagement-kickoff` owns creating both; this skill confirms and hardens them). It works for the founder starting a new client engagement, the professional kicking off an internal project with a stakeholder, and real life, agreeing terms with a builder or a tutor before the invoices start. It does not negotiate scope, quote prices, or write the contract: it makes what was agreed impossible to misremember. The `scope-creep-saver` skill later defends the baseline this skill creates; without this skill, that one has nothing to stand on.
+This skill owns the first real act of delivery for the member's business: converting what Sales sold into one plain-language page that both sides read, understand, and confirm before any work starts. It takes the Sales handoff pack (the intake contract), the proposal, and any signed terms, and produces the Expectations One-Pager: what is included, what is explicitly not, the timeline set against the member's real capacity rather than their optimism, what the client must provide and by when, the path a change request follows, and how either side raises a concern early. It updates the engagement brief `engagement-kickoff` created at `memory/engagement-briefs/{client-slug}.md` with the confirmed baseline, and updates the client's roster row accordingly (`engagement-kickoff` owns creating both; this skill confirms and hardens them). It works for the founder starting a new client engagement, the professional kicking off an internal project with a stakeholder, and real life, agreeing terms with a builder or a tutor before the invoices start. It does not negotiate scope, quote prices, or write the contract: it makes what was agreed impossible to misremember. The `scope-creep-saver` skill later defends the baseline this skill creates; without this skill, that one has nothing to stand on.
 
 ## 2. Governing principle
 
@@ -84,29 +84,29 @@ Never read "any relevant context". Read the named files above.
 
 ## 10. Output format
 
-The deliverable is the Expectations One-Pager. One page, plain language, the client's words where possible. Keep this structure and order.
+The deliverable is the Expectations One-Pager. One page, plain language, the client's words where possible. Keep this structure and the section order. Fill every bracketed field at runtime: read the member's name, business, and capacity from `memory/business-context.md`, and the agreed scope, timeline, and obligations from the signed record, the Sales handoff pack, and `memory/engagement-briefs/{client-slug}.md`. The engagement summary and confirmation dates are set with the member for this specific engagement. If a needed value is not set, propose one and ask before saving it.
 
 ---
 
-# Working together: {{clientName}} and your business
+# Working together: [the client's name] and [the member's business name, from `memory/business-context.md`]
 
-> {{oneLineEngagementSummary}}. This page is what we have agreed, in plain words, so neither of us is ever guessing. If anything here surprises you, tell us now, that is exactly what this page is for.
+> [a one-line engagement summary]. This page is what we have agreed, in plain words, so neither of us is ever guessing. If anything here surprises you, tell us now, that is exactly what this page is for.
 
-**What is included:** {{includedList}} (each line traceable to the proposal or handoff pack)
+**What is included:** [the included list] (each line traceable to the proposal or handoff pack)
 
-**What is not included:** {{notIncludedList}} (the honest boundary, including anything hoped for but not scoped)
+**What is not included:** [the not-included list] (the honest boundary, including anything hoped for but not scoped)
 
-**Timeline:** {{milestoneTable}} (dates built on real capacity; each milestone shows what it depends on)
+**Timeline:** [the milestone table] (dates built on real capacity; each milestone shows what it depends on)
 
-**What we need from you, and by when:** {{clientObligations}} (owner + date per item, and what a late arrival does to the timeline)
+**What we need from you, and by when:** [the client obligations] (owner + date per item, and what a late arrival does to the timeline)
 
-**If something needs to change:** {{changePath}} (raise it with the member, we will size the time and cost impact, and nothing changes until both sides agree in writing)
+**If something needs to change:** [the change path] (raise it with [the member's name], we will size the time and cost impact, and nothing changes until both sides agree in writing)
 
-**If either of us has a concern:** {{concernPath}} (name it early, directly, to the member or {{clientContact}}; small and early beats big and late)
+**If either of us has a concern:** [the concern path] (name it early, directly, to [the member's name] or [the client's named contact]; small and early beats big and late)
 
-**Confirmed:** {{memberConfirmDate}} / {{clientConfirmDate}}
+**Confirmed:** [the member's confirmation date] / [the client's confirmation date]
 
-{{#if openQuestions}}**Still to agree (from our conversations, not yet scope):** {{openQuestions}}{{/if}}
+If open questions remain, add: **Still to agree (from our conversations, not yet scope):** [the open questions]
 
 ---
 

@@ -83,39 +83,40 @@ Never read "any relevant context". Read the named files above.
 
 ## 10. Output format
 
-The deliverable is the Scope Call below: one per request, keeping this structure, order, and every placeholder. Optional fields are gated. The draft reply is under 150 words, in the member's voice, in the acknowledge-connect-route shape, with no price figures unless the member has supplied them. Same channel as the client used (email draft for email, message draft for chat). Output in the member's set output language.
+The deliverable is the Scope Call below: one per request. Keep this structure and the section order. Fill every bracketed field at runtime: read the member's name, business, and small-yes threshold from `memory/business-context.md`, and the agreed scope, goal, and goodwill ledger from `memory/engagement-briefs/{client-slug}.md`. The ask, classification, and draft reply are formed for this specific request. If a needed value is not set, propose one and ask before saving it. The draft reply is under 150 words, in the member's voice, in the acknowledge-connect-route shape, with no price figures unless the member has supplied them. Same channel as the client used (email draft for email, message draft for chat). Output in the member's set output language.
 
 ---
 
-# Scope Call: {{clientName}}, {{callDate}}
+# Scope Call: [the client's name], [the date of this call]
 
-> Prepared for the member, your business. Nothing below sends until you approve it. The client is not blamed anywhere in this record.
+> Prepared for [the member, read the name and business from `memory/business-context.md`]. Nothing below sends until you approve it. The client is not blamed anywhere in this record.
 
-**The ask (quoted):** "{{clientAskVerbatim}}"
+**The ask (quoted):** "[the client's ask, verbatim]"
 
-**Classification:** {{classification}} (in scope / small yes / change order / kind no / escalate)
-**Reasoning against the brief:** {{reasoningOneLine}}
-{{#if handoffOpenItem}}**Handoff open item touched:** {{handoffOpenItem}} (open question, not agreed scope){{/if}}
+**Classification:** [in scope / small yes / change order / kind no / escalate]
+**Reasoning against the brief:** [the one-line reasoning against the agreed scope]
+If a handoff open item is touched, add: **Handoff open item touched:** [the open item] (open question, not agreed scope)
 
-{{#if smallYesPath}}## Goodwill ledger status
+Include this section only on the small-yes path; otherwise omit it.
 
-- **Items so far this engagement:** {{goodwillCount}} of {{goodwillCap}} (cap {{capSource}})
-- **Estimated cost to date:** {{goodwillCostToDate}}
-- **This item, estimated:** {{thisItemEstimate}}
-{{/if}}
+## Goodwill ledger status
 
-## Draft reply ({{channel}}) [awaiting your approval]
+- **Items so far this engagement:** [the goodwill count] of [the goodwill cap] (cap from [the member's override or the default])
+- **Estimated cost to date:** [the cost to date, from the ledger in `memory/engagement-briefs/{client-slug}.md`]
+- **This item, estimated:** [this item's estimate]
 
-{{draftReply}}
+## Draft reply ([the channel]) [awaiting your approval]
 
-{{#if changeOrderPath}}- **For you to price:** {{workInvolvedSummary}}. No figure has been given to the client.{{/if}}
-{{#if kindNoPath}}- **Alternative offered:** {{alternativeOffered}}, chosen because it serves {{goalFromBrief}}.{{/if}}
+[the draft reply]
+
+- On the change-order path, add: **For you to price:** [the summary of the work involved]. No figure has been given to the client.
+- On the kind-no path, add: **Alternative offered:** [the alternative], chosen because it serves [the goal from the brief].
 
 ## Log lines proposed
 
-- **Engagement brief:** {{briefLedgerEntry}}
-- **Decision log:** {{decisionLogEntry}}
-{{#if patternFlag}}- **Pattern flag:** {{patternFlag}} (suggest a human-led scope conversation){{/if}}
+- **Engagement brief:** [the goodwill ledger entry]
+- **Decision log:** [the decision log entry]
+- If a stacking pattern is visible, add: **Pattern flag:** [the pattern] (suggest a human-led scope conversation)
 
 ---
 

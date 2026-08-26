@@ -18,9 +18,7 @@ author: AI Her Way
 
 # Skill: LinkedIn Voice and Strategy
 
-Personalised for: the member
-
-> Generated from onboarding data. Review quarterly as the platform evolves.
+> Reads the member's identity, voice, audience, and pillars from memory at runtime. Review quarterly as the platform evolves.
 
 ## 1. Role and mandate
 
@@ -63,11 +61,11 @@ This is the psychology layer. Read the situation, then choose the move. Defaults
 
 ## 5. Workflow
 
-1. **Read the context.** Load `memory/business-context.md` for voice, pillars, audience, and CTA style. Load any working-memory file named in the request (for example a newsletter or a transcript to repurpose).
-2. **Pick the angle.** Match the idea to a content pillar from your content pillars. If it fits none, say so and ask.
+1. **Read the context.** Read voice, pillars, CTA style, English variant and emoji setting from `memory/business-context.md`; audience from `memory/audience-and-offers.md`; and tone and hallmark phrases from `memory/voice.md` and `skills/brand-voice.md`. If a value is not set, propose one and ask before saving. Load any working-memory file named in the request (for example a newsletter or a transcript to repurpose).
+2. **Pick the angle.** Match the idea to one of the member's content pillars from `memory/business-context.md`. If it fits none, say so and ask.
 3. **Choose the format** using the rubric: short text, story, or document/carousel. State the choice and the reason in one line.
 4. **Write the hook first.** Land a claim, tension, or moment before ~210 characters. Draft two or three options.
-5. **Write the body** in the member's voice: short and long sentences mixed, one or two sentence paragraphs with line breaks, your preferred variant of English, emoji per the "your emoji preference" setting.
+5. **Write the body** in the member's voice: short and long sentences mixed, one or two sentence paragraphs with line breaks, the member's English variant, emoji per the member's emoji setting from `memory/business-context.md`.
 6. **Add the CTA** matched to content type using the CTA table in Section 10.
 7. **Run the voice check** in Section 10 before handing over. Fix anything that fails.
 8. **Hand the draft to a human** with the format choice, the hook options, and any flagged claims that need verifying.
@@ -92,7 +90,9 @@ This skill's real failure modes are fabrication and false authority. Specific ne
 ## 9. Inputs and memory
 
 **Reads:**
-- `memory/business-context.md` (voice, pillars, audience, CTA style, English variant, emoji setting, posting frequency, DM automation settings)
+- `memory/business-context.md` (voice, pillars, CTA style, English variant, emoji setting, posting frequency, DM automation settings)
+- `memory/audience-and-offers.md` (audience, offers, lead magnets, transformation, codewords)
+- `memory/voice.md` and `skills/brand-voice.md` (tone, hallmark phrases, voice)
 - working-memory files named in the request (for example a newsletter, transcript, or note to repurpose)
 - `memory/industry-context.md` if the member uses one
 
@@ -101,54 +101,30 @@ This skill's real failure modes are fabrication and false authority. Specific ne
 - `logs/decision-log.md` (judgement calls flagged for human review)
 - named output file for the finished draft if the request specifies one
 
-If `business-context.md` is missing a value, fall back to the placeholder defaults below and note the gap rather than guessing.
+If a value is not set in the files above, propose one and ask before saving, and note the gap rather than guessing.
 
 ## 10. Output format
 
 A finished draft is handed over as: the post text ready to paste, the chosen format, two or three hook options, the recommended hashtags, and a list of any claims that need verifying. Length follows the format chosen.
 
-### Profile context (from onboarding)
-- **Profile:** [your LinkedIn profile]
-- **Target audience:** your ideal customer
-- **Content pillars:** your content pillars
-- **Posting frequency:** [your LinkedIn cadence]
-- **Primary format:** [your primary LinkedIn format]
+### Profile context (read from memory)
+Fill each line by reading the member's context. If a value is not set, propose one and ask before saving.
+- **Profile:** LinkedIn handle from `memory/business-context.md`
+- **Target audience:** short audience label from `memory/audience-and-offers.md`
+- **Content pillars:** from `memory/business-context.md`
+- **Posting frequency:** LinkedIn cadence from `memory/business-context.md`
+- **Primary format:** LinkedIn primary format from `memory/business-context.md`
 
 ### Voice on LinkedIn
-The member's LinkedIn voice is as defined in your voice rules. She writes like having a genuine conversation with the audience, not performing for an algorithm.
+Write in the member's LinkedIn voice as described in `memory/business-context.md`, `memory/voice.md`, and `skills/brand-voice.md`. The member writes like having a genuine conversation with the audience, not performing for an algorithm.
 
 **Language patterns:**
 - Mix short punchy sentences with longer explanatory ones
-- your preferred variant of English spelling throughout
-- your emoji preference
+- The member's English variant (from `memory/business-context.md`) throughout
+- Emoji per the member's emoji setting in `memory/business-context.md`
 - One to two sentence paragraphs with line breaks between each
 
-### Banned Words & Phrases
-
-Never use these in any content:
-
-- game changer
-- deep dive
-- synergy
-- leverage (as verb)
-- hustle / grind
-- low-hanging fruit
-- unlock / skyrocket / supercharge
-
-Add your own banned words in `memory/business-context.md`; they override this default list.
-
-### Voice Non-Negotiables
-
-1. Always sound like the member wrote it: conversational, not corporate
-2. Use first person naturally
-3. Mix short punchy sentences with longer explanatory ones
-4. Include personal context or story where relevant
-5. Reference expertise naturally without bragging
-6. Never start with "I'm excited to announce" or "I'm thrilled to share"
-7. Never sound like a press release or marketing copy
-8. Never be condescending or preachy
-9. The member's preferred English variant spelling throughout: no exceptions
-10. When uncertain about tone, err on the side of being more human, not more polished
+Apply the voice rules from `skills/brand-voice.md` and `memory/voice.md` on top of the patterns above.
 
 ### Post length sweet spots
 - **Quick insight:** under 300 characters
@@ -157,13 +133,13 @@ Add your own banned words in `memory/business-context.md`; they override this de
 - **Maximum:** 3,000 characters
 - **"See more" cutoff:** about 210 characters on mobile, so the hook must land before this
 
-### Hook formulas for the member
-**your first content pillar:**
-> I stopped [old approach to your first content pillar] 6 months ago. Here's what happened.
+### Hook formulas
+Read the member's first content pillar from `memory/business-context.md` and slot it in:
+> I stopped [old approach to the member's first pillar] 6 months ago. Here's what happened.
 > "Common challenge." I hear this every week. Here's what most people miss.
 
 ### CTA patterns
-**Primary style:** your preferred style, from your context file
+**Primary style:** read the member's CTA style from `memory/business-context.md`.
 
 | Content type | CTA intensity | Example |
 |---|---|---|
@@ -173,9 +149,7 @@ Add your own banned words in `memory/business-context.md`; they override this de
 | Social proof | Strong | "Ready for results like this? DM me" |
 | Hot take | Soft | "Agree or disagree? I want to hear your take" |
 
-{{#if dmAutomationActive}}**DM automation:** enabled via your DM automation tool
-**Active codewords:** [your DM codewords]
-{{/if}}
+If DM automation is active, name the tool and active codewords by reading them from `memory/business-context.md`.
 
 ### Format choices (evidence-supported defaults)
 - **Document / carousel:** for frameworks, processes, step lists. Holds attention longest.
@@ -190,9 +164,9 @@ Add your own banned words in `memory/business-context.md`; they override this de
 - [ ] Mixes short and long sentences
 - [ ] Hook lands a claim, tension, or moment before ~210 characters
 - [ ] Includes at least one specific detail (number, name, moment, result)
-- [ ] Emoji use matches the "your emoji preference" setting
+- [ ] Emoji use matches the member's emoji setting in `memory/business-context.md`
 - [ ] References expertise without bragging
-- [ ] your preferred variant of English spelling throughout
+- [ ] The member's English variant spelling throughout
 - [ ] Ends with a CTA matched to the content type
 - [ ] Does NOT use banned words
 - [ ] Does NOT sound like a press release

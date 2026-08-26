@@ -6,7 +6,7 @@ description: >
   (a milestone landing, a recovery after a problem, a personal event, the end of an engagement, an
   unexpected win), matches a genuine, proportionate, low-cost gesture to the specific client and
   delivery type, keeps it honest, and drafts it for you to approve. Use this when you ask "how do I
-  wow this client", "do something nice for {{clientName}}", "surprise and delight", "a thank-you for
+  wow this client", "do something nice for this client", "surprise and delight", "a thank-you for
   them", "mark this milestone", "send them something", "make this memorable", or "go the extra mile".
   It also teaches the honest limit: fix the basics before you try to delight, and never use a gesture
   to buy a renewal or paper over a failure.
@@ -21,7 +21,7 @@ author: AI Her Way
 
 ## 1. Role and mandate
 
-This skill owns the deliberate, well-timed gesture: the moment where your business does something genuine and unexpected that makes a client feel seen, so the experience is remembered, not just tolerated. It watches the engagement for the right occasions (a milestone just landed, a client's own win, a personal event they have shared, a clean recovery after a problem, the ending of the work), then matches a proportionate gesture to the specific client and the specific delivery type, drafts it in the member's voice, and holds it for approval. It works from `memory/client-roster.md` and the client's file in `memory/engagement-briefs/`, and it reads the member's `business-context.md` to know what kind of thing they even deliver, because a delight gesture for a service is not the same as one for a physical product. It works for the founder delighting her own clients, the professional (account or delivery lead) making internal and external stakeholders glad to work with her, and real life, marking a friend's or committee's moment with something thoughtful rather than automatic. It does not run the status cadence, the feedback round, or the ending sequence (those are `client-status-update`, `client-feedback-loop`, and `offboarding-into-referral`); it owns the extra, chosen moment on top of reliable delivery. Its first job, always, is to check that the basics are handled before it adds anything on top.
+This skill owns the deliberate, well-timed gesture: the moment where the member's business does something genuine and unexpected that makes a client feel seen, so the experience is remembered, not just tolerated. It watches the engagement for the right occasions (a milestone just landed, a client's own win, a personal event they have shared, a clean recovery after a problem, the ending of the work), then matches a proportionate gesture to the specific client and the specific delivery type, drafts it in the member's voice, and holds it for approval. It works from `memory/client-roster.md` and the client's file in `memory/engagement-briefs/`, and it reads the member's `business-context.md` to know what kind of thing they even deliver, because a delight gesture for a service is not the same as one for a physical product. It works for the founder delighting her own clients, the professional (account or delivery lead) making internal and external stakeholders glad to work with her, and real life, marking a friend's or committee's moment with something thoughtful rather than automatic. It does not run the status cadence, the feedback round, or the ending sequence (those are `client-status-update`, `client-feedback-loop`, and `offboarding-into-referral`); it owns the extra, chosen moment on top of reliable delivery. Its first job, always, is to check that the basics are handled before it adds anything on top.
 
 ## 2. Governing principle
 
@@ -94,33 +94,33 @@ Never read "any relevant context". Read the named files above.
 
 ## 10. Output format
 
-The deliverable is the Delight Note: one short document per proposed gesture. Nothing in it sends until approved.
+The deliverable is the Delight Note: one short document per proposed gesture. Keep this structure and the section order. Fill every bracketed field at runtime: read the member's name, business, delivery type, and gift policy from `memory/business-context.md`, and the client's moments, milestones, and flags from `memory/client-roster.md` and `memory/engagement-briefs/{client-slug}.md`. The moment and the gesture are matched for this specific occasion. If a needed value is not set, propose one and ask before saving it. Nothing in it sends until approved.
 
-# Delight Note: {{clientName}}
+# Delight Note: [the client's name]
 
-> Prepared for the member, your business. This is a genuine, proportionate gesture tied to a real moment, kept clean of any ask. Nothing sends until you approve it.
+> Prepared for [the member, read the name and business from `memory/business-context.md`]. This is a genuine, proportionate gesture tied to a real moment, kept clean of any ask. Nothing sends until you approve it.
 
-**Basics check:** {{basicsStatus}} (on cadence, no open issue, delivery sound). If any basic is off, fix that first.
-**The moment:** {{theMoment}} (why now, and how it maps to a genuine peak)
-**Delivery type:** {{deliveryType}} (service / digital product / physical product / other)
-**The gesture (matched to client and type):** {{theGesture}}
-**Proportion and cost:** {{costAndProportion}} (low-key by default; flag if any cost or policy applies)
-**Kept clear of any ask?** {{cleanOfAsk}} (renewal / testimonial / referral proximity checked)
+**Basics check:** [the basics status] (on cadence, no open issue, delivery sound). If any basic is off, fix that first.
+**The moment:** [the real, specific moment] (why now, and how it maps to a genuine peak)
+**Delivery type:** [service / digital product / physical product / other, from `memory/business-context.md`]
+**The gesture (matched to client and type):** [the gesture]
+**Proportion and cost:** [the cost and proportion] (low-key by default; flag if any cost or policy applies)
+**Kept clear of any ask?** [yes or no, with the check] (renewal / testimonial / referral proximity checked)
 
 ### Draft (client-facing)
-{{draftMessage}}
+[the draft message, warm and specific, in the member's voice]
 
 **Approval line:** Ready to send? Nothing goes until you say so.
 
-{{#if held}}**Held or skipped:** {{heldReason}}{{/if}}
+If the gesture was held or skipped, add: **Held or skipped:** [the reason]
 
 ## 11. What good looks like
 
 **Good example (annotated), founder, service delivery, a milestone just landed.**
 
-> **Delight Note (excerpt):** Basics check: on cadence, no open items, phase two signed off Tuesday. [1] The moment: {{clientName}} told us on the call that automating the intake form freed up her Mondays for the first time in a year. [2]
+> **Delight Note (excerpt):** Basics check: on cadence, no open items, phase two signed off Tuesday. [1] The moment: Priya told us on the call that automating the intake form freed up her Mondays for the first time in a year. [2]
 >
-> **Draft:** "Hi the member, I keep thinking about you getting your Mondays back. I pulled together a one-page checklist for the next thing you mentioned wanting to tidy up, the client onboarding emails, so you have a running start whenever you get to it. No charge and no rush, just thought it might help. [3]"
+> **Draft:** "Hi Priya, I keep thinking about you getting your Mondays back. I pulled together a one-page checklist for the next thing you mentioned wanting to tidy up, the client onboarding emails, so you have a running start whenever you get to it. No charge and no rush, just thought it might help. [3]"
 
 1. The basics check leads. Per Dixon et al., a gesture only makes sense once delivery is genuinely sound; if a basic were off, the "gesture" would be to fix it.
 2. A real, specific, personal moment in the client's own words, from what she chose to share, not dug up. The peak is real, so the gesture marks it rather than manufacturing one.

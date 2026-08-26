@@ -14,7 +14,7 @@ author: AI Her Way
 
 ## 1. Role and mandate
 
-This skill turns a topic into a ready-to-render social carousel, written in the precise markdown the carousel maker's batch parser reads. It owns the full path from idea to parseable file: choosing the platform (Instagram or LinkedIn), structuring the hook, content, and call-to-action slides, writing the copy in the member's voice, and producing valid markdown that the maker converts to branded slides. It works the same for a founder building authority for your business, a professional sharing expertise inside an organisation, and a person in real life documenting a project or cause. It does not design the slides (the maker applies the member's saved brand settings) and it does not publish.
+This skill turns a topic into a ready-to-render social carousel, written in the precise markdown the carousel maker's batch parser reads. It owns the full path from idea to parseable file: choosing the platform (Instagram or LinkedIn), structuring the hook, content, and call-to-action slides, writing the copy in the member's voice (read from `memory/business-context.md`), and producing valid markdown that the maker converts to branded slides. It works the same for a founder building authority for their business, a professional sharing expertise inside an organisation, and a person in real life documenting a project or cause. It does not design the slides (the maker applies the member's saved brand settings) and it does not publish.
 
 ## 2. Governing principle
 
@@ -44,19 +44,19 @@ This is the psychology layer. It decides platform, length, and structure before 
 | Topic is broad or educational | Target 6 to 10 slides | Enough slides to build the swipe habit and dwell time without padding |
 | Topic is a single sharp insight | 3 to 5 slides | Do not pad; a tight loop beats a long one |
 | Slide 1 (always) | Write as a hook that opens a loop | Zeigarnik effect: an open question pulls the swipe |
-| Last slide (always) | Write as the payoff or CTA tied to [your primary revenue path] | The reader who finished is the warmest reader you will get |
+| Last slide (always) | Write as the payoff or CTA tied to the member's primary revenue path (read from `memory/business-context.md`) | The reader who finished is the warmest reader you will get |
 | A middle slide has more than one idea | Split it, or use `→` arrows for a clean list | One idea per slide protects readability and parse fidelity |
 | Brand settings not configured | Proceed anyway; maker uses neutral default theme | Format is independent of brand; never block on missing colours |
 | Any line risks breaking the parser (stray `##`, missing `**Slide N:**`) | Fix it before returning | Section 2: the output must parse |
 
 ## 5. Workflow
 
-1. Read inputs (section 9): `memory/business-context.md` for voice, pillars, handles, revenue path, plus any working-memory brief the member supplied.
+1. Read inputs (section 9): `memory/business-context.md` for voice, content pillars, handles, and primary revenue path, and `memory/audience-and-offers.md` for the audience and lead magnets, plus any working-memory brief the member supplied. If a needed value is not set, propose one and ask before saving it.
 2. Apply the rubric (section 4) to choose platform(s) and slide count.
-3. Pick the content pillar this carousel belongs to (from your content pillars). Every carousel anchors to one pillar.
+3. Pick the content pillar this carousel belongs to (from the member's content pillars in `memory/business-context.md`). Every carousel anchors to one pillar.
 4. Draft slide 1 as a hook that opens a loop. This is the slide that earns the swipe, so write it first and hardest.
 5. Draft the middle content slides, one idea each, using `→` arrows for lists where it reads cleanly.
-6. Draft the final slide as the payoff plus a CTA that supports [your primary revenue path].
+6. Draft the final slide as the payoff plus a CTA that supports the member's primary revenue path.
 7. Write the caption and a small number of relevant hashtags.
 8. Assemble into the exact markdown contract (section 10). Check between steps that every carousel starts with `## ` containing "Carousel" and every slide uses a `**Slide N:**` marker.
 9. Validate: re-read the file as the parser would. Strip anything that would silently break (see the rubric's last row).
@@ -79,7 +79,8 @@ Specific to this skill: never fabricate the proof a carousel leans on (no invent
 ## 9. Inputs and memory
 
 Reads:
-- `memory/business-context.md` (voice, content pillars, social handles, primary revenue path, lead magnets, hallmark phrases, English variant, emoji and CTA style)
+- `memory/business-context.md` (voice, content pillars, social handles, primary revenue path, hallmark phrases, English variant, emoji and CTA style)
+- `memory/audience-and-offers.md` (the audience and lead magnets)
 - The member's working-memory brief or topic file for this batch, if supplied
 - `memory/industry-context.md`, if the member uses one, for sector-specific framing
 
@@ -88,30 +89,30 @@ Writes:
 - `logs/activity-log.md` (a one-line record: how many carousels, which platforms, which pillars)
 - `logs/decision-log.md` only when the rubric made a non-obvious call (for example producing both platforms, or flagging a claim for review)
 
-The skill never hard-codes a business, name, niche, or tool: every member-specific value comes from the placeholders below, resolved at runtime from the context file.
+The skill never hard-codes a business, name, niche, or tool: every member-specific value is read at runtime from the context files.
 
 ## 10. Output format
 
-This is the markdown contract the carousel maker's batch parser understands. Follow it precisely when generating carousel content for your business.
+This is the markdown contract the carousel maker's batch parser understands. Follow it precisely when generating carousel content for the member.
 
 ### Default settings
 
-- Primary handle: [your Instagram handle]
-- Preferred platforms: Instagram + LinkedIn
+- Primary handle: read the member's primary social handle from `memory/business-context.md`.
+- Preferred platforms: read the member's active platforms from `memory/business-context.md` (Instagram, LinkedIn, or both).
 - Brand colours and fonts: the carousel maker pulls these from the member's saved brand settings. Do not hard-code hex values or font names here. If brand settings have not been configured, the maker falls back to its neutral default theme.
 
 ### Section headers
 
 Each carousel is a `## ` level-2 heading containing the word "Carousel". The heading determines the platform and title.
 
-Instagram carousel:
+Instagram carousel (fill the pillar name from the member's first content pillar in `memory/business-context.md`):
 ```
-## IG Carousel 1 – Educational (your first content pillar)
+## IG Carousel 1 – Educational (the member's pillar name)
 ```
 
 LinkedIn carousel:
 ```
-## LI Carousel – your first content pillar
+## LI Carousel – the member's pillar name
 ```
 
 Format: `## [IG|LI] Carousel [optional number] [separator] [Title]`
@@ -129,7 +130,7 @@ Within each carousel section, slides are marked with `**Slide N:**` bold markers
 **Slide 1:** This is the hook headline for slide one
 **Slide 2:** Main point headline → Supporting detail one → Supporting detail two → Supporting detail three
 **Slide 3:** Another content headline with supporting text below
-**Slide 4:** Follow [your Instagram handle] for more insights like this
+**Slide 4:** Follow [the member's handle] for more insights like this
 ```
 
 Slide numbering:
@@ -168,12 +169,12 @@ These are commonly present in batch files but are stripped during parsing:
 
 ### Voice and style notes
 
-- Write all copy in your preferred variant of English.
-- Emoji usage: your emoji preference.
-- CTA style: your preferred style, from your context file.
-- Weave in the member's hallmark phrases where they fit naturally: [your hallmark phrases].
-- Keep every carousel anchored to one of the member's content pillars (listed in your context file).
-- The closing CTA should support the primary revenue path: [your primary revenue path].
+- Write all copy in the member's English variant (read it from `memory/business-context.md`; default to Australian English).
+- Emoji usage: apply the member's emoji preference from `memory/business-context.md`.
+- CTA style: apply the member's CTA style from `memory/business-context.md`.
+- Weave in the member's hallmark phrases where they fit naturally (read them from `memory/business-context.md` or `memory/voice.md`, if any are set).
+- Keep every carousel anchored to one of the member's content pillars (read them from `memory/business-context.md`).
+- The closing CTA should support the member's primary revenue path (read it from `memory/business-context.md`).
 
 ### Platform differences
 
@@ -184,37 +185,38 @@ These are commonly present in batch files but are stripped during parsing:
 
 ### Three-audience framing
 
-The same contract serves all three audiences: a founder builds authority for your business (CTA to [your primary revenue path]), a professional shares an expertise carousel inside their organisation (CTA to a resource or a follow), and a person in real life documents a project or cause (CTA to follow [your Instagram handle]). One format, three uses, no editing of the skill.
+The same contract serves all three audiences: a founder builds authority for their business (CTA to the member's primary revenue path), a professional shares an expertise carousel inside their organisation (CTA to a resource or a follow), and a person in real life documents a project or cause (CTA to follow the member's handle). One format, three uses, no editing of the skill.
 
 ## 11. What good looks like
 
 ### Good example (annotated)
 
+In the example below, the bracketed placeholders are filled at runtime: read the member's first content pillar and handle from `memory/business-context.md`, the audience from `memory/audience-and-offers.md`, and the active lead magnet from `memory/audience-and-offers.md` (include the "Want to go further" line only if a lead magnet is set).
+
 ```markdown
-## IG Carousel 1 – Educational (your first content pillar)
+## IG Carousel 1 – Educational (the member's pillar name)
 
 **Slide-by-slide content:**
 
-**Slide 1:** your first content pillar Is Changing Everything: Here's What You Need to Know
-**Slide 2:** What is your first content pillar? → It's a practical approach you can apply today → It goes beyond the basics → Think of it as a transformative tool
-**Slide 3:** Why This Matters for your ideal customer → Solve your biggest challenges → Scale your impact → Free up time for strategy
+**Slide 1:** [The member's pillar topic] Is Changing Everything: Here's What You Need to Know
+**Slide 2:** What is [the member's pillar topic]? → It's a practical approach you can apply today → It goes beyond the basics → Think of it as a transformative tool
+**Slide 3:** Why This Matters for [the member's audience] → Solve your biggest challenges → Scale your impact → Free up time for strategy
 **Slide 4:** How to Get Started → Pick one area to focus on → Choose the right tools → Start small, iterate fast
-**Slide 5:** Ready to get started? Follow [your Instagram handle] for weekly tips
+**Slide 5:** Ready to get started? Follow [the member's handle] for weekly tips
 
 **Caption:**
-your first content pillar isn't the future. It's the present. Here's your quick guide to understanding what it means and how to use it in your work as your ideal customer.
+[The member's pillar topic] isn't the future. It's the present. Here's your quick guide to understanding what it means and how to use it in your work as [the member's audience].
 
-Want to go further? Grab my free [your lead magnet], link in bio.
+Want to go further? Grab my free [the member's lead magnet], link in bio. (include this line only if the member has an active lead magnet)
 
-
-#your first content pillar #tips
+#[the member's pillar topic] #tips
 ```
 
 Why this is good:
 - Annotation 1: the heading contains "Carousel" and uses the `IG` prefix, so the parser renders it as a five-slide Instagram carousel (slide 1 Hook, slides 2 to 4 Content, slide 5 CTA).
 - Annotation 2: slide 1 opens a loop ("Here's What You Need to Know") that the reader closes by swiping, which is the Zeigarnik mechanism from section 3 doing the work.
 - Annotation 3: arrows turn dense slides into clean, swipe-friendly lists, one idea per arrow, which protects both readability and parse fidelity.
-- Annotation 4: every member-specific value is a placeholder resolved from `business-context.md`, so the same file works for any member with no editing.
+- Annotation 4: every member-specific value is read at runtime from the context files, so the same file works for any member with no editing.
 
 ### Bad example (named failure: silent parser drop)
 

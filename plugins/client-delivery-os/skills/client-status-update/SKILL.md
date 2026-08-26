@@ -19,7 +19,7 @@ author: AI Her Way
 
 ## 1. Role and mandate
 
-This skill owns the drumbeat that keeps a client feeling looked after: the regular, client-facing status update during Active delivery, stage three of the Client Delivery lifecycle (Intake, Onboarding, Active delivery, Review, Renewal, Offboarding). On the cadence agreed in the engagement brief, it drafts one short update in your business's voice covering four things only: what moved since last time, what happens next, what we need from you, and any risk named early and plainly. It reads the internal state that Admin & Ops maintains and translates it for the client; it never re-derives project status itself and it never double-reports. It works for the founder keeping three retainer clients warm without Sunday-night dread, the professional reporting to an internal stakeholder who is a client in every way that matters, and real life, keeping the builder, the school, or the extended family honestly in the loop on a shared undertaking. It does not chase the client's overdue items (Admin & Ops follow-up-chaser does that internally first), run reviews or milestones, or negotiate scope: it makes sure the client never has to wonder what is going on.
+This skill owns the drumbeat that keeps a client feeling looked after: the regular, client-facing status update during Active delivery, stage three of the Client Delivery lifecycle (Intake, Onboarding, Active delivery, Review, Renewal, Offboarding). On the cadence agreed in the engagement brief, it drafts one short update in the member's voice covering four things only: what moved since last time, what happens next, what we need from you, and any risk named early and plainly. It reads the internal state that Admin & Ops maintains and translates it for the client; it never re-derives project status itself and it never double-reports. It works for the founder keeping three retainer clients warm without Sunday-night dread, the professional reporting to an internal stakeholder who is a client in every way that matters, and real life, keeping the builder, the school, or the extended family honestly in the loop on a shared undertaking. It does not chase the client's overdue items (Admin & Ops follow-up-chaser does that internally first), run reviews or milestones, or negotiate scope: it makes sure the client never has to wonder what is going on.
 
 ## 2. Governing principle
 
@@ -86,26 +86,26 @@ Never read "any relevant context". Read the named files above.
 
 ## 10. Output format
 
-The deliverable is one drafted update plus a private wrapper for the member. Keep the structure and order.
+The deliverable is one drafted update plus a private wrapper for the member. Keep this structure and the section order. Fill every bracketed field at runtime: read the member's voice and default cadence from `memory/business-context.md`, and the client's cadence, channel, scope, and disclosure standard from `memory/client-roster.md` and `memory/engagement-briefs/{client-slug}.md`. The update content comes from the Admin & Ops internal status for this specific engagement. If a needed value is not set, propose one and ask before saving it.
 
 ---
 
-# Client update draft: {{clientName}}, {{updateDate}}
+# Client update draft: [the client's name], [the update date]
 
-> For your review before sending. Nothing goes to the client until you approve it. Cadence: {{cadence}}, last update {{lastUpdateDate}}.
+> For your review before sending. Nothing goes to the client until you approve it. Cadence: [the agreed cadence, from `memory/engagement-briefs/{client-slug}.md`], last update [the last update date].
 
-**The draft ({{wordCount}} words, channel: {{channel}}):**
+**The draft ([the word count] words, channel: [the channel, from the engagement brief]):**
 
-{{updateDraft}}
+[the drafted update]
 
 The draft itself always carries four parts in this order: **What moved** (2 to 4 lines, outcomes not effort), **What is next** (dated), **What we need from you** (specific, dated, or "nothing this week"), **Anything to flag** (the early, plain risk, or omitted if genuinely none). Under 250 words unless a risk needs room.
 
 **Private notes for you (never sent):**
 
-- Source check: {{sourceCheck}} (internal status date used, any conflict held)
-- Scope check: {{scopeCheck}} (anything reframed from handoff openItems)
-{{#if healthNote}}- Health trajectory: {{healthNote}} (trajectory signals plus your read, not a score){{/if}}
-- Disclosure standard applied: {{disclosureNote}}
+- Source check: [the internal status date used, and any conflict held]
+- Scope check: [anything reframed from handoff openItems]
+- Health trajectory, only when signals warrant it: [the trajectory note] (trajectory signals plus your read, not a score)
+- Disclosure standard applied: [the disclosure note, per the engagement brief]
 
 ---
 

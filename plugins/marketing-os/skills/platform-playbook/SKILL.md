@@ -14,7 +14,7 @@ author: AI Her Way
 
 ## 1. Role and mandate
 
-This skill is the channel intelligence layer for the member's content. It owns one decision end to end: given a piece of content and a platform, what format, length, structure and hook will the algorithm reward, and how should the same idea be adapted (not copied) across Instagram, LinkedIn and the blog. It reads the member's pillars, audience and voice from memory, then applies current platform mechanics so each post is built for how that platform actually distributes work. It does not invent the strategy; it makes an existing idea fit the channel. For a founder, that means each post earns reach for the offer. For a professional, it means visible authority in a role. For real life, it means a personal project or cause reaches the right people without a marketing degree.
+This skill is the channel intelligence layer for the member's content. It owns one decision end to end: given a piece of content and a platform, what format, length, structure and hook will the algorithm reward, and how should the same idea be adapted (not copied) across Instagram, LinkedIn and the blog. It reads the member's pillars, audience and voice from memory at runtime, then applies current platform mechanics so each post is built for how that platform actually distributes work. It does not invent the strategy; it makes an existing idea fit the channel. For a founder, that means each post earns reach for the offer. For a professional, it means visible authority in a role. For real life, it means a personal project or cause reaches the right people without a marketing degree.
 
 ## 2. Governing principle
 
@@ -54,12 +54,12 @@ Edge cases that override the default: if the member's `business-context.md` sets
 ## 5. Workflow
 
 1. Read the idea and identify its native shape: insight, framework, story, or long evergreen piece.
-2. Read pillars, audience and voice from memory (your content pillars, your ideal customer, as described in memory/business-context.md, as defined in your voice rules).
+2. Read the member's content pillars from `memory/business-context.md`, their audience descriptor from `memory/audience-and-offers.md`, and their voice from `memory/voice.md`, `skills/brand-voice.md`, and `memory/business-context.md`. If a value is not set, propose one and ask before saving.
 3. Pick the platform and format from the decision rubric. If the idea suits two platforms, adapt, do not copy.
 4. Write the hook first and test it against the "see more" question: would a stranger click to read more?
 5. Build the body to the platform's length sweet spot and structure (one idea per carousel slide, watch-time-first for reels, dwell-time body for LinkedIn).
 6. Place any external link in the first comment, not the body.
-7. Add the CTA in the member's your preferred style, from your context file, matched to the platform (DM keyword on Instagram, comment-to-drive-dwell on LinkedIn).
+7. Add the CTA in the member's CTA style (from `memory/business-context.md`), matched to the platform (DM keyword on Instagram, comment-to-drive-dwell on LinkedIn).
 8. Apply technical specs (dimensions, character limits) from Section 10 before handing off.
 9. Log what was produced and the format choice to the activity log; if a deprioritisation risk was found and changed, note it in the decision log.
 
@@ -81,32 +81,34 @@ This skill's real failure modes are specific. Never fabricate engagement numbers
 
 ## 9. Inputs and memory
 
-- **Reads:** `memory/business-context.md` (pillars, audience, voice, CTA style, cadence, banned formats, compliance rules), any working-memory files for the current campaign (for example `working-memory/current-campaign.md`), and `memory/industry-context.md` if the member uses one. Live values flow in as placeholders: [your active platforms], your content pillars, from memory/business-context.md, your content pillars, your first content pillar, your ideal customer, as described in memory/business-context.md, your ideal customer, your preferred style, from your context file, as defined in your voice rules, [your Instagram cadence], [your primary Instagram format], [your LinkedIn cadence], [your primary LinkedIn format], [your blog cadence].
+- **Reads:** `memory/business-context.md` (active platforms, pillars, voice, CTA style, cadence per channel, primary formats, banned formats, compliance rules, DM automation settings); `memory/audience-and-offers.md` (audience, offers, lead magnets); `memory/voice.md` and `skills/brand-voice.md` (tone, hallmark phrases, voice); any working-memory files for the current campaign (for example `working-memory/current-campaign.md`); and `memory/industry-context.md` if the member uses one. If a value is not set, propose one and ask before saving.
 - **Writes:** `logs/activity-log.md` (each post produced and its format choice), `logs/decision-log.md` (deprioritisation risks found and changed, ambiguous format calls, suspected algorithm shifts), and the named draft output for the chosen platform.
 
 ## 10. Output format
 
-The deliverable is a platform-ready draft (or set of adapted drafts), each with: chosen format, the hook, the body sized to the platform sweet spot, the CTA, and the technical specs. Keep the member's live values throughout.
+The deliverable is a platform-ready draft (or set of adapted drafts), each with: chosen format, the hook, the body sized to the platform sweet spot, the CTA, and the technical specs. Fill in the member's values by reading their context at runtime. If a value is not set, propose one and ask before saving.
 
 ### Active platforms
 
-[your active platforms]
+Read the member's active platforms from `memory/business-context.md`.
 
 ### Platform-specific strategy
 
+For each channel below, read the posting frequency, primary format, content pillars and CTA style from `memory/business-context.md`; the audience descriptor from `memory/audience-and-offers.md`; and the voice from `memory/voice.md`, `skills/brand-voice.md`, and `memory/business-context.md`.
+
 #### Instagram
-- **Posting frequency:** [your Instagram cadence]
-- **Primary format:** [your primary Instagram format]
-- Focus on your content pillars; target your ideal customer, as described in memory/business-context.md; CTA style your preferred style, from your context file; voice matches the member's natural tone, as defined in your voice rules.
+- **Posting frequency:** the member's Instagram cadence from `memory/business-context.md`
+- **Primary format:** the member's Instagram primary format from `memory/business-context.md`
+- Focus on the member's content pillars; target the member's audience; use the member's CTA style; voice matches the member's natural tone.
 
 #### LinkedIn
-- **Posting frequency:** [your LinkedIn cadence]
-- **Primary format:** [your primary LinkedIn format]
-- Focus on your content pillars; target your ideal customer, as described in memory/business-context.md; CTA style your preferred style, from your context file; voice matches the member's natural tone, as defined in your voice rules.
+- **Posting frequency:** the member's LinkedIn cadence from `memory/business-context.md`
+- **Primary format:** the member's LinkedIn primary format from `memory/business-context.md`
+- Focus on the member's content pillars; target the member's audience; use the member's CTA style; voice matches the member's natural tone.
 
 #### Blog
-- **Posting frequency:** [your blog cadence]
-- Focus on your content pillars; target your ideal customer, as described in memory/business-context.md; CTA style your preferred style, from your context file; voice matches the member's natural tone, as defined in your voice rules.
+- **Posting frequency:** the member's blog cadence from `memory/business-context.md`
+- Focus on the member's content pillars; target the member's audience; use the member's CTA style; voice matches the member's natural tone.
 
 ### LinkedIn algorithm and best practice (2025 to 2026)
 
@@ -118,7 +120,7 @@ How LinkedIn ranks content:
 Signals in priority order: dwell time (how long people read), meaningful comments, relevance to the reader's professional interests, relationship strength, shares and reposts, then clicks on "see more" (which confirm the hook worked).
 
 Best practice for the member:
-- **The hook is everything.** LinkedIn truncates after about 210 characters on mobile with a "see more" link. The first one to two lines decide whether anyone reads on. Use hooks from `content-formula.md` matched to your pillars: your content pillars.
+- **The hook is everything.** LinkedIn truncates after about 210 characters on mobile with a "see more" link. The first one to two lines decide whether anyone reads on. Use hooks from `content-formula.md` matched to the member's content pillars (from `memory/business-context.md`).
 - **Length sweet spots:** quick insights under 300 characters; thought leadership 800 to 1,500; storytelling 1,500 to 2,500; maximum 3,000.
 - **Deprioritised:** external links in the body (put them in the first comment), engagement bait, generic motivational quotes with no personal context, posts that look like ads.
 
@@ -127,15 +129,12 @@ Best practice for the member:
 Three signals dominate: watch time (how long people engage), likes per reach (share of viewers who like), and sends per reach (how often people share via DM, the strongest signal for new reach).
 
 Strategy for the member:
-- **Topic clarity:** post consistently within your pillars.
-
-your content pillars, from memory/business-context.md
-
-- **Content that gets shared (the top growth lever):** practical tips about your first content pillar people want to save; relatable content about common challenges; content that makes someone think of a specific person in your ideal customer.
+- **Topic clarity:** post consistently within the member's content pillars (read them from `memory/business-context.md`).
+- **Content that gets shared (the top growth lever):** practical tips about the member's first content pillar that people want to save; relatable content about common challenges; content that makes someone think of a specific person in the member's audience (short label from `memory/audience-and-offers.md`).
 
 ### Instagram carousels
 
-- **Slide 1 (the hook):** bold headline promising value related to your first content pillar.
+- **Slide 1 (the hook):** bold headline promising value related to the member's first content pillar.
 - **Slides 2 to 9 (the value):** one idea per slide, 10 to 20 words maximum.
 - **Final slide (the CTA):** "Comment [KEYWORD] and I'll send you [resource]".
 - **Specs:** 1080x1350px (4:5 portrait); colours #252620 primary, #C0CACE accent; serif font; elegant, editorial style.
@@ -144,9 +143,9 @@ your content pillars, from memory/business-context.md
 
 - **The 1.7-second rule:** viewers decide within 1.7 seconds whether to keep watching, so the hook must be immediate.
 - **Length sweet spots:** 5 to 7s for memes or caption-driven content; 15 to 30s discovery sweet spot; 30 to 60s for deeper education to engaged followers; avoid over 90s.
-- 80% of reels should contain keywords aligned with: your content pillars.
-- Push people to DMs with [your lead magnet] and codewords.
-{{#if dmAutomationActive}}- Active codewords: [your DM codewords].{{/if}}
+- 80% of reels should contain keywords aligned with the member's content pillars (from `memory/business-context.md`).
+- If the member has a lead magnet in `memory/audience-and-offers.md`, push people to DMs with the first one and its codewords.
+- If DM automation is active, read the active codewords from `memory/business-context.md`.
 
 ### LinkedIn carousels (PDF documents)
 

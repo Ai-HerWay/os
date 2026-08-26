@@ -18,7 +18,7 @@ author: AI Her Way
 
 ## 1. Role and mandate
 
-This skill owns the first reply to a brand-new inbound enquiry for your business: it notices the enquiry the moment it lands, reads what the person actually asked, and prepares a warm, genuinely helpful first reply in the member's voice with one clear next step, fast, while the lead is still hot. It works for whoever catches the enquiry: a founder replying to a website or DM enquiry, a professional (a BDR or AE) triaging an inbound lead inside company rules, or someone in real life responding quickly to a person interested in a community offering. It owns speed and the quality of that first human touch. It does not qualify, score, or run a full follow-up sequence (other skills do that), and it does not send. It drafts so the member can approve and send in seconds.
+This skill owns the first reply to a brand-new inbound enquiry for the member's business: it notices the enquiry the moment it lands, reads what the person actually asked, and prepares a warm, genuinely helpful first reply in the member's voice with one clear next step, fast, while the lead is still hot. It works for whoever catches the enquiry: a founder replying to a website or DM enquiry, a professional (a BDR or AE) triaging an inbound lead inside company rules, or someone in real life responding quickly to a person interested in a community offering. It owns speed and the quality of that first human touch. It does not qualify, score, or run a full follow-up sequence (other skills do that), and it does not send. It drafts so the member can approve and send in seconds.
 
 ## 2. Governing principle
 
@@ -81,36 +81,36 @@ Never read "any relevant context". Read the named files above.
 
 ## 10. Output format
 
-The deliverable is the Warm First Reply below, plus the one-line pipeline note. Keep the structure and every placeholder. Gate optional fields with the conditional blocks shown, side by side, never one inside another.
+The deliverable is the Warm First Reply below, plus the one-line pipeline note. Keep this structure and the section order. Fill every bracketed field at runtime: read the member's name, voice, booking link, and English variant from `memory/business-context.md` (or `memory/job-context.md` for a professional in a role). The prospect, the channel, the date, and the enquiry details come from this specific enquiry. If a needed value is not set, propose one and ask before saving it.
 
 ---
 
-## Warm First Reply: {{prospectFirstName}} via {{enquiryChannel}}
+## Warm First Reply: [the prospect's first name] via [the enquiry channel]
 
-> Drafted for the member to approve and send. Not sent. Channel: {{enquiryChannel}}.
+> Drafted for [the member, name read from `memory/business-context.md`] to approve and send. Not sent. Channel: [the enquiry channel].
 
-**Subject (if email):** {{replySubject}}
+**Subject (if email):** [the reply subject]
 
-Hi {{prospectFirstName}},
+Hi [the prospect's first name],
 
-{{acknowledgement}}
+[a short, warm acknowledgement]
 
-{{helpfulAnswerOrOffer}}
+[the genuinely helpful answer or offer]
 
-{{#if bookingOffer}}{{nextStepLine}} You can grab a time that suits here: {{bookingLink}}{{/if}}
+Where a quick call is the right next step, add: [the next-step line] You can grab a time that suits here: [the booking link, from `memory/business-context.md`]
 
-{{signOff}}
-[your name]
-
----
-
-**Suggested next step:** {{nextStepSummary}}
-
-**Pipeline note (one line to log):** New enquiry from {{prospectFirstName}} via {{enquiryChannel}} on {{enquiryDate}}: asked about {{enquiryTopic}}; suggested next step {{nextStepSummary}}.{{#if fitFlag}} Fit flag: {{fitFlag}}.{{/if}}
+[the sign-off, in the member's voice]
+[the member's first name]
 
 ---
 
-Rules for the reply: keep it short (acknowledgement, helpful answer or offer, one next step). Write it in the member's voice. Answer the exact question asked before offering a call. One clear next step, never three. No manufactured urgency, no promised timeframe or outcome the member has not confirmed. your preferred variant of English.
+**Suggested next step:** [the suggested next step]
+
+**Pipeline note (one line to log):** New enquiry from [the prospect's first name] via [the enquiry channel] on [the enquiry date]: asked about [the enquiry topic]; suggested next step [the suggested next step]. Where a fit concern exists, append: Fit flag: [the fit concern].
+
+---
+
+Rules for the reply: keep it short (acknowledgement, helpful answer or offer, one next step). Write it in the member's voice. Answer the exact question asked before offering a call. One clear next step, never three. No manufactured urgency, no promised timeframe or outcome the member has not confirmed. Use the member's English variant, read from `memory/business-context.md` (default Australian English if not set).
 
 ## 11. What good looks like
 
@@ -118,7 +118,7 @@ Rules for the reply: keep it short (acknowledgement, helpful answer or offer, on
 
 > Enquiry (website form, 9:02am): "Hi, do you run workshops for teams of about 15? Roughly what does that cost?" Draft ready 9:06am: [1]
 >
-> "Hi Sam, lovely to hear from you, and yes, a team of 15 is a great size for a workshop. [2] I run a half-day hands-on session built around your team's actual work, so people leave with things they can use the next day. Pricing depends a little on format and travel, so rather than guess I would love to get the details right with you. [3] Here is a link to grab a quick 15-minute call this week: [booking link]. [4] Warm regards, the member."
+> "Hi Sam, lovely to hear from you, and yes, a team of 15 is a great size for a workshop. [2] I run a half-day hands-on session built around your team's actual work, so people leave with things they can use the next day. Pricing depends a little on format and travel, so rather than guess I would love to get the details right with you. [3] Here is a link to grab a quick 15-minute call this week: [booking link]. [4] Warm regards, [the member's first name]."
 >
 > Pipeline note: New enquiry from Sam via website on 24 Jun: asked about team workshop (15 people) and cost; suggested next step a 15-min scoping call.
 

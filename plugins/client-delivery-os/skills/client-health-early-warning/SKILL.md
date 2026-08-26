@@ -85,41 +85,47 @@ Never read "any relevant context". Read the named files above.
 
 ## 10. Output format
 
-The deliverable is the Client Health Watch below. Keep the structure, the order, and every placeholder.
+The deliverable is the Client Health Watch below. Keep this structure and the section order. Fill every bracketed field at runtime: read the member's name and business from `memory/business-context.md`, and each client's baseline, signals, and phase from `memory/client-roster.md` and `memory/engagement-briefs/{client-slug}.md`. The run date, classifications, and the member's own read are set in this specific audit. If a needed value is not set, propose one and ask before saving it.
 
 ---
 
-# Client Health Watch: {{runDate}}
+# Client Health Watch: [the run date]
 
-> Prepared for the member, your business. Every entry below is a signal cluster plus your own read, never an automated verdict. Nothing here reaches a client until you approve it, and nothing here is shared beyond the people named in your context.
+> Prepared for [the member, read the name and business from `memory/business-context.md`]. Every entry below is a signal cluster plus your own read, never an automated verdict. Nothing here reaches a client until you approve it, and nothing here is shared beyond the people named in your context.
 
-**Clients reviewed: {{reviewedCount}}. Steady: {{steadyCount}}. Watch: {{watchCount}}. Act: {{actCount}}.**
+**Clients reviewed: [the number reviewed]. Steady: [the steady count]. Watch: [the watch count]. Act: [the act count].**
 
 ## Act now
 
+One row per act-classified client:
+
 | Client | Signals (direction, not just level) | Your read | Suggested next move |
 |---|---|---|---|
-| {{actClient1.name}} | {{actClient1.signals}} | {{actClient1.memberRead}} | {{actClient1.nextMove}} |
+| [the client's name] | [the signal cluster, with direction] | [the member's own read] | [the one suggested next move] |
 
 ## Watch
 
+One row per watch-classified client:
+
 | Client | Signals | Your read | Re-check by |
 |---|---|---|---|
-| {{watchClient1.name}} | {{watchClient1.signals}} | {{watchClient1.memberRead}} | {{watchClient1.recheckDate}} |
+| [the client's name] | [the signals] | [the member's own read] | [the re-check date] |
 
 ## Steady (including improving)
 
-{{steadySummary}}
+[a short summary of the steady clients, naming any improving velocity]
 
-{{#if divergences}}## Where the signals and your read disagree
+Include this section only when the signals and the member's read disagree; otherwise omit it.
 
-{{divergences}} (logged for review; your read carried the classification)
-{{/if}}
+## Where the signals and your read disagree
 
-{{#if openHandoffItems}}## Open items from Sales handoffs (questions, not scope)
+[the divergences] (logged for review; your read carried the classification)
 
-{{openHandoffItems}}
-{{/if}}
+Include this section only when unresolved handoff items exist; otherwise omit it.
+
+## Open items from Sales handoffs (questions, not scope)
+
+[the open handoff items, from each client's engagement brief]
 
 ---
 

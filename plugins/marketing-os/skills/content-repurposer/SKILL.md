@@ -20,7 +20,7 @@ author: AI Her Way
 
 ## 1. Role and mandate
 
-This skill takes one non-written anchor piece for your business (a video, podcast or audio episode, webinar, keynote, or workshop recording) and atomises it into a structured, multi-platform content pack: a clips list with timestamps, quote card briefs, carousel briefs, platform captions, and an email snippet. It owns the mining and mapping end to end, then hands production to the studio skills (design briefs to the brand-graphics path, video work to the reel path, scheduling to the approval-and-queue path). It does not own written sources: a newsletter, email, or blog post going to social belongs to the newsletter-to-social skill, and this skill routes it there without drafting a word. It works the same for a founder atomising a podcast interview, a professional atomising a recorded team webinar or conference talk, and someone in real life atomising a community workshop or school presentation recording.
+This skill takes one non-written anchor piece for the member (a video, podcast or audio episode, webinar, keynote, or workshop recording) and atomises it into a structured, multi-platform content pack: a clips list with timestamps, quote card briefs, carousel briefs, platform captions, and an email snippet. It owns the mining and mapping end to end, then hands production to the studio skills (design briefs to the brand-graphics path, video work to the reel path, scheduling to the approval-and-queue path). It does not own written sources: a newsletter, email, or blog post going to social belongs to the newsletter-to-social skill, and this skill routes it there without drafting a word. It works the same for a founder atomising a podcast interview, a professional atomising a recorded team webinar or conference talk, and someone in real life atomising a community workshop or school presentation recording.
 
 ## 2. Governing principle
 
@@ -61,13 +61,13 @@ This is the psychology layer. Run every source and every extracted element throu
 3. Mine the anchor: the big idea, 3 to 5 supporting points, stories, quotable lines with their timestamps, teachable frameworks, and the honest revenue angle of each. The implicit move: re-read each candidate in its surrounding context before extracting it, so the integrity rule is applied at the source.
 4. Map every element through the rubric to a platform (member's active platforms only) and a format: clip, quote card, carousel, caption, or email snippet.
 5. Build the pack in the Section 10 format: timestamped clips list, quote card briefs, carousel briefs, captions per platform, one email snippet, and a suggested staggered rollout.
-6. Hand production off: design briefs go to the brand-graphics path ({{designTool}} or Claude-rendered HTML/SVG from `memory/brand-kit.md`); any reel work goes out as AI b-roll plus a reel blueprint, never a promised finished reel.
-7. Queue, do not publish. Everything lands in the OS as a held package. Only after the member's sign-off is approved content pushed to {{socialScheduler}} at draft or queued level where the tool supports it. Never schedule-then-review: in most tools, scheduled means live. Log the batch and every judgement call.
+6. Hand production off: design briefs go to the brand-graphics path (the member's design tool, or Claude-rendered HTML/SVG from `memory/brand-kit.md`); any reel work goes out as AI b-roll plus a reel blueprint, never a promised finished reel. Read the member's design tool from `memory/business-context.md`; if none is set, default to Claude-rendered HTML/SVG and note it.
+7. Queue, do not publish. Everything lands in the OS as a held package. Only after the member's sign-off is approved content pushed to the member's scheduler (read from `memory/business-context.md`) at draft or queued level where the tool supports it. Never schedule-then-review: in most tools, scheduled means live. Log the batch and every judgement call.
 
 ## 6. Autonomy tiers
 
 - **Always safe (act, then log):** reading the source and transcript, mining and mapping, drafting the full pack, writing design and reel briefs, proposing the rollout, routing written sources to newsletter-to-social.
-- **Draft and wait for approval (the default for everything that could go live):** the entire pack before any push to a scheduler; any clip featuring a guest, client, or audience member; any spoken claim promoted to a stated fact; pushing approved items to {{socialScheduler}} even as drafts.
+- **Draft and wait for approval (the default for everything that could go live):** the entire pack before any push to a scheduler; any clip featuring a guest, client, or audience member; any spoken claim promoted to a stated fact; pushing approved items to the member's scheduler even as drafts.
 - **Never (no matter the tier):** publish or schedule anything live without explicit approval, ship a clip that changes the speaker's meaning, invent quotes or timestamps, fabricate engagement or urgency, generate visuals imitating a named artist, store API keys in OS files, move money, or delete the source recording or transcript.
 
 ## 7. Escalation
@@ -101,7 +101,7 @@ The deliverable is one content pack, held in the OS until sign-off.
 
 ### Quote card briefs ([count])
 1. [Exact quote + timestamp] | [Platform] | Design brief: [layout, brand colours and
-   type from brand-kit.md, render via {{designTool}} or Claude-side HTML/SVG]
+   type from brand-kit.md, render via the member's design tool or Claude-side HTML/SVG]
 
 ### Carousel briefs ([count])
 1. [Topic] | [Slide count] | [Revenue function]
@@ -120,20 +120,20 @@ generate, 8 to 25 seconds, expect 3 to 5 regenerations]. Captions: [text]. Edit 
 ### Approval status: HELD. Nothing above is queued or scheduled until the member signs off.
 ```
 
-Every caption in the member's voice and English variant. Timestamps must match the transcript exactly. Quote cards use the exact spoken words, tidied only for filler ("um", false starts), never for meaning.
+Every caption in the member's voice and English variant, both read from `memory/business-context.md` and `skills/brand-voice.md`. Timestamps must match the transcript exactly. Quote cards use the exact spoken words, tidied only for filler ("um", false starts), never for meaning.
 
 ## 11. What good looks like
 
 **Good example (annotated).** Source: a 42-minute recorded workshop where the member says at 18:32, "Most small businesses don't have a content problem. They have a distribution problem. You made the thing; you just never gave it a second life."
 
-> Clip 3: 18:12 to 19:05 | "You don't have a content problem" | LinkedIn + Instagram | Authority to inbound. [1] Why this moment: a contrarian, self-contained teach. Context check: widened to 18:12 so the setup travels with the punchline. [2] Quote card 1: the exact line at 18:32, brand-kit type and colours, rendered Claude-side. [3] Email snippet: 120 words on the second-life idea, linking the full replay. Rollout: clips across week one, carousel week two. Status: HELD for the member's sign-off before anything reaches {{socialScheduler}} as drafts. [4]
+> Clip 3: 18:12 to 19:05 | "You don't have a content problem" | LinkedIn + Instagram | Authority to inbound. [1] Why this moment: a contrarian, self-contained teach. Context check: widened to 18:12 so the setup travels with the punchline. [2] Quote card 1: the exact line at 18:32, brand-kit type and colours, rendered Claude-side. [3] Email snippet: 120 words on the second-life idea, linking the full replay. Rollout: clips across week one, carousel week two. Status: HELD for the member's sign-off before anything reaches the member's scheduler as drafts. [4]
 
 1. Timestamped to the transcript, mapped to the member's two active platforms only, with a named revenue function.
 2. The integrity rule applied constructively: boundaries widened until the meaning survived, per the rubric.
 3. The quote is verbatim and the design brief runs off `memory/brand-kit.md`, the zero-cost path.
 4. Held until approval, then pushed at draft level only. Never schedule-then-review.
 
-Across the three audiences this holds: a **founder** atomises a podcast episode, a **professional** a recorded conference talk, and in **real life** a community workshop recording becomes clips and a recap email for your ideal customer.
+Across the three audiences this holds: a **founder** atomises a podcast episode, a **professional** a recorded conference talk, and in **real life** a community workshop recording becomes clips and a recap email for the member's audience (read the audience from `memory/audience-and-offers.md`).
 
 **Bad example (named failure mode: the out-of-context clip).**
 

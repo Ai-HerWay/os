@@ -86,17 +86,17 @@ Never read "any relevant context". Read the named files above. Start read-only o
 
 ## 10. Output format
 
-The deliverable is the Win-Loss Reflection block below. Keep this structure, the order, and every placeholder. Keep it short: a few questions, one real reason, one lesson, one proposed update.
+The deliverable is the Win-Loss Reflection block below. Keep this structure and the section order. Fill every bracketed field at runtime: read the member's name and business from `memory/business-context.md` (or `memory/job-context.md` for a professional in a role), and the deal's history from `memory/sales-pipeline.md` or the connected CRM. The deal name, the outcome, the answers, the real reason, and the lesson are set with the member in this specific reflection. Keep it short: a few questions, one real reason, one lesson, one proposed update. If a needed value is not set, propose one and ask before saving it.
 
 ---
 
-# Win-Loss Reflection: {{dealName}}
+# Win-Loss Reflection: [the deal name]
 
-> Prepared for the member, your business. A short, honest reflection on a closed deal. The reason recorded below is the one the buyer gave or the evidence honestly supports, nothing invented.
+> Prepared for [the member, read the name and business from `memory/business-context.md`]. A short, honest reflection on a closed deal. The reason recorded below is the one the buyer gave or the evidence honestly supports, nothing invented.
 
-**Outcome:** {{outcome}} (won / lost / no decision)
+**Outcome:** [the outcome: won / lost / no decision]
 
-{{#if isNoDecision}}**Note:** This was a no-decision, not a loss to a competitor. It is reflected on as its own category, because the buyer's indecision is where the lesson lives.{{/if}}
+Where the outcome is a no-decision, add this note: **Note:** This was a no-decision, not a loss to a competitor. It is reflected on as its own category, because the buyer's indecision is where the lesson lives.
 
 ---
 
@@ -104,10 +104,10 @@ The deliverable is the Win-Loss Reflection block below. Keep this structure, the
 
 | Question | Your answer |
 |---|---|
-| What did the buyer actually decide, and what did they say? | {{answerWhatHappened}} |
-| What was the one moment it turned? | {{answerTurningPoint}} |
-| What was in our control here? | {{answerInOurControl}} |
-| {{outcomeSpecificQuestion}} | {{answerOutcomeSpecific}} |
+| What did the buyer actually decide, and what did they say? | [the member's answer, in their words] |
+| What was the one moment it turned? | [the member's answer] |
+| What was in our control here? | [the member's answer] |
+| [the outcome-specific fourth question] | [the member's answer] |
 
 The fourth question changes with the outcome: for a no-decision, "Where did the buyer's indecision come from?"; for a loss, "What was the real reason under the stated one?"; for a win, "What actually worked that we should repeat?"
 
@@ -115,17 +115,17 @@ The fourth question changes with the outcome: for a no-decision, "Where did the 
 
 ## The single real reason
 
-{{realReason}}
+[the single real reason: what the buyer gave or the evidence honestly supports]
 
 (What the buyer gave or the evidence honestly supports. Anything inferred is labelled a hypothesis, not a fact.)
 
-{{#if hypothesis}}**Hypothesis (a guess, not a fact):** {{hypothesis}}{{/if}}
+Where anything is inferred rather than given, add: **Hypothesis (a guess, not a fact):** [the labelled hypothesis]. Where nothing is inferred, leave that line out.
 
 ---
 
 ## The one lesson
 
-{{oneLesson}}
+[the one lesson: the single most useful, most repeatable one]
 
 (The single most useful, most repeatable lesson. Parked the rest on purpose.)
 
@@ -133,7 +133,7 @@ The fourth question changes with the outcome: for a no-decision, "Where did the 
 
 ## Proposed update (your approval needed)
 
-**Update to make to {{targetFile}}:** {{proposedUpdate}}
+**Update to make to [the target file: `memory/prospect-insights.md` or the playbook]:** [the proposed update, written out in full]
 
 This is proposed, not applied. Approve it and it goes into your memory so the same pattern stops repeating.
 

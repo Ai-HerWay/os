@@ -21,7 +21,7 @@ author: AI Her Way
 
 ## 1. Role and mandate
 
-This skill helps the member of your business run one whole sales conversation well, from the first hello to the decision, without ever tipping into pressure. It owns the shape of the conversation end to end: settling the member's own state so she shows up grounded, keeping the buyer in an open and safe state rather than a defensive one, and moving through five repeatable steps (open, understand, diagnose, co-create, decide) with honest words in the member's own voice. It works for whoever is holding the conversation: a founder selling her own work, a professional (an account executive) selling inside a role and a buying group, or someone in real life persuading honestly (enrolling a partner, a volunteer, or a sponsor to a cause). It does not research the prospect from scratch (discovery-call-prep does that), set or defend the price (pricing-confidence-coach does that), answer a specific objection (objection-handling-coach does that), or write the proposal (proposal-builder does that). It owns the conversation itself: how it feels, how it flows, and how it ends with the buyer making a good decision for them, including no.
+This skill helps the member run one whole sales conversation for their business well, from the first hello to the decision, without ever tipping into pressure. It owns the shape of the conversation end to end: settling the member's own state so she shows up grounded, keeping the buyer in an open and safe state rather than a defensive one, and moving through five repeatable steps (open, understand, diagnose, co-create, decide) with honest words in the member's own voice. It works for whoever is holding the conversation: a founder selling her own work, a professional (an account executive) selling inside a role and a buying group, or someone in real life persuading honestly (enrolling a partner, a volunteer, or a sponsor to a cause). It does not research the prospect from scratch (discovery-call-prep does that), set or defend the price (pricing-confidence-coach does that), answer a specific objection (objection-handling-coach does that), or write the proposal (proposal-builder does that). It owns the conversation itself: how it feels, how it flows, and how it ends with the buyer making a good decision for them, including no.
 
 ## 2. Governing principle
 
@@ -105,36 +105,36 @@ Never read "any relevant context". Read the named files above.
 
 ## 10. Output format
 
-The deliverable is the Conversation Plan block below. Keep this structure, the section order, and every placeholder. Gate optional parts with the conditional blocks shown, and keep those blocks side by side, never one inside another.
+The deliverable is the Conversation Plan below. Keep this structure and the section order. Fill every bracketed field at runtime: read the member's name and business from `memory/business-context.md` (or `memory/job-context.md` for a professional in a role), and what is verified about this prospect from `memory/prospect-insights.md`. The goal, the drafted language, the questions, and any real limit are set with the member for this specific conversation. If a needed value is not set, propose one and ask before saving it.
 
 ---
 
-# Conversation Plan: {{prospectName}}
+# Conversation Plan: [the prospect's name]
 
-> Prepared for the member at your business. A calm, honest conversation in your voice. The goal is the buyer's good decision, including no. No manufactured urgency, no fake scarcity, no pressure.
+> Prepared for [the member, name and business read from `memory/business-context.md`]. A calm, honest conversation in your voice. The goal is the buyer's good decision, including no. No manufactured urgency, no fake scarcity, no pressure.
 
 ---
 
 ## The single honest goal for this conversation
 
-> {{conversationGoal}}
+> [the single honest goal, set with the member for this conversation]
 
-(One line. To help {{prospectFirstName}} decide well about their real problem, not to convince them of anything.)
+(One line. To help the prospect decide well about their real problem, not to convince them of anything.)
 
 ---
 
 ## Step 0: Settle yourself first (30 seconds, just for you)
 
-- One breath, and this line: "{{purposeReframe}}"
-- One thing you genuinely know you can help with here: {{realCompetence}}
+- One breath, and this line: "[a one-line purpose reframe, drafted in the member's voice]"
+- One thing you genuinely know you can help with here: [one real competence, drawn from `memory/business-context.md`]
 
-(A grounded you helps {{prospectFirstName}} feel safe. If you feel anxious because you are underprepared, prepare first rather than push through.)
+(A grounded you helps the prospect feel safe. If you feel anxious because you are underprepared, prepare first rather than push through.)
 
 ---
 
 ## Step 1: Open (make it safe, give a real "no")
 
-> {{openLanguage}}
+> [the drafted opening language, in the member's voice]
 
 (Warmth, what this is for, and explicit permission to say no. Lower the threat before asking for anything.)
 
@@ -144,9 +144,9 @@ The deliverable is the Conversation Plan block below. Keep this structure, the s
 
 Open questions to ask, in order:
 
-1. {{understandQ1}}
-2. {{understandQ2}}
-3. {{understandQ3}}
+1. [open question 1]
+2. [open question 2]
+3. [open question 3]
 
 (Ask, then stop. Follow their words. Watch for open "green" or guarded "red" cues and slow down if they brace.)
 
@@ -154,31 +154,29 @@ Open questions to ask, in order:
 
 ## Step 3: Diagnose (before you offer anything)
 
-> {{diagnoseLanguage}}
+> [the drafted diagnosis language, in the member's voice]
 
-(Help {{prospectFirstName}} name the real problem and what solving it is worth, in their own words. No solution yet. If a price question or objection lands here, hand to pricing-confidence-coach or objection-handling-coach.)
+(Help the prospect name the real problem and what solving it is worth, in their own words. No solution yet. If a price question or objection lands here, hand to pricing-confidence-coach or objection-handling-coach.)
 
 ---
 
 ## Step 4: Co-create (connect honestly, shape it together)
 
-> {{cocreateLanguage}}
+> [the drafted co-create language, in the member's voice]
 
-{{#if goodFit}}This connects what you offer to the problem {{prospectFirstName}} actually named, in their terms, and shapes the next step with them rather than pitching at them.{{/if}}
-{{#if misfit}}**The honest read may be a genuine misfit.** {{misfitReason}} Here is a kind, honest way to say so and point them somewhere better: "{{misfitNote}}"{{/if}}
+Where the fit is good, this connects what you offer to the problem the prospect actually named, in their terms, and shapes the next step with them rather than pitching at them. Where the honest read is a genuine misfit, say so: name the reason plainly and draft a kind, honest line that points them somewhere better.
 
 ---
 
 ## Step 5: Decide (de-risk, never pressure)
 
-> {{decideLanguage}}
+> [the drafted decide language, in the member's voice]
 
-- **The clear, honest recommendation:** {{recommendation}}
-- **How the risk is lowered (a real de-risk, per JOLT):** {{deRisk}} (a smaller first step, a way back out, an honest guarantee)
-- **A genuine "no" is welcome:** {{noWelcome}}
+- **The clear, honest recommendation:** [the recommendation, set with the member]
+- **How the risk is lowered (a real de-risk, per JOLT):** [the de-risk] (a smaller first step, a way back out, an honest guarantee)
+- **A genuine "no" is welcome:** [the line that makes a real no explicitly welcome]
 
-{{#if realLimit}}A real limit applies and may be stated as the plain fact it is: {{realLimit}} (a true capacity or validity window, never manufactured).{{/if}}
-{{#if noRealLimit}}There is no real deadline or cap here, so none is stated. The decision runs at {{prospectFirstName}}'s honest pace.{{/if}}
+If a real limit exists (a true capacity or validity window, confirmed with the member), state it as the plain fact it is, never manufactured. If there is no real deadline or cap, state none, and let the decision run at the prospect's honest pace.
 
 ---
 

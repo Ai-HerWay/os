@@ -6,7 +6,7 @@ description: >
   recap since the last renewal, what has changed in the client's world, an honest recommendation
   (renew, expand, adjust, or gracefully conclude), and a drafted opener. Use this when you ask
   "prep the renewal conversation", "is this client worth renewing", "what have we delivered for
-  {{clientName}}", "their contract is coming up", "draft the renewal email", "should we extend",
+  this client", "their contract is coming up", "draft the renewal email", "should we extend",
   "build the renewal case", or "how do I raise the renewal without it feeling like a sales pitch".
 audiences: [founder, professional, life]
 level: L2 to L3
@@ -23,7 +23,7 @@ This skill owns the conversation that decides whether an engagement continues, a
 
 ## 2. Governing principle
 
-The renewal recommendation serves the client's interest before your business's revenue: recommend renewal only where the value recap honestly supports it, recommend concluding gracefully where it does not, and never let a client-facing word leave without human approval.
+The renewal recommendation serves the client's interest before the business's revenue: recommend renewal only where the value recap honestly supports it, recommend concluding gracefully where it does not, and never let a client-facing word leave without human approval.
 
 ## 3. Why this works (evidence base)
 
@@ -83,38 +83,39 @@ Never read "any relevant context". Read the named files above.
 
 ## 10. Output format
 
-The deliverable is the Renewal Prep Pack below. Keep the structure and order. Optional fields are gated. The opener is a draft: nothing sends without approval.
+The deliverable is the Renewal Prep Pack below. Keep this structure and the section order. Fill every bracketed field at runtime: read the member's name and business from `memory/business-context.md`, the renewal date from the Admin & Ops renewals register, and the agreed scope, delivered outcomes, and health notes from `memory/client-roster.md` and `memory/engagement-briefs/{client-slug}.md`. The recommendation and opener are formed for this specific renewal. If a needed value is not set, propose one and ask before saving it. The opener is a draft: nothing sends without approval.
 
 ---
 
-# Renewal Prep Pack: {{clientName}}
+# Renewal Prep Pack: [the client's name]
 
-> Prepared for the member, your business. Renewal date **{{renewalDate}}** (from the renewals register), prepared {{daysOut}} days out. Every outcome below is evidenced; open items from handoff are excluded from scope. Nothing sends until you approve it.
+> Prepared for [the member, read the name and business from `memory/business-context.md`]. Renewal date **[the renewal date, from the renewals register]** (from the renewals register), prepared [the number of days out] days out. Every outcome below is evidenced; open items from handoff are excluded from scope. Nothing sends until you approve it.
 
-## Value recap since {{lastRenewalOrStartDate}}
+## Value recap since [the last renewal or start date]
+
+One row per agreed scope item:
 
 | Agreed in scope | What was delivered | Evidence |
 |---|---|---|
-| {{item1.agreed}} | {{item1.delivered}} | {{item1.evidence}} |
-| {{item2.agreed}} | {{item2.delivered}} | {{item2.evidence}} |
+| [the agreed item] | [what was delivered] | [the evidence, traceable to the engagement brief] |
 
-{{#if excludedOpenItems}}**Excluded from this recap (handoff open items, never agreed scope):** {{excludedOpenItems}}{{/if}}
+If any handoff open items were excluded, add: **Excluded from this recap (handoff open items, never agreed scope):** [the excluded open items]
 
 ## What changed in their world
 
-{{worldChanges}}
+[the changes in the client's world, from the brief and roster notes]
 
 ## Health read (trajectory, not a score)
 
-{{healthTrajectory}}
+[the health trajectory: signals plus the member's read]
 
-## Recommendation: {{recommendation}} (renew / expand / adjust / gracefully conclude)
+## Recommendation: [renew, expand, adjust, or gracefully conclude]
 
-{{recommendationReasoning}} **The case against:** {{caseAgainst}}
+[the reasoning, stated plainly] **The case against:** [the honest case against the recommendation]
 
-## Drafted opener ({{channel}}) [DRAFT: for your approval]
+## Drafted opener ([the channel]) [DRAFT: for your approval]
 
-{{openerDraft}}
+[the drafted opener, short and warm, in the member's voice]
 
 ---
 

@@ -19,7 +19,7 @@ author: AI Her Way
 
 ## 1. Role and mandate
 
-This skill owns the value recap at the Review/Milestone stage of your business's client lifecycle (Intake, Onboarding, Active delivery, Review, Renewal, Offboarding). At each milestone or quarter it assembles one honest document per client: what was promised (from the engagement brief, which was seeded from the Sales handoff), what was actually delivered, what changed for the client in the terms they used when they bought, what comes next, and where delivery fell short. It is a QBR without the corporate theatre: no vanity slides, no activity dressed up as outcomes, no hiding the misses. It works for the founder recapping a retainer client, the professional (account or delivery lead) preparing a formal quarterly review inside a larger firm, and real life, reviewing whether the six-month commitment to the school committee actually produced what was promised. It owns the client-facing framing and the conversation; internal status mechanics, meeting capture, chasing, and the renewals date register belong to the Admin & Ops OS and stay there.
+This skill owns the value recap at the Review/Milestone stage of the member's client lifecycle (Intake, Onboarding, Active delivery, Review, Renewal, Offboarding). At each milestone or quarter it assembles one honest document per client: what was promised (from the engagement brief, which was seeded from the Sales handoff), what was actually delivered, what changed for the client in the terms they used when they bought, what comes next, and where delivery fell short. It is a QBR without the corporate theatre: no vanity slides, no activity dressed up as outcomes, no hiding the misses. It works for the founder recapping a retainer client, the professional (account or delivery lead) preparing a formal quarterly review inside a larger firm, and real life, reviewing whether the six-month commitment to the school committee actually produced what was promised. It owns the client-facing framing and the conversation; internal status mechanics, meeting capture, chasing, and the renewals date register belong to the Admin & Ops OS and stay there.
 
 ## 2. Governing principle
 
@@ -84,44 +84,49 @@ Never read "any relevant context". Read the named files above.
 
 ## 10. Output format
 
-The deliverable is the Milestone Review below. Keep the structure and order. The health note is internal only and never goes to the client.
+The deliverable is the Milestone Review below. Keep this structure and the section order. Fill every bracketed field at runtime: read the member's name and review cadence from `memory/business-context.md`, and the client's why, promises, and scope changes from `memory/client-roster.md` and `memory/engagement-briefs/{client-slug}.md`. The review period, delivered items, and gaps come from the delivery records for this specific engagement. If a needed value is not set, propose one and ask before saving it. The health note is internal only and never goes to the client.
 
 ---
 
-# Milestone Review: {{clientName}}, {{reviewPeriod}}
+# Milestone Review: [the client's name], [the review period]
 
 > Prepared for the member to review and approve before anything reaches the client. Every result below is verified against the engagement brief and delivery records. Gaps are stated plainly.
 
-**Why they bought (their words, from the engagement brief):** {{clientWhy}}
+**Why they bought (their words, from the engagement brief):** [the client's why, from `memory/engagement-briefs/{client-slug}.md`]
 
 ## Promised and delivered
 
+One row per promise from the engagement brief:
+
 | What we promised | What happened | The outcome in their terms |
 |---|---|---|
-| {{item1.promise}} | {{item1.delivered}} | {{item1.outcome}} |
-| {{item2.promise}} | {{item2.delivered}} | {{item2.outcome}} |
+| [the promise] | [what was delivered, verified] | [the outcome in the client's success terms] |
 
-{{#if extras}}## Delivered beyond scope
-{{extras}}
-{{/if}}
+Include this section only when genuine extras were delivered; otherwise omit it.
+
+## Delivered beyond scope
+[the extras, reported briefly and separately]
 
 ## The honest gaps
 
+One row per miss or behind item:
+
 | Where we are behind | Why | Recovery step and date |
 |---|---|---|
-| {{gap1.what}} | {{gap1.why}} | {{gap1.recovery}} by {{gap1.date}} |
+| [the gap] | [the reason, without excuses] | [the recovery step] by [the date] |
 
 ## What is next
 
-{{nextPeriodFocus}} (delivery focus only; anything commercial is flagged separately for the member)
+[the delivery focus for the coming period] (delivery focus only; anything commercial is flagged separately for the member)
 
-{{#if worthDiscussing}}## Worth discussing (never-agreed items surfaced, not scope)
-{{worthDiscussing}}
-{{/if}}
+Include this section only when never-agreed items are worth surfacing; otherwise omit it.
+
+## Worth discussing (never-agreed items surfaced, not scope)
+[the items worth discussing, from the handoff open items]
 
 ---
 
-**Internal only, for the member: client health read.** Trajectory signals: {{trajectorySignals}}. My read, for your judgement, not a score: {{healthRead}}.
+**Internal only, for the member: client health read.** Trajectory signals: [the trajectory signals]. My read, for your judgement, not a score: [the health read].
 
 ---
 

@@ -81,31 +81,31 @@ Never read "any relevant context". Read the named files above.
 
 ## 10. Output format
 
-The deliverable is the short Pre-Call Primer below. Keep it brief by design: the member reads it in about 60 seconds. Keep this structure and every placeholder.
+The deliverable is the short Pre-Call Primer below. Keep it brief by design: the member reads it in about 60 seconds. Keep this structure and the section order. Fill every bracketed field at runtime: read the member's first name and voice from `memory/business-context.md` (or `memory/job-context.md` for a professional in a role), and ground the reminders only in verified notes from `memory/prospect-insights.md`. The call name, the prospect's first name, and the goal are set with the member for this specific call. If a needed value is not set, propose one and ask before saving it.
 
 ---
 
-# Pre-Call Primer: {{callName}}
+# Pre-Call Primer: [the call name]
 
-> For the member, right before this conversation. Read it once, breathe, then go in as yourself.
+> For [the member's first name], right before this conversation. Read it once, breathe, then go in as yourself.
 
 **The reframe**
-You are here to help {{prospectFirstName}} decide well, not to convince them. There is nothing to force. Be honest, be useful, and let the right answer be the right answer, including no.
+You are here to help [the prospect's first name] decide well, not to convince them. There is nothing to force. Be honest, be useful, and let the right answer be the right answer, including no.
 
 **Three things to remember for this call**
-1. {{remember1}}
-2. {{remember2}}
-3. {{remember3}}
+1. [the first true, specific reminder]
+2. [the second true, specific reminder]
+3. [the third true, specific reminder]
 
 (These are true and specific to you and to this call. No invented wins.)
 
 **Grounding cue**
-{{groundingCue}} (for example: one slow breath in for four, out for six, shoulders down, then begin.)
+[one grounding cue] (for example: one slow breath in for four, out for six, shoulders down, then begin.)
 
 **The one goal**
-{{callGoal}} (one honest aim, e.g. "understand whether we are genuinely a fit", not "close the deal").
+[the one goal of this call] (one honest aim, e.g. "understand whether we are genuinely a fit", not "close the deal").
 
-{{#if reschedulePrompt}}**A gentle note:** {{reschedulePrompt}}{{/if}}
+**A gentle note:** include this line only when the honest read is that the member should prepare or reschedule first; say so kindly, and leave it out otherwise.
 
 ---
 

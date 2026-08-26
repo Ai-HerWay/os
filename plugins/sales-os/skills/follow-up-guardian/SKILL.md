@@ -19,7 +19,7 @@ author: AI Her Way
 
 ## 1. Role and mandate
 
-This skill owns the thing founders dread and avoid: chasing. It watches every open deal in your business's pipeline, whether that lives in a connected CRM or in `memory/sales-pipeline.md`, and each day it works out who has gone quiet, why now is the right moment, and by when a touch should land. For each, it drafts a warm, specific follow-up that adds a little value rather than asking the buyer to do the work of remembering you. It turns a vague pile of "I really should get back to people" into one approved click. It works for the founder chasing warm enquiries without feeling pushy, the professional (AE) keeping a multi-deal pipeline moving inside company cadence rules, and real life, gently following up people who said they were interested in a community offering. It does not qualify new leads, write cold outreach, or close the deal: it makes sure no warm one quietly dies of neglect.
+This skill owns the thing founders dread and avoid: chasing. It watches every open deal in the member's pipeline, whether that lives in a connected CRM or in `memory/sales-pipeline.md`, and each day it works out who has gone quiet, why now is the right moment, and by when a touch should land. For each, it drafts a warm, specific follow-up that adds a little value rather than asking the buyer to do the work of remembering you. It turns a vague pile of "I really should get back to people" into one approved click. It works for the founder chasing warm enquiries without feeling pushy, the professional (AE) keeping a multi-deal pipeline moving inside company cadence rules, and real life, gently following up people who said they were interested in a community offering. It does not qualify new leads, write cold outreach, or close the deal: it makes sure no warm one quietly dies of neglect.
 
 ## 2. Governing principle
 
@@ -31,7 +31,7 @@ Three things make this skill the flagship, not a reminder list.
 
 **Most sales are won in the follow-up, and most sellers quit before then.** Widely cited aggregates from sources such as Invesp and ZoomInfo (2024 to 2026) find directionally the same thing: research consistently finds most deals need several follow-ups, yet nearly half of sellers stop after one attempt and many never follow up at all. We present this directionally rather than as exact percentages, because the published figures vary by study and channel. The point is robust and it is the whole reason this skill exists: the revenue is not lost at the pitch, it is lost in the silence after it. A skill that reliably surfaces the warm deals going cold, and makes the next touch a single approved action, closes the largest and most predictable leak in small sales. Source: aggregated follow-up persistence research, Invesp and ZoomInfo, 2024 to 2026.
 
-**A dated next step is the difference between intending to follow up and actually doing it.** Peter Gollwitzer's "Implementation intentions: Strong effects of simple plans" (American Psychologist, 1999) showed that specifying exactly when and where an action will happen, a concrete next step tied to a moment, sharply increases follow-through compared with a general goal to "stay on top of it". This is the named basis for the rule that every open deal must carry a dated next step. "Follow up with {{prospect}}" is a wish; "send {{prospect}} the case study on Thursday" is an implementation intention, and it is the one that happens. The Follow-Up Run ends by counting deals with no dated next step, and that count should be zero. Source: Peter M. Gollwitzer, "Implementation intentions: Strong effects of simple plans", American Psychologist, 1999.
+**A dated next step is the difference between intending to follow up and actually doing it.** Peter Gollwitzer's "Implementation intentions: Strong effects of simple plans" (American Psychologist, 1999) showed that specifying exactly when and where an action will happen, a concrete next step tied to a moment, sharply increases follow-through compared with a general goal to "stay on top of it". This is the named basis for the rule that every open deal must carry a dated next step. "Follow up with [the prospect]" is a wish; "send [the prospect] the case study on Thursday" is an implementation intention, and it is the one that happens. The Follow-Up Run ends by counting deals with no dated next step, and that count should be zero. Source: Peter M. Gollwitzer, "Implementation intentions: Strong effects of simple plans", American Psychologist, 1999.
 
 **Adding value each time is the ethical version of persistence.** The on-brand reading is simple: follow-up that brings something useful and uses only honest, real reasons is generous, not pushy. A relevant article, an answer to the question they raised, a genuine deadline, a small piece of help: each of these earns the touch. "Just circling back" earns nothing and trains the buyer to ignore you. So persistence here is never manufactured urgency or fake scarcity; it is showing up usefully until the buyer is ready to decide, including the decision not to buy. This is core AI Her Way IP and it supersedes any short-term lift a pushier message might produce.
 
@@ -43,7 +43,7 @@ This is the psychology layer. For every open deal, run its current state against
 
 | Condition the skill looks for | Default decision | Edge case that overrides |
 |---|---|---|
-| Lead has gone quiet but has not opted out and is past their cadence gap | Surface for a follow-up today; draft a warm, value-adding touch with a dated next step | A note in the deal saying "do not contact until {{date}}" or a pending action that is genuinely on your side, not theirs |
+| Lead has gone quiet but has not opted out and is past their cadence gap | Surface for a follow-up today; draft a warm, value-adding touch with a dated next step | A note in the deal saying "do not contact until [a named date]" or a pending action that is genuinely on your side, not theirs |
 | Lead has opted out, unsubscribed, or asked not to be contacted | Stop. Always. Remove from the run and do not draft anything | None. This never bends. An opt-out is permanent until they themselves re-engage |
 | The "value to add" is missing (no honest reason, nothing useful to say) | Wait, or go find a real reason (an article, an answer, a relevant update) before touching. Never send an empty "checking in" | A genuinely time-sensitive event on the buyer's side (their stated deadline, a date they named) makes the touch itself the value |
 | A real deadline or limit exists (their stated timeline, a true cap, a real expiry) | Name it honestly and let it help an undecided buyer decide | None on honesty. If you would have to soften or stretch the truth to use it, do not use it |
@@ -85,66 +85,53 @@ Never read "any relevant context". Read the named files above.
 
 ## 10. Output format
 
-The deliverable is the Follow-Up Run below. Keep this structure, the order, and every placeholder. Optional fields are gated.
+The deliverable is the Follow-Up Run below. Keep this structure and the section order. Fill every bracketed field at runtime: read the member's name and business from `memory/business-context.md` (or `memory/job-context.md` for a professional in a role), the open deals, stages, last-contact dates, and opt-out flags from `memory/sales-pipeline.md` or the connected CRM, and verified prospect detail from `memory/prospect-insights.md`. The run date, the drafts, and the dated next steps are set for this specific run. If a needed value is not set, propose one and ask before saving it.
 
 ---
 
-# Follow-Up Run: {{runDate}}
+# Follow-Up Run: [the run date]
 
-> Prepared for the member, your business. Every reason below is real and every personal detail is verified. Opt-outs have been honoured. Nothing sends until you approve it.
+> Prepared for [the member, read the name from `memory/business-context.md`], [the member's business]. Every reason below is real and every personal detail is verified. Opt-outs have been honoured. Nothing sends until you approve it.
 
-**Deals needing a touch today: {{dueCount}}** (of {{openCount}} open)
+**Deals needing a touch today: [count of deals due]** (of [count of open deals] open)
 
 ---
 
 ## Who needs a nudge today
 
+Add one row per deal due today, from the pipeline or connected CRM.
+
 | Deal | Stage | Days since last contact | Why now |
 |---|---|---|---|
-| {{deal1.name}} | {{deal1.stage}} | {{deal1.daysSince}} | {{deal1.whyNow}} |
-| {{deal2.name}} | {{deal2.stage}} | {{deal2.daysSince}} | {{deal2.whyNow}} |
-| {{deal3.name}} | {{deal3.stage}} | {{deal3.daysSince}} | {{deal3.whyNow}} |
+| [the deal name] | [the stage] | [days since last contact] | [the honest reason this touch is due now] |
+| [the deal name] | [the stage] | [days since last contact] | [the honest reason this touch is due now] |
+| [the deal name] | [the stage] | [days since last contact] | [the honest reason this touch is due now] |
 
 ---
 
 ## Drafted follow-ups
 
-### {{deal1.name}} ({{deal1.channel}})
+Repeat the block below for every deal due today.
 
-{{deal1.draft}}
+### [the deal name] ([the channel])
 
-- **Value this touch adds:** {{deal1.valueAdded}}
-{{#if deal1.realDeadline}}- **Honest deadline named:** {{deal1.realDeadline}}{{/if}}
-- **Dated next step to set:** {{deal1.nextStep}} by {{deal1.nextStepDate}}
+[the drafted follow-up message, in the member's voice]
 
-### {{deal2.name}} ({{deal2.channel}})
-
-{{deal2.draft}}
-
-- **Value this touch adds:** {{deal2.valueAdded}}
-{{#if deal2.realDeadline}}- **Honest deadline named:** {{deal2.realDeadline}}{{/if}}
-- **Dated next step to set:** {{deal2.nextStep}} by {{deal2.nextStepDate}}
-
-### {{deal3.name}} ({{deal3.channel}})
-
-{{deal3.draft}}
-
-- **Value this touch adds:** {{deal3.valueAdded}}
-{{#if deal3.realDeadline}}- **Honest deadline named:** {{deal3.realDeadline}}{{/if}}
-- **Dated next step to set:** {{deal3.nextStep}} by {{deal3.nextStepDate}}
+- **Value this touch adds:** [the genuine value this touch carries]
+- **Honest deadline named:** [the real deadline, include this line only where a true deadline exists]
+- **Dated next step to set:** [the next step] by [the date]
 
 ---
 
-{{#if heldDeals}}## Held or skipped (and why)
+## Held or skipped (and why)
 
-{{heldDeals}}
-{{/if}}
+[each deal held out of the run, with the reason, or a plain note that nothing was held this run]
 
 ## Pipeline integrity check
 
-- **Open deals with no dated next step: {{noNextStepCount}}** (target: 0)
-{{#if noNextStepList}}- **These need a next step set:** {{noNextStepList}}{{/if}}
-- **Opt-outs honoured this run:** {{optOutCount}}
+- **Open deals with no dated next step: [the count]** (target: 0)
+- **These need a next step set:** [list the deals, include this line only when the count above is not zero]
+- **Opt-outs honoured this run:** [the count]
 
 ---
 

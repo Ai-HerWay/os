@@ -19,7 +19,7 @@ author: AI Her Way
 
 ## 1. Role and mandate
 
-This skill owns the watchlist for every active engagement in your business's roster: the Risks that could hurt the work, the Issues that already are (each carrying an action and an owner), and the Dependencies, the things you are waiting on from the client or a third party. Full RAID logs also track assumptions and decisions; this is the lite version, tuned for small delivery teams, because a short list that gets reviewed beats a long one that gets ignored. Every item carries the date it was raised, so its age is visible at a glance and nothing can quietly rot at the bottom of a page. It is weighted to the professional persona, the project or account manager running several engagements who is judged on nothing surprising the client. The founder gets a two-minute variant (Section 5, step 7). In real life, the same shape tracks a renovation or a school project: what could go wrong, what has, and who you are waiting on. This skill maintains the watchlist and drafts the client-facing framing of items worth raising; the internal status mechanics, meeting capture, and chasing of overdue items belong to the Admin & Ops OS (project-status-updater, meeting-notes-followup, follow-up-chaser), and the renewals date register belongs to its deadline-renewal-tracking skill. This skill tells them what to chase; it does not do the chasing.
+This skill owns the watchlist for every active engagement in the member's roster: the Risks that could hurt the work, the Issues that already are (each carrying an action and an owner), and the Dependencies, the things you are waiting on from the client or a third party. Full RAID logs also track assumptions and decisions; this is the lite version, tuned for small delivery teams, because a short list that gets reviewed beats a long one that gets ignored. Every item carries the date it was raised, so its age is visible at a glance and nothing can quietly rot at the bottom of a page. It is weighted to the professional persona, the project or account manager running several engagements who is judged on nothing surprising the client. The founder gets a two-minute variant (Section 5, step 7). In real life, the same shape tracks a renovation or a school project: what could go wrong, what has, and who you are waiting on. This skill maintains the watchlist and drafts the client-facing framing of items worth raising; the internal status mechanics, meeting capture, and chasing of overdue items belong to the Admin & Ops OS (project-status-updater, meeting-notes-followup, follow-up-chaser), and the renewals date register belongs to its deadline-renewal-tracking skill. This skill tells them what to chase; it does not do the chasing.
 
 ## 2. Governing principle
 
@@ -45,7 +45,7 @@ Run every candidate item and every review pass against these conditions. The ove
 | Something is actively hurting the work now | Log as an **Issue** with an action, an owner, and a due date; an issue without an action is just a complaint | An issue that touches money, legal exposure, or the contract goes to the member immediately, before it is even fully written up |
 | Progress is blocked on the client or a third party | Log as a **Dependency** with who, what, the date requested, and the date it starts costing us | If the wait is on our side, it is our Issue, never a Dependency; do not launder our delay as their blocker |
 | An item appears in the sales handoff pack's openItems (post-sale-handoff, section 4) | Log open questions as Risks or Dependencies to resolve; openItems are NEVER treated as agreed scope | Only what the intake contract records as confirmed scope is scope; anything else needs the client's explicit agreement first |
-| An item has aged past one full status cadence with no movement | Flag it visibly with its age and propose escalation or closure; silence is not an outcome | A dated "parked until {{date}}" note from the member holds it, with the revisit date on the watchlist |
+| An item has aged past one full status cadence with no movement | Flag it visibly with its age and propose escalation or closure; silence is not an outcome | A dated "parked until [a stated date]" note from the member holds it, with the revisit date on the watchlist |
 | An item is worth raising with the client | Draft the client-facing framing (honest, calm, with a proposed path) and hold for human approval | None. Client-facing text never sends autonomously, whatever the tier |
 | The relationship itself feels at risk (tone shift, slow replies, sharp feedback) | Log as a Risk citing the specific trajectory signals observed, and flag for the member's own read | Never score it from sentiment alone; a lone sentiment score is not evidence (Section 8) |
 | An item involves a named individual at the client or a third party | Record only what is necessary, factual, and professional | Anything sensitive about a person stays out of the watchlist entirely and goes to the member verbally |
@@ -84,44 +84,51 @@ Never read "any relevant context". Read the named files above.
 
 ## 10. Output format
 
-The deliverable is the Watchlist Review below, one per engagement per cadence, oldest first in each table. Keep the structure and placeholders. In each brief, the watchlist lives under a `## RAID Lite` heading in this same three-table shape.
+The deliverable is the Watchlist Review below, one per engagement per cadence, oldest first in each table. Keep this structure and the section order. Fill every bracketed field at runtime: read the cadence from `memory/client-roster.md`, and the watchlist items themselves from the RAID Lite section of `memory/engagement-briefs/{client-slug}.md`. Ages are computed from each item's raised date at review time. If a needed value is not set, propose one and ask before saving it. In each brief, the watchlist lives under a `## RAID Lite` heading in this same three-table shape.
 
 ---
 
-# Watchlist Review: {{clientName}} ({{reviewDate}})
+# Watchlist Review: [the client's name] ([the review date])
 
-> Cadence: {{cadence}}. Open items: {{openCount}}. Oldest open item: {{oldestAgeDays}} days. Items needing a decision today: {{decisionCount}}. Nothing below reaches the client without your approval.
+> Cadence: [the cadence, from `memory/client-roster.md`]. Open items: [the open count]. Oldest open item: [the oldest item's age] days. Items needing a decision today: [the decision count]. Nothing below reaches the client without your approval.
 
 ## Risks (could hurt, has not yet)
 
+One row per open risk, oldest first:
+
 | Raised | Age (days) | Risk | Likelihood / impact | Watch trigger | Movement since last review |
 |---|---|---|---|---|---|
-| {{risk1.raised}} | {{risk1.age}} | {{risk1.text}} | {{risk1.likelihoodImpact}} | {{risk1.trigger}} | {{risk1.movement}} |
+| [the raised date] | [the computed age] | [the risk] | [likelihood and impact] | [the watch trigger] | [the movement, or "none"] |
 
 ## Issues (hurting now, each with an action)
 
+One row per open issue, oldest first:
+
 | Raised | Age (days) | Issue | Action and owner | Due | Movement since last review |
 |---|---|---|---|---|---|
-| {{issue1.raised}} | {{issue1.age}} | {{issue1.text}} | {{issue1.actionOwner}} | {{issue1.due}} | {{issue1.movement}} |
+| [the raised date] | [the computed age] | [the issue] | [the action and its owner] | [the due date] | [the movement, or "none"] |
 
 ## Dependencies (waiting on the client or a third party)
 
+One row per open dependency, oldest first:
+
 | Requested | Age (days) | Waiting on | For what | Costs us from | Movement since last review |
 |---|---|---|---|---|---|
-| {{dep1.requested}} | {{dep1.age}} | {{dep1.who}} | {{dep1.what}} | {{dep1.costDate}} | {{dep1.movement}} |
+| [the requested date] | [the computed age] | [who we are waiting on] | [what for] | [the date it starts costing us] | [the movement, or "none"] |
 
 ## Decisions needed from you
 
-{{decisionsList}}
+[the list of items needing the member's decision today]
 
-{{#if clientFacingDrafts}}## Drafted for the client (held for your approval)
+Include this section only when client-facing drafts exist this review; otherwise omit it.
 
-{{clientFacingDrafts}}
-{{/if}}
+## Drafted for the client (held for your approval)
+
+[the client-facing framings, each honest, calm, with a proposed path]
 
 ## Closed this review
 
-{{closedList}}
+[the items closed, each with its one-line outcome]
 
 ---
 

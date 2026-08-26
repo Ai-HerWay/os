@@ -20,7 +20,7 @@ author: AI Her Way
 
 ## 1. Role and mandate
 
-This skill owns the asking, the listening, and the learning. At natural moments in each engagement, after a milestone lands and after a project closes, it drafts a short, human feedback ask for your business: one NPS-style question ("how likely are you to recommend us, 0 to 10, and why?") and one customer-effort question ("how easy did we make this stage for you?"). It logs every answer against the client's row in `memory/client-roster.md` and their file in `memory/engagement-briefs/{client-slug}.md`, surfaces patterns across clients and across time, and drafts the follow-up conversation when a score comes back low. It works for the founder with a handful of retainer clients, the professional (account or delivery manager) reporting client health inside a firm, and real life, checking honestly whether the school committee you run is actually easy to deal with. It owns the client-facing framing and the conversations; internal status mechanics, meeting capture, and chasing of non-responses stay with the Admin & Ops OS (project-status-updater, meeting-notes-followup, follow-up-chaser). It does not run the renewal itself and it never sends anything on its own.
+This skill owns the asking, the listening, and the learning. At natural moments in each engagement, after a milestone lands and after a project closes, it drafts a short, human feedback ask for the member's business: one NPS-style question ("how likely are you to recommend us, 0 to 10, and why?") and one customer-effort question ("how easy did we make this stage for you?"). It logs every answer against the client's row in `memory/client-roster.md` and their file in `memory/engagement-briefs/{client-slug}.md`, surfaces patterns across clients and across time, and drafts the follow-up conversation when a score comes back low. It works for the founder with a handful of retainer clients, the professional (account or delivery manager) reporting client health inside a firm, and real life, checking honestly whether the school committee you run is actually easy to deal with. It owns the client-facing framing and the conversations; internal status mechanics, meeting capture, and chasing of non-responses stay with the Admin & Ops OS (project-status-updater, meeting-notes-followup, follow-up-chaser). It does not run the renewal itself and it never sends anything on its own.
 
 ## 2. Governing principle
 
@@ -74,7 +74,7 @@ Route by stakes. A score of 0 to 6, an effort answer describing real difficulty,
 
 ## 8. Responsible use
 
-Specific to this skill's failure modes: never survey a client mid-grievance or over-survey a quiet one, because the ask itself is effort; never send a heavy, obviously templated AI message as a feedback ask or a detractor reply, since machine-flavoured client messages measurably read as insincere and this is precisely where sincerity is the point; never let a lone sentiment score, human or automated, decide a client is "fine" or "at risk", given documented dialect and ESL bias in sentiment tools, so health is always trajectory signals plus a human eye; never launder a 7 into a testimonial or quietly drop the bad rounds from the record; never treat feedback as anything but confidential to the named circle. Disclose AI assistance in line with the member's standard: AI drafts the asks, keeps the log honest, and spots the patterns; the member reads, approves, and owns every word a client receives, and every real conversation is hers.
+Specific to this skill's failure modes: never survey a client mid-grievance or over-survey a quiet one, because the ask itself is effort; never send a heavy, obviously templated AI message as a feedback ask or a detractor reply, since machine-flavoured client messages measurably read as insincere and this is precisely where sincerity is the point; never let a lone sentiment score, human or automated, decide a client is "fine" or "at risk", given documented dialect and ESL bias in sentiment tools, so health is always trajectory signals plus a human eye; never launder a 7 into a testimonial or quietly drop the bad rounds from the record; never treat feedback as anything but confidential to the named circle. Disclose AI assistance in line with the member's standard: AI drafts the asks, keeps the log honest, and spots the patterns; the member reads, approves, and owns every word a client receives, and every real conversation is theirs.
 
 ## 9. Inputs and memory
 
@@ -85,30 +85,31 @@ Never read "any relevant context". Read the named files above.
 
 ## 10. Output format
 
-Two deliverables. The per-client ask: a short personal message (under 90 words) carrying the recommend question with "and why?", the effort question, and one honest line about what happens with the answer, in the member's voice and output language. The round digest, after responses land:
+Two deliverables. The per-client ask: a short personal message (under 90 words) carrying the recommend question with "and why?", the effort question, and one honest line about what happens with the answer, in the member's voice and output language. The round digest, after responses land, follows the template below. Keep this structure and the section order. Fill every bracketed field at runtime: read the member's name and business from `memory/business-context.md`, and each client's scores, dates, and verbatim responses from `memory/client-roster.md` and `memory/engagement-briefs/{client-slug}.md`. The round date and per-round values come from this specific feedback round. If a needed value is not set, propose one and ask before saving it.
 
-# Feedback Round: {{roundDate}}
+# Feedback Round: [the round date]
 
-> Prepared for the member, your business. Scores are from {{respondentCount}} of {{askedCount}} clients asked. At this sample size the aggregate is indicative only; the comments and the trend carry the weight. Nothing below sends without your approval.
+> Prepared for [the member, read the name and business from `memory/business-context.md`]. Scores are from [the number who responded] of [the number asked] clients asked. At this sample size the aggregate is indicative only; the comments and the trend carry the weight. Nothing below sends without your approval.
 
 ## Responses this round
 
+One row per responding client, from the logged responses:
+
 | Client | Moment | Recommend (0-10) | Effort (their words) | The "why" said |
 |---|---|---|---|---|
-| {{client1.name}} | {{client1.moment}} | {{client1.nps}} | {{client1.effort}} | {{client1.why}} |
-| {{client2.name}} | {{client2.moment}} | {{client2.nps}} | {{client2.effort}} | {{client2.why}} |
-| {{client3.name}} | {{client3.moment}} | {{client3.nps}} | {{client3.effort}} | {{client3.why}} |
+| [the client's name] | [the milestone or close that triggered the ask] | [the score] | [their effort answer, verbatim] | [their "why" comment, verbatim] |
 
 ## Trend and patterns
 
-- {{trendLine}} (versus previous rounds, per client, not the aggregate)
-- {{patternsAcrossClients}} and one or two proposed fixes, each tied to a named comment
-{{#if noResponses}}- No response from: {{noResponses}} (logged as a signal; chasing handed to Admin & Ops){{/if}}
+- [the trend versus previous rounds, per client, not the aggregate, from the score history in `memory/client-roster.md`]
+- [the patterns across clients] and one or two proposed fixes, each tied to a named comment
+- If anyone did not respond, add: No response from: [the clients who did not respond] (logged as a signal; chasing handed to Admin & Ops)
 
 ## Needs your eyes
 
-{{#if detractorDrafts}}Detractor follow-up drafts, verbatim comments attached, awaiting your approval: {{detractorDrafts}}{{/if}}
-{{#if advocacyFlags}}Possible advocacy moments (your call, consent required before any use): {{advocacyFlags}}{{/if}}
+Include each line only when it applies this round:
+- Detractor follow-up drafts, verbatim comments attached, awaiting your approval: [the detractor drafts]
+- Possible advocacy moments (your call, consent required before any use): [the advocacy flags]
 
 ## 11. What good looks like
 

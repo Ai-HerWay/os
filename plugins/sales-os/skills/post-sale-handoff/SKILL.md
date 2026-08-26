@@ -18,7 +18,7 @@ author: AI Her Way
 
 ## 1. Role and mandate
 
-This skill owns the seam between sale and delivery for your business: the first hours after a buyer says yes. It works for whoever just won the deal: a founder onboarding a new client, a professional (an account executive) handing a closed deal to delivery or customer success with a clean brief, or someone in real life welcoming a new volunteer or member and setting them up well. It owns the handoff end to end: a warm welcome that confirms the relationship is in good hands, a written confirmation of exactly what was agreed (scope, price, timeline, what happens next, what is needed from the client), and the first onboarding step that starts delivery cleanly. It drafts and prepares; it does not send without approval, and it never restates or changes the agreed price or terms on its own. It moves the deal to Won and hands the relationship cleanly to delivery (or to the member's own delivery process). The human approves the welcome and confirmation, and a human owns the relationship from here.
+This skill owns the seam between sale and delivery for the member's business: the first hours after a buyer says yes. It works for whoever just won the deal: a founder onboarding a new client, a professional (an account executive) handing a closed deal to delivery or customer success with a clean brief, or someone in real life welcoming a new volunteer or member and setting them up well. It owns the handoff end to end: a warm welcome that confirms the relationship is in good hands, a written confirmation of exactly what was agreed (scope, price, timeline, what happens next, what is needed from the client), and the first onboarding step that starts delivery cleanly. It drafts and prepares; it does not send without approval, and it never restates or changes the agreed price or terms on its own. It moves the deal to Won and hands the relationship cleanly to delivery (or to the member's own delivery process). The human approves the welcome and confirmation, and a human owns the relationship from here.
 
 ## 2. Governing principle
 
@@ -86,19 +86,19 @@ Never read "any relevant context". Read the named files above.
 
 ## 10. Output format
 
-The deliverable is the Handoff Pack below. Keep this structure, the section order, and every placeholder. Every line restates what was agreed exactly; nothing new is committed. The welcome and the written confirmation are held for the member to approve before sending.
+The deliverable is the Handoff Pack below. Keep this structure and the section order. Fill every bracketed field at runtime: read the member's name, voice, and onboarding process from `memory/business-context.md` (or `memory/job-context.md` for a professional in a role), the agreed scope, price, and timeline from the proposal or agreed-terms document for this deal, and the buyer context from `memory/prospect-insights.md`. The client's name, the offer, and every agreement line are set from the record of this specific deal, never from memory of the call. If a needed value is not set, propose one and ask before saving it. Every line restates what was agreed exactly; nothing new is committed. The welcome and the written confirmation are held for the member to approve before sending.
 
 ---
 
-# Handoff Pack: {{clientName}} ([the offer])
+# Handoff Pack: [the client's name] ([the offer, as named in the agreed terms])
 
-> Prepared by the member, your business. Drafted the day {{clientName}} said yes. Every scope, price, and timeline line below matches what was agreed and is approved before sending.
+> Prepared by [the member, read the name from `memory/business-context.md`]. Drafted the day [the client's name] said yes. Every scope, price, and timeline line below matches what was agreed and is approved before sending.
 
 ---
 
 ## 1. Warm welcome (draft for approval)
 
-{{welcomeMessage}}
+[the drafted welcome message, in the member's voice]
 
 (Warm, confident, honest. Confirms the relationship is in good hands. No invented promises beyond what was agreed.)
 
@@ -106,27 +106,25 @@ The deliverable is the Handoff Pack below. Keep this structure, the section orde
 
 ## 2. Written confirmation of what we agreed (draft for approval)
 
-Hi {{clientFirstName}}, putting our agreement in writing so we are both clear from day one.
+Hi [the client's first name], putting our agreement in writing so we are both clear from day one.
 
-- **What we are doing (scope):** {{agreedScope}}
-- **Investment (price):** {{agreedPrice}}
-- **Timeline:** {{agreedTimeline}}
-- **What happens next:** {{whatHappensNext}}
-- **What we need from you:** {{whatIsNeededFromClient}}
+- **What we are doing (scope):** [the agreed scope, restated exactly from the proposal or signed terms]
+- **Investment (price):** [the agreed price, restated exactly]
+- **Timeline:** [the agreed timeline, restated exactly]
+- **What happens next:** [what happens next, as agreed]
+- **What we need from you:** [what is needed from the client]
 
 (Each line restated exactly as agreed in the proposal or signed terms. Nothing rounded, re-phrased, or added.)
 
-{{#if openItems}}
-**Open items to confirm:** {{openItems}} (raised at the close but not yet priced or agreed; held for the member to decide, not committed here.)
-{{/if}}
+**Open items to confirm:** include this line only when something was raised at the close but not yet priced or agreed; list each item and note it is held for the member to decide, not committed here. Leave the line out when there are none.
 
 ---
 
 ## 3. First onboarding step
 
-- **The step:** {{firstOnboardingStep}}
-- **Who owns it:** {{onboardingOwner}}
-- **When:** {{onboardingWhen}}
+- **The step:** [the first onboarding step]
+- **Who owns it:** [the owner]
+- **When:** [the date or time]
 
 (One specific, true action that starts delivery cleanly. No vague "we will be in touch".)
 
@@ -134,15 +132,15 @@ Hi {{clientFirstName}}, putting our agreement in writing so we are both clear fr
 
 ## 4. Handoff brief for delivery
 
-For {{deliveryOwner}} (delivery or customer success), so nothing is lost at the seam.
+For [the delivery owner] (delivery or customer success), so nothing is lost at the seam.
 
 | Item | Detail |
 |---|---|
-| Agreed scope | {{agreedScope}} |
-| Agreed price | {{agreedPrice}} |
-| Agreed timeline | {{agreedTimeline}} |
-| Context from the sale | {{saleContext}} |
-| Risks and watch-outs | {{risksAndWatchouts}} |
+| Agreed scope | [the agreed scope] |
+| Agreed price | [the agreed price] |
+| Agreed timeline | [the agreed timeline] |
+| Context from the sale | [key context from the sale] |
+| Risks and watch-outs | [risks and watch-outs] |
 
 (Complete enough that someone who was not on the call can deliver confidently.)
 
@@ -151,8 +149,8 @@ For {{deliveryOwner}} (delivery or customer success), so nothing is lost at the 
 ## 5. Status
 
 - Deal moved to **Won** in the pipeline.
-- Relationship handed to {{deliveryOwner}}.
-- Welcome and confirmation held for the member to approve before sending.
+- Relationship handed to [the delivery owner].
+- Welcome and confirmation held for [the member's first name] to approve before sending.
 
 ---
 
@@ -160,7 +158,7 @@ For {{deliveryOwner}} (delivery or customer success), so nothing is lost at the 
 
 **Good example (annotated).**
 
-> Warm welcome: "Welcome aboard, {{clientFirstName}}, we are genuinely glad to be working with you, and you are in good hands." [1] Written confirmation: scope, price, and timeline restated word for word from the signed proposal, plus "what happens next" and "what we need from you". [2] One extra request the client mentioned at the close is listed as an open item for the member to decide, not committed. [3] First onboarding step: "kickoff call booked for Thursday 10am, I will send the calendar invite today" with an owner and a real date. [4] Deal moved to Won, and a complete brief handed to delivery so nothing is dropped.
+> Warm welcome: "Welcome aboard, [the client's first name], we are genuinely glad to be working with you, and you are in good hands." [1] Written confirmation: scope, price, and timeline restated word for word from the signed proposal, plus "what happens next" and "what we need from you". [2] One extra request the client mentioned at the close is listed as an open item for the member to decide, not committed. [3] First onboarding step: "kickoff call booked for Thursday 10am, I will send the calendar invite today" with an owner and a real date. [4] Deal moved to Won, and a complete brief handed to delivery so nothing is dropped.
 
 1. The welcome is warm and confident but promises only what is true, and it lands the day of the yes rather than after a silence.
 2. The confirmation matches the agreement exactly, restated from the signed record, which reduces scope misunderstanding later per the written-confirmation base.
@@ -171,7 +169,7 @@ Across the three audiences this holds: a **founder** onboards a new client with 
 
 **Bad example (named failure mode: going quiet, then restating terms inaccurately).**
 
-> No contact for a week after the yes (the founder goes quiet right after the close). [silence after the yes] Then a hurried message: "Great, we will get started, the price was about {{roundedPrice}} and we will cover everything you need." [restated price changed, scope vague and over-committed] "We will have it all done in a couple of weeks" (no such timeline was agreed). [new commitment the buyer never agreed to]
+> No contact for a week after the yes (the founder goes quiet right after the close). [silence after the yes] Then a hurried message: "Great, we will get started, the price was about [a rounded, different price] and we will cover everything you need." [restated price changed, scope vague and over-committed] "We will have it all done in a couple of weeks" (no such timeline was agreed). [new commitment the buyer never agreed to]
 
 Failure mode: going quiet after the yes, then a confirmation that does not match the agreement. The silence is the founder mistake this skill exists to prevent, the price was rounded into something different, the scope was inflated to "everything you need", and a timeline was invented. Each breaks the governing principle. The skill must refuse all of it and route to the honest pattern above: a prompt warm welcome, and a written confirmation that matches what was agreed exactly, held for the member's approval.
 

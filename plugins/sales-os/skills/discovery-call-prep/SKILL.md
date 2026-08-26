@@ -19,7 +19,7 @@ author: AI Her Way
 
 ## 1. Role and mandate
 
-This skill prepares the member for a single discovery call for your business: the first real conversation with a prospect where the job is to understand, not to sell. It works for the person walking into that call (a founder running discovery for a service, a professional account executive prepping multi-threaded discovery against a company's decision criteria, or someone in real life preparing to enrol a partner or sponsor to a cause). It owns four things end to end: a short verified-background brief built only from facts the member can stand behind, a one-line goal for the call, a sequenced list of 12 to 15 open consultative questions that diagnose the real problem before any solution is mentioned, and a single sensible next step to propose at the end. It does not write the proposal, set the price, or run the call. It gets the member ready to listen well.
+This skill prepares the member for a single discovery call for their business: the first real conversation with a prospect where the job is to understand, not to sell. It works for the person walking into that call (a founder running discovery for a service, a professional account executive prepping multi-threaded discovery against a company's decision criteria, or someone in real life preparing to enrol a partner or sponsor to a cause). It owns four things end to end: a short verified-background brief built only from facts the member can stand behind, a one-line goal for the call, a sequenced list of 12 to 15 open consultative questions that diagnose the real problem before any solution is mentioned, and a single sensible next step to propose at the end. It does not write the proposal, set the price, or run the call. It gets the member ready to listen well.
 
 ## 2. Governing principle
 
@@ -87,19 +87,19 @@ Never read "any relevant context". Read the named files above.
 
 ## 10. Output format
 
-The deliverable is the Call Prep Sheet below. Keep this structure, the section order, and every placeholder. The call is to learn, not to pitch.
+The deliverable is the Call Prep Sheet below. Keep this structure and the section order. The call is to learn, not to pitch. Fill every bracketed field at runtime: read the member's name and business from `memory/business-context.md` (or `memory/job-context.md` for a professional in a role), and what is already held on this prospect from `memory/prospect-insights.md` and `memory/sales-pipeline.md` or the connected CRM. The prospect, the call date, the goal, and the questions are set with the member for this specific call. If a needed value is not set, propose one and ask before saving it.
 
 ---
 
-# Call Prep Sheet: {{prospectName}}
+# Call Prep Sheet: [the prospect's name]
 
-> Prepared for the member (your business). Discovery call on {{callDate}}. This call is to learn, not to pitch. Every fact below carries its source. Anything unverified is labelled a guess.
+> Prepared for [the member, name and business read from `memory/business-context.md`]. Discovery call on [the call date]. This call is to learn, not to pitch. Every fact below carries its source. Anything unverified is labelled a guess.
 
 ---
 
 ## The one-line goal of this call
 
-{{callGoal}} (a learning goal: diagnose the real problem and whether there is a genuine fit, not "close them")
+[the one-line goal, set with the member] (a learning goal: diagnose the real problem and whether there is a genuine fit, not "close them")
 
 ---
 
@@ -109,11 +109,11 @@ Each line carries where it came from. If it has no source, it is not here.
 
 | What you know | Source |
 |---|---|
-| {{fact1}} | {{fact1Source}} |
-| {{fact2}} | {{fact2Source}} |
-| {{fact3}} | {{fact3Source}} |
+| [verified fact 1] | [its source] |
+| [verified fact 2] | [its source] |
+| [verified fact 3] | [its source] |
 
-{{#if unverified}}**Treat as a guess, confirm in the room (do not assert):** {{unverified}}{{/if}}
+Where something plausible could not be verified, add the line: **Treat as a guess, confirm in the room (do not assert):** [the unverified detail]. Where every fact is sourced, leave that line out.
 
 ---
 
@@ -122,37 +122,37 @@ Each line carries where it came from. If it has no source, it is not here.
 Open questions, ordered so the prospect does most of the talking. Hold any solution talk until the diagnosis is done.
 
 **Situation (a few, to orient)**
-- {{situationQ1}}
-- {{situationQ2}}
+- [situation question 1]
+- [situation question 2]
 
 **Problem (surface the real issue)**
-- {{problemQ1}}
-- {{problemQ2}}
-- {{problemQ3}}
+- [problem question 1]
+- [problem question 2]
+- [problem question 3]
 
 **Implication (what is the problem costing them)**
-- {{implicationQ1}}
-- {{implicationQ2}}
-- {{implicationQ3}}
+- [implication question 1]
+- [implication question 2]
+- [implication question 3]
 
 **Need-payoff (let them say what solving it is worth)**
-- {{needpayoffQ1}}
-- {{needpayoffQ2}}
-- {{needpayoffQ3}}
+- [need-payoff question 1]
+- [need-payoff question 2]
+- [need-payoff question 3]
 
 ---
 
 ## Likely priorities and who else is involved
 
-- **What they probably care about most:** {{likelyPriorities}}
-- **Who else may be in the decision:** {{buyingGroup}}
+- **What they probably care about most:** [the likely priorities, labelled as a read, not a fact]
+- **Who else may be in the decision:** [who else may be involved]
 - **Confirm in the room:** ask who else needs to be comfortable with this before a decision is made.
 
 ---
 
 ## The next step to propose at the end
 
-{{nextStep}} (one sensible, low-pressure move: a tailored follow-up, a scoped proposal, a second call with another stakeholder)
+[the next step to propose] (one sensible, low-pressure move: a tailored follow-up, a scoped proposal, a second call with another stakeholder)
 
 ---
 

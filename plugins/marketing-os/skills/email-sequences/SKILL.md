@@ -10,11 +10,13 @@ updated: 2026-06-09
 author: AI Her Way
 ---
 
-# Skill: Email Sequences for your business
+# Skill: Email Sequences
+
+> Read the member's identity, voice, and email platform from `memory/business-context.md`, and their audience, pillars, offers, pain points, and lead magnets from `memory/audience-and-offers.md`, before drafting anything. If a needed value is not set, propose one and ask before saving.
 
 ## 1. Role and mandate
 
-This skill owns the design and drafting of automated, multi-step email sequences for your business: the welcome series, the ongoing nurture, behaviour-triggered sales sequences, re-engagement, and post-purchase flows. It takes a contact from the moment they join the list and carries them along the journey to customer and then advocate, without a human pressing send each time. It works the same for three audiences: a founder building a list for an offer, a professional running lifecycle email inside an organisation (members, donors, students, internal comms), and real life (a side project, a community group, a personal newsletter). It drafts the sequences, the subject lines, and the trigger map. It does not build the automation inside your email platform for you, and it does not send. For one-off newsletters and broadcasts, see email-marketing.md.
+This skill owns the design and drafting of automated, multi-step email sequences for the member: the welcome series, the ongoing nurture, behaviour-triggered sales sequences, re-engagement, and post-purchase flows. It takes a contact from the moment they join the list and carries them along the journey to customer and then advocate, without a human pressing send each time. It works the same for three audiences: a founder building a list for an offer, a professional running lifecycle email inside an organisation (members, donors, students, internal comms), and real life (a side project, a community group, a personal newsletter). It drafts the sequences, the subject lines, and the trigger map. It does not build the automation inside the member's email platform for you, and it does not send. For one-off newsletters and broadcasts, see email-marketing.md.
 
 ## 2. Governing principle
 
@@ -26,7 +28,7 @@ Automated sequences outperform one-off sends because they meet the subscriber at
 
 - **The welcome window is the highest-attention moment a list ever gives you.** Research compiled by Invesp found that around 74% of new subscribers expect a welcome email immediately, and welcome emails generate up to 320% more revenue per email than standard promotional emails ([Invesp, "Important Welcome Email Statistics and Trends"](https://www.invespcro.com/blog/welcome-emails/)). This is why Email 1 fires immediately and why the first 48 hours carry the heaviest value.
 - **A sequence beats a single email.** Industry analyses consistently show a multi-email welcome series produces meaningfully more orders than a single welcome email, because trust is built across touches rather than asked for in one ([Bloomreach, "Welcome Email Series Best Practices"](https://www.bloomreach.com/en/blog/start-the-customer-journey-right-with-an-automated-welcome-email-series)). This is why the welcome sequence is 5 to 7 emails, not one.
-- **Personalisation lifts conversion, not just open rates.** A widely cited Experian Marketing Services study found personalised emails generate six times higher transaction rates than non-personalised ones ([Experian, via Marketing Dive, 2013](https://www.marketingdive.com/news/study-personalized-emails-increase-transaction-rates-sixfold/225054/)). This is the reason every merge placeholder in this skill exists: the sequence reads the subscriber's name, the lead magnet they downloaded, and the pillar they engage with, and reflects it back.
+- **Personalisation lifts conversion, not just open rates.** A widely cited Experian Marketing Services study found personalised emails generate six times higher transaction rates than non-personalised ones ([Experian, via Marketing Dive, 2013](https://www.marketingdive.com/news/study-personalized-emails-increase-transaction-rates-sixfold/225054/)). This is the reason the personalisation cues in this skill exist: the sequence reads the subscriber's name, the lead magnet they downloaded, and the pillar they engage with, and reflects it back.
 - **Behaviour triggers beat fixed-time sends.** The behavioural logic rests on a named framework: the Fogg Behavior Model (BJ Fogg, Stanford Behavior Design Lab, 2007), which states a behaviour happens only when Motivation, Ability, and a Prompt arrive at the same moment. A behaviour-triggered email (clicks the sales page, downloads the guide) is the Prompt arriving exactly when Motivation is already high, which is why an intent-triggered sales sequence converts better than a calendar-based blast ([BJ Fogg, behaviormodel.org](https://www.behaviormodel.org/)).
 - **Open loops keep the next email opened.** Subject lines that leave a question unresolved draw on the Zeigarnik effect (Bluma Zeigarnik, 1927): people remember and feel tension around unfinished tasks, so an unclosed loop pulls the reader back ([The Decision Lab / established psychology literature on the Zeigarnik effect](https://thedecisionlab.com/)). This is the basis of the curiosity-gap rule in the subject-line section.
 
@@ -39,7 +41,7 @@ This is the psychology layer: it decides which sequence fires, what each email m
 | Condition the skill observes | Decision | Why (the mechanism) |
 |---|---|---|
 | Brand-new subscriber, no prior history | Fire the welcome sequence, Email 1 immediately | Highest-attention window; expectation of an immediate welcome (Invesp) |
-| Subscriber downloaded [your lead magnet] | Deliver the asset in Email 1, then tag and nurture on that pillar | Personalised relevance lifts transaction rate (Experian) |
+| Subscriber downloaded a lead magnet (from `memory/audience-and-offers.md`) | Deliver the asset in Email 1, then tag and nurture on that pillar | Personalised relevance lifts transaction rate (Experian) |
 | Welcome sequence complete, no buying signal | Move to ongoing nurture, 1 to 2 per week, 70/20/10 value split | Trust compounds across touches before a buy is asked for (Bloomreach) |
 | Subscriber clicks a sales page or replies with intent | Fire the behaviour-triggered sales sequence; pause generic nurture | Prompt arrives when Motivation is already high (Fogg) |
 | Subscriber has bought | Remove from sales sequence; start post-purchase (onboarding, then referral) | Selling again immediately erodes trust; mandate of section 2 |
@@ -56,9 +58,9 @@ This is the psychology layer: it decides which sequence fires, what each email m
 2. **Load context.** Read memory/business-context.md for voice, pillars, audience, offers, and platform. Read any working-memory files named in section 9. Never proceed on "any relevant context"; use the named files.
 3. **Pick the sequence and length** using the decision rubric in section 4.
 4. **Map the arc before writing.** Lay out every email as a row: when it sends, the one job it does, and the trigger that advances the subscriber to the next. Make the implicit move explicit (each email should open one loop the next email closes).
-5. **Draft each email** to the output format in section 10, leading with value, one clear CTA, the voice rules from context, and every relevant merge placeholder filled or left for the platform merge.
+5. **Draft each email** to the output format in section 10, leading with value, one clear CTA, the voice rules from context, and every relevant personalisation cue filled from the member's context or left as a bracketed fill-in for the platform merge.
 6. **Write the subject lines** to the rules in the subject-line section: 40 to 60 characters, a curiosity gap or a clear benefit, no spam words.
-7. **Build the trigger map** (the automation list) so the member can construct it in your email platform.
+7. **Build the trigger map** (the automation list) so the member can construct it in their email platform.
 8. **Self-check** against the rubric and the responsible-use rules: no fabricated proof, no value-free step, conservative CTAs, Australian English unless context says otherwise.
 9. **Log** the sequence drafted in logs/activity-log.md, and any judgement call (for example, choosing to skip a sales step) in logs/decision-log.md.
 
@@ -83,7 +85,7 @@ This skill's real failure modes, and the rules that prevent them:
 - **Fabricated proof.** The sales and nurture sequences have social-proof slots. Never fill them with an invented client, result, or quote. If no real story exists, use an anonymised pattern, your own before/after, or remove the slot.
 - **The value-free send.** Automated sequences make it easy to ship a step that only sells. Every step must teach, help, or move the subscriber, or it does not send.
 - **List harm.** Continuing to email unengaged contacts damages deliverability for everyone on the list. Honour the re-engagement exit; a smaller engaged list beats a large dead one.
-- **Over-personalisation creep.** Use a merge placeholder only where it genuinely personalises. Do not reference data the subscriber did not knowingly give.
+- **Over-personalisation creep.** Use a personalisation cue only where it genuinely personalises. Do not reference data the subscriber did not knowingly give.
 - **Transparency.** Where the member's brand discloses AI assistance, keep that line. This skill drafts; a human approves and sends.
 
 ## 9. Inputs and memory
@@ -102,15 +104,17 @@ Use only these named files. Never act on "any relevant context".
 
 ## 10. Output format
 
-Each sequence is delivered as: a one-line trigger and goal header, a planning table (email, when, subject-line formula, content focus), then a full template for at least the first email, plus the trigger map for your email platform. Australian English (your preferred variant of) unless context says otherwise. Emoji per your emoji preference. Voice: as defined in your voice rules. CTA style: your preferred style, from your context file.
+Each sequence is delivered as: a one-line trigger and goal header, a planning table (email, when, subject-line formula, content focus), then a full template for at least the first email, plus the trigger map for the member's email platform. Use the member's English variant (default Australian English if not set), emoji guideline, voice, and CTA style, all read from `memory/business-context.md`, `memory/voice.md`, and `skills/brand-voice.md`.
 
 ### Overview
 
-- **Platform:** your email platform
-- **Voice:** as defined in your voice rules
-- **CTA style:** your preferred style, from your context file
-- **Language:** your preferred variant of English
-- **Emoji usage:** your emoji preference
+Fill each line by reading the member's context files. If a value is not set, propose one and ask before saving.
+
+- **Platform:** [the member's email platform]
+- **Voice:** [the member's voice description]
+- **CTA style:** [the member's CTA style]
+- **Language:** [the member's English variant, default Australian English]
+- **Emoji usage:** [the member's emoji guideline]
 
 These sequences are triggered automatically by subscriber behaviour. Each one moves a subscriber along the journey from new lead to customer to advocate.
 
@@ -122,39 +126,43 @@ These sequences are triggered automatically by subscriber behaviour. Each one mo
 **Length:** 5 to 7 emails over 10 to 14 days
 **Goal:** Build trust, deliver value, introduce the member's world
 
+Fill [business name], [audience], [first pillar], and [lead magnet] from the member's context files. Where the member has a lead magnet, Email 1 delivers it, sets expectations, and shares the member's story; where they do not, Email 1 sets expectations and shares the member's story only.
+
 | Email | When | Subject Line Formula | Content Focus |
 |-------|------|---------------------|---------------|
-| 1 | Immediate | "Welcome to your business: here's what to expect" | Deliver [your lead magnet], set expectations, share the member's story |
-| 2 | Day 2 | "The #1 mistake I see your ideal customer make" | Quick win, solve an immediate problem from their pain points |
-| 3 | Day 4 | "My favourite framework for your first content pillar" | Share a practical resource, build authority |
+| 1 | Immediate | "Welcome to [business name]: here's what to expect" | Deliver the lead magnet if there is one, set expectations, share the member's story |
+| 2 | Day 2 | "The #1 mistake I see [audience] make" | Quick win, solve an immediate problem from their pain points |
+| 3 | Day 4 | "My favourite framework for [first pillar]" | Share a practical resource, build authority |
 | 4 | Day 7 | "How [client] went from [before] to [after]" | Social proof, show transformation is possible |
 | 5 | Day 10 | "The roadmap I wish I had" | Comprehensive value piece, your best framework |
 | 6 | Day 14 | "What's next for you?" | Re-engagement, ask what they need help with, segment based on reply |
 
 #### Welcome Email 1 Template
 
+Fill each bracketed cue from the member's context files (name and social handle from `memory/business-context.md`; pillars, audience, lead magnet, and first pillar from `memory/audience-and-offers.md`). Include the lead-magnet line only where the member has a lead magnet.
+
 ```
-Subject: Welcome to your business: here's what to expect
+Subject: Welcome to [business name]: here's what to expect
 
 Hey [FIRST NAME],
 
-I'm the member, and I'm so glad you're here.
+I'm [member's name], and I'm so glad you're here.
 
-This is where I share your content pillars for your ideal customer.
+This is where I share [pillars] for [audience].
 
-First things first, here's the [your lead magnet] I promised: [LINK]
+First things first, here's the [lead magnet] I promised: [LINK]   (include only if there is a lead magnet)
 
 Here's what you can expect from me:
-- Regular emails with actionable your first content pillar
+- Regular emails with actionable [first pillar]
 - Real stories and frameworks, no fluff
 - Written in a way that's actually useful
 
-Quick favour: reply to this email and tell me what's your biggest challenge with your first content pillar right now?
+Quick favour: reply to this email and tell me what's your biggest challenge with [first pillar] right now?
 
 I read every reply.
 
-[your name]
-[your Instagram handle]
+[member's first name]
+[member's social handle]
 ```
 
 ---
@@ -165,11 +173,13 @@ I read every reply.
 **Length:** Ongoing, 1 to 2 emails per week (alongside the regular newsletter)
 **Goal:** Deepen trust, demonstrate expertise across all content pillars
 
+Fill [first pillar], [second pillar], [third pillar], and [audience] from the member's pillars and audience in `memory/audience-and-offers.md`.
+
 | Email | Subject Line Formula | Content Focus |
 |-------|---------------------|---------------|
-| 1 | "your first content pillar: what most your ideal customer get wrong" | Educational, establish authority on your first content pillar |
-| 2 | "[Second pillar]: what most your ideal customer get wrong" | Educational, establish authority on your second pillar |
-| 3 | "[Third pillar]: what most your ideal customer get wrong" | Educational, establish authority on your third pillar |
+| 1 | "[first pillar]: what most [audience] get wrong" | Educational, establish authority on [first pillar] |
+| 2 | "[second pillar]: what most [audience] get wrong" | Educational, establish authority on your second pillar |
+| 3 | "[third pillar]: what most [audience] get wrong" | Educational, establish authority on your third pillar |
 | 4 | "Behind the scenes: how I [relevant process]" | Vulnerability, build personal connection |
 | 5 | "The question I get asked most about [topic]" | FAQ-style, address common concerns |
 | 6 | "[Client name]'s story will change how you think about [topic]" | Social proof, transformation story |
@@ -185,10 +195,12 @@ I read every reply.
 
 ### Sequence C: Sales
 
-Sales sequences map to your active offers ([your offers, from memory/business-context.md]). Trigger one when a subscriber shows buying intent.
+Where the member has active offers in `memory/audience-and-offers.md`, sales sequences map to those offers. Trigger one when a subscriber shows buying intent.
 
 **Trigger:** Subscriber shows buying intent (clicks sales page, replies with interest)
 **Length:** 5 to 7 emails over 10 to 14 days
+
+Draw [offer name] and the objection in Email 5 from the member's offers and common objections in `memory/audience-and-offers.md`.
 
 | Email | Subject Line Formula | Content Focus |
 |-------|---------------------|---------------|
@@ -196,11 +208,11 @@ Sales sequences map to your active offers ([your offers, from memory/business-co
 | 2 | "What I discovered about [topic]" | Share your story |
 | 3 | "How [client] achieved [result]" | Social proof |
 | 4 | "Everything inside [offer name]" | What's included |
-| 5 | "[Objection]? Here's the truth" | Handle objections (draw from [the objections you commonly hear]) |
+| 5 | "[Objection]? Here's the truth" | Handle objections (draw from the member's common objections) |
 | 6 | "Your invitation" | Direct pitch |
 | 7 | "Last chance" | Urgency and recap |
 
-Anchor every sales sequence to your primary revenue path: [your primary revenue path].
+Anchor every sales sequence to the member's primary revenue path (from `memory/audience-and-offers.md`).
 
 ---
 
@@ -221,10 +233,12 @@ Anchor every sales sequence to your primary revenue path: [your primary revenue 
 
 ### Email voice guidelines
 
+Read the member's English variant, emoji guideline, and hallmark phrases from `memory/business-context.md`, `memory/voice.md`, and `skills/brand-voice.md` before applying these.
+
 **DO:**
 - Write like you're talking to one person, not a crowd
-- Use your preferred variant of English spelling throughout
-- Follow the emoji guideline: your emoji preference
+- Use the member's English variant (default Australian English if not set)
+- Follow the member's emoji guideline
 - Start with a personal hook or story, never a generic greeting
 - Keep paragraphs short (1 to 3 sentences)
 - Include a clear CTA in every email
@@ -235,14 +249,14 @@ Anchor every sales sequence to your primary revenue path: [your primary revenue 
 - Use game changer, deep dive, synergy, hustle, grind
 - Send emails without value, every email should teach, inspire, or help
 
-Weave in the member's signature phrases naturally where they fit: [your hallmark phrases].
+Where the member has hallmark phrases set, weave them in naturally where they fit.
 
 ---
 
 ### Subject line formulas
 
 **From audience pain points**
-- "Struggling with [pain point]? Try this" (pull from [your audience's pain points])
+- "Struggling with [pain point]? Try this" (pull from the member's audience pain points in `memory/audience-and-offers.md`)
 
 **Universal formulas**
 - "I was wrong about [topic]"
@@ -265,7 +279,7 @@ Weave in the member's signature phrases naturally where they fit: [your hallmark
 
 **Segment by interest**
 - Which content pillars they engage with most
-- Which lead magnets they downloaded ([your lead magnets, from memory/business-context.md])
+- Which lead magnets they downloaded (from the member's lead magnets in `memory/audience-and-offers.md`)
 - Which offers they've clicked on
 
 **Segment by behaviour**
@@ -281,7 +295,7 @@ Weave in the member's signature phrases naturally where they fit: [your hallmark
 
 ---
 
-### Automation triggers (the trigger map for your email platform)
+### Automation triggers (the trigger map for the member's email platform)
 
 1. **New subscriber** -> Welcome sequence (immediate)
 2. **Welcome complete** -> Move to nurture sequence
@@ -289,39 +303,14 @@ Weave in the member's signature phrases naturally where they fit: [your hallmark
 4. **Purchases offer** -> Remove from sales sequence -> post-purchase sequence
 5. **No opens 60 days** -> Re-engagement sequence
 6. **No engagement after re-engagement** -> Unsubscribe (keep list clean)
-{{#if dmAutomationActive}}7. **DM automation trigger** -> Tag subscriber based on codeword ([your DM codewords] via your DM automation tool) -> relevant sequence{{/if}}
-8. **Downloads [your lead magnet]** -> Tag and targeted nurture
+7. Where the member runs DM automation (set in `memory/business-context.md`): **DM automation trigger** -> Tag subscriber based on the codeword via the member's DM tool -> relevant sequence
+8. Where the member has a lead magnet: **Downloads the lead magnet** -> Tag and targeted nurture
 
-### Banned Words & Phrases
-
-Never use these in any content:
-
-- game changer
-- deep dive
-- synergy
-- leverage (as verb)
-- hustle / grind
-- low-hanging fruit
-- unlock / skyrocket / supercharge
-
-Add your own banned words in `memory/business-context.md`; they override this default list.
-
-### Voice Non-Negotiables
-
-1. Always sound like the member wrote it: conversational, not corporate
-2. Use first person naturally
-3. Mix short punchy sentences with longer explanatory ones
-4. Include personal context or story where relevant
-5. Reference expertise naturally without bragging
-6. Never start with "I'm excited to announce" or "I'm thrilled to share"
-7. Never sound like a press release or marketing copy
-8. Never be condescending or preachy
-9. The member's preferred English variant spelling throughout: no exceptions
-10. When uncertain about tone, err on the side of being more human, not more polished
+Apply any additional voice rules from the member's `skills/brand-voice.md`.
 
 ## 11. What good looks like
 
-The three audiences, briefly: a **founder** uses Sequence A to welcome leads from a lead magnet and warm them to an offer; a **professional** uses the same structure for member or donor onboarding inside an organisation (swap "buy" for "renew" or "attend"); in **real life**, a community-group organiser uses it to welcome new members and keep them coming to events. Same skill, different merge placeholder values.
+The three audiences, briefly: a **founder** uses Sequence A to welcome leads from a lead magnet and warm them to an offer; a **professional** uses the same structure for member or donor onboarding inside an organisation (swap "buy" for "renew" or "attend"); in **real life**, a community-group organiser uses it to welcome new members and keep them coming to events. Same skill, different values read from the member's context.
 
 ### Good example (Welcome Email 2, annotated)
 
@@ -339,13 +328,13 @@ fresh in their mind. Today, that's my one-page checklist for [pillar]: [LINK]
 
 Open it, try one thing, and reply to tell me how it went. I read every reply.
 
-[your name]
+[member's first name]
 ```
 
 - **Annotation 1 (timing):** lands on Day 2, inside the high-attention window, the reason Email 1 fired immediately and Email 2 follows fast (Invesp).
 - **Annotation 2 (open loop):** the subject names a "mistake" without resolving it, a Zeigarnik-effect curiosity gap that earns the open.
 - **Annotation 3 (value before ask):** it teaches and gives a resource before asking anything; the only CTA is a low-friction reply, matching the 70/20/10 rule and the governing principle.
-- **Annotation 4 (personalisation):** [FIRST NAME] and the pillar reference are filled from context, the lever Experian links to higher transaction rates.
+- **Annotation 4 (personalisation):** [FIRST NAME] and the pillar reference are filled from the member's context, the lever Experian links to higher transaction rates.
 
 ### Bad example (named failure mode: the value-free sell)
 

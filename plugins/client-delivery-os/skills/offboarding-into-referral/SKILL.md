@@ -19,7 +19,7 @@ author: AI Her Way
 
 ## 1. Role and mandate
 
-This skill owns stage six of the client lifecycle: the ending. When an engagement for your business reaches its close (completed, not renewing, or wound down early), it assembles the deliberate goodbye: a results recap written in the client's own terms, a handover checklist covering everything that belongs to them, a testimonial ask timed at the emotional high point, a specific referral ask, and a warm door-open note so the relationship survives the contract. It works from `memory/client-roster.md` and the client's brief in `memory/engagement-briefs/`, and it hands any referral it produces to the Sales OS as a new warm lead. It works for the founder closing out her own clients, the professional (account or delivery lead) offboarding inside an organisation's process, and real life, ending a committee term, a volunteer role, or a shared project in a way people remember kindly. It does not chase overdue items or run the internal close-out mechanics (Admin & Ops owns chasing, meeting capture, and the renewals date register); it owns the client-facing framing and the conversations. Most businesses let engagements simply stop. This skill makes them end, on purpose, at their best.
+This skill owns stage six of the client lifecycle: the ending. When an engagement for the member's business reaches its close (completed, not renewing, or wound down early), it assembles the deliberate goodbye: a results recap written in the client's own terms, a handover checklist covering everything that belongs to them, a testimonial ask timed at the emotional high point, a specific referral ask, and a warm door-open note so the relationship survives the contract. It works from `memory/client-roster.md` and the client's brief in `memory/engagement-briefs/`, and it hands any referral it produces to the Sales OS as a new warm lead. It works for the founder closing out her own clients, the professional (account or delivery lead) offboarding inside an organisation's process, and real life, ending a committee term, a volunteer role, or a shared project in a way people remember kindly. It does not chase overdue items or run the internal close-out mechanics (Admin & Ops owns chasing, meeting capture, and the renewals date register); it owns the client-facing framing and the conversations. Most businesses let engagements simply stop. This skill makes them end, on purpose, at their best.
 
 ## 2. Governing principle
 
@@ -45,7 +45,7 @@ Run the closing engagement against these conditions. The override column wins.
 | Results are mixed, or the engagement ended early or under strain | Recap honestly (including what fell short), complete the handover, keep the door open. No testimonial or referral ask | If the client volunteers praise unprompted, a light testimonial ask is fine; never solicit one to paper over a rough ending |
 | Judging whether the client is at a "high point" | Look for trajectory signals: their own words in recent messages, a milestone just landed, results they have repeated to others, plus the member's read. Never a lone sentiment score (documented dialect and ESL bias in sentiment tools) | If signals conflict, or the human's gut disagrees with the signals, the human's read wins and the ask waits |
 | Timing the testimonial ask | Within days of the high point (recap acknowledged, final milestone praised), while the peak is fresh, per the peak-end logic | Client is mid-crisis or slammed: a mistimed ask at a bad moment becomes the ending they remember |
-| Framing the referral ask | Specific, per the Sales referral skill's honesty rules: "who else like you, facing {{theirSolvedProblem}}, should we be talking to?" Named problem, easy out, no pressure | Client's organisation forbids referrals or endorsements (common in government and procurement): skip the ask entirely and note it in the roster |
+| Framing the referral ask | Specific, per the Sales referral skill's honesty rules: "who else like you, facing [the problem the engagement solved], should we be talking to?" Named problem, easy out, no pressure | Client's organisation forbids referrals or endorsements (common in government and procurement): skip the ask entirely and note it in the roster |
 | Anything offered in exchange for a testimonial | A thank-you for time is acceptable if disclosed; the content is never incentivised, scripted beyond a light prompt, or edited beyond typos without their sign-off | None. Paying for or shaping what a testimonial says is fabrication and it never bends |
 | What goes in the handover | Everything that is theirs: files, credentials they own, documentation, licences in their name, plus what they need to run without you | Anything containing another client's information is stripped first. Confidentiality beyond named people never bends |
 | Sales handoff pack lists openItems from section 4 of the intake contract | Treat as never-agreed scope. If still open at close, name them honestly in the recap as not covered, never as delivered | None. Open items are not scope and were never promised |
@@ -58,7 +58,7 @@ Run the closing engagement against these conditions. The override column wins.
 3. Assemble the handover checklist: every file, credential, licence, document and piece of institutional knowledge that is theirs, plus what they need to operate without you. Strip anything referencing other clients.
 4. Judge the high point using the rubric: trajectory signals plus the human's read. If there is no high point, deliver the recap and handover warmly and stop the sequence there.
 5. Draft the testimonial ask: short, timed to the peak, referencing the specific result, with a genuine easy out. A light prompt ("what changed for you?") is fine; a script for what to say is not.
-6. Draft the referral ask, following the Sales referral skill's honesty rules: specific ("who else like you, wrestling with {{theirSolvedProblem}}?"), one name is plenty, no incentive tied to outcome unless the member's disclosed policy allows it.
+6. Draft the referral ask, following the Sales referral skill's honesty rules: specific ("who else like you, wrestling with [the problem the engagement solved]?"), one name is plenty, no incentive tied to outcome unless the member's disclosed policy allows it.
 7. Draft the door-open note: what staying in touch looks like, a real reason to reconnect, and a genuine thank-you. Flag any future-contact date to Admin & Ops for the register.
 8. Assemble the Offboarding Pack (Section 10), log it, and present the whole sequence for approval. Nothing sends itself. Any referral names that come back are handed to the Sales OS as warm leads, and the roster row is updated to "alumni".
 
@@ -85,7 +85,7 @@ Never read "any relevant context". Read the named files above.
 
 ## 10. Output format
 
-The deliverable is the Offboarding Pack: one document, five parts, in this order. Nothing in it sends until approved.
+The deliverable is the Offboarding Pack: one document, five parts, in this order. Keep this structure and the section order. Fill every bracketed field at runtime: read the member's name, business, and referral policy from `memory/business-context.md`, and the client's goals, results, and flags from `memory/client-roster.md` and `memory/engagement-briefs/{client-slug}.md`. The engagement dates, timing signals, and ask windows are set with the member for this specific close. If a needed value is not set, propose one and ask before saving it. Nothing in it sends until approved.
 
 1. **Results recap** (client-facing, 150 to 250 words): their problem in their words, what was done, what changed, with each claim traceable. Open items named honestly as not covered.
 2. **Handover checklist** (table): item, where it lives, who holds access now, action needed. Everything that is theirs, nothing that is another client's.
@@ -99,35 +99,36 @@ The pack opens with this header, then the five parts in order:
 
 ---
 
-# Offboarding Pack: {{clientName}}
+# Offboarding Pack: [the client's name]
 
-> Prepared for the member, your business. Every result below traces to the engagement brief.
+> Prepared for [the member, read the name and business from `memory/business-context.md`]. Every result below traces to the engagement brief.
 > Open items from the intake handoff are named as not covered, never as delivered. Nothing sends
 > until you approve it.
 
-**Engagement:** {{engagementName}}, {{startDate}} to {{endDate}}
-**High-point read:** {{timingSignals}} (recommended ask window: {{askWindow}})
-{{#if askHeld}}**Asks held:** {{askHeldReason}}{{/if}}
+**Engagement:** [the engagement name], [the start date] to [the end date]
+**High-point read:** [the timing signals] (recommended ask window: [the ask window])
+If any asks are held, add: **Asks held:** [the reason the asks are held]
 
 ### 1. Results recap (their terms)
-{{resultsRecap}}
+[the results recap, every claim traceable to `memory/engagement-briefs/{client-slug}.md`]
 
 ### 2. Handover checklist
 
+One row per item that belongs to the client:
+
 | Item | Where it lives | Who holds it now | Action needed |
 |---|---|---|---|
-| {{item1.name}} | {{item1.location}} | {{item1.owner}} | {{item1.action}} |
-| {{item2.name}} | {{item2.location}} | {{item2.owner}} | {{item2.action}} |
+| [the item] | [where it lives] | [who holds it now] | [the action needed] |
 
-### 3. Testimonial ask ({{testimonialSendMoment}})
-{{testimonialDraft}}
+### 3. Testimonial ask ([the recommended send moment])
+[the testimonial ask draft]
 
-### 4. Referral ask ({{referralChannel}})
-{{referralDraft}}
+### 4. Referral ask ([the channel])
+[the referral ask draft]
 
 ### 5. Door-open note
-{{doorOpenDraft}}
-**Internal:** reconnect date {{reconnectDate}} flagged to the Admin & Ops register; roster row to "alumni".
+[the door-open note draft]
+**Internal:** reconnect date [the reconnect date] flagged to the Admin & Ops register; roster row to "alumni".
 
 ---
 
