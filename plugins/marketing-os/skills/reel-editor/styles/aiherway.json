@@ -1,0 +1,39 @@
+{
+  "name": "aiherway",
+  "caption": {
+    "font": "Montserrat SemiBold",
+    "fallback_font": "DejaVu Sans",
+    "size": 78,
+    "text_hex": "#F1EAE1",
+    "outline_hex": "#252620",
+    "shadow_hex": "#252620",
+    "highlight_text_hex": "#252620",
+    "highlight_block_hex": "#C0CACE",
+    "outline": 0,
+    "shadow": 6,
+    "margin_v": 300,
+    "margin_h": 60,
+    "bold": false,
+    "uppercase": true
+  },
+  "render": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "crf": 20,
+    "preset": "medium",
+    "audio_bitrate": "192k",
+    "zoom_levels": [1.0, 1.12],
+    "eyeline": 0.35,
+    "max_consecutive_punches": 2
+  },
+  "edit": {
+    "silence_db": -32,
+    "silence_min_duration": 0.35,
+    "pad": 0.12,
+    "beat_min_gap": 2.0,
+    "beat_max_gap": 3.0,
+    "clip_min_seconds": 20.0,
+    "clip_max_seconds": 45.0
+  }
+}
