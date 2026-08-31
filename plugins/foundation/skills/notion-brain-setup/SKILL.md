@@ -52,7 +52,7 @@ Three audiences: a **founder** gets one brain her whole OS shares; a **professio
 ## 5. Workflow
 
 1. Confirm what exists: does the member have Notion, the duplicated template pack, and an AI tool with a Notion connection (Notion MCP or built-in connector)? Guide whichever step is missing. The pack duplicates in one click from the AI Her Way template link.
-2. Read `memory/business-context.md` (or `job-context.md` / `household-context.md`) and the current memory and log files, so you know what content exists to migrate.
+2. Read `memory/business-context.md` and the current memory and log files, so you know what content exists to migrate.
 3. Map each file to its database (the canonical mapping in section 9), confirming each line with the member, including any databases they already own that should take a role instead.
 4. Migrate existing content, item by item, with approval: context sections become Business Brain cards; pipeline rows become Pipeline deals; log rows become Activity Log and Decision Log entries. Back up each file first (`[file].backup-[date].md`). Files are never deleted.
 5. Write the wiring map to `memory/notion-brain-map.md`: each file, its database, the database URL, which side is canonical, and the date wired. Every other skill reads this map to know where to work.

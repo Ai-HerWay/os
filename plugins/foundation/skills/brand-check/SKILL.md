@@ -44,16 +44,18 @@ Run every check. Ethical-floor conditions are checked first and can stop a piece
 | AI assisted and disclosure is expected, but the disclosure line is missing | Ethical floor | FLAG, add the member's standing disclosure line |
 | Hype or banned words (synergy, leverage as a verb, supercharge, skyrocket, game changer, unlock, and the member's own banned list) | Ethical floor | FLAG, propose plainer wording |
 | Action would breach the member's governance (spends money, commits a contract, sends below the agreed tier, shares confidential data) | Governance | STOP, route per governance rules |
-| Output contradicts a stated value of the member (from business-context.md) | Brand | STOP or FLAG depending on severity |
-| Inconsistent presentation: wrong name form, colours, logo, or tone vs the member's brand rules | Brand | FLAG against the brand rules in business-context.md |
+| Output contradicts a stated value of the member (from `memory/values.md`) | Brand | STOP or FLAG depending on severity |
+| Inconsistent presentation: wrong name form, colours, logo, or tone vs the member's brand rules | Brand | FLAG against `memory/brand.md` for the visual rules and `memory/business-context.md` for the name form |
 | Tone does not match the member's brand voice for this channel | Brand | FLAG against the tone-by-format map |
 | Fearmongering, attacking a named competitor, or a default framing the member rejects | Brand and ethics | FLAG, propose a values-aligned version |
 | On-brand, verifiable, floor cleared | Pass | Return "Brand check passed" |
 
-The brand specifics (name forms, colours, logo, values, tone-by-format map, banned list, disclosure line, autonomy tiers) are read from `memory/business-context.md` and `memory/industry-context.md`, and override these defaults where set.
+The visual specifics (colours, type, logo, imagery style, what to avoid) are read from `memory/brand.md` if present. The name form, banned list, disclosure line and autonomy tiers are read from `memory/business-context.md`, the member's values from `memory/values.md`, and sector rules from `memory/industry-context.md` if present. All of them override these defaults where set.
+
+A member whose Foundation is built around her as an individual has no `memory/brand.md`, and that is not a gap to fill. Check the ethical floor, the name form and the voice, and say plainly that there are no visual brand rules recorded rather than inventing a palette to check against.
 
 ## 5. Workflow
-1. Read `memory/business-context.md` (brand rules, values, banned list, disclosure line, governance tiers) and `memory/industry-context.md` if present (sector compliance lines and never-dos).
+1. Read `memory/brand.md` if present (colours, type, logo, imagery style, what to avoid), `memory/business-context.md` (name form, banned list, disclosure line, governance tiers), `memory/values.md` (what she stands for), and `memory/industry-context.md` if present (sector compliance lines and never-dos).
 2. Run the ethical-floor checks first: fabrication, unverifiable claims, missing disclosure, hype or banned words, governance breach. Any STOP here ends the check, the piece does not advance.
 3. If the floor is clear, run the brand-consistency checks: name form, visual rules, values alignment, tone for the channel, framing.
 4. For any claim about a result, person, or credential, confirm it traces to memory or a cited source. If it does not, treat it as unverifiable and stop.
@@ -72,7 +74,7 @@ A fabrication, an unverifiable claim, a governance breach, or anything that coul
 The ethical floor applies to this skill's own behaviour too: never invent a value, a brand rule, or a disclosure to make a piece pass, and never declare "brand check passed" on a piece you could not fully verify, say what you could not check. When the member acts under any automated or assisted tier, confirm the transparency that AI assisted is present where expected, because being honest first protects trust more than being discovered later. Never approve fearmongering or a fabricated claim even if it would perform better.
 
 ## 9. Inputs and memory
-Reads: the output under review, `memory/business-context.md` (brand rules, values, banned list, disclosure line, governance tiers, channel tone map), `memory/industry-context.md` if present (sector compliance and never-dos). Writes: `logs/activity-log.md` (what was checked and the verdict), `logs/decision-log.md` (any judgement call, any escalation, any ethical-floor stop). Does not change the reviewed piece unless explicitly approved.
+Reads: the output under review, `memory/brand.md` if present (colours, type, logo, imagery style, what to avoid), `memory/business-context.md` (name form, banned list, disclosure line, governance tiers, channel tone map), `memory/values.md` (the values an output must not contradict), `memory/industry-context.md` if present (sector compliance and never-dos). Writes: `logs/activity-log.md` (what was checked and the verdict), `logs/decision-log.md` (any judgement call, any escalation, any ethical-floor stop). Does not change the reviewed piece unless explicitly approved.
 
 ## 10. Output format
 Return one of two things.
