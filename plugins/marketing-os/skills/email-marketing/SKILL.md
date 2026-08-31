@@ -113,7 +113,7 @@ Transparency line, used where the member discloses AI assistance (follow the mem
 
 ## 9. Inputs and memory
 
-- **Reads:** `memory/business-context.md` (voice, offers, audience, platform, pillars), `memory/working-memory/email-calendar.md` and any current campaign brief in working memory, `memory/industry-context.md` (only if present, for sector benchmarks).
+- **Reads:** `memory/business-context.md` (voice, offers, audience, platform, pillars), `memory/working-memory/email-calendar.md` and any current campaign brief in working memory, `memory/industry-context.md` (only if present, for sector benchmarks); `memory/marketing-settings.md` (this department's own settings: audience detail, pillars, platforms and cadence, newsletter, tools, and approval thresholds).
 - **Writes:** `logs/activity-log.md` (each draft produced), `logs/decision-log.md` (rubric overrides, cut claims, suppression calls), and the named draft sequence files requested by the member.
 
 Never act on "any relevant context": if a needed input is missing, name it and ask.

@@ -79,14 +79,14 @@ Specific to this skill's failure modes: never ask before a real result has lande
 
 ## 9. Inputs and memory
 
-- **Reads:** `memory/business-context.md` (or `memory/job-context.md` for a professional in a role): the member's offers, ideal customer, voice, referral and disclosure preferences, and any overridable thresholds; `memory/prospect-insights.md`: what is known and verified about each client, the result delivered, and any praise genuinely given; `memory/sales-pipeline.md` or the connected CRM (see `connections.md`): the deals, their stage, outcome, and any "do not ask" notes; `memory/industry-context.md` where the member uses one.
+- **Reads:** `memory/business-context.md` (the founder, professional, or household variant, whichever the member built): the member's offers, ideal customer, voice, referral and disclosure preferences, and any overridable thresholds; `memory/prospect-insights.md`: what is known and verified about each client, the result delivered, and any praise genuinely given; `memory/sales-pipeline.md` or the connected CRM (see `connections.md`): the deals, their stage, outcome, and any "do not ask" notes; `memory/industry-context.md` where the member uses one; `memory/sales-settings.md` (this department's own settings: pricing model, deal size, sales cycle, buying group, anti-persona, and tools).
 - **Writes:** `logs/activity-log.md` (the ask that was drafted and the moment it responded to), `logs/decision-log.md` (asks held, declined, consent calls, and any flagged for review), and the Referral Ask itself for the member to action.
 
 Never read "any relevant context". Read the named files above.
 
 ## 10. Output format
 
-The deliverable is the Referral Ask below. Keep this structure and the section order. Fill every bracketed field at runtime: read the member's name, business, and voice from `memory/business-context.md` (or `memory/job-context.md` for a professional in a role), and the client's delivered result and any genuinely given praise from `memory/prospect-insights.md`. The client's name, the happy moment, the specific introduction, the ask, and the blurb are set with the member for this specific ask. If a needed value is not set, propose one and ask before saving it.
+The deliverable is the Referral Ask below. Keep this structure and the section order. Fill every bracketed field at runtime: read the member's name, business, and voice from `memory/business-context.md` (the founder, professional, or household variant, whichever the member built), and the client's delivered result and any genuinely given praise from `memory/prospect-insights.md`. The client's name, the happy moment, the specific introduction, the ask, and the blurb are set with the member for this specific ask. If a needed value is not set, propose one and ask before saving it.
 
 ---
 

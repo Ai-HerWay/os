@@ -75,7 +75,7 @@ This pack concentrates client data, which makes confidentiality its first failur
 
 ## 9. Inputs and memory
 
-- **Reads:** `memory/business-context.md` (or `memory/job-context.md` for a professional in a role): voice, disclosure standard, named cover people and pre-authorised access; `memory/client-roster.md`: the active client list, stage, and key dates; `memory/engagement-briefs/{client-slug}.md` for each active client: scope, history, people, tone notes, and any openItems carried from the Sales handoff; `memory/industry-context.md` where the member uses one.
+- **Reads:** `memory/business-context.md` (the founder, professional, or household variant, whichever the member built): voice, disclosure standard, named cover people and pre-authorised access; `memory/client-roster.md`: the active client list, stage, and key dates; `memory/engagement-briefs/{client-slug}.md` for each active client: scope, history, people, tone notes, and any openItems carried from the Sales handoff; `memory/industry-context.md` where the member uses one; `memory/delivery-settings.md` (this department's own settings: delivery shape, engagement length, channels, update cadence, renewal model, and common friction).
 - **Writes:** `logs/activity-log.md` (pack assembled, clients covered, notes drafted), `logs/decision-log.md` (items trimmed for confidentiality, fragile clients escalated, conflicts flagged), and the Continuity Handover Pack itself for the member to approve and share.
 
 Never read "any relevant context". Read the named files above.

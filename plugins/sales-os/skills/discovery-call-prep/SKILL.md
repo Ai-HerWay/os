@@ -80,14 +80,14 @@ Specific to this skill's failure modes: never invent a prospect fact, a mutual c
 
 ## 9. Inputs and memory
 
-- **Reads:** `memory/business-context.md` (or `memory/job-context.md` for a professional in a role) for the member's offer, ICP, voice, and overridable thresholds; `memory/prospect-insights.md` for what the member already holds on this prospect and similar past prospects; `memory/sales-pipeline.md` or the connected CRM for this deal's stage, history, and any known contacts; any working-memory note the member has left for this specific call.
+- **Reads:** `memory/business-context.md` (the founder, professional, or household variant, whichever the member built) for the member's offer, ICP, voice, and overridable thresholds; `memory/prospect-insights.md` for what the member already holds on this prospect and similar past prospects; `memory/sales-pipeline.md` or the connected CRM for this deal's stage, history, and any known contacts; any working-memory note the member has left for this specific call; `memory/sales-settings.md` (this department's own settings: pricing model, deal size, sales cycle, buying group, anti-persona, and tools).
 - **Writes:** `logs/activity-log.md` (the prep that was done), `logs/decision-log.md` (any judgement call flagged for review, such as a detail dropped for lack of a source or a stakeholder assumption made), and the named Call Prep Sheet output the member keeps for this call.
 
 Never read "any relevant context". Read the named files above.
 
 ## 10. Output format
 
-The deliverable is the Call Prep Sheet below. Keep this structure and the section order. The call is to learn, not to pitch. Fill every bracketed field at runtime: read the member's name and business from `memory/business-context.md` (or `memory/job-context.md` for a professional in a role), and what is already held on this prospect from `memory/prospect-insights.md` and `memory/sales-pipeline.md` or the connected CRM. The prospect, the call date, the goal, and the questions are set with the member for this specific call. If a needed value is not set, propose one and ask before saving it.
+The deliverable is the Call Prep Sheet below. Keep this structure and the section order. The call is to learn, not to pitch. Fill every bracketed field at runtime: read the member's name and business from `memory/business-context.md` (the founder, professional, or household variant, whichever the member built), and what is already held on this prospect from `memory/prospect-insights.md` and `memory/sales-pipeline.md` or the connected CRM. The prospect, the call date, the goal, and the questions are set with the member for this specific call. If a needed value is not set, propose one and ask before saving it.
 
 ---
 

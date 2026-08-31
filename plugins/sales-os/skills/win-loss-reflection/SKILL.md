@@ -78,7 +78,7 @@ Specific to this skill's failure modes: never invent a reason the buyer did not 
 
 ## 9. Inputs and memory
 
-- **Reads:** `memory/business-context.md` (or `memory/job-context.md` for a professional in a role): the member's offers, ICP, sales cycle, and voice; `memory/prospect-insights.md`: existing known context on this prospect and on patterns across past deals; `memory/sales-pipeline.md` or the connected CRM (via `connections.md`): this deal's history, stages, last buyer action, and recorded close reason.
+- **Reads:** `memory/business-context.md` (the founder, professional, or household variant, whichever the member built): the member's offers, ICP, sales cycle, and voice; `memory/prospect-insights.md`: existing known context on this prospect and on patterns across past deals; `memory/sales-pipeline.md` or the connected CRM (via `connections.md`): this deal's history, stages, last buyer action, and recorded close reason; `memory/sales-settings.md` (this department's own settings: pricing model, deal size, sales cycle, buying group, anti-persona, and tools).
 - **Writes:** `logs/activity-log.md` (the reflection was run and on which deal), `logs/decision-log.md` (the named real reason, the one lesson, and any reason touching price, terms, or a contract flagged for review), and the Win-Loss Reflection output itself, kept as the dated record for this skill.
 - **Proposes (human approves):** a specific update to `memory/prospect-insights.md` (or the playbook), written out in full for the member to approve before it is applied. This skill never edits that file directly.
 
@@ -86,7 +86,7 @@ Never read "any relevant context". Read the named files above. Start read-only o
 
 ## 10. Output format
 
-The deliverable is the Win-Loss Reflection block below. Keep this structure and the section order. Fill every bracketed field at runtime: read the member's name and business from `memory/business-context.md` (or `memory/job-context.md` for a professional in a role), and the deal's history from `memory/sales-pipeline.md` or the connected CRM. The deal name, the outcome, the answers, the real reason, and the lesson are set with the member in this specific reflection. Keep it short: a few questions, one real reason, one lesson, one proposed update. If a needed value is not set, propose one and ask before saving it.
+The deliverable is the Win-Loss Reflection block below. Keep this structure and the section order. Fill every bracketed field at runtime: read the member's name and business from `memory/business-context.md` (the founder, professional, or household variant, whichever the member built), and the deal's history from `memory/sales-pipeline.md` or the connected CRM. The deal name, the outcome, the answers, the real reason, and the lesson are set with the member in this specific reflection. Keep it short: a few questions, one real reason, one lesson, one proposed update. If a needed value is not set, propose one and ask before saving it.
 
 ---
 

@@ -98,7 +98,7 @@ This skill's failure modes are self-referential, which is why the guardrails are
 
 ## 9. Inputs and memory
 
-- **Reads:** `logs/activity-log.md` and `logs/decision-log.md` for the period; the department's skill files (to trace causes and draft amendments); the current cockpit (`logs/cockpit.html`) if present; `memory/business-context.md` (voice, thresholds, minimum sample size, transparency line); `memory/industry-context.md` if present; the department's `schedule.md` (cadence); current web sources for the research pass.
+- **Reads:** `logs/activity-log.md` and `logs/decision-log.md` for the period; the department's skill files (to trace causes and draft amendments); the current cockpit (`logs/cockpit.html`) if present; `memory/business-context.md` (voice, thresholds, minimum sample size, transparency line); `memory/industry-context.md` if present; the department's `schedule.md` (cadence); current web sources for the research pass; `memory/values.md` (if present: the member's mission and values, so the review can ask whether the work matched what they said they stand for, not just whether it got done).
 - **Writes:** the review document (default `logs/improvement-review-[department]-[date].md`); `logs/decision-log.md` (the cycle and its decisions); after approval only: backups of affected skill files (`[skill].backup-[date].md` alongside the original), the approved amendments, and each skill's Changelog entry.
 
 Never read "any relevant context". Read the named files above.

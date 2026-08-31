@@ -79,14 +79,14 @@ Specific to this skill's failure modes: never spam (a re-opener is a single soft
 
 ## 9. Inputs and memory
 
-- **Reads:** `memory/business-context.md` (or `memory/job-context.md` for a professional in a role): the member's offers, audience, voice, consent and cadence rules, and any overridable thresholds; `memory/prospect-insights.md`: what is known and verified about each contact, their stated needs, timelines, and the nature of the prior relationship; `memory/sales-pipeline.md` or the connected CRM (see `connections.md`): the dormant records, their last-contact date, opt-out flags, and any "do not contact until" notes; `memory/industry-context.md` where the member uses one.
+- **Reads:** `memory/business-context.md` (the founder, professional, or household variant, whichever the member built): the member's offers, audience, voice, consent and cadence rules, and any overridable thresholds; `memory/prospect-insights.md`: what is known and verified about each contact, their stated needs, timelines, and the nature of the prior relationship; `memory/sales-pipeline.md` or the connected CRM (see `connections.md`): the dormant records, their last-contact date, opt-out flags, and any "do not contact until" notes; `memory/industry-context.md` where the member uses one; `memory/sales-settings.md` (this department's own settings: pricing model, deal size, sales cycle, buying group, anti-persona, and tools).
 - **Writes:** `logs/activity-log.md` (the run that was produced and what was drafted), `logs/decision-log.md` (contacts held, declined, opt-outs honoured, relationships judged not genuine, and any flagged for review), and the Re-Engagement Run itself for the member to action.
 
 Never read "any relevant context". Read the named files above.
 
 ## 10. Output format
 
-The deliverable is the Re-Engagement Run below. Keep this structure and the section order. Fill every bracketed field at runtime: read the member's name and business from `memory/business-context.md` (or `memory/job-context.md` for a professional in a role), the dormant records from `memory/sales-pipeline.md` or the connected CRM, and what is known about each contact from `memory/prospect-insights.md`. The run date, the shortlist, each draft, and each next step are set with the member for this specific run. If a needed value is not set, propose one and ask before saving it.
+The deliverable is the Re-Engagement Run below. Keep this structure and the section order. Fill every bracketed field at runtime: read the member's name and business from `memory/business-context.md` (the founder, professional, or household variant, whichever the member built), the dormant records from `memory/sales-pipeline.md` or the connected CRM, and what is known about each contact from `memory/prospect-insights.md`. The run date, the shortlist, each draft, and each next step are set with the member for this specific run. If a needed value is not set, propose one and ask before saving it.
 
 ---
 

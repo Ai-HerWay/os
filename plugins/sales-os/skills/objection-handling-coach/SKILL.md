@@ -80,14 +80,14 @@ Specific to this skill's failure modes: never use manipulation, pressure, guilt,
 
 ## 9. Inputs and memory
 
-- **Reads:** `memory/business-context.md` (for founders: the business, offers, pricing, ICP, voice, and any overridable rules) or `memory/job-context.md` (for professionals: the company offer, the buying group, the role's targets); `memory/prospect-insights.md` (the known objections list, and what is verified about this and similar prospects); `memory/sales-pipeline.md` or the connected CRM (this deal's history, stage, and prior touches, so the response fits the relationship); `memory/industry-context.md` where the member uses one.
+- **Reads:** `memory/business-context.md` (for founders: the business, offers, pricing, ICP, voice, and any overridable rules; for professionals: the company offer, the buying group, the role's targets); `memory/prospect-insights.md` (the known objections list, and what is verified about this and similar prospects); `memory/sales-pipeline.md` or the connected CRM (this deal's history, stage, and prior touches, so the response fits the relationship); `memory/industry-context.md` where the member uses one; `memory/sales-settings.md` (this department's own settings: pricing model, deal size, sales cycle, buying group, anti-persona, and tools); `memory/values.md` (if present: the member's values and ethical lines, so a no is framed in what they actually stand for rather than generically).
 - **Writes:** `logs/activity-log.md` (the objection handled and what was diagnosed and drafted), `logs/decision-log.md` (any flagged call left for the member, especially a "we may not be the right fit" verdict or a price or contract touch), and the named Objection Response output the member keeps for this skill.
 
 Never read "any relevant context". Read the named files above.
 
 ## 10. Output format
 
-The deliverable is the Objection Response block below. Keep this structure and the section order. Fill every bracketed field at runtime: read the member's name and voice from `memory/business-context.md` (or `memory/job-context.md` for a professional in a role), and check the known objections and verified prospect notes in `memory/prospect-insights.md`. The prospect's name, the stated objection, and the diagnosed concern are set with the member for this specific objection. If a needed value is not set, propose one and ask before saving it.
+The deliverable is the Objection Response block below. Keep this structure and the section order. Fill every bracketed field at runtime: read the member's name and voice from `memory/business-context.md` (the founder, professional, or household variant, whichever the member built), and check the known objections and verified prospect notes in `memory/prospect-insights.md`. The prospect's name, the stated objection, and the diagnosed concern are set with the member for this specific objection. If a needed value is not set, propose one and ask before saving it.
 
 ---
 

@@ -79,7 +79,7 @@ Specific to this skill's failure modes: never fabricate scarcity ("only 3 spots"
 
 ## 9. Inputs and memory
 
-- **Reads:** `memory/business-context.md` (the member's business, audience, offer, voice, channels, and any overridable thresholds); the offer details and its real limits (cap, dates) for this campaign; `memory/marketing-strategy.md` or the marketing strategy output where present (so the campaign sits inside the wider plan); any working-memory files for the current period (a campaign brief, a launch note); `memory/industry-context.md` where the member uses one.
+- **Reads:** `memory/business-context.md` (the member's business, audience, offer, voice, channels, and any overridable thresholds); the offer details and its real limits (cap, dates) for this campaign; `memory/marketing-strategy.md` or the marketing strategy output where present (so the campaign sits inside the wider plan); any working-memory files for the current period (a campaign brief, a launch note); `memory/industry-context.md` where the member uses one; `memory/marketing-settings.md` (this department's own settings: audience detail, pillars, platforms and cadence, newsletter, tools, and approval thresholds).
 - **Writes:** `logs/activity-log.md` (what was drafted or recommended), `logs/decision-log.md` (offer, price, date, and scarcity decisions flagged for review), and the named campaign-plan and content-calendar outputs the member keeps for this skill.
 
 Never read "any relevant context". Read the named files above.

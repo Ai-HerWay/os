@@ -98,14 +98,14 @@ Specific to this skill's failure modes: never manufacture urgency, scarcity, a c
 
 ## 9. Inputs and memory
 
-- **Reads:** `memory/business-context.md` (for founders: the business, offers, pricing, ICP, voice, and any overridable rules) or `memory/job-context.md` (for professionals: the company offer, the buying group, the role's targets); `memory/prospect-insights.md` (what is verified about this prospect, their stated problem, and known concerns); `memory/sales-pipeline.md` or the connected CRM (this deal's history, stage, and prior touches, so the conversation fits the relationship); `memory/industry-context.md` where the member uses one.
+- **Reads:** `memory/business-context.md` (for founders: the business, offers, pricing, ICP, voice, and any overridable rules; for professionals: the company offer, the buying group, the role's targets); `memory/prospect-insights.md` (what is verified about this prospect, their stated problem, and known concerns); `memory/sales-pipeline.md` or the connected CRM (this deal's history, stage, and prior touches, so the conversation fits the relationship); `memory/industry-context.md` where the member uses one; `memory/sales-settings.md` (this department's own settings: pricing model, deal size, sales cycle, buying group, anti-persona, and tools).
 - **Writes:** `logs/activity-log.md` (the conversation planned and what was drafted), `logs/decision-log.md` (any flagged call left for the member, especially a misfit verdict, a stated limit, or a price or contract touch handed to a sibling skill), and the named Conversation Plan output the member keeps for this deal.
 
 Never read "any relevant context". Read the named files above.
 
 ## 10. Output format
 
-The deliverable is the Conversation Plan below. Keep this structure and the section order. Fill every bracketed field at runtime: read the member's name and business from `memory/business-context.md` (or `memory/job-context.md` for a professional in a role), and what is verified about this prospect from `memory/prospect-insights.md`. The goal, the drafted language, the questions, and any real limit are set with the member for this specific conversation. If a needed value is not set, propose one and ask before saving it.
+The deliverable is the Conversation Plan below. Keep this structure and the section order. Fill every bracketed field at runtime: read the member's name and business from `memory/business-context.md` (the founder, professional, or household variant, whichever the member built), and what is verified about this prospect from `memory/prospect-insights.md`. The goal, the drafted language, the questions, and any real limit are set with the member for this specific conversation. If a needed value is not set, propose one and ask before saving it.
 
 ---
 

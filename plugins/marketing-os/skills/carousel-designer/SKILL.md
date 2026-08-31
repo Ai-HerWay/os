@@ -83,7 +83,7 @@ Specific to this skill's failure modes: never let design edit meaning (a trimmed
 
 ## 9. Inputs and memory
 
-- **Reads:** `memory/brand-kit.md` (colours, fonts, logo, spacing, and layout rules; the design law for every slide); `memory/business-context.md` (the member's design tool preference, scheduler, AI disclosure preference, and English variant); the approved carousel copy file from carousel-format for this batch; `memory/industry-context.md` where the member uses one, for imagery norms.
+- **Reads:** `memory/brand-kit.md` (colours, fonts, logo, spacing, and layout rules; the design law for every slide); `memory/business-context.md` (the member's design tool preference, scheduler, AI disclosure preference, and English variant); the approved carousel copy file from carousel-format for this batch; `memory/industry-context.md` where the member uses one, for imagery norms; `memory/marketing-settings.md` (this department's own settings: audience detail, pillars, platforms and cadence, newsletter, tools, and approval thresholds).
 - **Writes:** the exported design files (or Canva design links) and the design package for the approval queue; `logs/activity-log.md` (date, department, skill, action, tier, status, time saved: one row per package); `logs/decision-log.md` (routed-back copy, brand-kit gaps, fallback use, any rubric override).
 
 Never read "any relevant context". Read the named files above.

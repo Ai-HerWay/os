@@ -80,7 +80,7 @@ Failure modes specific to this skill: cutting a clip so its meaning flips (the o
 
 ## 9. Inputs and memory
 
-- **Reads:** `memory/business-context.md` (voice, offers, active platforms, current priority, CTA style, disclosure preference); `memory/brand-kit.md` (colours, type, and graphic rules for quote card and carousel briefs); the source recording and its transcript provided in the session; `memory/industry-context.md` where the member uses one.
+- **Reads:** `memory/business-context.md` (voice, offers, active platforms, current priority, CTA style, disclosure preference); `memory/brand-kit.md` (colours, type, and graphic rules for quote card and carousel briefs); the source recording and its transcript provided in the session; `memory/industry-context.md` where the member uses one; `memory/marketing-settings.md` (this department's own settings: audience detail, pillars, platforms and cadence, newsletter, tools, and approval thresholds).
 - **Writes:** `logs/activity-log.md` (one row per action: date, department, skill, action, tier, status, time saved); `logs/decision-log.md` (clips rejected on integrity, routing calls, consent escalations, rubric overrides); the content pack itself in the format below.
 
 Never read "any relevant context". Read the named files above.

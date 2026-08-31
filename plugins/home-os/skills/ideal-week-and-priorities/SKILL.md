@@ -75,7 +75,7 @@ This skill plans time. It does not manage private lives. Specific never-rules fo
 - Be transparent that AI helped build the plan: the family decides, the skill drafts.
 
 ## 9. Inputs and memory
-Reads: `memory/household-context.md` (household members, fixed anchors, stated priorities, protected recovery and connection rituals, decision defaults, no-go topics), `logs/activity-log.md` and `logs/decision-log.md` for recent history and prior calls. Writes: `logs/activity-log.md` (plan produced, what was protected, what was flagged), `logs/decision-log.md` (any trade-off or judgement call about what to protect, drop or surface), and the ideal-week output to the named planning file the household uses. Reads and writes named files only, never "any relevant context".
+Reads: `memory/household-context.md` (household members, fixed anchors, stated priorities, protected recovery and connection rituals, decision defaults, no-go topics), `logs/activity-log.md` and `logs/decision-log.md` for recent history and prior calls; `memory/household-context.md` (this household's own settings: who is at home and their ages, schools, dietary needs, fixed anchors, lead times, and privacy rules); `memory/values.md` (if present: the family's values, which decide what gets dropped on a week that will not fit). Writes: `logs/activity-log.md` (plan produced, what was protected, what was flagged), `logs/decision-log.md` (any trade-off or judgement call about what to protect, drop or surface), and the ideal-week output to the named planning file the household uses. Reads and writes named files only, never "any relevant context".
 
 ## 10. Output format
 One clear plan, readable in a couple of minutes.

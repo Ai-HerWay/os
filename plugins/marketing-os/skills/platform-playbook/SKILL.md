@@ -81,7 +81,7 @@ This skill's real failure modes are specific. Never fabricate engagement numbers
 
 ## 9. Inputs and memory
 
-- **Reads:** `memory/business-context.md` (active platforms, pillars, voice, CTA style, cadence per channel, primary formats, banned formats, compliance rules, DM automation settings); `memory/audience-and-offers.md` (audience, offers, lead magnets); `memory/voice.md` and `skills/brand-voice.md` (tone, hallmark phrases, voice); any working-memory files for the current campaign (for example `working-memory/current-campaign.md`); and `memory/industry-context.md` if the member uses one. If a value is not set, propose one and ask before saving.
+- **Reads:** `memory/business-context.md` (active platforms, pillars, voice, CTA style, cadence per channel, primary formats, banned formats, compliance rules, DM automation settings); `memory/audience-and-offers.md` (audience, offers, lead magnets); `memory/voice.md` and `skills/brand-voice.md` (tone, hallmark phrases, voice); any working-memory files for the current campaign (for example `working-memory/current-campaign.md`); and `memory/industry-context.md` if the member uses one. If a value is not set, propose one and ask before saving; `memory/marketing-settings.md` (this department's own settings: audience detail, pillars, platforms and cadence, newsletter, tools, and approval thresholds).
 - **Writes:** `logs/activity-log.md` (each post produced and its format choice), `logs/decision-log.md` (deprioritisation risks found and changed, ambiguous format calls, suspected algorithm shifts), and the named draft output for the chosen platform.
 
 ## 10. Output format

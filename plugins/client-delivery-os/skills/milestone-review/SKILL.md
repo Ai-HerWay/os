@@ -77,7 +77,7 @@ Specific to this skill's failure modes. Never send, only draft: client communica
 
 ## 9. Inputs and memory
 
-- **Reads:** `memory/business-context.md` (or `memory/job-context.md` for a professional in a role): the member's services, voice, review cadence, and disclosure standard; `memory/client-roster.md`: the client's row (stage, key dates, owner, last review); `memory/engagement-briefs/{client-slug}.md`: the promises, the client's why and success measures, agreed scope changes, and the Sales handoff's open items (never treated as scope); the Admin & Ops status and meeting records where connected, for dates and delivery facts.
+- **Reads:** `memory/business-context.md` (the founder, professional, or household variant, whichever the member built): the member's services, voice, review cadence, and disclosure standard; `memory/client-roster.md`: the client's row (stage, key dates, owner, last review); `memory/engagement-briefs/{client-slug}.md`: the promises, the client's why and success measures, agreed scope changes, and the Sales handoff's open items (never treated as scope); the Admin & Ops status and meeting records where connected, for dates and delivery facts; `memory/delivery-settings.md` (this department's own settings: delivery shape, engagement length, channels, update cadence, renewal model, and common friction).
 - **Writes:** `logs/activity-log.md` (the review produced and for whom), `logs/decision-log.md` (gaps named, items held out of scope, anything escalated), the updated review date on the client's roster row, and the Milestone Review itself for the member to approve.
 
 Never read "any relevant context". Read the named files above.

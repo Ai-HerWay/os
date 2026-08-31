@@ -79,7 +79,7 @@ Specific to this skill's failure modes: never render a fake testimonial, invente
 
 ## 9. Inputs and memory
 
-- **Reads:** the visual brief handed over by the originating skill or member (including thumbnail briefs from the youtube-strategy skill); `memory/brand-kit.md` (colours, fonts, spacing, logo, layout rules; the single source of truth for every render); `memory/business-context.md` (the member's business, audience, disclosure preference, and tool choices such as their design tool and social scheduler).
+- **Reads:** the visual brief handed over by the originating skill or member (including thumbnail briefs from the youtube-strategy skill); `memory/brand-kit.md` (colours, fonts, spacing, logo, layout rules; the single source of truth for every render); `memory/business-context.md` (the member's business, audience, disclosure preference, and tool choices such as their design tool and social scheduler); `memory/marketing-settings.md` (this department's own settings: audience detail, pillars, platforms and cadence, newsletter, tools, and approval thresholds).
 - **Writes:** the rendered image files and their HTML/SVG sources to the member's assets location; `logs/activity-log.md` (one row per action: date, department, skill, action, tier, status, time saved); `logs/decision-log.md` (refused briefs, likeness or artist-style calls, brand-kit gaps flagged).
 
 Never read "any relevant context". Read the named files above.

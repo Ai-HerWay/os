@@ -83,7 +83,7 @@ Specific to this skill's failure modes. The load-bearing rule is truth in testim
 
 ## 9. Inputs and memory
 
-- **Reads:** `memory/business-context.md` (or `memory/job-context.md` for a professional in a role): the member's offers, voice, disclosure standard, and delivery types; `memory/client-roster.md`: the client's row, status, named people, and any consent or no-publish flags; `memory/engagement-briefs/{client-slug}.md`: the client's original problem, their why, success measures, and agreed scope; the latest `milestone-review` output for verified results; `client-feedback-loop` responses for the client's own words; delivery records for substantiation.
+- **Reads:** `memory/business-context.md` (the founder, professional, or household variant, whichever the member built): the member's offers, voice, disclosure standard, and delivery types; `memory/client-roster.md`: the client's row, status, named people, and any consent or no-publish flags; `memory/engagement-briefs/{client-slug}.md`: the client's original problem, their why, success measures, and agreed scope; the latest `milestone-review` output for verified results; `client-feedback-loop` responses for the client's own words; delivery records for substantiation; `memory/delivery-settings.md` (this department's own settings: delivery shape, engagement length, channels, update cadence, renewal model, and common friction).
 - **Writes:** `logs/activity-log.md` (case study drafted and for whom), `logs/decision-log.md` (claims cut as unverified, results held, anonymisation applied, consent status), `memory/client-roster.md` (consent status and publish status), and the Case Study Pack itself for the member and client to approve.
 
 Never read "any relevant context". Read the named files above.

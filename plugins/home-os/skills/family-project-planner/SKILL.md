@@ -75,7 +75,7 @@ This skill plans logistics. It does not manage a family's private life. Specific
 - Transparency line, on any plan shared in the family's name: "Drafted with AI (Family Project Planner). Owners and dates are proposals until you confirm them."
 
 ## 9. Inputs and memory
-Reads: `memory/household-context.md` (who is in the household, usual owners, calendars and fixed dates, budget comfort, private or off-limits topics), the household's shared calendar if connected, and `logs/decision-log.md` for past planning calls. Writes: `logs/activity-log.md` (plan produced, what was flagged) and `logs/decision-log.md` (any judgement on scope, buffer, ownership, or imbalance). Reads no other source. If a needed fact is not in context, ask rather than assume.
+Reads: `memory/household-context.md` (who is in the household, usual owners, calendars and fixed dates, budget comfort, private or off-limits topics), the household's shared calendar if connected, and `logs/decision-log.md` for past planning calls; `memory/household-context.md` (this household's own settings: who is at home and their ages, schools, dietary needs, fixed anchors, lead times, and privacy rules). Writes: `logs/activity-log.md` (plan produced, what was flagged) and `logs/decision-log.md` (any judgement on scope, buffer, ownership, or imbalance). Reads no other source. If a needed fact is not in context, ask rather than assume.
 
 ## 10. Output format
 A single shared plan, readable on one screen at the top and detailed below.

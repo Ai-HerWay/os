@@ -77,7 +77,7 @@ Specific to this skill's failure modes. Every client-facing draft is approved by
 
 ## 9. Inputs and memory
 
-- **Reads:** `memory/business-context.md` (or `memory/job-context.md` for a professional in a role): the member's services, status cadences, escalation preferences, and AI-disclosure standard; `memory/client-roster.md`: the active engagements, each client's slug, stage, and cadence; `memory/engagement-briefs/{client-slug}.md`: confirmed scope, the Sales handoff's openItems, key contacts, and this engagement's existing watchlist.
+- **Reads:** `memory/business-context.md` (the founder, professional, or household variant, whichever the member built): the member's services, status cadences, escalation preferences, and AI-disclosure standard; `memory/client-roster.md`: the active engagements, each client's slug, stage, and cadence; `memory/engagement-briefs/{client-slug}.md`: confirmed scope, the Sales handoff's openItems, key contacts, and this engagement's existing watchlist; `memory/delivery-settings.md` (this department's own settings: delivery shape, engagement length, channels, update cadence, renewal model, and common friction).
 - **Writes:** the RAID Lite section of `memory/engagement-briefs/{client-slug}.md` (the watchlist itself, items dated on entry and updated in place); `logs/activity-log.md` (each review pass and what changed); `logs/decision-log.md` (escalations, parked items, closures, and anything held for the member).
 
 Never read "any relevant context". Read the named files above.

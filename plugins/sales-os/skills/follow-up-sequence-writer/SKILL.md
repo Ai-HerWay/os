@@ -81,14 +81,14 @@ Specific to this skill's failure modes: never design a sequence that is the same
 
 ## 9. Inputs and memory
 
-- **Reads:** `memory/business-context.md` (or `memory/job-context.md` for a professional in a role): the member's offers, audience, voice, cadence rules, and any overridable thresholds; `memory/prospect-insights.md`: what is known and verified about this prospect, their stated needs, timelines, and preferences; `memory/sales-pipeline.md` or the connected CRM (see `connections.md`): this deal's stage, history, last-contact date, opt-out flags, and any "do not contact until" notes; `memory/industry-context.md` where the member uses one.
+- **Reads:** `memory/business-context.md` (the founder, professional, or household variant, whichever the member built): the member's offers, audience, voice, cadence rules, and any overridable thresholds; `memory/prospect-insights.md`: what is known and verified about this prospect, their stated needs, timelines, and preferences; `memory/sales-pipeline.md` or the connected CRM (see `connections.md`): this deal's stage, history, last-contact date, opt-out flags, and any "do not contact until" notes; `memory/industry-context.md` where the member uses one; `memory/sales-settings.md` (this department's own settings: pricing model, deal size, sales cycle, buying group, anti-persona, and tools).
 - **Writes:** `logs/activity-log.md` (the sequence that was designed and drafted), `logs/decision-log.md` (any sequence held, declined, opt-outs honoured, or deadlines flagged for review), and the Follow-Up Sequence itself for the member to action.
 
 Never read "any relevant context". Read the named files above.
 
 ## 10. Output format
 
-The deliverable is the Follow-Up Sequence below. Keep this structure and the section order. Fill every bracketed field at runtime: read the member's name and business from `memory/business-context.md` (or `memory/job-context.md` for a professional in a role), the prospect's verified detail from `memory/prospect-insights.md`, and the deal's stage and history from `memory/sales-pipeline.md` or the connected CRM. The sequence name, goal, touches, and any real limit are set with the member for this specific prospect or situation. If a needed value is not set, propose one and ask before saving it.
+The deliverable is the Follow-Up Sequence below. Keep this structure and the section order. Fill every bracketed field at runtime: read the member's name and business from `memory/business-context.md` (the founder, professional, or household variant, whichever the member built), the prospect's verified detail from `memory/prospect-insights.md`, and the deal's stage and history from `memory/sales-pipeline.md` or the connected CRM. The sequence name, goal, touches, and any real limit are set with the member for this specific prospect or situation. If a needed value is not set, propose one and ask before saving it.
 
 ---
 

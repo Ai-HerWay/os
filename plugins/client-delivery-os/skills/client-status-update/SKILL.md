@@ -79,7 +79,7 @@ Specific to this skill's failure modes. Never send client-facing text without hu
 
 ## 9. Inputs and memory
 
-- **Reads:** `memory/business-context.md` (or `memory/job-context.md` for a professional in a role): the member's voice, offers, and default cadence; `memory/client-roster.md`: this client's row (the CRM-lite mirror of the Clients database, where a Won pipeline row became a roster row) for stage, cadence, owner, and standing notes; `memory/engagement-briefs/{client-slug}.md`: agreed scope, milestones, voice and disclosure notes, seeded from the Sales handoff pack; the Admin & Ops internal status output and meeting notes for this engagement, as the source of what actually moved.
+- **Reads:** `memory/business-context.md` (the founder, professional, or household variant, whichever the member built): the member's voice, offers, and default cadence; `memory/client-roster.md`: this client's row (the CRM-lite mirror of the Clients database, where a Won pipeline row became a roster row) for stage, cadence, owner, and standing notes; `memory/engagement-briefs/{client-slug}.md`: agreed scope, milestones, voice and disclosure notes, seeded from the Sales handoff pack; the Admin & Ops internal status output and meeting notes for this engagement, as the source of what actually moved; `memory/delivery-settings.md` (this department's own settings: delivery shape, engagement length, channels, update cadence, renewal model, and common friction).
 - **Writes:** `logs/activity-log.md` (update drafted, cadence met or explained), `logs/decision-log.md` (conflicts held, openItems reframed, risks escalated, health notes raised), and the drafted update itself for approval.
 
 Never read "any relevant context". Read the named files above.

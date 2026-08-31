@@ -78,14 +78,14 @@ Specific to this skill's failure modes: never let follow-up tip into nagging (sp
 
 ## 9. Inputs and memory
 
-- **Reads:** `memory/business-context.md` (or `memory/job-context.md` for a professional in a role): the member's offers, audience, voice, cadence rules, and any overridable thresholds; `memory/prospect-insights.md`: what is known and verified about each prospect, their stated needs, timelines, and preferences; `memory/sales-pipeline.md` or the connected CRM (see `connections.md`): the open deals, their stage, last-contact date, opt-out flags, and any "do not contact until" notes; `memory/industry-context.md` where the member uses one.
+- **Reads:** `memory/business-context.md` (the founder, professional, or household variant, whichever the member built): the member's offers, audience, voice, cadence rules, and any overridable thresholds; `memory/prospect-insights.md`: what is known and verified about each prospect, their stated needs, timelines, and preferences; `memory/sales-pipeline.md` or the connected CRM (see `connections.md`): the open deals, their stage, last-contact date, opt-out flags, and any "do not contact until" notes; `memory/industry-context.md` where the member uses one; `memory/sales-settings.md` (this department's own settings: pricing model, deal size, sales cycle, buying group, anti-persona, and tools).
 - **Writes:** `logs/activity-log.md` (the run that was produced and what was drafted), `logs/decision-log.md` (deals held, declined, opt-outs honoured, and any flagged for review), and the Follow-Up Run itself for the member to action.
 
 Never read "any relevant context". Read the named files above.
 
 ## 10. Output format
 
-The deliverable is the Follow-Up Run below. Keep this structure and the section order. Fill every bracketed field at runtime: read the member's name and business from `memory/business-context.md` (or `memory/job-context.md` for a professional in a role), the open deals, stages, last-contact dates, and opt-out flags from `memory/sales-pipeline.md` or the connected CRM, and verified prospect detail from `memory/prospect-insights.md`. The run date, the drafts, and the dated next steps are set for this specific run. If a needed value is not set, propose one and ask before saving it.
+The deliverable is the Follow-Up Run below. Keep this structure and the section order. Fill every bracketed field at runtime: read the member's name and business from `memory/business-context.md` (the founder, professional, or household variant, whichever the member built), the open deals, stages, last-contact dates, and opt-out flags from `memory/sales-pipeline.md` or the connected CRM, and verified prospect detail from `memory/prospect-insights.md`. The run date, the drafts, and the dated next steps are set for this specific run. If a needed value is not set, propose one and ask before saving it.
 
 ---
 

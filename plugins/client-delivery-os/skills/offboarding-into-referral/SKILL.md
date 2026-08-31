@@ -78,7 +78,7 @@ This skill's real failure modes, named. Never send a heavy-AI ending: templated,
 
 ## 9. Inputs and memory
 
-- **Reads:** `memory/business-context.md` (or `memory/job-context.md` for a professional in a role): voice, disclosure standard, referral and incentive policy; `memory/client-roster.md`: the client's row, status, named people, and any no-contact or no-referral flags; `memory/engagement-briefs/{client-slug}.md`: original goals from the Sales handoff pack, scope as agreed (section 4 openItems marked as never-agreed), documented results and milestones; `memory/industry-context.md` where the member uses one.
+- **Reads:** `memory/business-context.md` (the founder, professional, or household variant, whichever the member built): voice, disclosure standard, referral and incentive policy; `memory/client-roster.md`: the client's row, status, named people, and any no-contact or no-referral flags; `memory/engagement-briefs/{client-slug}.md`: original goals from the Sales handoff pack, scope as agreed (section 4 openItems marked as never-agreed), documented results and milestones; `memory/industry-context.md` where the member uses one; `memory/delivery-settings.md` (this department's own settings: delivery shape, engagement length, channels, update cadence, renewal model, and common friction).
 - **Writes:** `logs/activity-log.md` (pack produced, drafts prepared), `logs/decision-log.md` (asks held or skipped and why, claims excluded as unverified, referral names handed to Sales), `memory/client-roster.md` (status to "alumni", door-open date, referral outcome), and the Offboarding Pack itself.
 
 Never read "any relevant context". Read the named files above.

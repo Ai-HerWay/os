@@ -79,7 +79,7 @@ Specific to this skill's failure modes: never improvise a missing element, becau
 
 ## 9. Inputs and memory
 
-- **Reads:** the approved weekly content plan (the content-strategy or campaign output the member signed off); the finished copy, visuals, and video packages from the owning Content Studio skills; `memory/business-context.md` (voice, disclosure preference, per-platform link defaults, hashtag conventions); `memory/brand-kit.md` (colours, fonts, logo rules the visual checks run against).
+- **Reads:** the approved weekly content plan (the content-strategy or campaign output the member signed off); the finished copy, visuals, and video packages from the owning Content Studio skills; `memory/business-context.md` (voice, disclosure preference, per-platform link defaults, hashtag conventions); `memory/brand-kit.md` (colours, fonts, logo rules the visual checks run against); `memory/marketing-settings.md` (this department's own settings: audience detail, pillars, platforms and cadence, newsletter, tools, and approval thresholds).
 - **Writes:** the Weekly Package Manifest and the per-post packages (the named outputs the member keeps); `logs/activity-log.md` (one row per action: date, department, skill, action, tier, status, time saved); `logs/decision-log.md` (every routed gap, blocked package, and judgement call, flagged for review).
 
 Never read "any relevant context". Read the named files above.

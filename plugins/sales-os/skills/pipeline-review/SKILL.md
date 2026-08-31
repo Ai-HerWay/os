@@ -78,14 +78,14 @@ Specific to this skill's failure modes: never invent a buyer action to justify a
 
 ## 9. Inputs and memory
 
-- **Reads:** `memory/business-context.md` (or `memory/job-context.md` for a professional in a role): the member's offers, ICP, sales cycle, stage definitions, and any overridable thresholds like expected contact cadence; `memory/sales-pipeline.md` or the connected CRM (via `connections.md`): the live deals, stages, values, last buyer actions, and next steps; `memory/prospect-insights.md`: known context on specific prospects that informs why-now and prioritisation.
+- **Reads:** `memory/business-context.md` (the founder, professional, or household variant, whichever the member built): the member's offers, ICP, sales cycle, stage definitions, and any overridable thresholds like expected contact cadence; `memory/sales-pipeline.md` or the connected CRM (via `connections.md`): the live deals, stages, values, last buyer actions, and next steps; `memory/prospect-insights.md`: known context on specific prospects that informs why-now and prioritisation; `memory/sales-settings.md` (this department's own settings: pricing model, deal size, sales cycle, buying group, anti-persona, and tools).
 - **Writes:** `logs/activity-log.md` (the review was run and what was flagged), `logs/decision-log.md` (any prioritisation, gone-quiet, or close-lost recommendation flagged for review), and the Weekly Pipeline Review output itself, kept as the dated record for this skill.
 
 Never read "any relevant context". Read the named files above. Start read-only on any connected CRM; raise access one step at a time.
 
 ## 10. Output format
 
-The deliverable is the Weekly Pipeline Review block below. Keep this structure and the section order. Fill every bracketed field at runtime: read the member's name from `memory/business-context.md` (or `memory/job-context.md` for a professional in a role), and the live deals, stages, values, last buyer actions, and next steps from `memory/sales-pipeline.md` or the connected CRM. The review date, counts, and per-deal reads are produced fresh for this specific weekly review. If a needed value is not set, propose one and ask before saving it. Keep the focus list to three to five deals: the cut is the point.
+The deliverable is the Weekly Pipeline Review block below. Keep this structure and the section order. Fill every bracketed field at runtime: read the member's name from `memory/business-context.md` (the founder, professional, or household variant, whichever the member built), and the live deals, stages, values, last buyer actions, and next steps from `memory/sales-pipeline.md` or the connected CRM. The review date, counts, and per-deal reads are produced fresh for this specific weekly review. If a needed value is not set, propose one and ask before saving it. Keep the focus list to three to five deals: the cut is the point.
 
 ---
 

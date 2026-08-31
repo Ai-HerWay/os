@@ -77,7 +77,7 @@ This skill's specific failure modes: flattering dashboards (inflated or invented
 
 ## 9. Inputs and memory
 
-- **Reads:** `logs/activity-log.md` (the what), `logs/decision-log.md` (the why and the judgement calls), `memory/business-context.md` (thresholds: stall days, per-task time-saved defaults if set, cadence, named people), `schedule.md` for the department cadences.
+- **Reads:** `logs/activity-log.md` (the what), `logs/decision-log.md` (the why and the judgement calls), `memory/business-context.md` (thresholds: stall days, per-task time-saved defaults if set, cadence, named people), `schedule.md` for the department cadences; `memory/values.md` (if present: the member's mission and values, so the review can ask whether the work matched what they said they stand for, not just whether it got done).
 - **Writes:** the cockpit HTML file (default `logs/cockpit.html`, overwriting the previous render after backing it up to `logs/cockpit-previous.html`), a one-row entry in `logs/activity-log.md`, and any governance finding in `logs/decision-log.md`.
 
 Never read "any relevant context". Read the named files above.

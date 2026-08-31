@@ -81,7 +81,7 @@ Specific to this skill's failure modes. Every client-facing draft is approved by
 
 ## 9. Inputs and memory
 
-- **Reads:** `memory/business-context.md` (or `memory/job-context.md` for a professional in a role): the member's services, voice, contact channels, response-time standard, and AI-disclosure preference; `memory/client-roster.md`: the new client's row (a Won pipeline row becomes a roster row); the Sales handoff pack from the post-sale-handoff skill, whose section 4 is the intake contract; `memory/engagement-briefs/{client-slug}.md`: seeded by this skill, then the single source of truth for the engagement.
+- **Reads:** `memory/business-context.md` (the founder, professional, or household variant, whichever the member built): the member's services, voice, contact channels, response-time standard, and AI-disclosure preference; `memory/client-roster.md`: the new client's row (a Won pipeline row becomes a roster row); the Sales handoff pack from the post-sale-handoff skill, whose section 4 is the intake contract; `memory/engagement-briefs/{client-slug}.md`: seeded by this skill, then the single source of truth for the engagement; `memory/delivery-settings.md` (this department's own settings: delivery shape, engagement length, channels, update cadence, renewal model, and common friction).
 - **Writes:** `memory/engagement-briefs/{client-slug}.md` (seeded or updated), `logs/activity-log.md` (pack drafted, for whom, from which handoff), `logs/decision-log.md` (gaps flagged, items held out of the pack, and why), and the Welcome Pack itself for approval.
 
 Never read "any relevant context". Read the named files above.

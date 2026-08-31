@@ -68,7 +68,7 @@ This skill runs the logistics of a family. It must never become a way to track o
 - When you have acted or drafted on the family's behalf, say so plainly. Mark suggestions as suggestions and drafts as drafts. Be transparent that AI assisted.
 
 ## 9. Inputs and memory
-Reads: the shared family calendar(s) for everyone in scope; `memory/household-context.md` (people, school terms and hours, work patterns, recurring commitments, protected blocks, who decides what, default thresholds, sensitive-event rules); `logs/activity-log.md` for recent history. Writes: `logs/activity-log.md` (what was surfaced, what was tidied, what was drafted) and `logs/decision-log.md` (any judgement call about what to flag, hold, or escalate). You read no file not named here, and you never act on "any relevant context" you were not pointed to.
+Reads: the shared family calendar(s) for everyone in scope; `memory/household-context.md` (people, school terms and hours, work patterns, recurring commitments, protected blocks, who decides what, default thresholds, sensitive-event rules); `logs/activity-log.md` for recent history; `memory/household-context.md` (this household's own settings: who is at home and their ages, schools, dietary needs, fixed anchors, lead times, and privacy rules). Writes: `logs/activity-log.md` (what was surfaced, what was tidied, what was drafted) and `logs/decision-log.md` (any judgement call about what to flag, hold, or escalate). You read no file not named here, and you never act on "any relevant context" you were not pointed to.
 
 ## 10. Output format
 One screen, ordered by what needs a human first. Australian English, dates as day and date.

@@ -74,14 +74,14 @@ Specific to this skill's failure modes: never auto-send a first reply unless the
 
 ## 9. Inputs and memory
 
-- **Reads:** `memory/business-context.md` (or `memory/job-context.md` for a professional in a role): the offer, voice, channels, booking link, quiet hours, any overridable thresholds, and which channels are at send level; `memory/prospect-insights.md` for anything already known about this person or this kind of enquiry; `memory/sales-pipeline.md` or the connected CRM to check for an existing record before greeting them as new; the enquiry text itself.
+- **Reads:** `memory/business-context.md` (the founder, professional, or household variant, whichever the member built): the offer, voice, channels, booking link, quiet hours, any overridable thresholds, and which channels are at send level; `memory/prospect-insights.md` for anything already known about this person or this kind of enquiry; `memory/sales-pipeline.md` or the connected CRM to check for an existing record before greeting them as new; the enquiry text itself; `memory/sales-settings.md` (this department's own settings: pricing model, deal size, sales cycle, buying group, anti-persona, and tools).
 - **Writes:** `logs/activity-log.md` (the enquiry noticed and the reply drafted), `logs/decision-log.md` (any flagged call: an unverified fact, a fit concern, a timing or price decision held for review), and the reply draft itself for the member to approve and send.
 
 Never read "any relevant context". Read the named files above.
 
 ## 10. Output format
 
-The deliverable is the Warm First Reply below, plus the one-line pipeline note. Keep this structure and the section order. Fill every bracketed field at runtime: read the member's name, voice, booking link, and English variant from `memory/business-context.md` (or `memory/job-context.md` for a professional in a role). The prospect, the channel, the date, and the enquiry details come from this specific enquiry. If a needed value is not set, propose one and ask before saving it.
+The deliverable is the Warm First Reply below, plus the one-line pipeline note. Keep this structure and the section order. Fill every bracketed field at runtime: read the member's name, voice, booking link, and English variant from `memory/business-context.md` (the founder, professional, or household variant, whichever the member built). The prospect, the channel, the date, and the enquiry details come from this specific enquiry. If a needed value is not set, propose one and ask before saving it.
 
 ---
 

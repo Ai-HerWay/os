@@ -79,7 +79,7 @@ Tied to this skill's real failure modes: never fabricate market size, competitor
 
 ## 9. Inputs and memory
 
-- **Reads:** `memory/business-context.md` (the member's business, primary goal, voice, current channels, budget posture, and any overridable thresholds such as a declared launch window); `memory/audience-and-offers.md` (audience, offer, transformation, lead magnets); any working-memory files for the current period (a current-campaign note, a market or competitor note); `memory/industry-context.md` where the member uses one. If a value is not set, propose one and ask before saving.
+- **Reads:** `memory/business-context.md` (the member's business, primary goal, voice, current channels, budget posture, and any overridable thresholds such as a declared launch window); `memory/audience-and-offers.md` (audience, offer, transformation, lead magnets); any working-memory files for the current period (a current-campaign note, a market or competitor note); `memory/industry-context.md` where the member uses one. If a value is not set, propose one and ask before saving; `memory/marketing-settings.md` (this department's own settings: audience detail, pillars, platforms and cadence, newsletter, tools, and approval thresholds).
 - **Writes:** `logs/activity-log.md` (what was drafted or recommended), `logs/decision-log.md` (positioning changes, objective changes, channel changes flagged for review), and the named strategy and funnel-map outputs the member keeps for this skill.
 
 Never read "any relevant context". Read the named files above.

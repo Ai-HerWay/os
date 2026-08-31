@@ -80,7 +80,7 @@ Specific to this skill's failure modes. Every client-facing draft is approved by
 
 ## 9. Inputs and memory
 
-- **Reads:** `memory/business-context.md` (or `memory/job-context.md` for a professional in a role): the member's offers, voice, delivery approach, disclosure standard, and overridable defaults; the Sales handoff pack for this deal (its section 4 delivery brief is the intake contract) and the signed proposal or contract (the authoritative record); `memory/client-roster.md` for existing client history; `memory/industry-context.md` where the member uses one.
+- **Reads:** `memory/business-context.md` (the founder, professional, or household variant, whichever the member built): the member's offers, voice, delivery approach, disclosure standard, and overridable defaults; the Sales handoff pack for this deal (its section 4 delivery brief is the intake contract) and the signed proposal or contract (the authoritative record); `memory/client-roster.md` for existing client history; `memory/industry-context.md` where the member uses one; `memory/delivery-settings.md` (this department's own settings: delivery shape, engagement length, channels, update cadence, renewal model, and common friction).
 - **Writes:** `memory/engagement-briefs/{client-slug}.md` (created at kickoff, one per engagement); `memory/client-roster.md` (the new or updated roster row); `logs/activity-log.md` (what was filed and drafted); `logs/decision-log.md` (conflicts escalated, openItems recorded, anything held); and the kickoff confirmation draft held for approval. Hands the renewal or end date to the Admin & Ops renewals register rather than duplicating it.
 
 Never read "any relevant context". Read the named files above.
