@@ -19,7 +19,7 @@ author: AI Her Way
 
 ## 1. Role and mandate
 
-This skill finds the quiet money already sitting in the member's business history: the enquiries that went cold and the past clients who drifted, where trust and context already exist. It looks across the old pipeline (a connected CRM or `memory/sales-pipeline.md`) and the member's records, decides which dormant contacts are genuinely worth reviving and why now, and for each drafts a value-first re-opener in the member's voice that leads with something useful before any ask. It works for the founder reviving old enquiries and past clients, the professional (AE or account manager) reactivating closed-lost or dormant accounts inside company rules, and real life, re-inviting past participants to a community offering. It owns the surfacing and the drafting. It does not qualify brand-new leads, run live campaigns, or close the deal: it reopens an honest door that is already half-open, and only where there is a real relationship and something real to say.
+This skill finds the quiet money already sitting in the member's business history: the enquiries that went cold and the past clients who drifted, where trust and context already exist. It looks across the old pipeline (a connected CRM or `sales-os/memory/sales-pipeline.md`) and the member's records, decides which dormant contacts are genuinely worth reviving and why now, and for each drafts a value-first re-opener in the member's voice that leads with something useful before any ask. It works for the founder reviving old enquiries and past clients, the professional (AE or account manager) reactivating closed-lost or dormant accounts inside company rules, and real life, re-inviting past participants to a community offering. It owns the surfacing and the drafting. It does not qualify brand-new leads, run live campaigns, or close the deal: it reopens an honest door that is already half-open, and only where there is a real relationship and something real to say.
 
 ## 2. Governing principle
 
@@ -55,7 +55,7 @@ This is the psychology layer. For every dormant contact, run their state against
 
 ## 5. Workflow
 
-1. Read inputs (Section 9) first: the member's business or job context, prospect insights, and the old pipeline (CRM or `memory/sales-pipeline.md`). For each dormant record, note the last contact date, the nature of the prior relationship, any opt-out flag, and any "do not contact until" note.
+1. Read inputs (Section 9) first: the member's business or job context, prospect insights, and the old pipeline (CRM or `sales-os/memory/sales-pipeline.md`). For each dormant record, note the last contact date, the nature of the prior relationship, any opt-out flag, and any "do not contact until" note.
 2. Filter for consent and relationship before anything else. The implicit move: drop everyone who has opted out, and everyone with no genuine prior relationship or opt-in, before considering value at all. Only real, consented relationships proceed.
 3. For each remaining dormant contact, decide if it is worth reviving now: is there a real reason, and is there something useful to lead with? Pull from prospect insights, the last conversation, a relevant resource, a real update, or a contact-side event. If there is nothing of value, the contact waits rather than getting an empty re-opener.
 4. Build the shortlist: who, last contact, and why worth it now. Keep it honest and short; a long list of weak revivals is worse than a few real ones.
@@ -79,14 +79,14 @@ Specific to this skill's failure modes: never spam (a re-opener is a single soft
 
 ## 9. Inputs and memory
 
-- **Reads:** `memory/business-context.md` (the founder, professional, or household variant, whichever the member built): the member's offers, audience, voice, consent and cadence rules, and any overridable thresholds; `memory/prospect-insights.md`: what is known and verified about each contact, their stated needs, timelines, and the nature of the prior relationship; `memory/sales-pipeline.md` or the connected CRM (see `connections.md`): the dormant records, their last-contact date, opt-out flags, and any "do not contact until" notes; `memory/industry-context.md` where the member uses one; `memory/sales-settings.md` (this department's own settings: pricing model, deal size, sales cycle, buying group, anti-persona, and tools).
+- **Reads:** `memory/business-context.md` (the founder, professional, or household variant, whichever the member built): the member's offers, audience, voice, consent and cadence rules, and any overridable thresholds; `sales-os/memory/prospect-insights.md`: what is known and verified about each contact, their stated needs, timelines, and the nature of the prior relationship; `sales-os/memory/sales-pipeline.md` or the connected CRM (see `connections.md`): the dormant records, their last-contact date, opt-out flags, and any "do not contact until" notes; `memory/industry-context.md` where the member uses one; `sales-os/memory/sales-settings.md` (this department's own settings: pricing model, deal size, sales cycle, buying group, anti-persona, and tools).
 - **Writes:** `logs/activity-log.md` (the run that was produced and what was drafted), `logs/decision-log.md` (contacts held, declined, opt-outs honoured, relationships judged not genuine, and any flagged for review), and the Re-Engagement Run itself for the member to action.
 
 Never read "any relevant context". Read the named files above.
 
 ## 10. Output format
 
-The deliverable is the Re-Engagement Run below. Keep this structure and the section order. Fill every bracketed field at runtime: read the member's name and business from `memory/business-context.md` (the founder, professional, or household variant, whichever the member built), the dormant records from `memory/sales-pipeline.md` or the connected CRM, and what is known about each contact from `memory/prospect-insights.md`. The run date, the shortlist, each draft, and each next step are set with the member for this specific run. If a needed value is not set, propose one and ask before saving it.
+The deliverable is the Re-Engagement Run below. Keep this structure and the section order. Fill every bracketed field at runtime: read the member's name and business from `memory/business-context.md` (the founder, professional, or household variant, whichever the member built), the dormant records from `sales-os/memory/sales-pipeline.md` or the connected CRM, and what is known about each contact from `sales-os/memory/prospect-insights.md`. The run date, the shortlist, each draft, and each next step are set with the member for this specific run. If a needed value is not set, propose one and ask before saving it.
 
 ---
 
@@ -100,7 +100,7 @@ The deliverable is the Re-Engagement Run below. Keep this structure and the sect
 
 ## Shortlist: who is worth reviving now
 
-Add one row per shortlisted contact, drawn from `memory/sales-pipeline.md` or the connected CRM and verified against `memory/prospect-insights.md`.
+Add one row per shortlisted contact, drawn from `sales-os/memory/sales-pipeline.md` or the connected CRM and verified against `sales-os/memory/prospect-insights.md`.
 
 | Contact | Last contact | Prior relationship | Why worth it now |
 |---|---|---|---|

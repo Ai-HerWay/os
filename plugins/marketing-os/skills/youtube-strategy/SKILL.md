@@ -91,7 +91,7 @@ Specific to this skill's failure modes: never write a title or thumbnail that pr
 
 Reads:
 - `memory/business-context.md` (brand voice, audience, pillars, channel handle, offer, transformation, cadence, primary goal, lead magnets, codewords)
-- `memory/working-memory/youtube-performance.md` if present (recent video performance, click-through rate, retention curves, what has landed)
+- `marketing-os/memory/working-memory/youtube-performance.md` if present (recent video performance, click-through rate, retention curves, what has landed)
 - `memory/industry-context.md` if present (niche-specific search terms and language for titles, tags, and descriptions)
 
 Writes:

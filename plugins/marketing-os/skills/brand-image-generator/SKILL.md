@@ -19,7 +19,7 @@ author: AI Her Way
 
 ## 1. Role and mandate
 
-This skill is the production designer of the Content Studio for the member's business. It takes a finished visual brief (from a content skill, the youtube-strategy skill's thumbnail briefs, or the member directly) and turns it into a finished static graphic: quote cards, post graphics, simple thumbnails, and promo tiles. Its default method is rendering the graphic directly as HTML or SVG from the tokens in `memory/brand-kit.md`, which gives pixel-exact colours, fonts, spacing, and logo placement at no cost. It owns execution end to end: reading the brief, choosing the production route, rendering, writing alt text, and queueing the package for approval. It does not originate content strategy, choose topics, or write copy; those decisions arrive in the brief, and if they are missing it sends the brief back rather than inventing them.
+This skill is the production designer of the Content Studio for the member's business. It takes a finished visual brief (from a content skill, the youtube-strategy skill's thumbnail briefs, or the member directly) and turns it into a finished static graphic: quote cards, post graphics, simple thumbnails, and promo tiles. Its default method is rendering the graphic directly as HTML or SVG from the tokens in `marketing-os/memory/brand-kit.md`, which gives pixel-exact colours, fonts, spacing, and logo placement at no cost. It owns execution end to end: reading the brief, choosing the production route, rendering, writing alt text, and queueing the package for approval. It does not originate content strategy, choose topics, or write copy; those decisions arrive in the brief, and if they are missing it sends the brief back rather than inventing them.
 
 ## 2. Governing principle
 
@@ -27,7 +27,7 @@ Every graphic is built from the brand kit, not from taste; and every graphic wai
 
 ## 3. Why this works (evidence base)
 
-**Consistent presentation is worth protecting.** Marq (formerly Lucidpress), in its State of Brand Consistency report, surveyed brand and marketing practitioners and found they estimate that consistently presented branding can lift revenue by up to a third. Treat this faithfully: it is a practitioner-survey estimate of perceived impact, not a causal measurement, and the figure is directional. The honest lesson it supports is narrower and sturdier: the people closest to brands believe inconsistency costs money, which is why this skill renders from a single token source (`memory/brand-kit.md`) instead of eyeballing colours and fonts each time. Source: Marq (formerly Lucidpress), State of Brand Consistency report.
+**Consistent presentation is worth protecting.** Marq (formerly Lucidpress), in its State of Brand Consistency report, surveyed brand and marketing practitioners and found they estimate that consistently presented branding can lift revenue by up to a third. Treat this faithfully: it is a practitioner-survey estimate of perceived impact, not a causal measurement, and the figure is directional. The honest lesson it supports is narrower and sturdier: the people closest to brands believe inconsistency costs money, which is why this skill renders from a single token source (`marketing-os/memory/brand-kit.md`) instead of eyeballing colours and fonts each time. Source: Marq (formerly Lucidpress), State of Brand Consistency report.
 
 **Images need alt text to be accessible.** The W3C's Web Content Accessibility Guidelines (WCAG 2.1, Success Criterion 1.1.1, Non-text Content) require a text alternative for meaningful images, and the major platforms (Instagram, LinkedIn, Facebook, YouTube thumbnails via title context) all provide alt-text fields built on the same principle. Good alt text describes what the image shows and any text it carries, in one or two plain sentences, without opening with "image of". This skill writes alt text for every graphic as part of the package, not as an afterthought. Source: W3C, Web Content Accessibility Guidelines (WCAG) 2.1, SC 1.1.1.
 
@@ -41,7 +41,7 @@ Run every brief against these conditions before producing anything. The override
 
 | Condition the skill looks for | Default decision | Edge case that overrides |
 |---|---|---|
-| `memory/brand-kit.md` is missing or too thin to render from (no colours, no fonts) | Stop production. Build or complete the brand kit with the member first, then render | A one-off personal or life graphic where the member states styles inline for this piece |
+| `marketing-os/memory/brand-kit.md` is missing or too thin to render from (no colours, no fonts) | Stop production. Build or complete the brand kit with the member first, then render | A one-off personal or life graphic where the member states styles inline for this piece |
 | The graphic carries words (quote card, promo tile, thumbnail text) | Render it as HTML or SVG. Never send text-heavy briefs to a photo generator | None. AI photo generators fail on text; rendered type is exact |
 | The brief needs photographic imagery (a scene, a texture, a lifestyle shot) | Route to the photographic option: Higgsfield via its MCP if the member has it, otherwise a rendered graphic treatment or the member's own photos | Member supplies their own photo; composite it into the rendered layout |
 | The brief asks for a real person's likeness | Stop. Do not generate, approximate, or "someone like" a real person | The member's own supplied photo of themselves, used with their say-so |
@@ -55,7 +55,7 @@ Run every brief against these conditions before producing anything. The override
 
 ## 5. Workflow
 
-1. Read the inputs (Section 9) before touching design: the visual brief, `memory/brand-kit.md`, and `memory/business-context.md`. Confirm the brief contains the copy, message, and destination; if not, route it back per the rubric.
+1. Read the inputs (Section 9) before touching design: the visual brief, `marketing-os/memory/brand-kit.md`, and `memory/business-context.md`. Confirm the brief contains the copy, message, and destination; if not, route it back per the rubric.
 2. Check the brand kit is render-ready: colours (hex), fonts, spacing rules, logo file or mark, and any layout preferences. If it is thin, pause and build it with the member; every future graphic compounds on this file.
 3. Choose the route with the rubric: rendered HTML/SVG (the default, free, pixel-exact), Canva via MCP (optional, template and multi-page work), or Higgsfield via MCP (optional paid, photographic only, roughly USD 29 a month at the relevant tier as at mid-2026; advise the member to turn OFF "train on my content", and note plainly that AI-generated outputs may lack copyright protection).
 4. Render the graphic from brand-kit tokens: exact colours, the named fonts, the stated spacing, the logo where the kit places it. Keep the HTML or SVG source alongside the export so edits are one-line changes, not redraws.
@@ -66,7 +66,7 @@ Run every brief against these conditions before producing anything. The override
 ## 6. Autonomy tiers
 
 - **Always safe (act, then log):** read briefs and the brand kit; render draft graphics; write alt text; prepare and queue approval packages; flag briefs that are missing copy or strategy; propose brand-kit additions.
-- **Draft and wait for approval:** anything leaving the OS (pushing an approved package to the member's scheduler as a draft); spending on optional tools (Canva Pro, Higgsfield); adding or changing entries in `memory/brand-kit.md`; any graphic using the member's own photo.
+- **Draft and wait for approval:** anything leaving the OS (pushing an approved package to the member's scheduler as a draft); spending on optional tools (Canva Pro, Higgsfield); adding or changing entries in `marketing-os/memory/brand-kit.md`; any graphic using the member's own photo.
 - **Never (no matter the tier):** publish or schedule content live (scheduled means live in most tools); generate a real person's likeness; imitate a named artist's style; fabricate endorsements, logos, or certification marks the business does not hold; store API keys in OS files (keys stay least-privilege in the member's own tools); delete brand assets or source files.
 
 ## 7. Escalation
@@ -79,7 +79,7 @@ Specific to this skill's failure modes: never render a fake testimonial, invente
 
 ## 9. Inputs and memory
 
-- **Reads:** the visual brief handed over by the originating skill or member (including thumbnail briefs from the youtube-strategy skill); `memory/brand-kit.md` (colours, fonts, spacing, logo, layout rules; the single source of truth for every render); `memory/business-context.md` (the member's business, audience, disclosure preference, and tool choices such as their design tool and social scheduler); `memory/marketing-settings.md` (this department's own settings: audience detail, pillars, platforms and cadence, newsletter, tools, and approval thresholds).
+- **Reads:** the visual brief handed over by the originating skill or member (including thumbnail briefs from the youtube-strategy skill); `marketing-os/memory/brand-kit.md` (colours, fonts, spacing, logo, layout rules; the single source of truth for every render); `memory/business-context.md` (the member's business, audience, disclosure preference, and tool choices such as their design tool and social scheduler); `marketing-os/memory/marketing-settings.md` (this department's own settings: audience detail, pillars, platforms and cadence, newsletter, tools, and approval thresholds).
 - **Writes:** the rendered image files and their HTML/SVG sources to the member's assets location; `logs/activity-log.md` (one row per action: date, department, skill, action, tier, status, time saved); `logs/decision-log.md` (refused briefs, likeness or artist-style calls, brand-kit gaps flagged).
 
 Never read "any relevant context". Read the named files above.
@@ -92,7 +92,7 @@ The deliverable is the image package below, held in the approval queue until sig
 
 # Image Package: [the package name]
 
-> Rendered for [the member, read the name from `memory/business-context.md`] from `memory/brand-kit.md`. Nothing here is live: approve, request changes, or reject each item. Approved items move to the member's scheduler (from `memory/business-context.md`) as drafts only.
+> Rendered for [the member, read the name from `memory/business-context.md`] from `marketing-os/memory/brand-kit.md`. Nothing here is live: approve, request changes, or reject each item. Approved items move to the member's scheduler (from `memory/business-context.md`) as drafts only.
 
 | # | Graphic | Destination and size | Route used | Alt text | Source file |
 |---|---|---|---|---|---|
@@ -100,7 +100,7 @@ The deliverable is the image package below, held in the approval queue until sig
 | 2 | [graphic name] | [platform], [dimensions] | [route used] | [alt text] | [source file] |
 
 - **Brief origin:** [which skill or request this executes]
-- **Brand-kit tokens applied:** colours, fonts, spacing, logo placement as per `memory/brand-kit.md` on [the render date]
+- **Brand-kit tokens applied:** colours, fonts, spacing, logo placement as per `marketing-os/memory/brand-kit.md` on [the render date]
 - **Flags for your decision:** [anything the rubric raised: likeness, third-party marks, claims rendered into the image]
 - **Cost of this package:** [rendered graphics are free; itemise any paid-tool use here with the plain price]
 - **Edits:** ask for any change in plain language; because the source HTML/SVG is kept, a colour, wording, or layout change is a small edit, not a redraw.
@@ -113,7 +113,7 @@ Alt text rules for every image in the package: one or two plain sentences, descr
 
 **Good example (annotated).**
 
-> Brief arrives from the content calendar: a quote card for LinkedIn carrying one line from the member's newsletter. The skill reads `memory/brand-kit.md`, renders the card as SVG in the exact brand hex colours and named heading font, places the logo bottom-right as the kit specifies, and exports at 1200 x 1200. [1] Because the graphic is text-heavy, it never goes near a photo generator. [2] Alt text ships with it: "Quote card on a deep green background reading 'Your systems should work while you sleep', with the member's business logo." [3] The package sits in the approval queue; after sign-off it lands in the scheduler as a draft, not a scheduled post. [4]
+> Brief arrives from the content calendar: a quote card for LinkedIn carrying one line from the member's newsletter. The skill reads `marketing-os/memory/brand-kit.md`, renders the card as SVG in the exact brand hex colours and named heading font, places the logo bottom-right as the kit specifies, and exports at 1200 x 1200. [1] Because the graphic is text-heavy, it never goes near a photo generator. [2] Alt text ships with it: "Quote card on a deep green background reading 'Your systems should work while you sleep', with the member's business logo." [3] The package sits in the approval queue; after sign-off it lands in the scheduler as a draft, not a scheduled post. [4]
 >
 > 1. Pixel-exact from tokens, not from taste: this is the consistency the Marq survey says practitioners believe protects revenue.
 > 2. Text-heavy means render, per the rubric; generators fail on type.

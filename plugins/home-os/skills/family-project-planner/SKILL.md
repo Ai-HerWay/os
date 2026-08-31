@@ -47,7 +47,7 @@ Decisions, not steps. Read the conditions, apply the call.
 | One person is named as owner on more than half the tasks | Surface the imbalance plainly. The job is to share load, not to formalise that one person carries it. |
 
 ## 5. Workflow
-1. Read `memory/household-context.md`: who is in the household, who tends to own what, calendars, the dates that can't move, budget comfort, and anything marked private or off-limits.
+1. Read `home-os/memory/household-context.md`: who is in the household, who tends to own what, calendars, the dates that can't move, budget comfort, and anything marked private or off-limits.
 2. Name the project and its finish line. Confirm the end date or set a target with the household. Confirm what "done" looks like in one sentence.
 3. Decompose into phases (usually three to six). For a move: sort and declutter, book services, pack, moving day, settle in. For each phase, list the real tasks underneath.
 4. For each task, set an owner and a date. Pull likely owners from context, but mark anything you are unsure of as unassigned for a human to claim. Never default the overloaded person.
@@ -75,7 +75,7 @@ This skill plans logistics. It does not manage a family's private life. Specific
 - Transparency line, on any plan shared in the family's name: "Drafted with AI (Family Project Planner). Owners and dates are proposals until you confirm them."
 
 ## 9. Inputs and memory
-Reads: `memory/household-context.md` (who is in the household, usual owners, calendars and fixed dates, budget comfort, private or off-limits topics), the household's shared calendar if connected, and `logs/decision-log.md` for past planning calls; `memory/household-context.md` (this household's own settings: who is at home and their ages, schools, dietary needs, fixed anchors, lead times, and privacy rules). Writes: `logs/activity-log.md` (plan produced, what was flagged) and `logs/decision-log.md` (any judgement on scope, buffer, ownership, or imbalance). Reads no other source. If a needed fact is not in context, ask rather than assume.
+Reads: `home-os/memory/household-context.md` (who is in the household, usual owners, calendars and fixed dates, budget comfort, private or off-limits topics), the household's shared calendar if connected, and `logs/decision-log.md` for past planning calls; `home-os/memory/household-context.md` (this household's own settings: who is at home and their ages, schools, dietary needs, fixed anchors, lead times, and privacy rules). Writes: `logs/activity-log.md` (plan produced, what was flagged) and `logs/decision-log.md` (any judgement on scope, buffer, ownership, or imbalance). Reads no other source. If a needed fact is not in context, ask rather than assume.
 
 ## 10. Output format
 A single shared plan, readable on one screen at the top and detailed below.

@@ -95,7 +95,7 @@ Reads:
 - `memory/business-context.md` (brand voice, pillars, handle, cadence, DM automation status and tool)
 - `memory/audience-and-offers.md` (audience, offer, transformation, lead magnets, codewords)
 - `memory/voice.md` and `skills/brand-voice.md` (tone, hallmark phrases, voice)
-- `memory/working-memory/instagram-performance.md` if present (recent post performance, what has landed)
+- `marketing-os/memory/working-memory/instagram-performance.md` if present (recent post performance, what has landed)
 - `memory/industry-context.md` if present (niche-specific language and search terms for hashtags)
 
 Writes:

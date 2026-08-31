@@ -55,7 +55,7 @@ Run the engagement's current state against these conditions before drafting. The
 
 ## 5. Workflow
 
-1. Read inputs (Section 9): the member's context, `memory/client-roster.md` for this client's row (stage, cadence, owner, standing notes), and `memory/engagement-briefs/{client-slug}.md` for agreed scope, milestones, voice notes, and the AI-disclosure standard. The implicit move: confirm the engagement is in Active delivery and an update is actually due before drafting anything.
+1. Read inputs (Section 9): the member's context, `client-delivery-os/memory/client-roster.md` for this client's row (stage, cadence, owner, standing notes), and `memory/engagement-briefs/{client-slug}.md` for agreed scope, milestones, voice notes, and the AI-disclosure standard. The implicit move: confirm the engagement is in Active delivery and an update is actually due before drafting anything.
 2. Pull the internal state from the Admin & Ops layer (its project status output and meeting notes), plus anything the roster row flags. Do not recompute status; translate it. If internal state and the brief disagree, stop and flag (rubric row six).
 3. Sort everything into the four parts: what moved, what is next, what we need from you, risks. Test each line against agreed scope in the brief; anything tracing only to Sales handoff openItems is reframed as an open question or dropped.
 4. Draft in the member's voice per the brief's voice notes: plain, warm, specific, under 250 words, client's outcomes first, our effort invisible. Dates on everything in "what is next" and "what we need from you".
@@ -79,14 +79,14 @@ Specific to this skill's failure modes. Never send client-facing text without hu
 
 ## 9. Inputs and memory
 
-- **Reads:** `memory/business-context.md` (the founder, professional, or household variant, whichever the member built): the member's voice, offers, and default cadence; `memory/client-roster.md`: this client's row (the CRM-lite mirror of the Clients database, where a Won pipeline row became a roster row) for stage, cadence, owner, and standing notes; `memory/engagement-briefs/{client-slug}.md`: agreed scope, milestones, voice and disclosure notes, seeded from the Sales handoff pack; the Admin & Ops internal status output and meeting notes for this engagement, as the source of what actually moved; `memory/delivery-settings.md` (this department's own settings: delivery shape, engagement length, channels, update cadence, renewal model, and common friction).
+- **Reads:** `memory/business-context.md` (the founder, professional, or household variant, whichever the member built): the member's voice, offers, and default cadence; `client-delivery-os/memory/client-roster.md`: this client's row (the CRM-lite mirror of the Clients database, where a Won pipeline row became a roster row) for stage, cadence, owner, and standing notes; `memory/engagement-briefs/{client-slug}.md`: agreed scope, milestones, voice and disclosure notes, seeded from the Sales handoff pack; the Admin & Ops internal status output and meeting notes for this engagement, as the source of what actually moved; `client-delivery-os/memory/delivery-settings.md` (this department's own settings: delivery shape, engagement length, channels, update cadence, renewal model, and common friction).
 - **Writes:** `logs/activity-log.md` (update drafted, cadence met or explained), `logs/decision-log.md` (conflicts held, openItems reframed, risks escalated, health notes raised), and the drafted update itself for approval.
 
 Never read "any relevant context". Read the named files above.
 
 ## 10. Output format
 
-The deliverable is one drafted update plus a private wrapper for the member. Keep this structure and the section order. Fill every bracketed field at runtime: read the member's voice and default cadence from `memory/business-context.md`, and the client's cadence, channel, scope, and disclosure standard from `memory/client-roster.md` and `memory/engagement-briefs/{client-slug}.md`. The update content comes from the Admin & Ops internal status for this specific engagement. If a needed value is not set, propose one and ask before saving it.
+The deliverable is one drafted update plus a private wrapper for the member. Keep this structure and the section order. Fill every bracketed field at runtime: read the member's voice and default cadence from `memory/business-context.md`, and the client's cadence, channel, scope, and disclosure standard from `client-delivery-os/memory/client-roster.md` and `memory/engagement-briefs/{client-slug}.md`. The update content comes from the Admin & Ops internal status for this specific engagement. If a needed value is not set, propose one and ask before saving it.
 
 ---
 

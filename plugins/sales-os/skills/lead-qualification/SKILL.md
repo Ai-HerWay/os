@@ -82,14 +82,14 @@ Specific to this skill's failure modes: never inflate a fit score, never invent 
 
 ## 9. Inputs and memory
 
-- **Reads:** `memory/business-context.md` (for founders: the business, offers, ICP, anti-persona, pricing, voice, and any overridable fit thresholds; for professionals: the company ICP, the buying group, the role's targets); `memory/prospect-insights.md` (what is known and verified about this and similar leads); `memory/sales-pipeline.md` or the connected CRM (current capacity, open deals, and what better-fit work this lead might crowd out); `memory/industry-context.md` where the member uses one; `memory/sales-settings.md` (this department's own settings: pricing model, deal size, sales cycle, buying group, anti-persona, and tools); `memory/values.md` (if present: the member's values and ethical lines, so a no is framed in what they actually stand for rather than generically).
+- **Reads:** `memory/business-context.md` (for founders: the business, offers, ICP, anti-persona, pricing, voice, and any overridable fit thresholds; for professionals: the company ICP, the buying group, the role's targets); `sales-os/memory/prospect-insights.md` (what is known and verified about this and similar leads); `sales-os/memory/sales-pipeline.md` or the connected CRM (current capacity, open deals, and what better-fit work this lead might crowd out); `memory/industry-context.md` where the member uses one; `sales-os/memory/sales-settings.md` (this department's own settings: pricing model, deal size, sales cycle, buying group, anti-persona, and tools); `memory/values.md` (if present: the member's values and ethical lines, so a no is framed in what they actually stand for rather than generically).
 - **Writes:** `logs/activity-log.md` (the assessment run and what was scored), `logs/decision-log.md` (the verdict and any flagged call left for the member, especially declines and qualify-with-caution), and the named Fit Assessment output the member keeps for this skill.
 
 Never read "any relevant context". Read the named files above.
 
 ## 10. Output format
 
-The deliverable is the Fit Assessment below. Keep this structure and the section order. Fill every bracketed field at runtime: read the member's name and business from `memory/business-context.md` (the founder, professional, or household variant, whichever the member built), the ICP and anti-persona from the same file, and what is verified about this lead from `memory/prospect-insights.md` and `memory/sales-pipeline.md` or the connected CRM. The lead's name, the verdict, the reads, and the drafted note are produced for this specific lead. If a needed value is not set, propose one and ask before saving it.
+The deliverable is the Fit Assessment below. Keep this structure and the section order. Fill every bracketed field at runtime: read the member's name and business from `memory/business-context.md` (the founder, professional, or household variant, whichever the member built), the ICP and anti-persona from the same file, and what is verified about this lead from `sales-os/memory/prospect-insights.md` and `sales-os/memory/sales-pipeline.md` or the connected CRM. The lead's name, the verdict, the reads, and the drafted note are produced for this specific lead. If a needed value is not set, propose one and ask before saving it.
 
 ---
 

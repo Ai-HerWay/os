@@ -74,14 +74,14 @@ Specific to this skill's failure modes: this skill must never coach manipulation
 
 ## 9. Inputs and memory
 
-- **Reads:** `memory/business-context.md` (the founder, professional, or household variant, whichever the member built): the member's voice, what they offer, and the transformation they deliver; the goal for this specific call (from the member or from a discovery-call-prep output where one exists); `memory/prospect-insights.md` for any already-verified notes on this person, used only to ground true reminders, never to assert new claims; `memory/sales-settings.md` (this department's own settings: pricing model, deal size, sales cycle, buying group, anti-persona, and tools).
+- **Reads:** `memory/business-context.md` (the founder, professional, or household variant, whichever the member built): the member's voice, what they offer, and the transformation they deliver; the goal for this specific call (from the member or from a discovery-call-prep output where one exists); `sales-os/memory/prospect-insights.md` for any already-verified notes on this person, used only to ground true reminders, never to assert new claims; `sales-os/memory/sales-settings.md` (this department's own settings: pricing model, deal size, sales cycle, buying group, anti-persona, and tools).
 - **Writes:** `logs/activity-log.md` only, and lightly: a one-line note that a primer was run for this call. This skill does not write to the decision log, because it makes no decision that changes price, scope, a commitment, or anything external.
 
 Never read "any relevant context". Read the named files above.
 
 ## 10. Output format
 
-The deliverable is the short Pre-Call Primer below. Keep it brief by design: the member reads it in about 60 seconds. Keep this structure and the section order. Fill every bracketed field at runtime: read the member's first name and voice from `memory/business-context.md` (the founder, professional, or household variant, whichever the member built), and ground the reminders only in verified notes from `memory/prospect-insights.md`. The call name, the prospect's first name, and the goal are set with the member for this specific call. If a needed value is not set, propose one and ask before saving it.
+The deliverable is the short Pre-Call Primer below. Keep it brief by design: the member reads it in about 60 seconds. Keep this structure and the section order. Fill every bracketed field at runtime: read the member's first name and voice from `memory/business-context.md` (the founder, professional, or household variant, whichever the member built), and ground the reminders only in verified notes from `sales-os/memory/prospect-insights.md`. The call name, the prospect's first name, and the goal are set with the member for this specific call. If a needed value is not set, propose one and ask before saving it.
 
 ---
 

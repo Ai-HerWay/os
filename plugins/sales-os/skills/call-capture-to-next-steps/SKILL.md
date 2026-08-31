@@ -79,14 +79,14 @@ Specific to this skill's failure modes: never invent a detail the buyer did not 
 
 ## 9. Inputs and memory
 
-- **Reads:** `memory/business-context.md` for the member's business, offer, voice, and overridable thresholds; `memory/prospect-insights.md` for what is already known about this buyer and account; `memory/sales-pipeline.md` or the connected CRM for the current deal, stage, and history; and the raw notes or transcript for this call; `memory/sales-settings.md` (this department's own settings: pricing model, deal size, sales cycle, buying group, anti-persona, and tools).
+- **Reads:** `memory/business-context.md` for the member's business, offer, voice, and overridable thresholds; `sales-os/memory/prospect-insights.md` for what is already known about this buyer and account; `sales-os/memory/sales-pipeline.md` or the connected CRM for the current deal, stage, and history; and the raw notes or transcript for this call; `sales-os/memory/sales-settings.md` (this department's own settings: pricing model, deal size, sales cycle, buying group, anti-persona, and tools).
 - **Writes:** `logs/activity-log.md` (what was captured and staged), `logs/decision-log.md` (any flagged stage move, budget figure, close date, or risk for review), plus the call capture and the staged CRM update. The human commits the staged update to the CRM-of-record.
 
 Never read "any relevant context". Read the named files above.
 
 ## 10. Output format
 
-The deliverable is the Call Capture below. Keep this structure and the section order. Every line in "What we learned" is marked (stated) or (inferred). Fill every bracketed field at runtime: read the member's name from `memory/business-context.md` (the founder, professional, or household variant, whichever the member built), and the deal's current stage from `memory/sales-pipeline.md` or the connected CRM. The prospect, the call date, and everything captured come from this specific call's notes or transcript. If a needed value is not set, propose one and ask before saving it.
+The deliverable is the Call Capture below. Keep this structure and the section order. Every line in "What we learned" is marked (stated) or (inferred). Fill every bracketed field at runtime: read the member's name from `memory/business-context.md` (the founder, professional, or household variant, whichever the member built), and the deal's current stage from `sales-os/memory/sales-pipeline.md` or the connected CRM. The prospect, the call date, and everything captured come from this specific call's notes or transcript. If a needed value is not set, propose one and ask before saving it.
 
 ---
 
@@ -116,7 +116,7 @@ Each source tag reads either (stated) or (inferred: basis). No line is promoted 
 
 ## Staged pipeline / CRM update (for you to commit)
 
-- **Current stage:** [the current stage, from `memory/sales-pipeline.md` or the connected CRM]
+- **Current stage:** [the current stage, from `sales-os/memory/sales-pipeline.md` or the connected CRM]
 - **Proposed stage:** [the proposed stage] (unchanged unless the call genuinely moved the deal)
 - **Next step:** [the next step]
 - **Next-step date:** [the next-step date]

@@ -92,7 +92,7 @@ This skill's real failure modes, and the rules that prevent them:
 
 **Reads:**
 - memory/business-context.md (voice, audience, content pillars, offers, primary revenue path, lead magnets, platform, emoji and English-variant rules, hallmark phrases, common objections, pain points)
-- memory/working-memory/email-performance.md (if present: past open and click rates, what has converted, segments)
+- marketing-os/memory/working-memory/email-performance.md (if present: past open and click rates, what has converted, segments)
 - memory/industry-context.md (if used: sector norms and compliance constraints)
 
 **Writes:**

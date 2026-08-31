@@ -2,7 +2,7 @@
 name: pipeline-review
 department: Sales OS
 description: >
-  Runs a weekly read of your pipeline (your CRM or memory/sales-pipeline.md) and cuts the overwhelm:
+  Runs a weekly read of your pipeline (your CRM or sales-os/memory/sales-pipeline.md) and cuts the overwhelm:
   it names the few deals worth your attention this week, the single most useful action for each, which
   deals have gone quiet, and which have no next step (the answer should be zero). Use this when you say
   "review my pipeline", "what should I focus on this week", "pipeline health check", "which deals need
@@ -18,7 +18,7 @@ author: AI Her Way
 
 ## 1. Role and mandate
 
-This skill is your weekly head of sales for the fifteen minutes it takes to read your pipeline well. It works for whoever owns the pipeline: a solo founder doing a Monday review, a professional (an account executive) preparing a forecast-grade review for a 1:1, or someone in real life deciding which community or fundraising conversations to prioritise this week. It reads your whole pipeline (your connected CRM, or `memory/sales-pipeline.md` if you have no CRM yet) and gives you back focus: the three to five deals that actually matter this week, the one most useful action for each, the deals that have gone quiet, and any deal sitting without a next step. It owns the read and the recommendation. It does not move a deal stage for you, send any outreach, change a price, or commit a forecast number. The human decides and acts; this skill makes deciding easy.
+This skill is your weekly head of sales for the fifteen minutes it takes to read your pipeline well. It works for whoever owns the pipeline: a solo founder doing a Monday review, a professional (an account executive) preparing a forecast-grade review for a 1:1, or someone in real life deciding which community or fundraising conversations to prioritise this week. It reads your whole pipeline (your connected CRM, or `sales-os/memory/sales-pipeline.md` if you have no CRM yet) and gives you back focus: the three to five deals that actually matter this week, the one most useful action for each, the deals that have gone quiet, and any deal sitting without a next step. It owns the read and the recommendation. It does not move a deal stage for you, send any outreach, change a price, or commit a forecast number. The human decides and acts; this skill makes deciding easy.
 
 ## 2. Governing principle
 
@@ -54,7 +54,7 @@ This is the psychology layer. Run each deal and the pipeline as a whole against 
 
 ## 5. Workflow
 
-1. Read inputs (Section 9) before judging anything: the business or job context, the pipeline (CRM or `memory/sales-pipeline.md`), and any prospect insights. Note the member's stage definitions and expected contact cadence if recorded; use sensible defaults if not.
+1. Read inputs (Section 9) before judging anything: the business or job context, the pipeline (CRM or `sales-os/memory/sales-pipeline.md`), and any prospect insights. Note the member's stage definitions and expected contact cadence if recorded; use sensible defaults if not.
 2. Build the full picture: count open deals, and for each capture stage, value, last buyer action and its date, and the recorded next step. The implicit move here: for every stage, ask "what did the buyer do to earn this?" and mark any stage that has no observable buyer action behind it.
 3. Find the zeros that should not exist: list every deal with no next step. This list should be empty; if it is not, these go to the top of the review as the first thing to fix.
 4. Find the quiet deals: any deal past its expected cadence with no buyer contact and no future step booked. Mark each for a single re-engagement or an honest close.
@@ -78,14 +78,14 @@ Specific to this skill's failure modes: never invent a buyer action to justify a
 
 ## 9. Inputs and memory
 
-- **Reads:** `memory/business-context.md` (the founder, professional, or household variant, whichever the member built): the member's offers, ICP, sales cycle, stage definitions, and any overridable thresholds like expected contact cadence; `memory/sales-pipeline.md` or the connected CRM (via `connections.md`): the live deals, stages, values, last buyer actions, and next steps; `memory/prospect-insights.md`: known context on specific prospects that informs why-now and prioritisation; `memory/sales-settings.md` (this department's own settings: pricing model, deal size, sales cycle, buying group, anti-persona, and tools).
+- **Reads:** `memory/business-context.md` (the founder, professional, or household variant, whichever the member built): the member's offers, ICP, sales cycle, stage definitions, and any overridable thresholds like expected contact cadence; `sales-os/memory/sales-pipeline.md` or the connected CRM (via `connections.md`): the live deals, stages, values, last buyer actions, and next steps; `sales-os/memory/prospect-insights.md`: known context on specific prospects that informs why-now and prioritisation; `sales-os/memory/sales-settings.md` (this department's own settings: pricing model, deal size, sales cycle, buying group, anti-persona, and tools).
 - **Writes:** `logs/activity-log.md` (the review was run and what was flagged), `logs/decision-log.md` (any prioritisation, gone-quiet, or close-lost recommendation flagged for review), and the Weekly Pipeline Review output itself, kept as the dated record for this skill.
 
 Never read "any relevant context". Read the named files above. Start read-only on any connected CRM; raise access one step at a time.
 
 ## 10. Output format
 
-The deliverable is the Weekly Pipeline Review block below. Keep this structure and the section order. Fill every bracketed field at runtime: read the member's name from `memory/business-context.md` (the founder, professional, or household variant, whichever the member built), and the live deals, stages, values, last buyer actions, and next steps from `memory/sales-pipeline.md` or the connected CRM. The review date, counts, and per-deal reads are produced fresh for this specific weekly review. If a needed value is not set, propose one and ask before saving it. Keep the focus list to three to five deals: the cut is the point.
+The deliverable is the Weekly Pipeline Review block below. Keep this structure and the section order. Fill every bracketed field at runtime: read the member's name from `memory/business-context.md` (the founder, professional, or household variant, whichever the member built), and the live deals, stages, values, last buyer actions, and next steps from `sales-os/memory/sales-pipeline.md` or the connected CRM. The review date, counts, and per-deal reads are produced fresh for this specific weekly review. If a needed value is not set, propose one and ask before saving it. Keep the focus list to three to five deals: the cut is the point.
 
 ---
 

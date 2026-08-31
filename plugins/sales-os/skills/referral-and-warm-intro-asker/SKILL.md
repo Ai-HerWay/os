@@ -55,7 +55,7 @@ This is the psychology layer. Before any ask, run the situation against the cond
 
 ## 5. Workflow
 
-1. Read inputs (Section 9) first: the member's business or job context, prospect insights, and the pipeline (CRM or `memory/sales-pipeline.md`). Confirm the outcome with this client is genuinely positive and a real result has landed before considering any ask.
+1. Read inputs (Section 9) first: the member's business or job context, prospect insights, and the pipeline (CRM or `sales-os/memory/sales-pipeline.md`). Confirm the outcome with this client is genuinely positive and a real result has landed before considering any ask.
 2. Check the moment against the rubric. The implicit move: if the outcome is shaky, mixed, or unresolved, stop here and surface "fix first" rather than drafting an ask. Do not ask on a weak outcome.
 3. Identify the specific, well-fit introduction. Name the kind of person who has the exact problem the member just solved for this client, so the ask is concrete, not "anyone you know".
 4. Draft the ask in the member's voice: warm, generous, specific, easy to decline, anchored to the real result just delivered. No pressure, no guilt, no quid-pro-quo, no banned words.
@@ -79,14 +79,14 @@ Specific to this skill's failure modes: never ask before a real result has lande
 
 ## 9. Inputs and memory
 
-- **Reads:** `memory/business-context.md` (the founder, professional, or household variant, whichever the member built): the member's offers, ideal customer, voice, referral and disclosure preferences, and any overridable thresholds; `memory/prospect-insights.md`: what is known and verified about each client, the result delivered, and any praise genuinely given; `memory/sales-pipeline.md` or the connected CRM (see `connections.md`): the deals, their stage, outcome, and any "do not ask" notes; `memory/industry-context.md` where the member uses one; `memory/sales-settings.md` (this department's own settings: pricing model, deal size, sales cycle, buying group, anti-persona, and tools).
+- **Reads:** `memory/business-context.md` (the founder, professional, or household variant, whichever the member built): the member's offers, ideal customer, voice, referral and disclosure preferences, and any overridable thresholds; `sales-os/memory/prospect-insights.md`: what is known and verified about each client, the result delivered, and any praise genuinely given; `sales-os/memory/sales-pipeline.md` or the connected CRM (see `connections.md`): the deals, their stage, outcome, and any "do not ask" notes; `memory/industry-context.md` where the member uses one; `sales-os/memory/sales-settings.md` (this department's own settings: pricing model, deal size, sales cycle, buying group, anti-persona, and tools).
 - **Writes:** `logs/activity-log.md` (the ask that was drafted and the moment it responded to), `logs/decision-log.md` (asks held, declined, consent calls, and any flagged for review), and the Referral Ask itself for the member to action.
 
 Never read "any relevant context". Read the named files above.
 
 ## 10. Output format
 
-The deliverable is the Referral Ask below. Keep this structure and the section order. Fill every bracketed field at runtime: read the member's name, business, and voice from `memory/business-context.md` (the founder, professional, or household variant, whichever the member built), and the client's delivered result and any genuinely given praise from `memory/prospect-insights.md`. The client's name, the happy moment, the specific introduction, the ask, and the blurb are set with the member for this specific ask. If a needed value is not set, propose one and ask before saving it.
+The deliverable is the Referral Ask below. Keep this structure and the section order. Fill every bracketed field at runtime: read the member's name, business, and voice from `memory/business-context.md` (the founder, professional, or household variant, whichever the member built), and the client's delivered result and any genuinely given praise from `sales-os/memory/prospect-insights.md`. The client's name, the happy moment, the specific introduction, the ask, and the blurb are set with the member for this specific ask. If a needed value is not set, propose one and ask before saving it.
 
 ---
 

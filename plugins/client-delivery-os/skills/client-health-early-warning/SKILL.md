@@ -19,7 +19,7 @@ author: AI Her Way
 
 ## 1. Role and mandate
 
-This skill owns the question most founders only ask after a client has already left: is this relationship getting better or worse? On a regular cadence it walks the member through a guided self-audit of every active client in `memory/client-roster.md`, comparing each relationship against its own recent history: are replies taking longer than they used to, are fewer (or more junior) people turning up to meetings, have asks narrowed from strategic to transactional, has a payment slipped, and what tone shifts has the member herself noticed. It classifies each client as steady, watch, or act, and suggests one specific next move per client. It works for the founder reading her handful of retainers, the professional (account or delivery manager) reading a book of accounts inside company rules, and real life, noticing that a friendship or committee relationship has quietly cooled. It never issues a verdict on its own: it assembles signals for a human read. Internal chasing mechanics, meeting capture, status updates, and the renewals date register belong to the Admin & Ops OS; this skill owns the relationship reading and the client-facing framing of whatever comes next.
+This skill owns the question most founders only ask after a client has already left: is this relationship getting better or worse? On a regular cadence it walks the member through a guided self-audit of every active client in `client-delivery-os/memory/client-roster.md`, comparing each relationship against its own recent history: are replies taking longer than they used to, are fewer (or more junior) people turning up to meetings, have asks narrowed from strategic to transactional, has a payment slipped, and what tone shifts has the member herself noticed. It classifies each client as steady, watch, or act, and suggests one specific next move per client. It works for the founder reading her handful of retainers, the professional (account or delivery manager) reading a book of accounts inside company rules, and real life, noticing that a friendship or committee relationship has quietly cooled. It never issues a verdict on its own: it assembles signals for a human read. Internal chasing mechanics, meeting capture, status updates, and the renewals date register belong to the Admin & Ops OS; this skill owns the relationship reading and the client-facing framing of whatever comes next.
 
 ## 2. Governing principle
 
@@ -55,7 +55,7 @@ Run every active client against these conditions. Signals are weighed as a clust
 
 ## 5. Workflow
 
-1. Read inputs (Section 9) first: the member's business or job context, `memory/client-roster.md` for the active client list, and each client's `memory/engagement-briefs/{client-slug}.md` for baseline, phase, and known context. Note which clients are inside their first 100 days.
+1. Read inputs (Section 9) first: the member's business or job context, `client-delivery-os/memory/client-roster.md` for the active client list, and each client's `memory/engagement-briefs/{client-slug}.md` for baseline, phase, and known context. Note which clients are inside their first 100 days.
 2. For each client, gather the trajectory evidence available: reply latency across recent exchanges, meeting attendance pattern, the shape of recent asks, payment status, and anything already noted in the engagement brief. The implicit move: compare each client only against their own history, per Palmatier, never against other clients.
 3. Ask the member for their read before classifying anyone: "Any tone shifts, gut feelings, or moments that sat wrong since last time?" Their answers are signals with full weight.
 4. Classify each client steady, watch, or act using the rubric. A cluster of drift signals or one slipping payment means act; a single soft signal means watch with a re-check date; improving velocity gets named too.
@@ -78,14 +78,14 @@ Specific to this skill's real failure modes. Never send a client-facing message 
 
 ## 9. Inputs and memory
 
-- **Reads:** `memory/business-context.md` (the founder, professional, or household variant, whichever the member built): the member's clients' cadence norms, disclosure standard, named-people circle, and overridable thresholds; `memory/client-roster.md`: the CRM-lite roster mirroring the Notion Clients database, one row per active client (a Won pipeline row becomes a roster row); `memory/engagement-briefs/{client-slug}.md`: one per client, seeded from the Sales post-sale handoff pack, holding baseline, scope, phase, and relationship notes; `memory/industry-context.md` where the member uses one; `memory/delivery-settings.md` (this department's own settings: delivery shape, engagement length, channels, update cadence, renewal model, and common friction).
+- **Reads:** `memory/business-context.md` (the founder, professional, or household variant, whichever the member built): the member's clients' cadence norms, disclosure standard, named-people circle, and overridable thresholds; `client-delivery-os/memory/client-roster.md`: the CRM-lite roster mirroring the Notion Clients database, one row per active client (a Won pipeline row becomes a roster row); `memory/engagement-briefs/{client-slug}.md`: one per client, seeded from the Sales post-sale handoff pack, holding baseline, scope, phase, and relationship notes; `memory/industry-context.md` where the member uses one; `client-delivery-os/memory/delivery-settings.md` (this department's own settings: delivery shape, engagement length, channels, update cadence, renewal model, and common friction).
 - **Writes:** `logs/activity-log.md` (each audit run and its watch/act counts), `logs/decision-log.md` (classification divergences, holds, and anything escalated), proposed updates to `memory/engagement-briefs/{client-slug}.md` (Amber, approval first), and the Client Health Watch itself.
 
 Never read "any relevant context". Read the named files above.
 
 ## 10. Output format
 
-The deliverable is the Client Health Watch below. Keep this structure and the section order. Fill every bracketed field at runtime: read the member's name and business from `memory/business-context.md`, and each client's baseline, signals, and phase from `memory/client-roster.md` and `memory/engagement-briefs/{client-slug}.md`. The run date, classifications, and the member's own read are set in this specific audit. If a needed value is not set, propose one and ask before saving it.
+The deliverable is the Client Health Watch below. Keep this structure and the section order. Fill every bracketed field at runtime: read the member's name and business from `memory/business-context.md`, and each client's baseline, signals, and phase from `client-delivery-os/memory/client-roster.md` and `memory/engagement-briefs/{client-slug}.md`. The run date, classifications, and the member's own read are set in this specific audit. If a needed value is not set, propose one and ask before saving it.
 
 ---
 

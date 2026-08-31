@@ -26,7 +26,7 @@ The work of running a home is split unequally, and most of the gap sits in the p
 Note on sourcing: Fair Play is a well-established named framework rather than a peer-reviewed study, and it is cited here as such. The ABS time-use figures and the Harvard cognitive-labour research are the harder data behind the same conclusion.
 
 ## 4. The decision rubric
-Decide how to treat each task by reading these conditions, not by following a fixed list of chores. The household's own people, ages, capabilities and constraints come from `memory/household-context.md`.
+Decide how to treat each task by reading these conditions, not by following a fixed list of chores. The household's own people, ages, capabilities and constraints come from `home-os/memory/household-context.md`.
 
 | Condition | Decision |
 |---|---|
@@ -41,14 +41,14 @@ Decide how to treat each task by reading these conditions, not by following a fi
 | It is the start of a new rotation period | Rotate the rotating tasks, keep any agreed fixed ownerships, and show what moved and to whom. |
 
 ## 5. Workflow
-1. Read `memory/household-context.md`: who lives here, ages, capabilities, work and study patterns, health or caring constraints, the rotation period, any fixed ownerships, and anything marked private or off-limits.
-2. Read `logs/chore-log.md` to see who has carried what recently, what got skipped, and where load has been creeping back onto one person.
+1. Read `home-os/memory/household-context.md`: who lives here, ages, capabilities, work and study patterns, health or caring constraints, the rotation period, any fixed ownerships, and anything marked private or off-limits.
+2. Read `home-os/logs/chore-log.md` to see who has carried what recently, what got skipped, and where load has been creeping back onto one person.
 3. Build the full task list, including the invisible jobs. Walk the rooms and the week in your head: the planning, the remembering, the booking, the restocking, not only the visible cleaning. List the invisible jobs explicitly.
 4. Apply the rubric to each task: is it whole-task-owned, is it rotating, is it weighted for capacity, is it private and therefore off the roster.
 5. Distribute, aiming for a fair share by capacity, and rotate the rotating tasks from last period using the log.
 6. Calculate the resulting share per person and check it against the fairness threshold. If one person is still carrying too much, rebalance before presenting.
 7. Present the roster in the format below, including the visible-load summary so the household can see the share, not just the chores.
-8. Write the new roster and the share to `logs/chore-log.md` so the next rotation has memory.
+8. Write the new roster and the share to `home-os/logs/chore-log.md` so the next rotation has memory.
 
 ## 6. Autonomy tiers
 - **Always safe (do, then log):** read context and logs; build and present a draft roster; surface invisible work; calculate and show the fair-share split; flag imbalances and clashes.
@@ -62,7 +62,7 @@ When unsure, ask the household rather than deciding for them. Put it at the top 
 This skill shares a household's work. It does not manage a household's private life. Never roster, track, or comment on sensitive matters: a person's medication or health condition, money worries, a relationship issue, a child's behaviour or wellbeing, or anything a member would not want written on a roster on the fridge. If a job touches one of these, hand it back to the adults and keep it off the visible roster. Do not use the roster to keep score against a person or to build a case in a conflict; its purpose is to share load, not to win an argument. Do not infer or record anything about a family member beyond the tasks and capabilities given in context. When the roster is presented, be transparent that an AI helped build it and that the household decides what to actually run with. The roster is a proposal for a family to agree on, never a verdict imposed on them.
 
 ## 9. Inputs and memory
-Reads: `memory/household-context.md` (who lives here, ages, capabilities, work and study patterns, health and caring constraints, rotation period, fixed ownerships, private or off-limits matters, the fairness threshold if overridden); `logs/chore-log.md` (recent rosters, who carried what, what was skipped, current load trend); `memory/household-context.md` (this household's own settings: who is at home and their ages, schools, dietary needs, fixed anchors, lead times, and privacy rules); `memory/values.md` (if present: the family's values, which decide what gets dropped on a week that will not fit). Writes: `logs/activity-log.md` (one row per roster produced); `logs/chore-log.md` (the new roster, the per-person share, what rotated and to whom); `logs/decision-log.md` (any judgement call about weighting, an imbalance found, or a task flagged as private and kept off the roster).
+Reads: `home-os/memory/household-context.md` (who lives here, ages, capabilities, work and study patterns, health and caring constraints, rotation period, fixed ownerships, private or off-limits matters, the fairness threshold if overridden); `home-os/logs/chore-log.md` (recent rosters, who carried what, what was skipped, current load trend); `home-os/memory/household-context.md` (this household's own settings: who is at home and their ages, schools, dietary needs, fixed anchors, lead times, and privacy rules); `memory/values.md` (if present: the family's values, which decide what gets dropped on a week that will not fit). Writes: `logs/activity-log.md` (one row per roster produced); `home-os/logs/chore-log.md` (the new roster, the per-person share, what rotated and to whom); `logs/decision-log.md` (any judgement call about weighting, an imbalance found, or a task flagged as private and kept off the roster).
 
 ## 10. Output format
 ```

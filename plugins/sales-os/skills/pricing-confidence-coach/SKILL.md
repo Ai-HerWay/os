@@ -79,14 +79,14 @@ Specific to this skill's failure modes: never use a fake "was/now" anchor or an 
 
 ## 9. Inputs and memory
 
-- **Reads:** `memory/business-context.md` (the founder, professional, or household variant, whichever the member built): the member's offers, pricing model, voice, value framework, and any overridable thresholds; `memory/prospect-insights.md` for what is already known about this buyer and the numbers she has shared; `memory/sales-pipeline.md` or the connected CRM for the deal's stage, history, and any prior pricing or commitments; `memory/sales-settings.md` (this department's own settings: pricing model, deal size, sales cycle, buying group, anti-persona, and tools).
+- **Reads:** `memory/business-context.md` (the founder, professional, or household variant, whichever the member built): the member's offers, pricing model, voice, value framework, and any overridable thresholds; `sales-os/memory/prospect-insights.md` for what is already known about this buyer and the numbers she has shared; `sales-os/memory/sales-pipeline.md` or the connected CRM for the deal's stage, history, and any prior pricing or commitments; `sales-os/memory/sales-settings.md` (this department's own settings: pricing model, deal size, sales cycle, buying group, anti-persona, and tools).
 - **Writes:** `logs/activity-log.md` (what was coached and drafted), `logs/decision-log.md` (every price, discount, or scarcity decision flagged for review), and the named Pricing Confidence guidance the member keeps for this deal.
 
 Never read "any relevant context". Read the named files above.
 
 ## 10. Output format
 
-The deliverable is the Pricing Confidence block below. Keep this structure and the section order. Fill every bracketed field at runtime: read the member's name, offers, and pricing model from `memory/business-context.md` (the founder, professional, or household variant, whichever the member built), and the buyer's own numbers from `memory/prospect-insights.md`. The buyer's name, the quantified value, the price framing, and the discount stance are worked out with the member for this specific deal. If a needed value is not set, propose one and ask before saving it. Every price and every discount is the member's decision, held for her approval before anything is said to the buyer.
+The deliverable is the Pricing Confidence block below. Keep this structure and the section order. Fill every bracketed field at runtime: read the member's name, offers, and pricing model from `memory/business-context.md` (the founder, professional, or household variant, whichever the member built), and the buyer's own numbers from `sales-os/memory/prospect-insights.md`. The buyer's name, the quantified value, the price framing, and the discount stance are worked out with the member for this specific deal. If a needed value is not set, propose one and ask before saving it. Every price and every discount is the member's decision, held for her approval before anything is said to the buyer.
 
 ---
 

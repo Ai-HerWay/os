@@ -18,7 +18,7 @@ author: AI Her Way
 
 # Skill: LinkedIn Voice and Strategy
 
-> Reads the member's identity, voice, audience, and pillars from memory at runtime. Review quarterly as the platform evolves; `memory/marketing-settings.md` (this department's own settings: audience detail, pillars, platforms and cadence, newsletter, tools, and approval thresholds).
+> Reads the member's identity, voice, audience, and pillars from memory at runtime. Review quarterly as the platform evolves; `marketing-os/memory/marketing-settings.md` (this department's own settings: audience detail, pillars, platforms and cadence, newsletter, tools, and approval thresholds).
 
 ## 1. Role and mandate
 

@@ -46,8 +46,8 @@ Conditions to decisions, run before any slide is designed. The override column w
 | Copy supplied has not been through carousel-format and member approval | Stop. Route to carousel-format first; design only approved copy | Member explicitly supplies final copy and confirms it as approved in writing |
 | Copy does not fit a slide legibly at the platform size | Route back to carousel-format with a note on which slide and why. Never trim or rewrite | None. Design never edits the words |
 | Slide count in the copy | Design exactly that count, no additions or deletions | None. The copy defines the deck |
-| `memory/brand-kit.md` missing or missing a needed value (colour, font, logo) | Ask the member for the missing value. Never guess a brand | Member states "use a neutral default for now" for this batch |
-| Canva unavailable (no MCP connection, member has no account) | Fall back to Claude-side HTML/SVG rendered slide images from `memory/brand-kit.md`, pixel-exact and free | Member names a different design tool in `memory/business-context.md`; use that instead |
+| `marketing-os/memory/brand-kit.md` missing or missing a needed value (colour, font, logo) | Ask the member for the missing value. Never guess a brand | Member states "use a neutral default for now" for this batch |
+| Canva unavailable (no MCP connection, member has no account) | Fall back to Claude-side HTML/SVG rendered slide images from `marketing-os/memory/brand-kit.md`, pixel-exact and free | Member names a different design tool in `memory/business-context.md`; use that instead |
 | Platform from the copy's `IG` or `LI` prefix | IG at 1080 x 1350 portrait, LI at 1280 x 1600 portrait, per the carousel-format contract | Member's context file overrides dimensions for a specific channel |
 | Member wants the same carousel resized for a second platform | Note that Canva's resize needs Canva Pro (a nicety, not a dependency); otherwise rebuild at the second size manually or via the fallback renderer | Member already has Pro: use resize and log it |
 | The brief asks for "in the style of" a named artist or designer | Refuse and offer a brand-kit-led original direction instead | None |
@@ -57,7 +57,7 @@ Conditions to decisions, run before any slide is designed. The override column w
 
 ## 5. Workflow
 
-1. Read inputs (Section 9) before touching a canvas: `memory/brand-kit.md` for colours, fonts, logo, and layout rules; `memory/business-context.md` for the member's design tool preference and disclosure preference; the approved carousel copy file. If a needed value is not set, propose one and ask before saving it.
+1. Read inputs (Section 9) before touching a canvas: `marketing-os/memory/brand-kit.md` for colours, fonts, logo, and layout rules; `memory/business-context.md` for the member's design tool preference and disclosure preference; the approved carousel copy file. If a needed value is not set, propose one and ask before saving it.
 2. Verify the copy's status. The implicit move: check it carries the carousel-format contract (a `## IG Carousel` or `## LI Carousel` heading and `**Slide N:**` markers) and that the member approved it. If either fails, route back rather than designing around it.
 3. Parse the contract: platform prefix sets dimensions, slide 1 is the hook, the last slide is the CTA, arrows (`→`) become styled list items.
 4. Build the multi-page design in Canva via MCP (multi-page designs work on all Canva plans, including Free), one page per slide at the platform dimensions, applying the brand kit exactly. If Canva is unavailable, render each slide Claude-side as HTML/SVG from the brand kit instead.
@@ -83,7 +83,7 @@ Specific to this skill's failure modes: never let design edit meaning (a trimmed
 
 ## 9. Inputs and memory
 
-- **Reads:** `memory/brand-kit.md` (colours, fonts, logo, spacing, and layout rules; the design law for every slide); `memory/business-context.md` (the member's design tool preference, scheduler, AI disclosure preference, and English variant); the approved carousel copy file from carousel-format for this batch; `memory/industry-context.md` where the member uses one, for imagery norms; `memory/marketing-settings.md` (this department's own settings: audience detail, pillars, platforms and cadence, newsletter, tools, and approval thresholds).
+- **Reads:** `marketing-os/memory/brand-kit.md` (colours, fonts, logo, spacing, and layout rules; the design law for every slide); `memory/business-context.md` (the member's design tool preference, scheduler, AI disclosure preference, and English variant); the approved carousel copy file from carousel-format for this batch; `memory/industry-context.md` where the member uses one, for imagery norms; `marketing-os/memory/marketing-settings.md` (this department's own settings: audience detail, pillars, platforms and cadence, newsletter, tools, and approval thresholds).
 - **Writes:** the exported design files (or Canva design links) and the design package for the approval queue; `logs/activity-log.md` (date, department, skill, action, tier, status, time saved: one row per package); `logs/decision-log.md` (routed-back copy, brand-kit gaps, fallback use, any rubric override).
 
 Never read "any relevant context". Read the named files above.
@@ -113,7 +113,7 @@ The deliverable is one design package per carousel, held for approval. Keep this
 
 **Good example (annotated).**
 
-> The member approves a five-slide `IG Carousel` from carousel-format. The skill reads `memory/brand-kit.md`, builds a five-page 1080 x 1350 Canva design, and gives slide 1 the boldest type in the deck. [1] Slide 3's copy runs long and would need a smaller font than the brand kit allows, so the skill routes that one slide back to carousel-format with a note instead of trimming the line itself. [2] The revised copy comes back approved, the deck is finished, exported, and packaged with a verbatim slide map and the untouched caption, then held in the queue for the member to sign off before it goes to the member's scheduler as a draft. [3] One row lands in the activity log; the routed-back slide is recorded in the decision log. [4]
+> The member approves a five-slide `IG Carousel` from carousel-format. The skill reads `marketing-os/memory/brand-kit.md`, builds a five-page 1080 x 1350 Canva design, and gives slide 1 the boldest type in the deck. [1] Slide 3's copy runs long and would need a smaller font than the brand kit allows, so the skill routes that one slide back to carousel-format with a note instead of trimming the line itself. [2] The revised copy comes back approved, the deck is finished, exported, and packaged with a verbatim slide map and the untouched caption, then held in the queue for the member to sign off before it goes to the member's scheduler as a draft. [3] One row lands in the activity log; the routed-back slide is recorded in the decision log. [4]
 
 1. The brand kit is applied exactly and the hook slide gets the strongest treatment, because the cover earns the swipe.
 2. The ownership ruling holds under pressure: a fit problem is a copy problem, so it routes back rather than being edited in the design layer.

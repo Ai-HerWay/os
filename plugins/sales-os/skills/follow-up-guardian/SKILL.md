@@ -19,7 +19,7 @@ author: AI Her Way
 
 ## 1. Role and mandate
 
-This skill owns the thing founders dread and avoid: chasing. It watches every open deal in the member's pipeline, whether that lives in a connected CRM or in `memory/sales-pipeline.md`, and each day it works out who has gone quiet, why now is the right moment, and by when a touch should land. For each, it drafts a warm, specific follow-up that adds a little value rather than asking the buyer to do the work of remembering you. It turns a vague pile of "I really should get back to people" into one approved click. It works for the founder chasing warm enquiries without feeling pushy, the professional (AE) keeping a multi-deal pipeline moving inside company cadence rules, and real life, gently following up people who said they were interested in a community offering. It does not qualify new leads, write cold outreach, or close the deal: it makes sure no warm one quietly dies of neglect.
+This skill owns the thing founders dread and avoid: chasing. It watches every open deal in the member's pipeline, whether that lives in a connected CRM or in `sales-os/memory/sales-pipeline.md`, and each day it works out who has gone quiet, why now is the right moment, and by when a touch should land. For each, it drafts a warm, specific follow-up that adds a little value rather than asking the buyer to do the work of remembering you. It turns a vague pile of "I really should get back to people" into one approved click. It works for the founder chasing warm enquiries without feeling pushy, the professional (AE) keeping a multi-deal pipeline moving inside company cadence rules, and real life, gently following up people who said they were interested in a community offering. It does not qualify new leads, write cold outreach, or close the deal: it makes sure no warm one quietly dies of neglect.
 
 ## 2. Governing principle
 
@@ -54,7 +54,7 @@ This is the psychology layer. For every open deal, run its current state against
 
 ## 5. Workflow
 
-1. Read inputs (Section 9) first: the member's business or job context, prospect insights, and the pipeline (CRM or `memory/sales-pipeline.md`). Note each deal's stage, last-contact date, any opt-out flag, any "do not contact until" note, and whose court the ball is in.
+1. Read inputs (Section 9) first: the member's business or job context, prospect insights, and the pipeline (CRM or `sales-os/memory/sales-pipeline.md`). Note each deal's stage, last-contact date, any opt-out flag, any "do not contact until" note, and whose court the ball is in.
 2. Identify who is due. For each open deal, compare days since last contact against the member's cadence for that stage (default below, overridable in context). The implicit move: skip anyone whose pending action is on your side, and skip anyone opted out, before anything else.
 3. For each due deal, find the real reason and the value to add. Pull from prospect insights, the last conversation, a relevant resource, or a true deadline. If none exists, the deal waits rather than getting an empty "checking in".
 4. Set the dated next step for every open deal, due or not, per Gollwitzer: a concrete action with a date. This is what makes follow-through happen and what the run is checked against.
@@ -78,14 +78,14 @@ Specific to this skill's failure modes: never let follow-up tip into nagging (sp
 
 ## 9. Inputs and memory
 
-- **Reads:** `memory/business-context.md` (the founder, professional, or household variant, whichever the member built): the member's offers, audience, voice, cadence rules, and any overridable thresholds; `memory/prospect-insights.md`: what is known and verified about each prospect, their stated needs, timelines, and preferences; `memory/sales-pipeline.md` or the connected CRM (see `connections.md`): the open deals, their stage, last-contact date, opt-out flags, and any "do not contact until" notes; `memory/industry-context.md` where the member uses one; `memory/sales-settings.md` (this department's own settings: pricing model, deal size, sales cycle, buying group, anti-persona, and tools).
+- **Reads:** `memory/business-context.md` (the founder, professional, or household variant, whichever the member built): the member's offers, audience, voice, cadence rules, and any overridable thresholds; `sales-os/memory/prospect-insights.md`: what is known and verified about each prospect, their stated needs, timelines, and preferences; `sales-os/memory/sales-pipeline.md` or the connected CRM (see `connections.md`): the open deals, their stage, last-contact date, opt-out flags, and any "do not contact until" notes; `memory/industry-context.md` where the member uses one; `sales-os/memory/sales-settings.md` (this department's own settings: pricing model, deal size, sales cycle, buying group, anti-persona, and tools).
 - **Writes:** `logs/activity-log.md` (the run that was produced and what was drafted), `logs/decision-log.md` (deals held, declined, opt-outs honoured, and any flagged for review), and the Follow-Up Run itself for the member to action.
 
 Never read "any relevant context". Read the named files above.
 
 ## 10. Output format
 
-The deliverable is the Follow-Up Run below. Keep this structure and the section order. Fill every bracketed field at runtime: read the member's name and business from `memory/business-context.md` (the founder, professional, or household variant, whichever the member built), the open deals, stages, last-contact dates, and opt-out flags from `memory/sales-pipeline.md` or the connected CRM, and verified prospect detail from `memory/prospect-insights.md`. The run date, the drafts, and the dated next steps are set for this specific run. If a needed value is not set, propose one and ask before saving it.
+The deliverable is the Follow-Up Run below. Keep this structure and the section order. Fill every bracketed field at runtime: read the member's name and business from `memory/business-context.md` (the founder, professional, or household variant, whichever the member built), the open deals, stages, last-contact dates, and opt-out flags from `sales-os/memory/sales-pipeline.md` or the connected CRM, and verified prospect detail from `sales-os/memory/prospect-insights.md`. The run date, the drafts, and the dated next steps are set for this specific run. If a needed value is not set, propose one and ask before saving it.
 
 ---
 

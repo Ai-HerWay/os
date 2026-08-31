@@ -54,7 +54,7 @@ For every piece of bad news, run these conditions before drafting. The override 
 
 ## 5. Workflow
 
-1. Read inputs (Section 9) first: `memory/client-roster.md` for the client's status and history, `memory/engagement-briefs/{client-slug}.md` for the agreed scope, commitments, named contacts and communication preferences, and the member's business or job context for voice and disclosure standard.
+1. Read inputs (Section 9) first: `client-delivery-os/memory/client-roster.md` for the client's status and history, `memory/engagement-briefs/{client-slug}.md` for the agreed scope, commitments, named contacts and communication preferences, and the member's business or job context for voice and disclosure standard.
 2. Establish the facts before a word is drafted: what exactly happened, when it was discovered, what is confirmed versus suspected, who is affected, and whether the client could find out from another route. The implicit move: separate "known" from "assumed" now, because the draft may only state the known.
 3. Run the rubric (Section 4). Check especially for money, legal exposure, and the handoff-scope trap before choosing the message type: full disclosure, holding note, or scope conversation.
 4. Assess impact from the client's side: what does this cost them in time, money, exposure to their own stakeholders? This becomes part two of the message and it comes before any explanation of ours.
@@ -78,14 +78,14 @@ Specific to this skill's failure modes. Never send autonomously: an unreviewed A
 
 ## 9. Inputs and memory
 
-- **Reads:** `memory/business-context.md` (the founder, professional, or household variant, whichever the member built): voice, escalation contacts, and the member's AI-disclosure standard; `memory/client-roster.md`: the client's status, tier, and relationship history; `memory/engagement-briefs/{client-slug}.md`: agreed scope, live commitments, named contacts, communication preferences, and the Sales handoff open items (never treated as agreed scope); `memory/industry-context.md` where the member uses one; `memory/delivery-settings.md` (this department's own settings: delivery shape, engagement length, channels, update cadence, renewal model, and common friction); `memory/values.md` (if present: the member's values and ethical lines, so a no is framed in what they actually stand for rather than generically).
+- **Reads:** `memory/business-context.md` (the founder, professional, or household variant, whichever the member built): voice, escalation contacts, and the member's AI-disclosure standard; `client-delivery-os/memory/client-roster.md`: the client's status, tier, and relationship history; `memory/engagement-briefs/{client-slug}.md`: agreed scope, live commitments, named contacts, communication preferences, and the Sales handoff open items (never treated as agreed scope); `memory/industry-context.md` where the member uses one; `client-delivery-os/memory/delivery-settings.md` (this department's own settings: delivery shape, engagement length, channels, update cadence, renewal model, and common friction); `memory/values.md` (if present: the member's values and ethical lines, so a no is framed in what they actually stand for rather than generically).
 - **Writes:** `logs/activity-log.md` (draft produced, severity call, approval status), `logs/decision-log.md` (anything held, escalated, or where severity was contested), and, after approval and send, the new commitment and the incident note into `memory/engagement-briefs/{client-slug}.md` so the next review and renewal conversation see it.
 
 Never read "any relevant context". Read the named files above.
 
 ## 10. Output format
 
-The deliverable is the Bad News Draft below. Keep this structure and the section order. Fill every bracketed field at runtime: read the member's name and voice from `memory/business-context.md`, and the client's status, scope, and communication preferences from `memory/client-roster.md` and `memory/engagement-briefs/{client-slug}.md`. The facts, severity call, channel, and new commitment are set with the member for this specific incident. If a needed value is not set, propose one and ask before saving it.
+The deliverable is the Bad News Draft below. Keep this structure and the section order. Fill every bracketed field at runtime: read the member's name and voice from `memory/business-context.md`, and the client's status, scope, and communication preferences from `client-delivery-os/memory/client-roster.md` and `memory/engagement-briefs/{client-slug}.md`. The facts, severity call, channel, and new commitment are set with the member for this specific incident. If a needed value is not set, propose one and ask before saving it.
 
 ---
 

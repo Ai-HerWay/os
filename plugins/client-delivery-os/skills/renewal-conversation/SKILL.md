@@ -52,7 +52,7 @@ Run the engagement against these conditions before recommending anything. The ov
 
 ## 5. Workflow
 
-1. Read inputs (Section 9): the renewal date and term from the Admin & Ops renewals register, the client's row in `memory/client-roster.md`, and their `memory/engagement-briefs/{client-slug}.md`. Confirm the real date first; if the register and the brief disagree, stop and flag it rather than guessing.
+1. Read inputs (Section 9): the renewal date and term from the Admin & Ops renewals register, the client's row in `client-delivery-os/memory/client-roster.md`, and their `memory/engagement-briefs/{client-slug}.md`. Confirm the real date first; if the register and the brief disagree, stop and flag it rather than guessing.
 2. Build the value recap. From the engagement brief and logged outcomes, list what was delivered since the last renewal against what was agreed. Only verifiable, evidenced outcomes go in. The implicit move: check the original Sales handoff, and strip anything that only ever existed as an openItem, because that was never agreed scope.
 3. Scan what changed in their world: new people, structure, priorities, budget signals, anything the member has noted in the brief or roster. This is what makes the recommendation theirs, not generic.
 4. Read the health trajectory: cadence kept or slipped, responsiveness, milestone review notes, tone over time. Signals plus a human eye, never a lone sentiment score.
@@ -76,14 +76,14 @@ Specific to this skill's failure modes. Every client-facing draft is approved by
 
 ## 9. Inputs and memory
 
-- **Reads:** `memory/business-context.md` (the founder, professional, or household variant, whichever the member built): the member's offers, voice, disclosure standard, and renewal-window override; the Admin & Ops renewals register (via `deadline-renewal-tracking`): the authoritative renewal date and term, never duplicated here; `memory/client-roster.md`: the client's row (status, owner, engagement value, named contacts); `memory/engagement-briefs/{client-slug}.md`: agreed scope, milestones, delivered outcomes, review notes, and the Sales handoff record including its openItems; `memory/industry-context.md` where the member uses one; `memory/delivery-settings.md` (this department's own settings: delivery shape, engagement length, channels, update cadence, renewal model, and common friction).
-- **Writes:** `logs/activity-log.md` (the pack produced and the recommendation made), `logs/decision-log.md` (conflicts held, conclude recommendations, anything flagged), the Renewal Prep Pack itself, and, after the human decides, the outcome noted in `memory/client-roster.md` and the engagement brief.
+- **Reads:** `memory/business-context.md` (the founder, professional, or household variant, whichever the member built): the member's offers, voice, disclosure standard, and renewal-window override; the Admin & Ops renewals register (via `deadline-renewal-tracking`): the authoritative renewal date and term, never duplicated here; `client-delivery-os/memory/client-roster.md`: the client's row (status, owner, engagement value, named contacts); `memory/engagement-briefs/{client-slug}.md`: agreed scope, milestones, delivered outcomes, review notes, and the Sales handoff record including its openItems; `memory/industry-context.md` where the member uses one; `client-delivery-os/memory/delivery-settings.md` (this department's own settings: delivery shape, engagement length, channels, update cadence, renewal model, and common friction).
+- **Writes:** `logs/activity-log.md` (the pack produced and the recommendation made), `logs/decision-log.md` (conflicts held, conclude recommendations, anything flagged), the Renewal Prep Pack itself, and, after the human decides, the outcome noted in `client-delivery-os/memory/client-roster.md` and the engagement brief.
 
 Never read "any relevant context". Read the named files above.
 
 ## 10. Output format
 
-The deliverable is the Renewal Prep Pack below. Keep this structure and the section order. Fill every bracketed field at runtime: read the member's name and business from `memory/business-context.md`, the renewal date from the Admin & Ops renewals register, and the agreed scope, delivered outcomes, and health notes from `memory/client-roster.md` and `memory/engagement-briefs/{client-slug}.md`. The recommendation and opener are formed for this specific renewal. If a needed value is not set, propose one and ask before saving it. The opener is a draft: nothing sends without approval.
+The deliverable is the Renewal Prep Pack below. Keep this structure and the section order. Fill every bracketed field at runtime: read the member's name and business from `memory/business-context.md`, the renewal date from the Admin & Ops renewals register, and the agreed scope, delivered outcomes, and health notes from `client-delivery-os/memory/client-roster.md` and `memory/engagement-briefs/{client-slug}.md`. The recommendation and opener are formed for this specific renewal. If a needed value is not set, propose one and ask before saving it. The opener is a draft: nothing sends without approval.
 
 ---
 

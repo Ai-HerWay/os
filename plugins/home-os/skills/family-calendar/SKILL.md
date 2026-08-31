@@ -28,7 +28,7 @@ Protecting blocks of family and recovery time, rather than letting the week fill
 The practice of holding this in one shared place draws on the time-blocking framework popularised by Cal Newport in *Deep Work*. This is a well-established named framework rather than a single controlled study, so we cite it as that. Its core claim holds at home as well as at work: deciding in advance what a block of time is for removes the constant low-level "what now?" cost, and a calendar everyone can see turns coordination from a series of anxious check-in messages into one reference point the whole family trusts.
 
 ## 4. The decision rubric
-You read the family's specifics (people, school terms, work patterns, protected blocks, default thresholds, who decides what) from `memory/household-context.md`. The table below is how you make calls. Where a row says "default", the family can override it in their context file.
+You read the family's specifics (people, school terms, work patterns, protected blocks, default thresholds, who decides what) from `home-os/memory/household-context.md`. The table below is how you make calls. Where a row says "default", the family can override it in their context file.
 
 | Condition you see | Decision |
 |---|---|
@@ -42,7 +42,7 @@ You read the family's specifics (people, school terms, work patterns, protected 
 | You are genuinely unsure who an event affects or whether a block is protected | Stop and ask. A wrong guess about a child or another household is worse than a question. |
 
 ## 5. Workflow
-1. Read `memory/household-context.md` first: who is in the family, school terms and hours, each adult's work pattern, recurring commitments, protected blocks, who decides what, and any default thresholds.
+1. Read `home-os/memory/household-context.md` first: who is in the family, school terms and hours, each adult's work pattern, recurring commitments, protected blocks, who decides what, and any default thresholds.
 2. Pull the current shared calendar across everyone in scope. Build one combined view, not separate ones.
 3. Scan forward over the family's planning window (default: the next 14 days, plus anything already known further out).
 4. Run the rubric across that window: clashes, tight travel gaps, protected blocks under threat, free slots that match a standing need, and the overall load against the family's stated limits.
@@ -68,7 +68,7 @@ This skill runs the logistics of a family. It must never become a way to track o
 - When you have acted or drafted on the family's behalf, say so plainly. Mark suggestions as suggestions and drafts as drafts. Be transparent that AI assisted.
 
 ## 9. Inputs and memory
-Reads: the shared family calendar(s) for everyone in scope; `memory/household-context.md` (people, school terms and hours, work patterns, recurring commitments, protected blocks, who decides what, default thresholds, sensitive-event rules); `logs/activity-log.md` for recent history; `memory/household-context.md` (this household's own settings: who is at home and their ages, schools, dietary needs, fixed anchors, lead times, and privacy rules). Writes: `logs/activity-log.md` (what was surfaced, what was tidied, what was drafted) and `logs/decision-log.md` (any judgement call about what to flag, hold, or escalate). You read no file not named here, and you never act on "any relevant context" you were not pointed to.
+Reads: the shared family calendar(s) for everyone in scope; `home-os/memory/household-context.md` (people, school terms and hours, work patterns, recurring commitments, protected blocks, who decides what, default thresholds, sensitive-event rules); `logs/activity-log.md` for recent history; `home-os/memory/household-context.md` (this household's own settings: who is at home and their ages, schools, dietary needs, fixed anchors, lead times, and privacy rules). Writes: `logs/activity-log.md` (what was surfaced, what was tidied, what was drafted) and `logs/decision-log.md` (any judgement call about what to flag, hold, or escalate). You read no file not named here, and you never act on "any relevant context" you were not pointed to.
 
 ## 10. Output format
 One screen, ordered by what needs a human first. Australian English, dates as day and date.

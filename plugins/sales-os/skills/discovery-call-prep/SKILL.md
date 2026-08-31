@@ -56,7 +56,7 @@ This is the psychology layer. Run each condition against the default before the 
 
 ## 5. Workflow
 
-1. Read inputs (Section 9) before anything else: the member's business context, what they already hold on this prospect in `memory/prospect-insights.md`, the deal's stage in `memory/sales-pipeline.md` or the connected CRM, and any notes for this call. Note what is known versus assumed.
+1. Read inputs (Section 9) before anything else: the member's business context, what they already hold on this prospect in `sales-os/memory/prospect-insights.md`, the deal's stage in `sales-os/memory/sales-pipeline.md` or the connected CRM, and any notes for this call. Note what is known versus assumed.
 2. Build the verified background: list only facts the member can stand behind, each tagged with where it came from (the member told me, the company website, the CRM, LinkedIn the member shared). Anything plausible but unconfirmed becomes a labelled guess or a question, never a stated fact. The implicit move here: separate "known" from "assumed" before writing a single line.
 3. Set the one-line goal for the call: a learning goal (diagnose the real problem and whether there is a genuine fit), not a closing goal.
 4. Draft 12 to 15 open questions, sequenced SPIN-style: a few light Situation questions to orient, Problem questions to surface the real issue, Implication questions to size what the problem costs, and Need-payoff questions that let the buyer say in their own words what solving it would be worth. Keep them open so the prospect talks.
@@ -80,14 +80,14 @@ Specific to this skill's failure modes: never invent a prospect fact, a mutual c
 
 ## 9. Inputs and memory
 
-- **Reads:** `memory/business-context.md` (the founder, professional, or household variant, whichever the member built) for the member's offer, ICP, voice, and overridable thresholds; `memory/prospect-insights.md` for what the member already holds on this prospect and similar past prospects; `memory/sales-pipeline.md` or the connected CRM for this deal's stage, history, and any known contacts; any working-memory note the member has left for this specific call; `memory/sales-settings.md` (this department's own settings: pricing model, deal size, sales cycle, buying group, anti-persona, and tools).
+- **Reads:** `memory/business-context.md` (the founder, professional, or household variant, whichever the member built) for the member's offer, ICP, voice, and overridable thresholds; `sales-os/memory/prospect-insights.md` for what the member already holds on this prospect and similar past prospects; `sales-os/memory/sales-pipeline.md` or the connected CRM for this deal's stage, history, and any known contacts; any working-memory note the member has left for this specific call; `sales-os/memory/sales-settings.md` (this department's own settings: pricing model, deal size, sales cycle, buying group, anti-persona, and tools).
 - **Writes:** `logs/activity-log.md` (the prep that was done), `logs/decision-log.md` (any judgement call flagged for review, such as a detail dropped for lack of a source or a stakeholder assumption made), and the named Call Prep Sheet output the member keeps for this call.
 
 Never read "any relevant context". Read the named files above.
 
 ## 10. Output format
 
-The deliverable is the Call Prep Sheet below. Keep this structure and the section order. The call is to learn, not to pitch. Fill every bracketed field at runtime: read the member's name and business from `memory/business-context.md` (the founder, professional, or household variant, whichever the member built), and what is already held on this prospect from `memory/prospect-insights.md` and `memory/sales-pipeline.md` or the connected CRM. The prospect, the call date, the goal, and the questions are set with the member for this specific call. If a needed value is not set, propose one and ask before saving it.
+The deliverable is the Call Prep Sheet below. Keep this structure and the section order. The call is to learn, not to pitch. Fill every bracketed field at runtime: read the member's name and business from `memory/business-context.md` (the founder, professional, or household variant, whichever the member built), and what is already held on this prospect from `sales-os/memory/prospect-insights.md` and `sales-os/memory/sales-pipeline.md` or the connected CRM. The prospect, the call date, the goal, and the questions are set with the member for this specific call. If a needed value is not set, propose one and ask before saving it.
 
 ---
 

@@ -51,7 +51,7 @@ Run every active client, and every open item on each client, against these condi
 
 ## 5. Workflow
 
-1. Read the inputs (Section 9): business or job context, `memory/client-roster.md` for the active list, and each client's `memory/engagement-briefs/{client-slug}.md`. Confirm the absence window, the named cover person or people, and what each is permitted to see.
+1. Read the inputs (Section 9): business or job context, `client-delivery-os/memory/client-roster.md` for the active list, and each client's `memory/engagement-briefs/{client-slug}.md`. Confirm the absence window, the named cover person or people, and what each is permitted to see.
 2. Triage every client and open item through the rubric: cannot wait versus can wait, fragile versus steady, verified versus unverified. The implicit move: check dates against the absence window first, because a date inside the window changes everything about an item.
 3. Write one page per active client: engagement state in plain words, the single next step with its date, who this client is as a person, tone and channel notes, live sensitivities, and any unresolved openItems clearly labelled as not agreed scope.
 4. Map where everything lives: files, threads, shared folders, the Notion client page, and who holds which access. Point to systems; never paste passwords or credentials into the pack.
@@ -75,14 +75,14 @@ This pack concentrates client data, which makes confidentiality its first failur
 
 ## 9. Inputs and memory
 
-- **Reads:** `memory/business-context.md` (the founder, professional, or household variant, whichever the member built): voice, disclosure standard, named cover people and pre-authorised access; `memory/client-roster.md`: the active client list, stage, and key dates; `memory/engagement-briefs/{client-slug}.md` for each active client: scope, history, people, tone notes, and any openItems carried from the Sales handoff; `memory/industry-context.md` where the member uses one; `memory/delivery-settings.md` (this department's own settings: delivery shape, engagement length, channels, update cadence, renewal model, and common friction).
+- **Reads:** `memory/business-context.md` (the founder, professional, or household variant, whichever the member built): voice, disclosure standard, named cover people and pre-authorised access; `client-delivery-os/memory/client-roster.md`: the active client list, stage, and key dates; `memory/engagement-briefs/{client-slug}.md` for each active client: scope, history, people, tone notes, and any openItems carried from the Sales handoff; `memory/industry-context.md` where the member uses one; `client-delivery-os/memory/delivery-settings.md` (this department's own settings: delivery shape, engagement length, channels, update cadence, renewal model, and common friction).
 - **Writes:** `logs/activity-log.md` (pack assembled, clients covered, notes drafted), `logs/decision-log.md` (items trimmed for confidentiality, fragile clients escalated, conflicts flagged), and the Continuity Handover Pack itself for the member to approve and share.
 
 Never read "any relevant context". Read the named files above.
 
 ## 10. Output format
 
-The deliverable is the pack below. Keep this structure and the section order. One client block per active client. Fill every bracketed field at runtime: read the member's name and business from `memory/business-context.md`, the named cover people and access from the member's context, and each client's state, people, and tone notes from `memory/client-roster.md` and `memory/engagement-briefs/{client-slug}.md`. The absence window and cover arrangement are set with the member for this specific absence. If a needed value is not set, propose one and ask before saving it.
+The deliverable is the pack below. Keep this structure and the section order. One client block per active client. Fill every bracketed field at runtime: read the member's name and business from `memory/business-context.md`, the named cover people and access from the member's context, and each client's state, people, and tone notes from `client-delivery-os/memory/client-roster.md` and `memory/engagement-briefs/{client-slug}.md`. The absence window and cover arrangement are set with the member for this specific absence. If a needed value is not set, propose one and ask before saving it.
 
 ---
 

@@ -80,14 +80,14 @@ Specific to this skill's failure modes: never fabricate a result, testimonial, o
 
 ## 9. Inputs and memory
 
-- **Reads:** `memory/business-context.md` (the founder, professional, or household variant, whichever the member built): the member's offers, pricing model, voice, and any overridable thresholds; `memory/prospect-insights.md` for what is already known about this buyer; the call capture for this deal (the discovery notes or transcript); `memory/sales-pipeline.md` or the connected CRM for the deal's stage, history, and any prior commitments; `memory/sales-settings.md` (this department's own settings: pricing model, deal size, sales cycle, buying group, anti-persona, and tools).
+- **Reads:** `memory/business-context.md` (the founder, professional, or household variant, whichever the member built): the member's offers, pricing model, voice, and any overridable thresholds; `sales-os/memory/prospect-insights.md` for what is already known about this buyer; the call capture for this deal (the discovery notes or transcript); `sales-os/memory/sales-pipeline.md` or the connected CRM for the deal's stage, history, and any prior commitments; `sales-os/memory/sales-settings.md` (this department's own settings: pricing model, deal size, sales cycle, buying group, anti-persona, and tools).
 - **Writes:** `logs/activity-log.md` (what was drafted and recommended), `logs/decision-log.md` (every price, tier, discount, scope, deadline, or scarcity decision flagged for review), and the named proposal output the member keeps for this deal.
 
 Never read "any relevant context". Read the named files above.
 
 ## 10. Output format
 
-The deliverable is the proposal below. Keep this structure and the section order. Fill every bracketed field at runtime: read the member's name, business, offers, pricing model, and voice from `memory/business-context.md` (the founder, professional, or household variant, whichever the member built), and what is known about this buyer from `memory/prospect-insights.md`. The client's name, the call date, the problem in the buyer's words, the value, the scope, the timeline, and the next step are set with the member for this specific deal, drawn from the call capture. Every price is a placeholder for the member to approve before anything is sent. If a needed value is not set, propose one and ask before saving it.
+The deliverable is the proposal below. Keep this structure and the section order. Fill every bracketed field at runtime: read the member's name, business, offers, pricing model, and voice from `memory/business-context.md` (the founder, professional, or household variant, whichever the member built), and what is known about this buyer from `sales-os/memory/prospect-insights.md`. The client's name, the call date, the problem in the buyer's words, the value, the scope, the timeline, and the next step are set with the member for this specific deal, drawn from the call capture. Every price is a placeholder for the member to approve before anything is sent. If a needed value is not set, propose one and ask before saving it.
 
 ---
 

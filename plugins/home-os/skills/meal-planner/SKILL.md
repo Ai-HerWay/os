@@ -30,7 +30,7 @@ The second is food waste. A Canadian randomised field study of more than 1,000 h
 So the plan does two jobs at once. It moves the weekly deciding off one person's shoulders, and it is built to waste less of what the family already paid for.
 
 ## 4. The decision rubric
-Decide each meal against these conditions, not by picking favourites. Constraints from `memory/household-context.md` always override these defaults.
+Decide each meal against these conditions, not by picking favourites. Constraints from `home-os/memory/household-context.md` always override these defaults.
 
 | Condition this week | Decision |
 |---|---|
@@ -46,8 +46,8 @@ Decide each meal against these conditions, not by picking favourites. Constraint
 Edge cases that override the default: a flagged allergy beats every other consideration; a "no-spend week" or named budget cap beats variety; a child's or family member's medical or cultural food rule in context is non-negotiable and never reasoned around.
 
 ## 5. Workflow
-1. Read `memory/household-context.md`: who is in the household, dietary needs and allergies, dislikes, the week's rough shape (busy nights, who cooks), budget posture, food the family does and does not eat, cultural or religious food rules, and any kitchen or pantry inventory the family keeps.
-2. Read the last week or two of `logs/meal-log.md` to see what was already eaten (so the plan does not repeat) and what got wasted or skipped.
+1. Read `home-os/memory/household-context.md`: who is in the household, dietary needs and allergies, dislikes, the week's rough shape (busy nights, who cooks), budget posture, food the family does and does not eat, cultural or religious food rules, and any kitchen or pantry inventory the family keeps.
+2. Read the last week or two of `home-os/logs/meal-log.md` to see what was already eaten (so the plan does not repeat) and what got wasted or skipped.
 3. Look at what is already in the kitchen (from the pantry note in context, or ask). Decide which meals can be built around using that up first. This is the step most people skip, and it is where the money and the waste live.
 4. Map the week's nights to effort: which nights are busy and need fast or reheatable meals, which have time. Match meals to nights, not the other way round.
 5. Apply the rubric meal by meal. Respect every dietary need as a hard line. Build in one flexible "use-what-we-have" meal.
@@ -66,7 +66,7 @@ When something is uncertain or carries a person's wellbeing, surface it at the t
 This skill plans food for real people, so the never-rules are specific. Never treat an allergy or medical dietary rule as a preference to be optimised away; if it is on file, it is law, and if you are unsure whether something is safe, you ask, you do not assume. Never plan around, comment on, or quietly steer a sensitive family matter you were not invited into, body image, a family member's eating, weight, a health diagnosis, money stress, or conflict at the table; stay on the practical task of feeding the household well and leave private matters to the family. Never place an order or spend money on the family's behalf without explicit approval. Never share what the household eats, who is home, or any health detail outside the family. Be transparent that the plan was AI-assisted and is a starting draft the family owns and changes, not a prescription. The point is to share the mental load fairly, not to take decisions away from the people whose home this is.
 
 ## 9. Inputs and memory
-Reads: `memory/household-context.md` (household members, allergies and dietary needs, dislikes, cultural and religious food rules, weekly shape, who cooks, budget posture, kitchen and pantry inventory if kept, preferred shops), `logs/meal-log.md` (what was eaten, repeated, skipped, or wasted recently); `memory/household-context.md` (this household's own settings: who is at home and their ages, schools, dietary needs, fixed anchors, lead times, and privacy rules). Writes: `logs/activity-log.md` (plan produced, what was flagged or escalated, what the use-up meal was), `logs/meal-log.md` (the week's meals once approved, so next week can avoid repeats and learn what gets wasted), `logs/decision-log.md` (any judgement call, for example a swap made for an allergy or a budget trade-off). Use named files only; if a needed detail is not in context, ask for it, do not infer it.
+Reads: `home-os/memory/household-context.md` (household members, allergies and dietary needs, dislikes, cultural and religious food rules, weekly shape, who cooks, budget posture, kitchen and pantry inventory if kept, preferred shops), `home-os/logs/meal-log.md` (what was eaten, repeated, skipped, or wasted recently); `home-os/memory/household-context.md` (this household's own settings: who is at home and their ages, schools, dietary needs, fixed anchors, lead times, and privacy rules). Writes: `logs/activity-log.md` (plan produced, what was flagged or escalated, what the use-up meal was), `home-os/logs/meal-log.md` (the week's meals once approved, so next week can avoid repeats and learn what gets wasted), `logs/decision-log.md` (any judgement call, for example a swap made for an allergy or a budget trade-off). Use named files only; if a needed detail is not in context, ask for it, do not infer it.
 
 ## 10. Output format
 Present one clear, scannable draft the family can read in under two minutes and edit in place.

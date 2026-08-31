@@ -93,7 +93,7 @@ Specific to this skill's failure modes: never use ragebait, a fake claim, or a m
 
 Reads:
 - `memory/business-context.md` (brand voice, audience, pillars, handle, offer, transformation, cadence, primary goal, active series, lead magnets, codewords)
-- `memory/working-memory/tiktok-performance.md` if present (recent post performance, completion rate, what has landed)
+- `marketing-os/memory/working-memory/tiktok-performance.md` if present (recent post performance, completion rate, what has landed)
 - `memory/industry-context.md` if present (niche-specific language and search terms for captions and hashtags)
 
 Writes:

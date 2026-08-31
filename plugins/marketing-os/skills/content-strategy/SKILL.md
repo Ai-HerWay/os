@@ -74,7 +74,7 @@ Tied to this skill's real failure modes: never fabricate client results, testimo
 
 ## 9. Inputs and memory
 
-- **Reads:** `memory/business-context.md` (the member's business, audience, goal, voice, tools, and any overridable thresholds such as the launch-window conversion ratio); any working-memory files for the current period (for example a current-campaign note or a content backlog); `memory/industry-context.md` where the member uses one; `memory/marketing-settings.md` (this department's own settings: audience detail, pillars, platforms and cadence, newsletter, tools, and approval thresholds).
+- **Reads:** `memory/business-context.md` (the member's business, audience, goal, voice, tools, and any overridable thresholds such as the launch-window conversion ratio); any working-memory files for the current period (for example a current-campaign note or a content backlog); `memory/industry-context.md` where the member uses one; `marketing-os/memory/marketing-settings.md` (this department's own settings: audience detail, pillars, platforms and cadence, newsletter, tools, and approval thresholds).
 - **Writes:** `logs/activity-log.md` (what was drafted or rebalanced), `logs/decision-log.md` (pillar changes, goal changes, platform changes flagged for review), and the named strategy and calendar outputs the member keeps for this skill.
 
 Never read "any relevant context". Read the named files above.

@@ -52,7 +52,7 @@ For every item that could appear in the review, run it against these conditions.
 
 ## 5. Workflow
 
-1. Read the inputs (Section 9): the member's context, `memory/client-roster.md` for the client's row (stage, dates, owner), and `memory/engagement-briefs/{client-slug}.md` for the promises, the client's why, their success measures, and any agreed scope changes. The implicit move: the engagement brief is the contract for this review; if it is missing or thin, stop and escalate rather than reconstructing promises from memory.
+1. Read the inputs (Section 9): the member's context, `client-delivery-os/memory/client-roster.md` for the client's row (stage, dates, owner), and `memory/engagement-briefs/{client-slug}.md` for the promises, the client's why, their success measures, and any agreed scope changes. The implicit move: the engagement brief is the contract for this review; if it is missing or thin, stop and escalate rather than reconstructing promises from memory.
 2. Gather what happened since the last review: deliverables shipped, milestones hit or missed, decisions made, and the client's own words about results where they exist. Pull dates and internal status from the Admin & Ops records rather than re-deriving them; this skill frames, it does not re-run the status machinery.
 3. Map delivered against promised, line by line. Sort into: promised and delivered, promised and behind or missed, delivered but never promised, and open items from the Sales handoff that were never agreed (kept out of scope, per the rubric).
 4. Translate each delivered item into the client's terms. The test: would the person who signed recognise this as the thing they bought? If an outcome cannot honestly be tied to their why, report it as an output, not an outcome.
@@ -77,14 +77,14 @@ Specific to this skill's failure modes. Never send, only draft: client communica
 
 ## 9. Inputs and memory
 
-- **Reads:** `memory/business-context.md` (the founder, professional, or household variant, whichever the member built): the member's services, voice, review cadence, and disclosure standard; `memory/client-roster.md`: the client's row (stage, key dates, owner, last review); `memory/engagement-briefs/{client-slug}.md`: the promises, the client's why and success measures, agreed scope changes, and the Sales handoff's open items (never treated as scope); the Admin & Ops status and meeting records where connected, for dates and delivery facts; `memory/delivery-settings.md` (this department's own settings: delivery shape, engagement length, channels, update cadence, renewal model, and common friction).
+- **Reads:** `memory/business-context.md` (the founder, professional, or household variant, whichever the member built): the member's services, voice, review cadence, and disclosure standard; `client-delivery-os/memory/client-roster.md`: the client's row (stage, key dates, owner, last review); `memory/engagement-briefs/{client-slug}.md`: the promises, the client's why and success measures, agreed scope changes, and the Sales handoff's open items (never treated as scope); the Admin & Ops status and meeting records where connected, for dates and delivery facts; `client-delivery-os/memory/delivery-settings.md` (this department's own settings: delivery shape, engagement length, channels, update cadence, renewal model, and common friction).
 - **Writes:** `logs/activity-log.md` (the review produced and for whom), `logs/decision-log.md` (gaps named, items held out of scope, anything escalated), the updated review date on the client's roster row, and the Milestone Review itself for the member to approve.
 
 Never read "any relevant context". Read the named files above.
 
 ## 10. Output format
 
-The deliverable is the Milestone Review below. Keep this structure and the section order. Fill every bracketed field at runtime: read the member's name and review cadence from `memory/business-context.md`, and the client's why, promises, and scope changes from `memory/client-roster.md` and `memory/engagement-briefs/{client-slug}.md`. The review period, delivered items, and gaps come from the delivery records for this specific engagement. If a needed value is not set, propose one and ask before saving it. The health note is internal only and never goes to the client.
+The deliverable is the Milestone Review below. Keep this structure and the section order. Fill every bracketed field at runtime: read the member's name and review cadence from `memory/business-context.md`, and the client's why, promises, and scope changes from `client-delivery-os/memory/client-roster.md` and `memory/engagement-briefs/{client-slug}.md`. The review period, delivered items, and gaps come from the delivery records for this specific engagement. If a needed value is not set, propose one and ask before saving it. The health note is internal only and never goes to the client.
 
 ---
 

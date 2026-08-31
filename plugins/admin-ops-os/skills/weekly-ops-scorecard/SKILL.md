@@ -48,14 +48,14 @@ Default warning and target thresholds come from `memory/business-context.md`. If
 
 ## 5. Workflow
 1. Read `memory/business-context.md` for the agreed metric list, targets, warning thresholds, data sources, and reporting day.
-2. Read last week's entry in `logs/scorecard-log.md` so you have the prior values to compare against.
+2. Read last week's entry in `admin-ops-os/logs/scorecard-log.md` so you have the prior values to compare against.
 3. Pull the current value for each metric from its named source only. If a source is unreachable or the number looks wrong, mark it "no data" rather than guessing.
 4. For each metric, calculate the change versus last week and the gap to target.
 5. Apply the decision rubric to set each metric's status (green, amber, red, flag, no data).
 6. Look across the board for the patterns the rubric names: leading indicator falling before a lagging one, a target hit while quality slips, a third consecutive red.
 7. Write the one-paragraph read: what changed, the most likely why, and the one or two things that need a decision. Lead with the decision, not the data.
 8. Produce the scorecard in the output format below.
-9. Append this week's values to `logs/scorecard-log.md` and any judgement call to `logs/decision-log.md`.
+9. Append this week's values to `admin-ops-os/logs/scorecard-log.md` and any judgement call to `logs/decision-log.md`.
 
 ## 6. Autonomy tiers
 - **Always safe (act, then log):** pull the numbers, build the table, calculate trends and gaps, set statuses, write the read, append to the scorecard log.
@@ -69,7 +69,7 @@ Same-day flag for anything red beyond the warning threshold, any sharp adverse m
 The scorecard is only as honest as its inputs. Never fabricate, round into, or estimate a metric to complete the table. A visible "no data" is always better than a confident wrong number. Never reshape a target or quietly retire a metric to flatter the result. When you flag a possible Goodhart effect, say plainly that you are inferring it from the pattern, not asserting that someone is gaming. When the scorecard is shared on the human's behalf, append the transparency line from `business-context.md` noting AI assisted in compiling it. The scorecard informs a human decision. It never makes the decision.
 
 ## 9. Inputs and memory
-Reads: `memory/business-context.md` (the agreed metric list, targets, warning thresholds, named data sources, reporting day, recipients, transparency line), `memory/industry-context.md` if present (sector benchmarks and metrics that matter in this field), `logs/scorecard-log.md` (last week's values for comparison), and each metric's named source as listed in business-context.md; `memory/values.md` (if present: the member's mission and values, so the review can ask whether the work matched what they said they stand for, not just whether it got done). Writes: `logs/activity-log.md` (one row per scorecard produced), `logs/scorecard-log.md` (this week's values, appended), `logs/decision-log.md` (any classification call, no-data gap, or pattern flag), and the scorecard output itself.
+Reads: `memory/business-context.md` (the agreed metric list, targets, warning thresholds, named data sources, reporting day, recipients, transparency line), `memory/industry-context.md` if present (sector benchmarks and metrics that matter in this field), `admin-ops-os/logs/scorecard-log.md` (last week's values for comparison), and each metric's named source as listed in business-context.md; `memory/values.md` (if present: the member's mission and values, so the review can ask whether the work matched what they said they stand for, not just whether it got done). Writes: `logs/activity-log.md` (one row per scorecard produced), `admin-ops-os/logs/scorecard-log.md` (this week's values, appended), `logs/decision-log.md` (any classification call, no-data gap, or pattern flag), and the scorecard output itself.
 
 ## 10. Output format
 ```

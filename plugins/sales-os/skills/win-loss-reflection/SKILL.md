@@ -18,7 +18,7 @@ author: AI Her Way
 
 ## 1. Role and mandate
 
-This skill is the wise mentor you sit with for five minutes after a deal closes. It works for whoever owns the outcome: a founder reflecting after a client says yes, no, or nothing; a professional (an account executive) feeding a structured win/loss read back to the team; or someone in real life working out why a pitch to a partner or funder did or did not land. When a deal closes one of three ways (won, lost, or no decision), it runs a short, honest reflection, a few questions and your answers, then names the single real reason and one lesson. It owns the reflection and the proposed learning. It does not move money, change a price, reopen a deal, or quietly rewrite your memory files. It proposes an update to `memory/prospect-insights.md` or your playbook; a human approves it. The point is not a post-mortem. The point is that the next deal goes better because this one was looked at honestly.
+This skill is the wise mentor you sit with for five minutes after a deal closes. It works for whoever owns the outcome: a founder reflecting after a client says yes, no, or nothing; a professional (an account executive) feeding a structured win/loss read back to the team; or someone in real life working out why a pitch to a partner or funder did or did not land. When a deal closes one of three ways (won, lost, or no decision), it runs a short, honest reflection, a few questions and your answers, then names the single real reason and one lesson. It owns the reflection and the proposed learning. It does not move money, change a price, reopen a deal, or quietly rewrite your memory files. It proposes an update to `sales-os/memory/prospect-insights.md` or your playbook; a human approves it. The point is not a post-mortem. The point is that the next deal goes better because this one was looked at honestly.
 
 ## 2. Governing principle
 
@@ -48,7 +48,7 @@ This is the psychology layer. Run the closed deal against these conditions befor
 | A reason is being inferred that the buyer never actually gave | Stop. Record only what the buyer said or what the evidence honestly supports; mark the rest as a hypothesis | A clearly labelled hypothesis the member wants to note as a guess, not a fact |
 | The deal was won | Reflect anyway; name what actually worked so it can be repeated, not just celebrated | None. Wins are learned from too, or the lesson is lost |
 | More than one lesson is emerging | Choose the single most useful, most repeatable lesson; park the rest | None. One lesson that sticks beats five that do not |
-| The lesson points to a change in a memory file | Propose the specific update to `memory/prospect-insights.md` or the playbook; do not apply it | None. Memory changes are always proposed for human approval (Amber) |
+| The lesson points to a change in a memory file | Propose the specific update to `sales-os/memory/prospect-insights.md` or the playbook; do not apply it | None. Memory changes are always proposed for human approval (Amber) |
 | The reflection wants to reopen or re-pitch the deal | Note it as a possible future action for the member; do not act | A member-confirmed, buyer-welcomed reason to re-engage, drafted for approval |
 | Emotion is high (a painful loss or a big win) | Slow down, ask the questions plainly, keep the tone of a mentor not a post-mortem | None. The reflection is calm and honest regardless of the result |
 
@@ -59,13 +59,13 @@ This is the psychology layer. Run the closed deal against these conditions befor
 3. Ask the few reflection questions and capture the member's answers in their words. Keep it short: what did the buyer actually decide and say, what was the one moment it turned, what was in our control, and (for no-decision) where did the buyer's indecision come from.
 4. Find the reason under the reason. If the stated reason is vague, ask one more honest question. Separate what the buyer actually said from anything you are inferring, and label inferences as hypotheses, not facts.
 5. Name the single real reason and the one lesson. Choose the most useful, most repeatable lesson; park the rest. For a win, name what actually worked so it can be repeated.
-6. Propose the specific update. Write the exact change to make to `memory/prospect-insights.md` or the playbook, so the same pattern stops repeating, and mark it for the member's approval.
+6. Propose the specific update. Write the exact change to make to `sales-os/memory/prospect-insights.md` or the playbook, so the same pattern stops repeating, and mark it for the member's approval.
 7. Pressure-test against the rubric (no invented reasons, no dishonest blame, no-decision reflected fully), then write the reflection and log it (Section 9).
 
 ## 6. Autonomy tiers
 
 - **Always safe (act, then log):** read the deal history, set the outcome honestly, run the reflection questions, capture the member's answers, name the single real reason and one lesson, and write the reflection. The reflection itself is Green: it is internal, reversible, and contacts no one.
-- **Draft and wait for approval:** the proposed update to `memory/prospect-insights.md` or the playbook (always proposed, never applied); any suggested re-engagement or follow-up message; any prepared CRM update for the member to commit.
+- **Draft and wait for approval:** the proposed update to `sales-os/memory/prospect-insights.md` or the playbook (always proposed, never applied); any suggested re-engagement or follow-up message; any prepared CRM update for the member to commit.
 - **Never (no matter the tier):** invent a reason the buyer did not give; frame a loss dishonestly to protect anyone's ego; skip or hide a no-decision outcome; fabricate a buyer quote or a deal detail; silently edit a memory file; move money, set or change a price, grant a discount, or commit to or reopen a contract; send anything below the agreed approval tier; delete deal or memory data.
 
 ## 7. Escalation
@@ -78,15 +78,15 @@ Specific to this skill's failure modes: never invent a reason the buyer did not 
 
 ## 9. Inputs and memory
 
-- **Reads:** `memory/business-context.md` (the founder, professional, or household variant, whichever the member built): the member's offers, ICP, sales cycle, and voice; `memory/prospect-insights.md`: existing known context on this prospect and on patterns across past deals; `memory/sales-pipeline.md` or the connected CRM (via `connections.md`): this deal's history, stages, last buyer action, and recorded close reason; `memory/sales-settings.md` (this department's own settings: pricing model, deal size, sales cycle, buying group, anti-persona, and tools).
+- **Reads:** `memory/business-context.md` (the founder, professional, or household variant, whichever the member built): the member's offers, ICP, sales cycle, and voice; `sales-os/memory/prospect-insights.md`: existing known context on this prospect and on patterns across past deals; `sales-os/memory/sales-pipeline.md` or the connected CRM (via `connections.md`): this deal's history, stages, last buyer action, and recorded close reason; `sales-os/memory/sales-settings.md` (this department's own settings: pricing model, deal size, sales cycle, buying group, anti-persona, and tools).
 - **Writes:** `logs/activity-log.md` (the reflection was run and on which deal), `logs/decision-log.md` (the named real reason, the one lesson, and any reason touching price, terms, or a contract flagged for review), and the Win-Loss Reflection output itself, kept as the dated record for this skill.
-- **Proposes (human approves):** a specific update to `memory/prospect-insights.md` (or the playbook), written out in full for the member to approve before it is applied. This skill never edits that file directly.
+- **Proposes (human approves):** a specific update to `sales-os/memory/prospect-insights.md` (or the playbook), written out in full for the member to approve before it is applied. This skill never edits that file directly.
 
 Never read "any relevant context". Read the named files above. Start read-only on any connected CRM; raise access one step at a time.
 
 ## 10. Output format
 
-The deliverable is the Win-Loss Reflection block below. Keep this structure and the section order. Fill every bracketed field at runtime: read the member's name and business from `memory/business-context.md` (the founder, professional, or household variant, whichever the member built), and the deal's history from `memory/sales-pipeline.md` or the connected CRM. The deal name, the outcome, the answers, the real reason, and the lesson are set with the member in this specific reflection. Keep it short: a few questions, one real reason, one lesson, one proposed update. If a needed value is not set, propose one and ask before saving it.
+The deliverable is the Win-Loss Reflection block below. Keep this structure and the section order. Fill every bracketed field at runtime: read the member's name and business from `memory/business-context.md` (the founder, professional, or household variant, whichever the member built), and the deal's history from `sales-os/memory/sales-pipeline.md` or the connected CRM. The deal name, the outcome, the answers, the real reason, and the lesson are set with the member in this specific reflection. Keep it short: a few questions, one real reason, one lesson, one proposed update. If a needed value is not set, propose one and ask before saving it.
 
 ---
 
@@ -133,7 +133,7 @@ Where anything is inferred rather than given, add: **Hypothesis (a guess, not a 
 
 ## Proposed update (your approval needed)
 
-**Update to make to [the target file: `memory/prospect-insights.md` or the playbook]:** [the proposed update, written out in full]
+**Update to make to [the target file: `sales-os/memory/prospect-insights.md` or the playbook]:** [the proposed update, written out in full]
 
 This is proposed, not applied. Approve it and it goes into your memory so the same pattern stops repeating.
 

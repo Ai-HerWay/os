@@ -60,7 +60,7 @@ Before producing anything, run the brief against these conditions. The skill mak
 2. Split the script into a shot map: for each timed beat, decide real shot, AI b-roll, or graphic overlay, using the rubric. Cap the real shots at one or two; the whole point is that the member films almost nothing.
 3. Write the AI b-roll briefs: one per clip, each 8 to 25 seconds, simple motion, no text, no product accuracy, no named-artist styling, each mapped to its beat in the script.
 4. Generate (only if Higgsfield is connected and the member has opted in): run each brief, expect 3 to 5 attempts per usable clip, and say so up front. Rough cost framing for the member: a 3-clip reel typically burns 9 to 15 generations of credits, so quote credit or plan cost on that basis, not on 3. Before the first run, confirm the member has turned off "train on my content" in Higgsfield's settings, and remind them that purely AI-generated output may not attract copyright protection in most jurisdictions.
-5. Produce the cover frame: rendered Claude-side as HTML or SVG from `memory/brand-kit.md` (pixel-exact and free), or a brief for the member's design tool (read from `memory/business-context.md`) if the member prefers designing there.
+5. Produce the cover frame: rendered Claude-side as HTML or SVG from `marketing-os/memory/brand-kit.md` (pixel-exact and free), or a brief for the member's design tool (read from `memory/business-context.md`) if the member prefers designing there.
 6. Write the caption file: the full spoken script as timed captions, plus the platform caption (the text under the post) with hashtags per the member's preferences. Captions are mandatory (Section 3).
 7. Assemble the reel blueprint: hook timing (what appears on screen in seconds 0 to 3 and why), the ordered shot map, the one-or-two-shot real shotlist with plain filming notes (the member can shoot these on a phone), and the edit brief for CapCut or Canva: clip order, cut points, overlay text with exact wording and timing, music note, and export specs for the target platform.
 8. Package everything into the named output folder, log the work, and queue the package for the member's approval. Nothing moves to the scheduler until sign-off.
@@ -94,8 +94,8 @@ This skill's real failure modes are overpromising AI video and faking proof with
 Reads:
 - the finished script from video-scripts, e.g. `outputs/video-scripts/[topic]-[platform].md` (timing marks, on-screen text cues, B-roll notes)
 - `memory/business-context.md` (voice, audience, platforms, CTA style, disclosure preference, tool connections, credit budget if set)
-- `memory/brand-kit.md` (colours, fonts, logo, cover-frame rules for the Claude-side render)
-- `memory/working-memory/recent-videos.md` where present (what has already run, so b-roll does not repeat)
+- `marketing-os/memory/brand-kit.md` (colours, fonts, logo, cover-frame rules for the Claude-side render)
+- `marketing-os/memory/working-memory/recent-videos.md` where present (what has already run, so b-roll does not repeat)
 
 Writes:
 - `logs/activity-log.md` (one row per action: date, department, skill, action, tier, status, time saved)
@@ -108,7 +108,7 @@ The deliverable is one reel package per script, in the output folder above, cont
 
 1. **Shot map** (table): beat time from the script, spoken line, source (REAL / AI B-ROLL / GRAPHIC), and the asset name.
 2. **AI b-roll briefs**: one per clip, each under 80 words, stating subject, setting, mood, simple camera movement, 8 to 25 second target, and the explicit exclusions (no text, no product, no faces implying real people, no named-artist style). If generated: the selected clip files plus a one-line note of attempts used.
-3. **Cover frame**: one on-brand image rendered from `memory/brand-kit.md` (or a brief for the member's design tool), with the hook line as the visible text, legible at grid size.
+3. **Cover frame**: one on-brand image rendered from `marketing-os/memory/brand-kit.md` (or a brief for the member's design tool), with the hook line as the visible text, legible at grid size.
 4. **Caption file**: timed captions for the full script, plus the platform caption under 150 words with the CTA and hashtags per the member's preferences.
 5. **Reel blueprint** (one page): hook timing (seconds 0 to 3, exactly what is seen and read); real shotlist (one or two shots, each with framing, action, and a phone-friendly filming note); edit brief for CapCut or Canva (clip order, cut points, overlay text with exact wording and in/out times, music guidance, export specs for the target platform); and an honesty footer restating that this reel is AI b-roll plus the member's real shots, with disclosure per their preference.
 

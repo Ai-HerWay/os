@@ -53,7 +53,7 @@ Run every candidate item and every review pass against these conditions. The ove
 
 ## 5. Workflow
 
-1. Read inputs (Section 9) first: `memory/client-roster.md` for the active engagements and their status cadence, then the relevant `memory/engagement-briefs/{client-slug}.md` for confirmed scope, the handoff's openItems, and the existing watchlist.
+1. Read inputs (Section 9) first: `client-delivery-os/memory/client-roster.md` for the active engagements and their status cadence, then the relevant `memory/engagement-briefs/{client-slug}.md` for confirmed scope, the handoff's openItems, and the existing watchlist.
 2. On engagement kickoff, seed the watchlist from the Sales handoff pack: every openItem from post-sale-handoff section 4 becomes a Risk or Dependency to resolve, never assumed scope. Date each item with the handoff date.
 3. During the engagement, capture on sight. When the member mentions a worry, a blocker, or a wait, add it to the right column the same day, dated, with an owner. The implicit move: check first whether it already exists, and update the existing item rather than duplicating it.
 4. At every status cadence, run the review pass: for each open item, compute its age in days, check for movement since last review, apply the rubric, and mark it moved, escalate, park (with a revisit date), or close (with a one-line outcome).
@@ -77,20 +77,20 @@ Specific to this skill's failure modes. Every client-facing draft is approved by
 
 ## 9. Inputs and memory
 
-- **Reads:** `memory/business-context.md` (the founder, professional, or household variant, whichever the member built): the member's services, status cadences, escalation preferences, and AI-disclosure standard; `memory/client-roster.md`: the active engagements, each client's slug, stage, and cadence; `memory/engagement-briefs/{client-slug}.md`: confirmed scope, the Sales handoff's openItems, key contacts, and this engagement's existing watchlist; `memory/delivery-settings.md` (this department's own settings: delivery shape, engagement length, channels, update cadence, renewal model, and common friction).
+- **Reads:** `memory/business-context.md` (the founder, professional, or household variant, whichever the member built): the member's services, status cadences, escalation preferences, and AI-disclosure standard; `client-delivery-os/memory/client-roster.md`: the active engagements, each client's slug, stage, and cadence; `memory/engagement-briefs/{client-slug}.md`: confirmed scope, the Sales handoff's openItems, key contacts, and this engagement's existing watchlist; `client-delivery-os/memory/delivery-settings.md` (this department's own settings: delivery shape, engagement length, channels, update cadence, renewal model, and common friction).
 - **Writes:** the RAID Lite section of `memory/engagement-briefs/{client-slug}.md` (the watchlist itself, items dated on entry and updated in place); `logs/activity-log.md` (each review pass and what changed); `logs/decision-log.md` (escalations, parked items, closures, and anything held for the member).
 
 Never read "any relevant context". Read the named files above.
 
 ## 10. Output format
 
-The deliverable is the Watchlist Review below, one per engagement per cadence, oldest first in each table. Keep this structure and the section order. Fill every bracketed field at runtime: read the cadence from `memory/client-roster.md`, and the watchlist items themselves from the RAID Lite section of `memory/engagement-briefs/{client-slug}.md`. Ages are computed from each item's raised date at review time. If a needed value is not set, propose one and ask before saving it. In each brief, the watchlist lives under a `## RAID Lite` heading in this same three-table shape.
+The deliverable is the Watchlist Review below, one per engagement per cadence, oldest first in each table. Keep this structure and the section order. Fill every bracketed field at runtime: read the cadence from `client-delivery-os/memory/client-roster.md`, and the watchlist items themselves from the RAID Lite section of `memory/engagement-briefs/{client-slug}.md`. Ages are computed from each item's raised date at review time. If a needed value is not set, propose one and ask before saving it. In each brief, the watchlist lives under a `## RAID Lite` heading in this same three-table shape.
 
 ---
 
 # Watchlist Review: [the client's name] ([the review date])
 
-> Cadence: [the cadence, from `memory/client-roster.md`]. Open items: [the open count]. Oldest open item: [the oldest item's age] days. Items needing a decision today: [the decision count]. Nothing below reaches the client without your approval.
+> Cadence: [the cadence, from `client-delivery-os/memory/client-roster.md`]. Open items: [the open count]. Oldest open item: [the oldest item's age] days. Items needing a decision today: [the decision count]. Nothing below reaches the client without your approval.
 
 ## Risks (could hurt, has not yet)
 

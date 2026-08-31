@@ -55,7 +55,7 @@ Run every new engagement against these conditions before drafting. The override 
 
 ## 5. Workflow
 
-1. Read inputs (Section 9): the member's business or job context, the new row in `memory/client-roster.md` (created from the Won pipeline row), and the Sales handoff pack. The implicit move: confirm the handoff is complete before anything client-facing exists.
+1. Read inputs (Section 9): the member's business or job context, the new row in `client-delivery-os/memory/client-roster.md` (created from the Won pipeline row), and the Sales handoff pack. The implicit move: confirm the handoff is complete before anything client-facing exists.
 2. Seed or update `memory/engagement-briefs/{client-slug}.md` from the handoff: agreed scope, stakeholders, dates, the client's stated goal in their own words, and section 4 open items held separately and clearly labelled as unresolved.
 3. Build the timeline: the next two to four concrete steps with dates the team can genuinely keep, per Buell, showing the work rather than promising outcomes in a black box.
 4. Name the people: who the client will hear from, for what, and when the first contact lands.
@@ -81,7 +81,7 @@ Specific to this skill's failure modes. Every client-facing draft is approved by
 
 ## 9. Inputs and memory
 
-- **Reads:** `memory/business-context.md` (the founder, professional, or household variant, whichever the member built): the member's services, voice, contact channels, response-time standard, and AI-disclosure preference; `memory/client-roster.md`: the new client's row (a Won pipeline row becomes a roster row); the Sales handoff pack from the post-sale-handoff skill, whose section 4 is the intake contract; `memory/engagement-briefs/{client-slug}.md`: seeded by this skill, then the single source of truth for the engagement; `memory/delivery-settings.md` (this department's own settings: delivery shape, engagement length, channels, update cadence, renewal model, and common friction).
+- **Reads:** `memory/business-context.md` (the founder, professional, or household variant, whichever the member built): the member's services, voice, contact channels, response-time standard, and AI-disclosure preference; `client-delivery-os/memory/client-roster.md`: the new client's row (a Won pipeline row becomes a roster row); the Sales handoff pack from the post-sale-handoff skill, whose section 4 is the intake contract; `memory/engagement-briefs/{client-slug}.md`: seeded by this skill, then the single source of truth for the engagement; `client-delivery-os/memory/delivery-settings.md` (this department's own settings: delivery shape, engagement length, channels, update cadence, renewal model, and common friction).
 - **Writes:** `memory/engagement-briefs/{client-slug}.md` (seeded or updated), `logs/activity-log.md` (pack drafted, for whom, from which handoff), `logs/decision-log.md` (gaps flagged, items held out of the pack, and why), and the Welcome Pack itself for approval.
 
 Never read "any relevant context". Read the named files above.

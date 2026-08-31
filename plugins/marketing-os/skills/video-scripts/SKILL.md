@@ -89,7 +89,7 @@ This skill's real failure mode is fabrication dressed up as a good hook. A scrip
 
 Reads:
 - `memory/business-context.md` (voice, audience, content pillars, offers, CTA style, language variant, social handles, emoji usage, transformation promise)
-- working-memory files for this member: `memory/working-memory/content-calendar.md`, `memory/working-memory/recent-videos.md` (what has been posted and how it performed), `memory/working-memory/voice-samples.md` if present
+- working-memory files for this member: `marketing-os/memory/working-memory/content-calendar.md`, `marketing-os/memory/working-memory/recent-videos.md` (what has been posted and how it performed), `marketing-os/memory/working-memory/voice-samples.md` if present
 - `memory/industry-context.md` if the member operates in a regulated or specialist field
 
 Writes:

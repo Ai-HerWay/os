@@ -61,7 +61,7 @@ This is the psychology layer. Run every source and every extracted element throu
 3. Mine the anchor: the big idea, 3 to 5 supporting points, stories, quotable lines with their timestamps, teachable frameworks, and the honest revenue angle of each. The implicit move: re-read each candidate in its surrounding context before extracting it, so the integrity rule is applied at the source.
 4. Map every element through the rubric to a platform (member's active platforms only) and a format: clip, quote card, carousel, caption, or email snippet.
 5. Build the pack in the Section 10 format: timestamped clips list, quote card briefs, carousel briefs, captions per platform, one email snippet, and a suggested staggered rollout.
-6. Hand production off: design briefs go to the brand-graphics path (the member's design tool, or Claude-rendered HTML/SVG from `memory/brand-kit.md`); any reel work goes out as AI b-roll plus a reel blueprint, never a promised finished reel. Read the member's design tool from `memory/business-context.md`; if none is set, default to Claude-rendered HTML/SVG and note it.
+6. Hand production off: design briefs go to the brand-graphics path (the member's design tool, or Claude-rendered HTML/SVG from `marketing-os/memory/brand-kit.md`); any reel work goes out as AI b-roll plus a reel blueprint, never a promised finished reel. Read the member's design tool from `memory/business-context.md`; if none is set, default to Claude-rendered HTML/SVG and note it.
 7. Queue, do not publish. Everything lands in the OS as a held package. Only after the member's sign-off is approved content pushed to the member's scheduler (read from `memory/business-context.md`) at draft or queued level where the tool supports it. Never schedule-then-review: in most tools, scheduled means live. Log the batch and every judgement call.
 
 ## 6. Autonomy tiers
@@ -80,7 +80,7 @@ Failure modes specific to this skill: cutting a clip so its meaning flips (the o
 
 ## 9. Inputs and memory
 
-- **Reads:** `memory/business-context.md` (voice, offers, active platforms, current priority, CTA style, disclosure preference); `memory/brand-kit.md` (colours, type, and graphic rules for quote card and carousel briefs); the source recording and its transcript provided in the session; `memory/industry-context.md` where the member uses one; `memory/marketing-settings.md` (this department's own settings: audience detail, pillars, platforms and cadence, newsletter, tools, and approval thresholds).
+- **Reads:** `memory/business-context.md` (voice, offers, active platforms, current priority, CTA style, disclosure preference); `marketing-os/memory/brand-kit.md` (colours, type, and graphic rules for quote card and carousel briefs); the source recording and its transcript provided in the session; `memory/industry-context.md` where the member uses one; `marketing-os/memory/marketing-settings.md` (this department's own settings: audience detail, pillars, platforms and cadence, newsletter, tools, and approval thresholds).
 - **Writes:** `logs/activity-log.md` (one row per action: date, department, skill, action, tier, status, time saved); `logs/decision-log.md` (clips rejected on integrity, routing calls, consent escalations, rubric overrides); the content pack itself in the format below.
 
 Never read "any relevant context". Read the named files above.
@@ -130,7 +130,7 @@ Every caption in the member's voice and English variant, both read from `memory/
 
 1. Timestamped to the transcript, mapped to the member's two active platforms only, with a named revenue function.
 2. The integrity rule applied constructively: boundaries widened until the meaning survived, per the rubric.
-3. The quote is verbatim and the design brief runs off `memory/brand-kit.md`, the zero-cost path.
+3. The quote is verbatim and the design brief runs off `marketing-os/memory/brand-kit.md`, the zero-cost path.
 4. Held until approval, then pushed at draft level only. Never schedule-then-review.
 
 Across the three audiences this holds: a **founder** atomises a podcast episode, a **professional** a recorded conference talk, and in **real life** a community workshop recording becomes clips and a recap email for the member's audience (read the audience from `memory/audience-and-offers.md`).

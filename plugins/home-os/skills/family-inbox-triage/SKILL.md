@@ -30,7 +30,7 @@ Second, the heaviest part of household administration is not the doing, it is th
 So the design follows the evidence. Batch the read to spend the switching cost once. Surface and name the cognitive load rather than quietly doing it, so a human stays in the loop and the work stops being invisible.
 
 ## 4. The decision rubric
-For each message, decide its category and its action from the conditions below. Read every message against the family's own rules in `memory/household-context.md` first; the defaults here are overridden by anything the family has set (their people, their schools, their services, their thresholds, their tone).
+For each message, decide its category and its action from the conditions below. Read every message against the family's own rules in `home-os/memory/household-context.md` first; the defaults here are overridden by anything the family has set (their people, their schools, their services, their thresholds, their tone).
 
 | If the message... | Category | Default decision |
 |---|---|---|
@@ -47,7 +47,7 @@ For each message, decide its category and its action from the conditions below. 
 Edge cases that override the default: anything genuinely time-critical (a same-day pickup change, a closure, a medical message) jumps to the very top regardless of source. Anything that reads as conflict, distress or a private family matter is handed to a human unread by anyone else and never drafted. If two messages disagree (two different pickup times), surface both and ask, do not pick one.
 
 ## 5. Workflow
-1. Read `memory/household-context.md` first: who is in the family, which schools and services matter, the voice and signature to draft in, the thresholds and the sensitive topics that are off-limits to act on.
+1. Read `home-os/memory/household-context.md` first: who is in the family, which schools and services matter, the voice and signature to draft in, the thresholds and the sensitive topics that are off-limits to act on.
 2. Read recent `logs/` to see what was already handled, so you do not resurface a thing the human has dealt with.
 3. Go through the inbox. For each message, silently answer: what is this, who is it from, is it recognised, does it need a person, by when, and is it sensitive or money-related.
 4. Sort each message into one rubric category. When a message could be two things, take the more cautious one (sensitive beats routine; needs-you beats good-to-know).
@@ -68,7 +68,7 @@ When unsure, show the human and ask rather than deciding. Use three channels by 
 This skill reads a family's private correspondence. Treat it as such. Never draft, forward or summarise outside the named people in `household-context.md` anything touching a child's health, behaviour, schooling difficulties, safeguarding, or a private matter between family members; name that such a message exists and hand it to the responsible adult to read themselves. Never reply to a sender the system does not already recognise. Never pay, confirm a payment, or share financial details, no matter how routine the request looks. Never fabricate a reason a message exists or context you do not have; if you do not know why something arrived or who it is from, say so and flag it. When a reply is sent on the family's behalf, it goes out as a normal message from them; there is no need to announce AI to a school office, but the family must always know a draft was AI-prepared, which is why every draft is marked as a draft and approved by a person before it sends. A quiet inbox achieved by hiding a hard message is a failure, not a success.
 
 ## 9. Inputs and memory
-Reads: the family inbox (email and, where connected, the messages the family routes in), and `memory/household-context.md` (the family's people, schools, services, priority senders, voice and signature, thresholds, and the sensitive topics that are off-limits to act on). Reads `logs/activity-log.md` to avoid resurfacing handled items; `memory/household-context.md` (this household's own settings: who is at home and their ages, schools, dietary needs, fixed anchors, lead times, and privacy rules). Writes: `logs/activity-log.md` (what was read, what was surfaced, what was drafted) and `logs/decision-log.md` (any judgement call, especially anything held back, escalated, or left uncategorised). Named files and connections only; never act on "any relevant context" you were not given.
+Reads: the family inbox (email and, where connected, the messages the family routes in), and `home-os/memory/household-context.md` (the family's people, schools, services, priority senders, voice and signature, thresholds, and the sensitive topics that are off-limits to act on). Reads `logs/activity-log.md` to avoid resurfacing handled items; `home-os/memory/household-context.md` (this household's own settings: who is at home and their ages, schools, dietary needs, fixed anchors, lead times, and privacy rules). Writes: `logs/activity-log.md` (what was read, what was surfaced, what was drafted) and `logs/decision-log.md` (any judgement call, especially anything held back, escalated, or left uncategorised). Named files and connections only; never act on "any relevant context" you were not given.
 
 ## 10. Output format
 One screen. Ordered by urgency, not by source. Drafts shown but never sent.

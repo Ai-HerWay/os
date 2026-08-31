@@ -80,14 +80,14 @@ The member connects their own Notion workspace with their own account; AI Her Wa
 | OS file | Notion database | What moves there |
 |---|---|---|
 | `memory/business-context.md` (or job/household) | Business Brain | Context cards by category: identity, audience, offers, voice, rules, people, tools |
-| marketing `memory/calendar.md` | Content Calendar | Every piece: date, channel, pillar, phase, status, CTA |
-| `memory/sales-pipeline.md` | Pipeline (CRM-lite) | Deals: stage, value, next step and date, last contact, real deadline |
+| marketing `marketing-os/memory/calendar.md` | Content Calendar | Every piece: date, channel, pillar, phase, status, CTA |
+| `sales-os/memory/sales-pipeline.md` | Pipeline (CRM-lite) | Deals: stage, value, next step and date, last contact, real deadline |
 | client records | Clients | Who you serve: status, services, renewal dates (related to Pipeline) |
 | `logs/decision-log.md` | Decision Log | Judgement calls: decision, why, reversible, flagged |
 | `logs/activity-log.md` | Activity Log | Actions: department, skill, tier, status, time saved |
 | brand and content assets | Asset Library | Files and links with type, channel, usage rights |
 | SOPs and process docs | SOP Library | SOPs with status, owner, converted-to-skill flag |
-| `memory/contracts-register.md` (Finance & Legal) | Contracts & Renewals | Contracts, insurances, licences: value, dates, notice period, auto-renew |
+| `finance-legal-os/memory/contracts-register.md` (Finance & Legal) | Contracts & Renewals | Contracts, insurances, licences: value, dates, notice period, auto-renew |
 
 - **Reads:** the files above, `memory/notion-brain-map.md` if it exists (re-runs are updates, not rebuilds), the member's Notion (their own connection).
 - **Writes (approval-gated):** the Notion databases above, `memory/notion-brain-map.md`, backups of migrated files, a setup entry in the Decision Log.

@@ -74,7 +74,7 @@ Specific to this skill's failure modes: never auto-send a first reply unless the
 
 ## 9. Inputs and memory
 
-- **Reads:** `memory/business-context.md` (the founder, professional, or household variant, whichever the member built): the offer, voice, channels, booking link, quiet hours, any overridable thresholds, and which channels are at send level; `memory/prospect-insights.md` for anything already known about this person or this kind of enquiry; `memory/sales-pipeline.md` or the connected CRM to check for an existing record before greeting them as new; the enquiry text itself; `memory/sales-settings.md` (this department's own settings: pricing model, deal size, sales cycle, buying group, anti-persona, and tools).
+- **Reads:** `memory/business-context.md` (the founder, professional, or household variant, whichever the member built): the offer, voice, channels, booking link, quiet hours, any overridable thresholds, and which channels are at send level; `sales-os/memory/prospect-insights.md` for anything already known about this person or this kind of enquiry; `sales-os/memory/sales-pipeline.md` or the connected CRM to check for an existing record before greeting them as new; the enquiry text itself; `sales-os/memory/sales-settings.md` (this department's own settings: pricing model, deal size, sales cycle, buying group, anti-persona, and tools).
 - **Writes:** `logs/activity-log.md` (the enquiry noticed and the reply drafted), `logs/decision-log.md` (any flagged call: an unverified fact, a fit concern, a timing or price decision held for review), and the reply draft itself for the member to approve and send.
 
 Never read "any relevant context". Read the named files above.
