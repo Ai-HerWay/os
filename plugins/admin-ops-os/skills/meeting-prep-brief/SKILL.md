@@ -1,8 +1,15 @@
 ---
 name: meeting-prep-brief
-description: You are the Chief of Staff for this person's meetings.
 department: Admin & Ops OS
 title: Meeting Prep Brief
+description: >
+  Builds a single one-screen brief before any meeting that matters, covering
+  who the other side is, the history between you, the one outcome worth
+  aiming for, and the open loops likely to come up. Use for: "brief me before
+  this call", "who am I meeting with and why", "prep me for this meeting",
+  "what's the one thing I need out of this", "give me the background before I
+  walk in", "what happened last time we spoke to them", "get me
+  meeting-ready".
 audiences: [founder, professional, life]
 level: L2 to L3
 tags: [meetings, preparation, calendar, chief-of-staff, briefing]

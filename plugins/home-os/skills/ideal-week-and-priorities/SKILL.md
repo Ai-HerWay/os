@@ -1,8 +1,9 @@
 ---
 name: ideal-week-and-priorities
-description: Design your ideal week and protect time for what matters before everything else fills it.
 department: Household OS
 title: Ideal Week & Priorities
+description: >
+  Helps the family design an ideal week, protect time for what genuinely matters, set goals worth keeping, and guard those priorities against the daily churn of school runs, work and admin. Use for: "plan our ideal week", "protect time for family dinner", "set goals for the family this term", "stop the week from getting swallowed by admin", "build in proper downtime", "what should we prioritise this week", "guard our Sunday from getting booked out", "design a week that actually works for us".
 audiences: [life]
 level: L1 to L3
 tags: [planning, priorities, family, recovery, mental-load]

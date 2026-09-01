@@ -1,8 +1,14 @@
 ---
 name: daily-brief
-description: Start the day decided, not reactive. One screen: calendar, inbox, tasks, escalations.
 department: Admin & Ops OS
 title: Daily Brief
+description: >
+  Pulls together everything that landed overnight (calendar, inbox, tasks,
+  deadlines, open escalations) into one short, one-screen brief that says
+  exactly what today needs from you. Use for: "give me my daily brief", "what
+  does today look like", "run my morning brief", "what needs my attention
+  today", "start of day summary", "what's on today and what actually
+  matters", "give me my morning rundown".
 audiences: [founder, professional, life]
 level: L2 to L3
 tags: [brief, routine, morning, prioritisation, planning]

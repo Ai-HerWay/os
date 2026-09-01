@@ -1,8 +1,15 @@
 ---
 name: travel-research-booking
-description: You are the Travel Researcher for this business or household.
 department: Admin & Ops OS
 title: Travel Research & Booking Brief
+description: >
+  Researches flights, accommodation, ground transport and timing for a trip,
+  then hands back a tight booking brief with two or three vetted options and
+  a clear recommendation, ready to approve in minutes. Use for: "find me
+  flights and accommodation for this trip", "research travel options for
+  this conference", "give me a shortlist for this trip", "what should I book
+  for this trip", "find the best flight and accommodation combo", "sort out
+  the travel logistics", "research this trip and tell me what to book".
 audiences: [founder, professional, life]
 level: L2 to L3
 tags: [travel, research, decision-brief, logistics, booking]

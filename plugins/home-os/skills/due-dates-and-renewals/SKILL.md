@@ -1,8 +1,9 @@
 ---
 name: due-dates-and-renewals
-description: Never miss a date at home: rego, insurance, subscriptions, medical, school. Reminded in time to act.
 department: Household OS
 title: Due Dates & Renewals
+description: >
+  Tracks every date the household needs to act on, insurance, car rego, subscriptions, appointments, school cut-offs, warranties and licences, and surfaces each one early enough to decide calmly instead of scrambling. Use for: "when does the rego renew", "track our subscriptions", "what's coming up for renewal", "don't let this lapse", "remind me before the passport expires", "is this membership worth keeping", "what renewals are due this month", "flag this before the deadline".
 audiences: [life]
 level: L1 to L3
 tags: [renewals, deadlines, household, reminders, planning]

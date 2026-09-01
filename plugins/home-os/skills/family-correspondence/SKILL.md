@@ -1,8 +1,9 @@
 ---
 name: family-correspondence
-description: Draft the routine messages, RSVPs, thank-yous, school notes, in your voice.
 department: Household OS
 title: Family Correspondence
+description: >
+  Drafts the routine outgoing messages that keep a family's outside relationships running, RSVPs, thank-yous, school replies, notices to a coach or neighbour, in the family member's own voice, then hands each draft back for approval before it is sent. Use for: "reply to this party invite", "draft a thank-you to grandma", "write back to the teacher", "RSVP to this for us", "answer this school form", "draft a reply to the coach", "help me word this message", "respond to this without me starting from scratch".
 audiences: [life]
 level: L1 to L3
 tags: [correspondence, mental-load, school, rsvp, voice]

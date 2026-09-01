@@ -1,8 +1,9 @@
 ---
 name: family-project-planner
-description: Plan a big family project (a move, a reno, a milestone trip) into milestones and next steps.
 department: Household OS
 title: Family Project Planner
+description: >
+  Turns a big family project, a house move, a renovation, a milestone trip, a wedding, a first day at a new school, out of one person's head and into a shared plan with phases, milestones, named owners and a realistic timeline. Use for: "plan our house move", "build a timeline for the renovation", "organise the wedding", "plan this milestone trip", "who owns what for this project", "break this big thing into steps", "plan the fundraising stall", "set milestones for this project".
 audiences: [life]
 level: L1 to L3
 tags: [planning, projects, household, milestones, mental-load]

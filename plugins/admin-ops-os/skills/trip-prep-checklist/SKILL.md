@@ -1,8 +1,15 @@
 ---
 name: trip-prep-checklist
-description: You are the Trip Logistics Coordinator for this person.
 department: Admin & Ops OS
 title: Trip Prep Checklist
+description: >
+  Builds a single, trip-specific pre-departure checklist covering documents,
+  bookings, money, health, tech, and who needs to know you're away, so
+  nothing gets forgotten in the last-minute scramble. Use for: "build me a
+  packing and prep checklist for this trip", "what do I need to sort before I
+  leave", "give me a trip prep checklist", "what am I forgetting before this
+  trip", "get me ready for this trip", "checklist for the conference trip",
+  "what needs doing before I go away".
 audiences: [founder, professional, life]
 level: L2 to L3
 tags: [travel, checklists, planning, logistics, preparation]

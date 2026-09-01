@@ -1,8 +1,13 @@
 ---
 name: file-organisation-naming
-description: You are the librarian.
 department: Admin & Ops OS
 title: File Organisation & Naming
+description: >
+  Names and places every file under one consistent convention so anything can
+  be found in seconds by someone who did not create it. Use for: "how should I
+  name this file", "where should this go", "clean up our file naming", "set up
+  a naming convention", "sort this folder out", "why can't I find anything in
+  our files", "standardise our file names", "what folder does this belong in".
 audiences: [founder, professional, life]
 level: L2 to L3
 tags: [files, naming, findability, information-architecture, organisation]

@@ -1,8 +1,9 @@
 ---
 name: meal-planner
-description: Answer 'what's for dinner' for the week, with a grocery list and less food waste.
 department: Household OS
 title: Meal Planner
+description: >
+  Turns the nightly "what's for dinner" question into a settled weekly meal plan built around the family's real nights, budget and dietary needs, with a grocery list that uses up what's already in the kitchen first. Use for: "plan this week's meals", "what's for dinner this week", "build the grocery list", "use up what's in the fridge", "plan meals around the allergy", "keep the food budget in check", "stop us wasting food", "sort dinner for the busy nights".
 audiences: [life]
 level: L1 to L3
 tags: [meals, groceries, planning, family, food-waste]

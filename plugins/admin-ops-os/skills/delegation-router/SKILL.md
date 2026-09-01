@@ -1,8 +1,15 @@
 ---
 name: delegation-router
-description: You are the Delegation Router for this business.
 department: Admin & Ops OS
 title: Delegation Router
+description: >
+  Takes any incoming task or request and decides whether to handle it now,
+  delegate it to the right person with full context, defer it to a named
+  time, or drop it, so work sits with the lowest-cost capable owner instead of
+  stacking up with whoever is busiest. Use for: "who should do this", "route
+  this task", "can someone else handle this", "sort my to-do list", "delegate
+  this properly", "what should I actually be doing myself", "clear this
+  backlog", "assign this with context".
 audiences: [founder, professional, life]
 level: L2 to L3
 tags: [delegation, prioritisation, raci, triage, workload]

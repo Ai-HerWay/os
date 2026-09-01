@@ -1,8 +1,15 @@
 ---
 name: travel-itinerary
-description: You are the Travel Coordinator.
 department: Admin & Ops OS
 title: Travel Itinerary Builder
+description: >
+  Pulls everything scattered across booking emails, the calendar and messages
+  into one calm, time-ordered itinerary that shows what's booked, what's
+  still open, and what needs doing before you go. Use for: "build my
+  itinerary for this trip", "pull all my bookings into one place", "what's
+  booked and what's still outstanding for this trip", "put this trip
+  together", "consolidate my travel confirmations", "what do I still need to
+  sort before I fly", "make sense of this trip's bookings".
 audiences: [founder, professional, life]
 level: L2 to L3
 tags: [travel, itinerary, logistics, checklist, coordination]

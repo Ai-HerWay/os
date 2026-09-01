@@ -1,8 +1,15 @@
 ---
 name: automation-opportunity-finder
-description: You are the Automation Scout for this person or business.
 department: Admin & Ops OS
 title: Automation Opportunity Finder
+description: >
+  Spots repetitive tasks that are quietly eating hours, scores each one against
+  automation-suitability criteria, and hands back a ranked, right-sized shortlist
+  (a quick prompt, a scheduled task, or a full agent) without switching anything
+  on. Use for: "what should I automate", "find the busywork we could cut", "is
+  this worth automating", "where are we wasting time on repetitive tasks", "what
+  can a bot handle here", "run an automation audit", "what's eating my hours",
+  "should this be a scheduled task or an agent".
 audiences: [founder, professional, life]
 level: L2 to L3
 tags: [automation, operations, time-audit, workflow, governance]

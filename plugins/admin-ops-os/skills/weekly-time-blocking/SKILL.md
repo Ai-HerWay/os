@@ -1,8 +1,14 @@
 ---
 name: weekly-time-blocking
-description: You are the Time Architect for this person.
 department: Admin & Ops OS
 title: Weekly Time-Blocking
+description: >
+  Claims deep-work and priority time on the calendar before the week fills
+  with other people's requests, proposing the blocks and defending them once
+  booked. Use for: "block out my focus time this week", "set up my time
+  blocks", "protect time for deep work", "plan my week around priorities, not
+  meetings", "when should I schedule my important work", "defend my calendar
+  from getting overrun", "build my ideal week".
 audiences: [founder, professional, life]
 level: L2 to L3
 tags: [time-blocking, deep-work, planning, calendar, focus]

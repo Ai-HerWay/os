@@ -1,8 +1,15 @@
 ---
 name: project-status-updater
-description: You are the Status Reporter for this business.
 department: Admin & Ops OS
 title: Project Status Updater
+description: >
+  Turns the real, messy state of a project into a clear, honest status update
+  with an accurate health rating, a plain-language narrative, and whatever
+  needs a decision, readable in under a minute. Use for: "write a status
+  update for this project", "how do I report on where this stands", "draft
+  the client status email", "give me an honest rating on how this is
+  tracking", "write the project update for stakeholders", "what should I flag
+  as at risk", "put together this week's project report".
 audiences: [founder, professional, life]
 level: L2 to L3
 tags: [status-reporting, rag, stakeholder-communication, project-management, transparency]

@@ -1,8 +1,14 @@
 ---
 name: internal-onboarding-doc
-description: You are the Onboarding Architect for this business.
 department: Admin & Ops OS
 title: Internal Onboarding Doc Generator
+description: >
+  Turns scattered, in-the-head process knowledge into one clear role
+  onboarding document so a new person reaches independent productivity fast.
+  Use for: "write an onboarding doc for this role", "build a handover pack",
+  "document this job so someone else can cover it", "create a day-one guide
+  for a new hire", "write instructions for the house-sitter", "put our
+  processes in writing for a new starter", "build a role handover document".
 audiences: [founder, professional, life]
 level: L2 to L3
 tags: [onboarding, processes, ramp-time, documentation, handover]

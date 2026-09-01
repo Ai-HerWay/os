@@ -1,8 +1,14 @@
 ---
 name: boundary-protector
-description: You are the Boundary Protector for this person.
 department: Admin & Ops OS
 title: Boundary Protector
+description: >
+  Guards sacred and protected time blocks against incoming requests, offering a
+  real alternative instead of handing the block over. Use for: "can you move my
+  protected time", "someone wants my focus block", "protect my calendar from
+  this request", "don't let this eat my recovery time", "they're asking for my
+  sacred block", "hold the line on this time", "find them another slot
+  instead", "is this worth breaking my boundary for".
 audiences: [founder, professional, life]
 level: L2 to L3
 tags: [boundaries, focus, calendar, recovery, governance]

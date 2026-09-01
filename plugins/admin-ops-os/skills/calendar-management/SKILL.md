@@ -1,8 +1,14 @@
 ---
 name: calendar-management
-description: Protect your time, shape the week around priorities, and keep the diary honest.
 department: Admin & Ops OS
 title: Calendar Management
+description: >
+  Owns the calendar end to end, deciding whether an incoming request earns a
+  slot, gets moved, becomes async work, or gets declined, so protected time and
+  real priorities always outrank whoever asked most recently. Use for: "manage
+  my calendar", "should this be a meeting", "find time for this", "protect my
+  focus blocks", "is my week too full", "book this in", "keep my diary
+  honest", "defend my calendar this week".
 audiences: [founder, professional, life]
 level: L2 to L3
 tags: [calendar, time-blocking, scheduling, focus, meeting-load]

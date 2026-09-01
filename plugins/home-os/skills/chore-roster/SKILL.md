@@ -1,8 +1,9 @@
 ---
 name: chore-roster
-description: Share the household load fairly and visibly, so it is not all on one person.
 department: Household OS
 title: Chore Roster
+description: >
+  Distributes the household's jobs, including the invisible planning and remembering, fairly across everyone who lives there, then rotates them so the load never quietly settles on one person. Use when you want to: "set up a chore roster", "who's doing what around the house", "split the housework fairly", "rotate the chores", "the same person always does everything", "share the mental load", "build a fair roster for the kids", "who's on bins this week".
 audiences: [life]
 level: L1 to L3
 tags: [household, fairness, mental-load, family, routine]

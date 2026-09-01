@@ -1,8 +1,9 @@
 ---
 name: family-travel-itinerary
-description: Turn scattered booking confirmations into one clear trip plan and packing checklist.
 department: Household OS
 title: Family Travel Itinerary
+description: >
+  Turns a family trip scattered across confirmation emails and one person's memory into a single day-by-day itinerary, a packing list per person, and a pre-departure checklist for the home, pets and documents. Use for: "build our trip itinerary", "make a packing list for the kids", "what do we need to sort before we leave", "plan our holiday day by day", "did we forget anything before the flight", "pack for this trip", "checklist before we go away", "organise our travel bookings into one place".
 audiences: [life]
 level: L1 to L3
 tags: [travel, packing, checklist, family, planning]

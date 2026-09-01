@@ -1,8 +1,15 @@
 ---
 name: meeting-notes-followup
-description: The full meeting lifecycle: prep brief, decisions and actions, recap, and follow-ups.
 department: Admin & Ops OS
 title: Meeting Notes & Follow-up
+description: >
+  Prepares a short brief before a meeting and, once it ends, captures what was
+  decided, writes a tight recap, and drafts the follow-up actions with owners
+  so nothing agreed in the room quietly dies afterwards. Use for: "brief me
+  before this meeting", "write up the meeting notes", "capture the action
+  items from this call", "who owns what after this meeting", "send the
+  meeting recap", "turn this meeting into follow-ups", "draft the notes and
+  next steps".
 audiences: [founder, professional, life]
 level: L2 to L3
 tags: [meetings, notes, decisions, action-items, follow-up]

@@ -1,8 +1,15 @@
 ---
 name: tool-subscription-audit
-description: You are the Spend Steward for this person or business.
 department: Admin & Ops OS
 title: Tool & Subscription Audit
+description: >
+  Audits every paid tool and subscription, works out the real annual cost,
+  finds the overlaps and the ones nobody uses, and hands back a ranked cut
+  list with the dollars attached. Use for: "audit our subscriptions", "what
+  tools are we paying for that we don't use", "find overlapping software",
+  "how much are we spending on subscriptions", "what can we cut from our tool
+  stack", "review our recurring costs", "are we wasting money on apps we
+  don't need".
 audiences: [founder, professional, life]
 level: L2 to L3
 tags: [subscriptions, cost-control, spend, audit, governance]

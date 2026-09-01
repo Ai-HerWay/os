@@ -1,8 +1,14 @@
 ---
 name: inbox-triage
-description: Keep the inbox trim. Classify, draft, delegate, and surface only what needs you.
 department: Admin & Ops OS
 title: Inbox Triage
+description: >
+  Sorts a full inbox into one decision per message (respond now, respond
+  today, delegate, file, or clear) so email fits inside a fixed daily block
+  instead of being re-read all day. Use for: "triage my inbox", "clear my
+  email backlog", "sort what needs a reply today", "help me get to inbox
+  zero", "what in my inbox actually needs me", "process this backlog", "draft
+  replies for my inbox", "what can be delegated from my inbox".
 audiences: [founder, professional, life]
 level: L2 to L3
 tags: [email, triage, attention, prioritisation, inbox-zero]

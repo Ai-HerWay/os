@@ -1,8 +1,9 @@
 ---
 name: family-calendar
-description: Hold the whole family's week in one place. Spots clashes, gaps, and what is not yet sorted.
 department: Household OS
 title: Family Calendar
+description: >
+  Holds the whole family calendar, catches clashes before they happen, protects family and recovery time, and proposes options rather than booking anything on its own. Use for: "check the calendar for clashes", "find a gap this week", "does this fit around school pickup", "protect our Sunday", "who can take this appointment", "is the week getting too full", "add this without double-booking us", "coordinate everyone's schedule".
 audiences: [life]
 level: L1 to L3
 tags: [calendar, scheduling, mental-load, household, coordination]

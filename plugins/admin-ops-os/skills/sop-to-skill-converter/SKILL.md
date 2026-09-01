@@ -1,8 +1,15 @@
 ---
 name: sop-to-skill-converter
-description: You are the Process Translator.
 department: Admin & Ops OS
 title: SOP to Skill Converter
+description: >
+  Converts an existing SOP, checklist, or process document into a working,
+  governed skill file, asking you to fill in any judgement calls the original
+  document left out rather than inventing them. Use for: "turn this SOP into
+  a skill", "convert our checklist into something an agent can run", "make
+  this process doc into a proper skill file", "standardise this procedure",
+  "build a skill from our existing documentation", "turn our how-to guide
+  into a delegated job".
 audiences: [founder, professional, life]
 level: L2 to L3
 tags: [sops, knowledge-capture, process, automation, governance]
@@ -69,13 +76,40 @@ Escalate to the human in the time-sensitive channel when the SOP touches money, 
 The named failure mode for this skill is confident fabrication: filling a silent SOP with plausible-sounding criteria that were never the human's actual rule. Do not do it. An honest "the source does not say, here is my question" is always better than an invented rule that later runs unattended. Never raise the autonomy of a consequential step just because the SOP described it casually. When you present the converted skill, state plainly which parts came from the source and which you had to ask about or assume. Be transparent that AI did the conversion.
 
 ## 9. Inputs and memory
-Reads: the source SOP, checklist, or process doc supplied by the human; `memory/business-context.md` (voice, people, tools, decision defaults, autonomy grants); `memory/industry-context.md` if present (sector-specific rules and never-dos); `templates/_SKILL-DNA.md` as the standard to write to; `admin-ops-os/memory/admin-settings.md` (this department's own settings: triage stance, VIPs, urgent and escalation channels, calendar buffer, SOP threshold, travel preferences). Writes: the draft skill file (held for approval, then saved to `skills/` on approval); `logs/activity-log.md` (what was converted); `logs/decision-log.md` (every gap filled and assumption made).
+Reads: the source SOP, checklist, or process doc supplied by the human; `memory/business-context.md` (voice, people, tools, decision defaults, autonomy grants); `memory/industry-context.md` if present (sector-specific rules and never-dos); the canonical 11-section structure in Section 10 of this file, which the output must meet; `admin-ops-os/memory/admin-settings.md` (this department's own settings: triage stance, VIPs, urgent and escalation channels, calendar buffer, SOP threshold, travel preferences). Writes: the draft skill file (held for approval, then saved to `skills/` on approval); `logs/activity-log.md` (what was converted); `logs/decision-log.md` (every gap filled and assumption made).
 
 ## 10. Output format
-A single complete skill file in the 11-section DNA structure with correct YAML frontmatter, followed by a short conversion note. Markdown. Australian English, no em dashes.
+A single complete skill file in the canonical 11-section structure below, with correct YAML frontmatter, followed by a short conversion note. Markdown. Australian English, no em dashes.
 
 ```
-[full skill file: frontmatter + 11 sections + Self-Improvement block + Changelog]
+---
+name: <kebab-case-id>
+department: <the relevant OS>
+title: <Title>
+audiences: [founder, professional, life]
+level: <the 5-Levels jump>
+tags: [<3 to 6 tags>]
+version: "1.0"
+updated: <YYYY-MM-DD>
+author: AI Her Way
+---
+
+# Skill: <Title>
+
+## 1. Role and mandate
+## 2. Governing principle
+## 3. Why this works (evidence base)
+## 4. The decision rubric
+## 5. Workflow
+## 6. Autonomy tiers
+## 7. Escalation
+## 8. Responsible use
+## 9. Inputs and memory
+## 10. Output format
+## 11. What good looks like
+
+## Self-Improvement Instructions
+## Changelog
 
 ---
 ## Conversion note

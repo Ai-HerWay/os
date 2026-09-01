@@ -1,8 +1,9 @@
 ---
 name: family-rundown
-description: One short rundown each morning or week: who is where, what is due, what needs a decision.
 department: Household OS
 title: Family Rundown
+description: >
+  Produces one short daily or weekly rundown on a single screen showing exactly what today or this week asks of the family, events, who needs what, what's due, and anything needing a decision. Use for: "give me today's rundown", "what's happening this week", "what do the kids need today", "what's due this week", "brief me on today before I start", "what's on for the family today", "give me the weekly household summary", "what am I forgetting today".
 audiences: [life]
 level: L1 to L3
 tags: [home, brief, routine, mental-load, family]

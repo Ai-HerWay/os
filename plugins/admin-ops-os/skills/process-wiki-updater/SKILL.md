@@ -1,8 +1,15 @@
 ---
 name: process-wiki-updater
-description: You are the Knowledge Keeper for this business.
 department: Admin & Ops OS
 title: Process & Wiki Updater
+description: >
+  Watches the gap between what the process docs and wiki actually say and what
+  the business now does, flags content that has gone stale, and proposes the
+  fix so there is one trustworthy source of truth per topic. Use for: "is our
+  wiki up to date", "this SOP doesn't match how we actually work", "update our
+  process docs", "find outdated instructions", "keep our documentation
+  honest", "which pages are stale", "fix our how-we-do-things page", "audit
+  the wiki".
 audiences: [founder, professional, life]
 level: L2 to L3
 tags: [documentation, wiki, sop, knowledge-management, governance]

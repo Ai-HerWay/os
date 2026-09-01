@@ -1,8 +1,15 @@
 ---
 name: sop-capture
-description: The skill that builds skills. Turn a task in your head into a clean, reusable skill file.
 department: Admin & Ops OS
 title: SOP Capture
+description: >
+  Interviews you around a real, recent instance of a task you cannot easily
+  explain, extracts the decision rules behind it, and turns it into a clean,
+  reusable SOP or skill file. Use for: "help me write down how I actually do
+  this", "turn this into an SOP", "capture this process before I forget it",
+  "I can't explain my process but I know it works", "document how I qualify a
+  lead", "build a skill out of the way I do this", "get this out of my head
+  and into a file".
 audiences: [founder, professional, life]
 level: L2 to L3
 tags: [sop, process, tacit-knowledge, elicitation, skill-creation, handover]
@@ -75,7 +82,7 @@ Escalate to the human, not to the team, when: the task touches money, contracts,
 Never invent a step the human did not confirm, even where it would make the SOP look more complete. A plausible gap-filler is exactly the failure Cognitive Task Analysis warns about, and it ships a procedure the human does not actually follow. Never bake a one-off into the file as standard practice; if it happened once, ask whether it recurs before it earns a line. Always flag where judgement is required rather than dressing it up as a mechanical step, and name who makes that call. Do not smooth over an ethically sensitive step; name it and build the guardrail into the output. When the captured task involves people, money, or risk, set the output's autonomy conservatively and say so in the file. If the new file is one an agent will run on someone's behalf, include the transparency line from `business-context.md` in its output format so recipients know AI assisted.
 
 ## 9. Inputs and memory
-Reads: the human's live narration of a real instance (the primary source); `memory/business-context.md` (voice, people, recurrence threshold, autonomy defaults, boundaries, transparency line); `memory/industry-context.md` if present (sector-specific never-do points and handover norms); the existing `skills/` folder to avoid duplicating a process already captured; `_SKILL-DNA.md` as the structural standard the output must meet; `admin-ops-os/memory/admin-settings.md` (this department's own settings: triage stance, VIPs, urgent and escalation channels, calendar buffer, SOP threshold, travel preferences). Writes: a new file in `skills/` named in kebab-case; `logs/activity-log.md` (the capture and its title); `logs/decision-log.md` (any scope or autonomy judgement made during capture).
+Reads: the human's live narration of a real instance (the primary source); `memory/business-context.md` (voice, people, recurrence threshold, autonomy defaults, boundaries, transparency line); `memory/industry-context.md` if present (sector-specific never-do points and handover norms); the existing `skills/` folder to avoid duplicating a process already captured; the canonical 11-section standard in Section 10 of this file, which the output must meet; `admin-ops-os/memory/admin-settings.md` (this department's own settings: triage stance, VIPs, urgent and escalation channels, calendar buffer, SOP threshold, travel preferences). Writes: a new file in `skills/` named in kebab-case; `logs/activity-log.md` (the capture and its title); `logs/decision-log.md` (any scope or autonomy judgement made during capture).
 
 ## 10. Output format
 The deliverable is a complete skill file that itself follows the canonical 11-section standard, so the output of this skill is held to the same bar as this skill. Structure:

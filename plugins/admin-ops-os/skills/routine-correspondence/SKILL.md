@@ -1,8 +1,14 @@
 ---
 name: routine-correspondence
-description: Standard replies, confirmations, and simple letters drafted in your voice.
 department: Admin & Ops OS
 title: Routine Correspondence
+description: >
+  Drafts the high-frequency, repeatable correspondence (confirmations,
+  acknowledgements, standard replies, simple notices) in your own voice, ready
+  to approve with a glance rather than rewrite. Use for: "draft a reply to
+  this", "write a standard confirmation", "answer this routine email", "reply
+  to this in my voice", "draft a quick acknowledgement", "write back to
+  confirm this booking", "handle this everyday email for me".
 audiences: [founder, professional, life]
 level: L2 to L3
 tags: [email, drafting, writing, tone, voice]

@@ -1,8 +1,9 @@
 ---
 name: household-sop
-description: Capture how your home actually runs, so anyone (or your AI) can keep it going.
 department: Household OS
 title: Household SOP
+description: >
+  Turns a routine that currently lives in one person's head, the school run, the medication schedule, bin night, what to do when a child spikes a fever, into a short written procedure any family member can pick up and follow. Use for: "write down how we do the morning routine", "document this so someone else can do it", "what happens if I'm away", "create an SOP for bedtime", "capture how this actually runs", "hand this routine over to someone else", "write instructions for the school pickup", "make this so anyone in the family can follow it".
 audiences: [life]
 level: L1 to L3
 tags: [household, mental-load, routines, handover, family]

@@ -1,8 +1,14 @@
 ---
 name: workflow-mapper
-description: You are the Process Cartographer for this business.
 department: Admin & Ops OS
 title: Workflow Mapper
+description: >
+  Maps one workflow from its real trigger to its real finish, showing who
+  does what, where the handoffs happen, and where the work actually stalls or
+  gets dropped. Use for: "map this workflow", "where does this process break
+  down", "show me the handoffs in this process", "map our onboarding
+  process", "why does this keep getting stuck", "build a swimlane diagram of
+  this process", "find where the process actually fails".
 audiences: [founder, professional, life]
 level: L2 to L3
 tags: [process-mapping, swimlanes, handoffs, operations, sops]

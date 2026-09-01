@@ -1,8 +1,15 @@
 ---
 name: deadline-renewal-tracking
-description: Never miss a date. Renewals, licences, and compliance, surfaced early with lead time.
 department: Admin & Ops OS
 title: Deadline & Renewal Tracking
+description: >
+  Maintains a single register of every date that matters (renewals, compliance
+  deadlines, warranties, memberships) and surfaces each one with enough lead
+  time and a named owner so nothing lapses as a same-day surprise. Use for:
+  "track our renewals", "what's coming up that we could miss", "when does this
+  licence expire", "add this to the deadline tracker", "what compliance dates
+  are coming up", "don't let this subscription auto-renew without us
+  knowing", "what needs renewing this quarter".
 audiences: [founder, professional, life]
 level: L2 to L3
 tags: [deadlines, renewals, compliance, prospective-memory, reminders]

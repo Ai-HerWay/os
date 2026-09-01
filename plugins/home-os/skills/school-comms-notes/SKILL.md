@@ -1,8 +1,9 @@
 ---
 name: school-comms-notes
-description: Read everything the school sends and turn it into clear actions, dates, and reminders.
 department: Household OS
 title: School Comms & Notes
+description: >
+  Reads everything the school sends, newsletters, permission slips, term calendars, teacher emails and notes from the bag, and turns it into one clear picture of what the family has to do, by when, and who is responsible. Use for: "what does the school need from us", "check this newsletter for actions", "did we sign the permission slip", "track school due dates", "what's on the term calendar", "did we miss anything from the school app", "sort out this teacher email", "what forms are outstanding".
 audiences: [life]
 level: L1 to L3
 tags: [school, family, admin, reminders, mental-load]

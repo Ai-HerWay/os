@@ -1,8 +1,9 @@
 ---
 name: family-inbox-triage
-description: Read the family inbox so you do not have to. Sorts it, flags what needs action, drafts the replies.
 department: Household OS
 title: Family Inbox Triage
+description: >
+  Reads through the household's incoming messages, school, admin, services and family, and hands back a short list of only what genuinely needs a person today, with a reply already drafted in the family's voice where one is owed. Use for: "go through the family inbox", "what actually needs my attention today", "sort through these school emails", "triage the household inbox", "what am I missing in my inbox", "draft replies to what's urgent", "clear the backlog of admin emails", "what needs a decision today".
 audiences: [life]
 level: L1 to L3
 tags: [inbox, household, school, admin, mental-load]

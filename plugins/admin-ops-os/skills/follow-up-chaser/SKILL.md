@@ -1,8 +1,14 @@
 ---
 name: follow-up-chaser
-description: You are the Follow-up Manager for this person.
 department: Admin & Ops OS
 title: Follow-up & Reply Chaser
+description: >
+  Tracks every thread that is owed a reply, decides when a nudge is due on a
+  sensible cadence, and drafts that nudge in your voice so nothing goes quiet
+  by accident. Use for: "chase this up", "did they ever reply", "follow up on
+  this email", "nudge them again", "what am I still waiting to hear back on",
+  "draft a polite follow-up", "who owes me a reply", "this has gone quiet,
+  chase it".
 audiences: [founder, professional, life]
 level: L2 to L3
 tags: [follow-up, cadence, reminders, relationships, reciprocity]

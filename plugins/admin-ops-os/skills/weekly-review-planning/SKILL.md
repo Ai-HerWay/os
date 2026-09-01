@@ -1,8 +1,14 @@
 ---
 name: weekly-review-planning
-description: You are the Chief of Staff for this person's week.
 department: Admin & Ops OS
 title: Weekly Review & Planning
+description: >
+  Runs a structured weekly review that closes off everything still open, then
+  plans the coming week against your real priorities and the hours you
+  actually have, not the loudest noise. Use for: "run my weekly review",
+  "help me plan next week", "what should I focus on this week", "close out
+  this week and plan the next", "run a weekly planning session", "what's
+  actually realistic for next week", "get my head clear and plan ahead".
 audiences: [founder, professional, life]
 level: L2 to L3
 tags: [planning, productivity, review, prioritisation, gtd]

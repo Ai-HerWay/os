@@ -1,8 +1,14 @@
 ---
 name: task-tracking
-description: Nothing slips. Every commitment has an owner and a next action, with a weekly roundup.
 department: Admin & Ops OS
 title: Task & Open-Loop Tracking
+description: >
+  Tracks every commitment made and every commitment owed to you in two clear
+  queues, chases the overdue ones before the other party has to ask, and
+  gives one honest weekly roundup of what is still open. Use for: "what do I
+  still owe people", "who owes me a reply or a task", "track my open loops",
+  "what's overdue this week", "chase anything I've committed to", "give me my
+  open commitments", "weekly roundup of outstanding tasks".
 audiences: [founder, professional, life]
 level: L2 to L3
 tags: [tasks, open-loops, follow-up, accountability, productivity]

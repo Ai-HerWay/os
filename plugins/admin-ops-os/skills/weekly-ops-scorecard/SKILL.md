@@ -1,8 +1,15 @@
 ---
 name: weekly-ops-scorecard
-description: You are the Scorekeeper for this operation.
 department: Admin & Ops OS
 title: Weekly Ops Scorecard
+description: >
+  Maintains a simple weekly scorecard of the few numbers that actually run
+  the business, the role, or the household, comparing them to last week and
+  to target and flagging what needs a decision. Use for: "run this week's
+  scorecard", "what are our key numbers this week", "how do this week's
+  numbers compare to target", "build me a weekly metrics dashboard", "what
+  changed in our numbers this week", "give me the weekly numbers at a
+  glance", "flag anything off track this week".
 audiences: [founder, professional, life]
 level: L2 to L3
 tags: [metrics, kpis, operations, reporting, governance]
