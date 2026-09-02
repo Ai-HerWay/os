@@ -1,6 +1,6 @@
 {
   "catalogue_version": "1.0",
-  "catalogue_date": "2026-07-09",
+  "catalogue_date": "2026-08-17",
   "note": "Bundled snapshot fallback. The skill fetches the live catalogue first; this is used only if the live fetch fails.",
   "departments": [
     "Foundation",
@@ -16,10 +16,10 @@
   ],
   "skills": [
     {
-      "id": "agent-card",
-      "title": "Agent Card",
+      "id": "agent",
+      "title": "The Brain (AGENT.md)",
       "department": "Foundation",
-      "path": "foundation/agent-card.md",
+      "path": "foundation/AGENT.md",
       "tier": "starter",
       "access": "standard",
       "audiences": [
@@ -32,7 +32,7 @@
         "governance",
         "autonomy"
       ],
-      "description": "The job description for your AI: what it can do, decide, and must check first.",
+      "description": "Your Foundation's master brain file: what every department already knows, the lines that never move, and the quality gate.",
       "version": "1.0",
       "dateAdded": "2026-06-01",
       "new": false
@@ -63,7 +63,7 @@
       "title": "Governance & Safety Checklist",
       "department": "Foundation",
       "path": "foundation/governance/safety-checklist.md",
-      "tier": "connected",
+      "tier": "full-os",
       "access": "standard",
       "audiences": [
         "founder",
@@ -153,7 +153,7 @@
       "title": "Responsible AI Review",
       "department": "Foundation",
       "path": "foundation/skills/responsible-ai-review.md",
-      "tier": "connected",
+      "tier": "starter",
       "access": "standard",
       "audiences": [
         "founder",
@@ -199,7 +199,7 @@
       "title": "Content Strategy",
       "department": "Marketing OS",
       "path": "marketing/skills/content-strategy.md",
-      "tier": "connected",
+      "tier": "starter",
       "access": "standard",
       "audiences": [
         "founder",
@@ -242,7 +242,7 @@
       "title": "Campaign Strategy",
       "department": "Marketing OS",
       "path": "marketing/skills/campaign-strategy.md",
-      "tier": "connected",
+      "tier": "starter",
       "access": "standard",
       "audiences": [
         "founder",
@@ -264,7 +264,7 @@
       "title": "Content Formulas",
       "department": "Marketing OS",
       "path": "marketing/skills/content-formula.md",
-      "tier": "connected",
+      "tier": "starter",
       "access": "standard",
       "audiences": [
         "founder",
@@ -285,7 +285,7 @@
       "title": "LinkedIn Voice",
       "department": "Marketing OS",
       "path": "marketing/skills/linkedin-voice.md",
-      "tier": "connected",
+      "tier": "starter",
       "access": "standard",
       "audiences": [
         "founder",
@@ -306,7 +306,7 @@
       "title": "Instagram Strategy",
       "department": "Marketing OS",
       "path": "marketing/skills/instagram-strategy.md",
-      "tier": "connected",
+      "tier": "starter",
       "access": "standard",
       "audiences": [
         "founder"
@@ -326,7 +326,7 @@
       "title": "YouTube Strategy",
       "department": "Marketing OS",
       "path": "marketing/skills/youtube-strategy.md",
-      "tier": "connected",
+      "tier": "starter",
       "access": "standard",
       "audiences": [
         "founder",
@@ -348,7 +348,7 @@
       "title": "TikTok Strategy",
       "department": "Marketing OS",
       "path": "marketing/skills/tiktok-strategy.md",
-      "tier": "connected",
+      "tier": "starter",
       "access": "standard",
       "audiences": [
         "founder",
@@ -370,7 +370,7 @@
       "title": "Carousel Format",
       "department": "Marketing OS",
       "path": "marketing/skills/carousel-format.md",
-      "tier": "connected",
+      "tier": "starter",
       "access": "standard",
       "audiences": [
         "founder"
@@ -390,7 +390,7 @@
       "title": "Blog SEO Guide",
       "department": "Marketing OS",
       "path": "marketing/skills/blog-seo-guide.md",
-      "tier": "connected",
+      "tier": "starter",
       "access": "standard",
       "audiences": [
         "founder",
@@ -411,7 +411,7 @@
       "title": "Email Marketing",
       "department": "Marketing OS",
       "path": "marketing/skills/email-marketing.md",
-      "tier": "connected",
+      "tier": "starter",
       "access": "standard",
       "audiences": [
         "founder",
@@ -431,7 +431,7 @@
       "title": "Email Sequences",
       "department": "Marketing OS",
       "path": "marketing/skills/email-sequences.md",
-      "tier": "connected",
+      "tier": "starter",
       "access": "pro",
       "audiences": [
         "founder"
@@ -451,7 +451,7 @@
       "title": "Newsletter Format",
       "department": "Marketing OS",
       "path": "marketing/skills/newsletter-format.md",
-      "tier": "connected",
+      "tier": "starter",
       "access": "standard",
       "audiences": [
         "founder",
@@ -471,7 +471,7 @@
       "title": "Newsletter to Social",
       "department": "Marketing OS",
       "path": "marketing/skills/newsletter-to-social.md",
-      "tier": "connected",
+      "tier": "starter",
       "access": "standard",
       "audiences": [
         "founder"
@@ -491,7 +491,7 @@
       "title": "DM Conversation Scripts",
       "department": "Marketing OS",
       "path": "marketing/skills/dm-conversation-scripts.md",
-      "tier": "connected",
+      "tier": "starter",
       "access": "pro",
       "audiences": [
         "founder"
@@ -511,7 +511,7 @@
       "title": "Video Scripts",
       "department": "Marketing OS",
       "path": "marketing/skills/video-scripts.md",
-      "tier": "connected",
+      "tier": "starter",
       "access": "pro",
       "audiences": [
         "founder"
@@ -531,7 +531,7 @@
       "title": "Sales Page Copy",
       "department": "Marketing OS",
       "path": "marketing/skills/sales-page-copy.md",
-      "tier": "full-os",
+      "tier": "starter",
       "access": "pro",
       "audiences": [
         "founder"
@@ -551,7 +551,7 @@
       "title": "Platform Playbook",
       "department": "Marketing OS",
       "path": "marketing/skills/platform-playbook.md",
-      "tier": "connected",
+      "tier": "starter",
       "access": "standard",
       "audiences": [
         "founder"
@@ -571,7 +571,7 @@
       "title": "Carousel Designer",
       "department": "Marketing OS",
       "path": "marketing/skills/carousel-designer.md",
-      "tier": "full-os",
+      "tier": "starter",
       "access": "standard",
       "audiences": [
         "founder",
@@ -593,7 +593,7 @@
       "title": "Brand Image Generator",
       "department": "Marketing OS",
       "path": "marketing/skills/brand-image-generator.md",
-      "tier": "full-os",
+      "tier": "starter",
       "access": "standard",
       "audiences": [
         "founder",
@@ -615,7 +615,7 @@
       "title": "Reel Producer",
       "department": "Marketing OS",
       "path": "marketing/skills/reel-producer.md",
-      "tier": "full-os",
+      "tier": "starter",
       "access": "standard",
       "audiences": [
         "founder",
@@ -637,7 +637,7 @@
       "title": "Post Packager",
       "department": "Marketing OS",
       "path": "marketing/skills/post-packager.md",
-      "tier": "full-os",
+      "tier": "starter",
       "access": "standard",
       "audiences": [
         "founder",
@@ -659,7 +659,7 @@
       "title": "Content Scheduler",
       "department": "Marketing OS",
       "path": "marketing/skills/content-scheduler.md",
-      "tier": "full-os",
+      "tier": "starter",
       "access": "standard",
       "audiences": [
         "founder",
@@ -681,7 +681,7 @@
       "title": "Content Repurposer",
       "department": "Marketing OS",
       "path": "marketing/skills/content-repurposer.md",
-      "tier": "full-os",
+      "tier": "starter",
       "access": "standard",
       "audiences": [
         "founder",
@@ -703,7 +703,7 @@
       "title": "Automation Opportunity Finder",
       "department": "Admin & Ops OS",
       "path": "admin-ops/skills/automation-opportunity-finder.md",
-      "tier": "full-os",
+      "tier": "starter",
       "access": "standard",
       "audiences": [
         "founder",
@@ -726,7 +726,7 @@
       "title": "Bottleneck & Inefficiency Spotter",
       "department": "Admin & Ops OS",
       "path": "admin-ops/skills/bottleneck-spotter.md",
-      "tier": "full-os",
+      "tier": "starter",
       "access": "standard",
       "audiences": [
         "founder",
@@ -749,7 +749,7 @@
       "title": "Boundary Protector",
       "department": "Admin & Ops OS",
       "path": "admin-ops/skills/boundary-protector.md",
-      "tier": "full-os",
+      "tier": "starter",
       "access": "standard",
       "audiences": [
         "founder",
@@ -793,7 +793,7 @@
       "title": "Daily Brief",
       "department": "Admin & Ops OS",
       "path": "admin-ops/skills/daily-brief.md",
-      "tier": "connected",
+      "tier": "starter",
       "access": "standard",
       "audiences": [
         "founder",
@@ -814,7 +814,7 @@
       "title": "Data Entry & Record Updater",
       "department": "Admin & Ops OS",
       "path": "admin-ops/skills/data-entry-record-updater.md",
-      "tier": "full-os",
+      "tier": "starter",
       "access": "standard",
       "audiences": [
         "founder",
@@ -837,7 +837,7 @@
       "title": "Deadline & Renewal Tracking",
       "department": "Admin & Ops OS",
       "path": "admin-ops/skills/deadline-renewal-tracking.md",
-      "tier": "connected",
+      "tier": "starter",
       "access": "standard",
       "audiences": [
         "founder",
@@ -858,7 +858,7 @@
       "title": "Decision Log Keeper",
       "department": "Admin & Ops OS",
       "path": "admin-ops/skills/decision-log-keeper.md",
-      "tier": "full-os",
+      "tier": "starter",
       "access": "standard",
       "audiences": [
         "founder",
@@ -881,7 +881,7 @@
       "title": "Delegation Router",
       "department": "Admin & Ops OS",
       "path": "admin-ops/skills/delegation-router.md",
-      "tier": "full-os",
+      "tier": "starter",
       "access": "standard",
       "audiences": [
         "founder",
@@ -904,7 +904,7 @@
       "title": "Document Formatter & Templater",
       "department": "Admin & Ops OS",
       "path": "admin-ops/skills/document-formatter-templater.md",
-      "tier": "full-os",
+      "tier": "starter",
       "access": "standard",
       "audiences": [
         "founder",
@@ -927,7 +927,7 @@
       "title": "File Organisation & Naming",
       "department": "Admin & Ops OS",
       "path": "admin-ops/skills/file-organisation-naming.md",
-      "tier": "full-os",
+      "tier": "starter",
       "access": "standard",
       "audiences": [
         "founder",
@@ -950,7 +950,7 @@
       "title": "Follow-up & Reply Chaser",
       "department": "Admin & Ops OS",
       "path": "admin-ops/skills/follow-up-chaser.md",
-      "tier": "full-os",
+      "tier": "starter",
       "access": "standard",
       "audiences": [
         "founder",
@@ -994,7 +994,7 @@
       "title": "Internal Onboarding Doc Generator",
       "department": "Admin & Ops OS",
       "path": "admin-ops/skills/internal-onboarding-doc.md",
-      "tier": "full-os",
+      "tier": "starter",
       "access": "standard",
       "audiences": [
         "founder",
@@ -1017,7 +1017,7 @@
       "title": "Meeting Notes & Follow-up",
       "department": "Admin & Ops OS",
       "path": "admin-ops/skills/meeting-notes-followup.md",
-      "tier": "connected",
+      "tier": "starter",
       "access": "standard",
       "audiences": [
         "founder",
@@ -1061,7 +1061,7 @@
       "title": "Meeting Request Handler",
       "department": "Admin & Ops OS",
       "path": "admin-ops/skills/meeting-request-handler.md",
-      "tier": "full-os",
+      "tier": "starter",
       "access": "standard",
       "audiences": [
         "founder",
@@ -1084,7 +1084,7 @@
       "title": "Process & Wiki Updater",
       "department": "Admin & Ops OS",
       "path": "admin-ops/skills/process-wiki-updater.md",
-      "tier": "full-os",
+      "tier": "starter",
       "access": "standard",
       "audiences": [
         "founder",
@@ -1107,7 +1107,7 @@
       "title": "Project Status Updater",
       "department": "Admin & Ops OS",
       "path": "admin-ops/skills/project-status-updater.md",
-      "tier": "full-os",
+      "tier": "starter",
       "access": "standard",
       "audiences": [
         "founder",
@@ -1130,7 +1130,7 @@
       "title": "Reschedule & Booking Handler",
       "department": "Admin & Ops OS",
       "path": "admin-ops/skills/reschedule-booking-handler.md",
-      "tier": "full-os",
+      "tier": "starter",
       "access": "standard",
       "audiences": [
         "founder",
@@ -1153,7 +1153,7 @@
       "title": "Routine Correspondence",
       "department": "Admin & Ops OS",
       "path": "admin-ops/skills/routine-correspondence.md",
-      "tier": "connected",
+      "tier": "starter",
       "access": "standard",
       "audiences": [
         "founder",
@@ -1195,7 +1195,7 @@
       "title": "SOP to Skill Converter",
       "department": "Admin & Ops OS",
       "path": "admin-ops/skills/sop-to-skill-converter.md",
-      "tier": "full-os",
+      "tier": "starter",
       "access": "standard",
       "audiences": [
         "founder",
@@ -1218,7 +1218,7 @@
       "title": "Task & Open-Loop Tracking",
       "department": "Admin & Ops OS",
       "path": "admin-ops/skills/task-tracking.md",
-      "tier": "connected",
+      "tier": "starter",
       "access": "standard",
       "audiences": [
         "founder",
@@ -1239,7 +1239,7 @@
       "title": "Tool & Subscription Audit",
       "department": "Admin & Ops OS",
       "path": "admin-ops/skills/tool-subscription-audit.md",
-      "tier": "full-os",
+      "tier": "starter",
       "access": "standard",
       "audiences": [
         "founder",
@@ -1285,7 +1285,7 @@
       "title": "Travel Research & Booking Brief",
       "department": "Admin & Ops OS",
       "path": "admin-ops/skills/travel-research-booking.md",
-      "tier": "full-os",
+      "tier": "starter",
       "access": "standard",
       "audiences": [
         "founder",
@@ -1308,7 +1308,7 @@
       "title": "Trip Prep Checklist",
       "department": "Admin & Ops OS",
       "path": "admin-ops/skills/trip-prep-checklist.md",
-      "tier": "full-os",
+      "tier": "starter",
       "access": "standard",
       "audiences": [
         "founder",
@@ -1331,7 +1331,7 @@
       "title": "Weekly Ops Scorecard",
       "department": "Admin & Ops OS",
       "path": "admin-ops/skills/weekly-ops-scorecard.md",
-      "tier": "full-os",
+      "tier": "starter",
       "access": "standard",
       "audiences": [
         "founder",
@@ -1354,7 +1354,7 @@
       "title": "Weekly Review & Planning",
       "department": "Admin & Ops OS",
       "path": "admin-ops/skills/weekly-review-planning.md",
-      "tier": "full-os",
+      "tier": "starter",
       "access": "standard",
       "audiences": [
         "founder",
@@ -1377,7 +1377,7 @@
       "title": "Weekly Time-Blocking",
       "department": "Admin & Ops OS",
       "path": "admin-ops/skills/weekly-time-blocking.md",
-      "tier": "full-os",
+      "tier": "starter",
       "access": "standard",
       "audiences": [
         "founder",
@@ -1400,7 +1400,7 @@
       "title": "Workflow Mapper",
       "department": "Admin & Ops OS",
       "path": "admin-ops/skills/workflow-mapper.md",
-      "tier": "full-os",
+      "tier": "starter",
       "access": "standard",
       "audiences": [
         "founder",
@@ -1529,7 +1529,7 @@
       "title": "Meal Planner",
       "department": "Household OS",
       "path": "household/skills/meal-planner.md",
-      "tier": "connected",
+      "tier": "starter",
       "access": "standard",
       "audiences": [
         "life"
@@ -1550,7 +1550,7 @@
       "title": "Chore Roster",
       "department": "Household OS",
       "path": "household/skills/chore-roster.md",
-      "tier": "connected",
+      "tier": "starter",
       "access": "standard",
       "audiences": [
         "life"
@@ -1571,7 +1571,7 @@
       "title": "School Comms & Notes",
       "department": "Household OS",
       "path": "household/skills/school-comms-notes.md",
-      "tier": "connected",
+      "tier": "starter",
       "access": "standard",
       "audiences": [
         "life"
@@ -1592,7 +1592,7 @@
       "title": "Family Correspondence",
       "department": "Household OS",
       "path": "household/skills/family-correspondence.md",
-      "tier": "connected",
+      "tier": "starter",
       "access": "standard",
       "audiences": [
         "life"
@@ -1613,7 +1613,7 @@
       "title": "Household SOP",
       "department": "Household OS",
       "path": "household/skills/household-sop.md",
-      "tier": "connected",
+      "tier": "starter",
       "access": "standard",
       "audiences": [
         "life"
@@ -1634,7 +1634,7 @@
       "title": "Family Project Planner",
       "department": "Household OS",
       "path": "household/skills/family-project-planner.md",
-      "tier": "full-os",
+      "tier": "starter",
       "access": "standard",
       "audiences": [
         "life"
@@ -1655,7 +1655,7 @@
       "title": "Family Travel Itinerary",
       "department": "Household OS",
       "path": "household/skills/family-travel-itinerary.md",
-      "tier": "full-os",
+      "tier": "starter",
       "access": "standard",
       "audiences": [
         "life"
@@ -1676,7 +1676,7 @@
       "title": "OS Activity Review (the cockpit)",
       "department": "Foundation",
       "path": "foundation/skills/os-activity-review.md",
-      "tier": "connected",
+      "tier": "starter",
       "access": "standard",
       "audiences": [
         "founder",
@@ -1701,7 +1701,7 @@
       "title": "OS Self-Improvement",
       "department": "Foundation",
       "path": "foundation/skills/os-self-improvement.md",
-      "tier": "connected",
+      "tier": "starter",
       "access": "standard",
       "audiences": [
         "founder",
@@ -1726,7 +1726,7 @@
       "title": "Notion Brain Setup",
       "department": "Foundation",
       "path": "foundation/skills/notion-brain-setup.md",
-      "tier": "connected",
+      "tier": "starter",
       "access": "standard",
       "audiences": [
         "founder",
@@ -1965,7 +1965,7 @@
       "title": "Re-Engage Dormant Leads",
       "department": "Sales OS",
       "path": "sales/skills/re-engage-dormant-leads.md",
-      "tier": "connected",
+      "tier": "starter",
       "access": "standard",
       "audiences": [
         "founder",
@@ -2007,7 +2007,7 @@
       "title": "Pipeline Review",
       "department": "Sales OS",
       "path": "sales/skills/pipeline-review.md",
-      "tier": "connected",
+      "tier": "starter",
       "access": "standard",
       "audiences": [
         "founder",
@@ -2029,7 +2029,7 @@
       "title": "Win-Loss Reflection",
       "department": "Sales OS",
       "path": "sales/skills/win-loss-reflection.md",
-      "tier": "connected",
+      "tier": "starter",
       "access": "standard",
       "audiences": [
         "founder",
@@ -2050,7 +2050,7 @@
       "title": "Post-Sale Handoff",
       "department": "Sales OS",
       "path": "sales/skills/post-sale-handoff.md",
-      "tier": "connected",
+      "tier": "starter",
       "access": "standard",
       "audiences": [
         "founder",
@@ -2089,11 +2089,34 @@
       "new": true
     },
     {
+      "id": "authentic-selling-playbook",
+      "title": "Authentic Selling Playbook",
+      "department": "Sales OS",
+      "path": "sales/skills/authentic-selling-playbook.md",
+      "tier": "starter",
+      "access": "standard",
+      "audiences": [
+        "founder",
+        "professional",
+        "life"
+      ],
+      "tags": [
+        "sales",
+        "psychology",
+        "conversation",
+        "authentic"
+      ],
+      "description": "The psychology of selling well: stay calm and open, keep the buyer in that state, and move through an honest conversation that helps them decide.",
+      "version": "1.0",
+      "dateAdded": "2026-07-14",
+      "new": true
+    },
+    {
       "id": "slack-teams-setup",
       "title": "Slack and Teams Setup",
       "department": "Foundation",
       "path": "foundation/skills/slack-teams-setup.md",
-      "tier": "connected",
+      "tier": "starter",
       "access": "standard",
       "audiences": [
         "founder",
@@ -2111,6 +2134,338 @@
       "description": "Wire your OS to your own Slack or Teams: DFY channel structure, the OS posting briefs and drafts, and in-channel approval by a named human before anything ships.",
       "version": "1.0",
       "dateAdded": "2026-07-07",
+      "new": true
+    },
+    {
+      "id": "surprise-and-delight",
+      "title": "Surprise & Delight",
+      "department": "Client Delivery OS",
+      "path": "client-delivery/skills/surprise-and-delight.md",
+      "tier": "starter",
+      "access": "standard",
+      "audiences": [
+        "founder",
+        "professional",
+        "life"
+      ],
+      "tags": [
+        "client-delivery",
+        "experience",
+        "retention"
+      ],
+      "description": "Turn ordinary client moments into memorable ones on purpose, with genuine, proportionate gestures matched to what you deliver.",
+      "version": "1.0",
+      "dateAdded": "2026-08-15",
+      "new": true
+    },
+    {
+      "id": "case-study-writer",
+      "title": "Case Study Writer",
+      "department": "Client Delivery OS",
+      "path": "client-delivery/skills/case-study-writer.md",
+      "tier": "starter",
+      "access": "standard",
+      "audiences": [
+        "founder",
+        "professional",
+        "life"
+      ],
+      "tags": [
+        "client-delivery",
+        "case-study",
+        "proof"
+      ],
+      "description": "Turn a successful engagement into an honest, specific case study, built with the client's consent and their own words.",
+      "version": "1.0",
+      "dateAdded": "2026-08-15",
+      "new": true
+    },
+    {
+      "id": "difficult-conversation-navigator",
+      "title": "Difficult Conversation Navigator",
+      "department": "Client Delivery OS",
+      "path": "client-delivery/skills/difficult-conversation-navigator.md",
+      "tier": "starter",
+      "access": "standard",
+      "audiences": [
+        "founder",
+        "professional",
+        "life"
+      ],
+      "tags": [
+        "client-delivery",
+        "communication",
+        "conflict"
+      ],
+      "description": "Prepare for and hold the two-way hard conversation: complaints, disappointment, renegotiation, or saying no, honestly and well.",
+      "version": "1.0",
+      "dateAdded": "2026-08-15",
+      "new": true
+    },
+    {
+      "id": "bad-news-well",
+      "title": "Bad News Well",
+      "department": "Client Delivery OS",
+      "path": "client-delivery/skills/bad-news-well.md",
+      "tier": "starter",
+      "access": "standard",
+      "audiences": [
+        "founder",
+        "professional"
+      ],
+      "tags": [
+        "client-delivery"
+      ],
+      "description": "",
+      "version": "1.0",
+      "dateAdded": "2026-08-15",
+      "new": true
+    },
+    {
+      "id": "client-feedback-loop",
+      "title": "Client Feedback Loop",
+      "department": "Client Delivery OS",
+      "path": "client-delivery/skills/client-feedback-loop.md",
+      "tier": "starter",
+      "access": "standard",
+      "audiences": [
+        "founder",
+        "professional"
+      ],
+      "tags": [
+        "client-delivery"
+      ],
+      "description": "",
+      "version": "1.0",
+      "dateAdded": "2026-08-15",
+      "new": true
+    },
+    {
+      "id": "client-health-early-warning",
+      "title": "Client Health Early Warning",
+      "department": "Client Delivery OS",
+      "path": "client-delivery/skills/client-health-early-warning.md",
+      "tier": "starter",
+      "access": "standard",
+      "audiences": [
+        "founder",
+        "professional"
+      ],
+      "tags": [
+        "client-delivery"
+      ],
+      "description": "",
+      "version": "1.0",
+      "dateAdded": "2026-08-15",
+      "new": true
+    },
+    {
+      "id": "client-status-update",
+      "title": "Client Status Update",
+      "department": "Client Delivery OS",
+      "path": "client-delivery/skills/client-status-update.md",
+      "tier": "starter",
+      "access": "standard",
+      "audiences": [
+        "founder",
+        "professional"
+      ],
+      "tags": [
+        "client-delivery"
+      ],
+      "description": "",
+      "version": "1.0",
+      "dateAdded": "2026-08-15",
+      "new": true
+    },
+    {
+      "id": "client-welcome-pack",
+      "title": "Client Welcome Pack",
+      "department": "Client Delivery OS",
+      "path": "client-delivery/skills/client-welcome-pack.md",
+      "tier": "starter",
+      "access": "standard",
+      "audiences": [
+        "founder",
+        "professional"
+      ],
+      "tags": [
+        "client-delivery"
+      ],
+      "description": "",
+      "version": "1.0",
+      "dateAdded": "2026-08-15",
+      "new": true
+    },
+    {
+      "id": "continuity-handover-pack",
+      "title": "Continuity Handover Pack",
+      "department": "Client Delivery OS",
+      "path": "client-delivery/skills/continuity-handover-pack.md",
+      "tier": "starter",
+      "access": "standard",
+      "audiences": [
+        "founder",
+        "professional"
+      ],
+      "tags": [
+        "client-delivery"
+      ],
+      "description": "",
+      "version": "1.0",
+      "dateAdded": "2026-08-15",
+      "new": true
+    },
+    {
+      "id": "engagement-kickoff",
+      "title": "Engagement Kickoff",
+      "department": "Client Delivery OS",
+      "path": "client-delivery/skills/engagement-kickoff.md",
+      "tier": "starter",
+      "access": "standard",
+      "audiences": [
+        "founder",
+        "professional"
+      ],
+      "tags": [
+        "client-delivery"
+      ],
+      "description": "",
+      "version": "1.0",
+      "dateAdded": "2026-08-15",
+      "new": true
+    },
+    {
+      "id": "expectation-setter",
+      "title": "Expectation Setter",
+      "department": "Client Delivery OS",
+      "path": "client-delivery/skills/expectation-setter.md",
+      "tier": "starter",
+      "access": "standard",
+      "audiences": [
+        "founder",
+        "professional"
+      ],
+      "tags": [
+        "client-delivery"
+      ],
+      "description": "",
+      "version": "1.0",
+      "dateAdded": "2026-08-15",
+      "new": true
+    },
+    {
+      "id": "managing-up-brief",
+      "title": "Managing Up Brief",
+      "department": "Client Delivery OS",
+      "path": "client-delivery/skills/managing-up-brief.md",
+      "tier": "starter",
+      "access": "standard",
+      "audiences": [
+        "founder",
+        "professional"
+      ],
+      "tags": [
+        "client-delivery"
+      ],
+      "description": "",
+      "version": "1.0",
+      "dateAdded": "2026-08-15",
+      "new": true
+    },
+    {
+      "id": "milestone-review",
+      "title": "Milestone Review",
+      "department": "Client Delivery OS",
+      "path": "client-delivery/skills/milestone-review.md",
+      "tier": "starter",
+      "access": "standard",
+      "audiences": [
+        "founder",
+        "professional"
+      ],
+      "tags": [
+        "client-delivery"
+      ],
+      "description": "",
+      "version": "1.0",
+      "dateAdded": "2026-08-15",
+      "new": true
+    },
+    {
+      "id": "offboarding-into-referral",
+      "title": "Offboarding Into Referral",
+      "department": "Client Delivery OS",
+      "path": "client-delivery/skills/offboarding-into-referral.md",
+      "tier": "starter",
+      "access": "standard",
+      "audiences": [
+        "founder",
+        "professional"
+      ],
+      "tags": [
+        "client-delivery"
+      ],
+      "description": "",
+      "version": "1.0",
+      "dateAdded": "2026-08-15",
+      "new": true
+    },
+    {
+      "id": "raid-lite",
+      "title": "Raid Lite",
+      "department": "Client Delivery OS",
+      "path": "client-delivery/skills/raid-lite.md",
+      "tier": "starter",
+      "access": "standard",
+      "audiences": [
+        "founder",
+        "professional"
+      ],
+      "tags": [
+        "client-delivery"
+      ],
+      "description": "",
+      "version": "1.0",
+      "dateAdded": "2026-08-15",
+      "new": true
+    },
+    {
+      "id": "renewal-conversation",
+      "title": "Renewal Conversation",
+      "department": "Client Delivery OS",
+      "path": "client-delivery/skills/renewal-conversation.md",
+      "tier": "starter",
+      "access": "standard",
+      "audiences": [
+        "founder",
+        "professional"
+      ],
+      "tags": [
+        "client-delivery"
+      ],
+      "description": "",
+      "version": "1.0",
+      "dateAdded": "2026-08-15",
+      "new": true
+    },
+    {
+      "id": "scope-creep-saver",
+      "title": "Scope Creep Saver",
+      "department": "Client Delivery OS",
+      "path": "client-delivery/skills/scope-creep-saver.md",
+      "tier": "starter",
+      "access": "standard",
+      "audiences": [
+        "founder",
+        "professional"
+      ],
+      "tags": [
+        "client-delivery"
+      ],
+      "description": "",
+      "version": "1.0",
+      "dateAdded": "2026-08-15",
       "new": true
     }
   ]
