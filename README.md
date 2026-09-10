@@ -49,7 +49,7 @@ Start with `foundation` (the shared spine: voice, checks, responsible AI review)
 | `client-delivery-os` | Your AI client delivery department: onboarding, expectations, status on cadence, scope defended kindly, hard conversations, surprise and delight, case studies, and endings worth referring. |
 | `admin-ops-os` | Your AI operations department: inbox, calendar, meetings, tasks, SOPs, travel. |
 | `home-os` | The operating system for real life: family calendar, meals, chores, school comms. |
-| `optimise` | Tune-up tools: Skills Health Check, Tool Stack Audit, Hub Gap-Finder & Sync. |
+| `optimise` | Tune-up tools: Skills Health Check, Tool Stack Audit. |
 
 New departments join this list on their release month. Once you have added the marketplace, they will simply appear.
 
