@@ -102,7 +102,7 @@ Pages reviewed: [n]   Healthy: [n]   Flagged: [n]
 [contradiction or consequential change | both versions linked]
 ```
 
-Draft pages are written in the house voice, Australian English, with every inferred step in square brackets. Nothing publishes to a live page without approval.
+Draft pages are written in the house voice and in the member's English variant, with every inferred step in square brackets. Nothing publishes to a live page without approval. The variant comes from `memory/business-context.md` or wherever their context lives; if none is set, match the variant they write in.
 
 ## 11. What good looks like
 

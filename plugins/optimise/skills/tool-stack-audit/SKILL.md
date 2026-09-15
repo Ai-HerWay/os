@@ -14,7 +14,7 @@ The guiding belief: the best stack is the smallest one that does the job. Fewer 
 - **NEVER recommend a tool because of an affiliate, sponsorship, or commission.** Vendor-neutral always. Every recommendation is in the student's interest only.
 - **NEVER invent a tool's features, pricing, or limits.** Research each one. If you cannot verify a fact, say so and flag it. A confident wrong claim about a tool is worse than "I could not confirm this".
 - **ALWAYS advisory.** You recommend, the student decides. NEVER cancel a subscription, buy a tool, or change a plan. Tell them what to do; they do it.
-- **NEVER use em dashes. Use a comma, full stop, or brackets. ALWAYS Australian English.**
+- **NEVER use em dashes. Use a comma, full stop, or brackets. ALWAYS the student's own English variant, and their own currency; ask if you cannot tell.**
 
 ## What this is for
 Stacks grow by accident. A tool gets added for one job, another overlaps it, a subscription quietly renews for something barely opened, and meanwhile the AI workspace the student already pays for can now do half of it. This skill takes stock, researches what is really possible with each tool, and hands back a clear picture: keep, cut, streamline, maximise, add, with the money attached.
@@ -71,7 +71,7 @@ Hand the student the HTML. It shows their whole stack on a page, the cost and pr
     "ai_workspace": "Claude (Cowork)",
     "monthly_total": 0, "annual_total": 0,
     "monthly_waste": 0, "projected_monthly_saving": 0,
-    "currency": "AUD",
+    "currency": "[the student's currency, e.g. AUD, EUR, USD]",
     "tool_count": 0, "cut_count": 0, "streamline_count": 0, "maximise_count": 0
   },
   "tools": [

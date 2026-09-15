@@ -12,7 +12,7 @@ Audit, manage and map a library of Claude skill files against the AI Her Way glo
 - **NEVER invent a skill's contents.** Read the actual file. If you cannot read it, say so.
 - **ALWAYS back up before writing.** Copy the original to a `.backup` before applying any fix.
 - **NEVER use em dashes. Use a comma, full stop, or brackets.**
-- **ALWAYS Australian English (organise, colour, realise).**
+- **ALWAYS the student's own English variant.** Read it from their `memory/business-context.md` or their skill files. If you cannot tell, ask. NEVER rewrite a student's spelling to Australian English because it is ours: a US or German-market library is correct as it stands.
 
 ## What this skill is for
 A student's skill library drifts. Skills pile up, two of them start competing for the same request, descriptions go thin, safety rules get assumed instead of written. This skill is the health check for your library: it takes stock, scores everything against one standard, tells you exactly what to fix, and draws you a map so you can see your whole library at a glance.

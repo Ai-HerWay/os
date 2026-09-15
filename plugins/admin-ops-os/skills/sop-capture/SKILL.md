@@ -118,7 +118,7 @@ author: AI Her Way
 ## Changelog
 ```
 
-Rules for the file you produce: kebab-case filename matching the `name` field; Australian English; no em dashes; decision rules written as conditions to decisions, not prose; every step either mechanical or labelled as a judgement call; a conservative default autonomy tier; specifics read from `memory/business-context.md` rather than hard-coded. Where a section genuinely does not apply to the captured task, keep the heading and write one line saying why, rather than deleting it.
+Rules for the file you produce: kebab-case filename matching the `name` field; the member's English variant; no em dashes; decision rules written as conditions to decisions, not prose; every step either mechanical or labelled as a judgement call; a conservative default autonomy tier; specifics read from `memory/business-context.md` rather than hard-coded. Where a section genuinely does not apply to the captured task, keep the heading and write one line saying why, rather than deleting it. The variant comes from `memory/business-context.md` or wherever their context lives; if none is set, match the variant they write in.
 
 ## 11. What good looks like
 

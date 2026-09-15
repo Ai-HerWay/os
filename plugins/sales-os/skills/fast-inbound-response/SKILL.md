@@ -81,7 +81,7 @@ Never read "any relevant context". Read the named files above.
 
 ## 10. Output format
 
-The deliverable is the Warm First Reply below, plus the one-line pipeline note. Keep this structure and the section order. Fill every bracketed field at runtime: read the member's name, voice, booking link, and English variant from `memory/business-context.md` (the founder, professional, or household variant, whichever the member built). The prospect, the channel, the date, and the enquiry details come from this specific enquiry. If a needed value is not set, propose one and ask before saving it.
+The deliverable is the Warm First Reply below, plus the one-line pipeline note. Keep this structure and the section order. Fill every bracketed field at runtime: read the member's name, voice, booking link, and English variant from `memory/business-context.md` (the founder, professional, or household variant, whichever the member built). The prospect, the channel, the date, and the enquiry details come from this specific enquiry. If a needed value is not set, propose one and ask before saving it. The variant comes from `memory/business-context.md` or wherever their context lives; if none is set, match the variant they write in.
 
 ---
 
@@ -110,7 +110,7 @@ Where a quick call is the right next step, add: [the next-step line] You can gra
 
 ---
 
-Rules for the reply: keep it short (acknowledgement, helpful answer or offer, one next step). Write it in the member's voice. Answer the exact question asked before offering a call. One clear next step, never three. No manufactured urgency, no promised timeframe or outcome the member has not confirmed. Use the member's English variant, read from `memory/business-context.md` (default Australian English if not set).
+Rules for the reply: keep it short (acknowledgement, helpful answer or offer, one next step). Write it in the member's voice. Answer the exact question asked before offering a call. One clear next step, never three. No manufactured urgency, no promised timeframe or outcome the member has not confirmed. Use the member's English variant.
 
 ## 11. What good looks like
 

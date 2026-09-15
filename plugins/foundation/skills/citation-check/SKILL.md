@@ -7,7 +7,7 @@ description: >
   anti-fabrication gate. Triggers: "citation check", "check the claims", "is
   this true", "verify the sources", "fact check this", "before we publish",
   "substantiate", "where did this come from", "is this real", "check the
-  stats". Australian English.
+  stats".
 audiences: [founder, professional, life]
 level: L1 to L5 (runs under every writing skill at every level)
 version: 1.0

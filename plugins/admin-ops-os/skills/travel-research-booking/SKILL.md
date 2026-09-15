@@ -84,7 +84,7 @@ Specific never-rules for this skill. Never invent a price, an availability, a re
 Reads: `memory/business-context.md` (travel preferences, budget caps, loyalty programmes, travel policy, travellers, voice, transparency line); `memory/industry-context.md` if present (sector travel norms or compliance, for example duty-of-care rules); the live web or booking sources for current prices and availability; `admin-ops-os/memory/admin-settings.md` (this department's own settings: triage stance, VIPs, urgent and escalation channels, calendar buffer, SOP threshold, travel preferences). Writes: `logs/activity-log.md` (what was researched and the sources), `logs/decision-log.md` (what was shortlisted, recommended, and discarded, with the reason); the booking brief as a named output the human can act on.
 
 ## 10. Output format
-One brief, no longer than a screen. Currency and date format follow `business-context.md` (default Australian: AUD, DD Mon YYYY).
+One brief, no longer than a screen. Currency and date format follow the member's market in `business-context.md`. If the market is not decided there, ask rather than assume one, because a date written DD Mon YYYY and a date written Mon DD are the same brief read two different ways.
 
 ```
 ## Travel Brief: [destination], [dates]

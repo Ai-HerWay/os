@@ -87,7 +87,7 @@ Due: [deadline, or "no deadline"]
 
 Needs from you: [approve as-is / pick yes or no / a fact I'm missing / "this one's yours to write"]
 ```
-For a stop or surface item, drop the draft and replace it with: who it is from, why it is being held (unknown recipient, sensitive, decision not made), and the single question for the member. Drafts use the member's sign-off from `household-context.md`. No em dashes. Australian English. Warm, short, human.
+For a stop or surface item, drop the draft and replace it with: who it is from, why it is being held (unknown recipient, sensitive, decision not made), and the single question for the member. Drafts use the member's sign-off from `household-context.md`, and the member's English variant from `memory/business-context.md` or wherever their context lives; if none is set, match the variant they write in. No em dashes. Warm, short, human.
 
 ## 11. What good looks like
 

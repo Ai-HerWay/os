@@ -106,7 +106,7 @@ The deliverable is a ready-to-record script. Read the member's identity, voice, 
 - Business: the member's business name
 - Primary handle: the member's primary social handle
 - Voice: the member's voice description
-- Language: the member's language variant (Australian English by default)
+- Language: the member's English variant. The variant comes from `memory/business-context.md` or wherever their context lives; if none is set, match the variant they write in.
 - Emoji usage: the member's emoji rule
 - CTA style: the member's CTA style
 
@@ -249,7 +249,7 @@ Build a library to layer over talking head:
 5. Results footage (screenshots of wins, data; only real ones)
 6. Behind the scenes (content process, event prep)
 
-Visual enhancements: text overlays for sound-off viewers; slight zoom cuts between sentences; split screen for before and after; screen share for walkthroughs; always add captions (in the member's language variant, Australian English by default).
+Visual enhancements: text overlays for sound-off viewers; slight zoom cuts between sentences; split screen for before and after; screen share for walkthroughs; always add captions, in the member's English variant.
 
 ### Video-to-content repurposing
 ```
@@ -288,7 +288,7 @@ Before publishing for the member's business:
 - [ ] Hook grabs attention in the first 3 seconds
 - [ ] First spoken line still delivers value with the hook removed
 - [ ] Audio is clear and at consistent volume
-- [ ] Captions added and accurate (member's language variant, Australian English by default)
+- [ ] Captions added and accurate, in the member's English variant
 - [ ] One clear idea per video
 - [ ] CTA matches the member's CTA style
 - [ ] Every claim, result, and number is true and verifiable

@@ -61,7 +61,7 @@ This is the psychology layer: it decides which sequence fires, what each email m
 5. **Draft each email** to the output format in section 10, leading with value, one clear CTA, the voice rules from context, and every relevant personalisation cue filled from the member's context or left as a bracketed fill-in for the platform merge.
 6. **Write the subject lines** to the rules in the subject-line section: 40 to 60 characters, a curiosity gap or a clear benefit, no spam words.
 7. **Build the trigger map** (the automation list) so the member can construct it in their email platform.
-8. **Self-check** against the rubric and the responsible-use rules: no fabricated proof, no value-free step, conservative CTAs, Australian English unless context says otherwise.
+8. **Self-check** against the rubric and the responsible-use rules: no fabricated proof, no value-free step, conservative CTAs, and the member's English variant. The variant comes from `memory/business-context.md` or wherever their context lives; if none is set, match the variant they write in.
 9. **Log** the sequence drafted in logs/activity-log.md, and any judgement call (for example, choosing to skip a sales step) in logs/decision-log.md.
 
 ## 6. Autonomy tiers
@@ -104,7 +104,7 @@ Use only these named files. Never act on "any relevant context".
 
 ## 10. Output format
 
-Each sequence is delivered as: a one-line trigger and goal header, a planning table (email, when, subject-line formula, content focus), then a full template for at least the first email, plus the trigger map for the member's email platform. Use the member's English variant (default Australian English if not set), emoji guideline, voice, and CTA style, all read from `memory/business-context.md`, `memory/voice.md`, and `skills/brand-voice.md`.
+Each sequence is delivered as: a one-line trigger and goal header, a planning table (email, when, subject-line formula, content focus), then a full template for at least the first email, plus the trigger map for the member's email platform. Use the member's English variant, emoji guideline, voice, and CTA style, all read from `memory/business-context.md`, `memory/voice.md`, and `skills/brand-voice.md`.
 
 ### Overview
 
@@ -113,7 +113,7 @@ Fill each line by reading the member's context files. If a value is not set, pro
 - **Platform:** [the member's email platform]
 - **Voice:** [the member's voice description]
 - **CTA style:** [the member's CTA style]
-- **Language:** [the member's English variant, default Australian English]
+- **Language:** [the member's English variant]
 - **Emoji usage:** [the member's emoji guideline]
 
 These sequences are triggered automatically by subscriber behaviour. Each one moves a subscriber along the journey from new lead to customer to advocate.
@@ -237,7 +237,7 @@ Read the member's English variant, emoji guideline, and hallmark phrases from `m
 
 **DO:**
 - Write like you're talking to one person, not a crowd
-- Use the member's English variant (default Australian English if not set)
+- Use the member's English variant
 - Follow the member's emoji guideline
 - Start with a personal hook or story, never a generic greeting
 - Keep paragraphs short (1 to 3 sentences)

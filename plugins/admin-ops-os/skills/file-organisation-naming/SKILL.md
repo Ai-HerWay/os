@@ -86,7 +86,7 @@ Reads: the file or folder being handled; `memory/business-context.md` (naming co
 ### Convention updates proposed ([n])
 [new folder or abbreviation | reason]
 ```
-Names follow `YYYY-MM-DD_Project-or-Client_Content_vNN`. Australian English. No spaces or banned characters in any filename.
+Names follow `YYYY-MM-DD_Project-or-Client_Content_vNN`. Spell names in the member's English variant. No spaces or banned characters in any filename. The variant comes from `memory/business-context.md` or wherever their context lives; if none is set, match the variant they write in.
 
 ## 11. What good looks like
 

@@ -75,7 +75,7 @@ This skill diagnoses processes, not people. Failure modes to guard against: blam
 Reads: `memory/business-context.md` (north-star throughput metric, thresholds, protected steps, people and roles, voice, transparency line), `memory/industry-context.md` if present (sector norms and never-do steps), and `logs/activity-log.md` plus any process or run records the member points to as the real event trail; `admin-ops-os/memory/admin-settings.md` (this department's own settings: triage stance, VIPs, urgent and escalation channels, calendar buffer, SOP threshold, travel preferences). Writes: `logs/activity-log.md` (what was diagnosed and when) and `logs/decision-log.md` (the named constraint, the cause, the recommended fix, and any judgement call or assumption made). Never read or write outside these named files and the specific process records provided.
 
 ## 10. Output format
-Deliver exactly this, in the member's voice, Australian English, under 400 words unless the process is genuinely large.
+Deliver exactly this, in the member's voice and the member's English variant, under 400 words unless the process is genuinely large. The variant comes from `memory/business-context.md` or wherever their context lives; if none is set, match the variant they write in.
 
 ```
 ## Bottleneck Diagnosis: [process name], [date]

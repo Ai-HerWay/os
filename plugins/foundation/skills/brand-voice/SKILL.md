@@ -84,7 +84,7 @@ This skill's real failure modes are specific. Never invent a hallmark phrase, cl
 
 ## 9. Inputs and memory
 
-**Reads:** `memory/voice.md` (the tone settings, hallmark phrases, and banned words); `memory/brand.md` if present (how the look informs the voice, and what to avoid); `memory/business-context.md` (the member's rules, English variant, emoji setting, CTA style, and content pillars); `memory/audience-and-offers.md` if present (the audience descriptor, sophistication level, pain points, and transformation); any working-memory files for the active project (for example a campaign brief or content calendar); `memory/industry-context.md` if the member uses one.
+**Reads:** `memory/voice.md` (the tone settings, hallmark phrases, and banned words); `memory/brand.md` if present (how the look informs the voice, and what to avoid); `memory/business-context.md` (the member's rules, Output language, English variant, emoji setting, CTA style, and content pillars); `memory/audience-and-offers.md` if present (the audience descriptor, sophistication level, pain points, and transformation); any working-memory files for the active project (for example a campaign brief or content calendar); `memory/industry-context.md` if the member uses one.
 
 **Writes:** `logs/activity-log.md` (every piece drafted or reviewed); `logs/decision-log.md` (any rubric override applied, any proposed change to voice settings); the named content output requested by the calling skill.
 
@@ -110,7 +110,7 @@ Read the five tone settings from `memory/voice.md`: Formal / Casual, Serious / P
 
 ## Vocabulary and Language
 
-Read all three from `memory/business-context.md`: the English variant to spell in, the emoji usage preference, and the CTA style. If any is not set, propose one and ask before saving it.
+Read all four from `memory/business-context.md`: the Output language to write in, the English variant to spell in if that language is English, the emoji usage preference, and the CTA style. If any is not set, propose one and ask before saving it.
 
 ### Hallmark phrases
 
@@ -145,7 +145,7 @@ A member whose Foundation is set up for her as an individual has no audience fil
 
 The deliverable is content (a post, email, caption, script, or article) written in the member's voice and ready for the named platform, plus, on review tasks, the completed checklist below.
 
-**Structure rules by channel** are in the Platform Voice Adaptations table above. Match the word count and rhythm the platform asks for, end with an appropriate CTA in the member's CTA style, and use the member's English variant for spelling throughout, both from `memory/business-context.md`. Deliver in the file format the calling skill requested (plain text, Markdown, or pasted into the channel draft).
+**Structure rules by channel** are in the Platform Voice Adaptations table above. Match the word count and rhythm the platform asks for, end with an appropriate CTA in the member's CTA style, and write in the member's Output language, using their English variant for spelling where that language is English, all from `memory/business-context.md`. Deliver in the file format the calling skill requested (plain text, Markdown, or pasted into the channel draft).
 
 ### Voice Matching Checklist
 
@@ -157,7 +157,8 @@ When creating or reviewing any content for the member, verify:
 - [ ] Includes personal context or story where relevant
 - [ ] Emoji use matches the member's emoji setting
 - [ ] References expertise naturally without bragging
-- [ ] The member's English variant spelling throughout
+- [ ] Written in the member's Output language
+- [ ] Where that language is English, the member's English variant spelling throughout
 - [ ] Ends with an appropriate CTA in the member's CTA style
 - [ ] Does NOT use any banned words or phrases
 - [ ] Does NOT sound like a press release or marketing copy

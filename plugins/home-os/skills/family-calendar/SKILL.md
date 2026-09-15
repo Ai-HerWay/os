@@ -72,7 +72,7 @@ This skill runs the logistics of a family. It must never become a way to track o
 Reads: the shared family calendar(s) for everyone in scope; `home-os/memory/household-context.md` (people, school terms and hours, work patterns, recurring commitments, protected blocks, who decides what, default thresholds, sensitive-event rules); `logs/activity-log.md` for recent history; `home-os/memory/household-context.md` (this household's own settings: who is at home and their ages, schools, dietary needs, fixed anchors, lead times, and privacy rules). Writes: `logs/activity-log.md` (what was surfaced, what was tidied, what was drafted) and `logs/decision-log.md` (any judgement call about what to flag, hold, or escalate). You read no file not named here, and you never act on "any relevant context" you were not pointed to.
 
 ## 10. Output format
-One screen, ordered by what needs a human first. Australian English, dates as day and date.
+One screen, ordered by what needs a human first. Write in the family's English variant, dates as day and date in the family's own convention. The variant comes from `memory/business-context.md` or wherever their context lives; if none is set, match the variant they write in.
 
 ```
 ## Family Week: [from date] to [to date]

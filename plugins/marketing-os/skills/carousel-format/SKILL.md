@@ -2,7 +2,7 @@
 name: carousel-format
 department: Marketing OS
 description: >
-  Generates social carousel content in the exact markdown format the carousel maker's batch parser understands, anchored to the member's brand, pillars, and revenue path. Use when the member asks to make a carousel, batch carousels, an Instagram carousel, a LinkedIn document post, a multi-slide post, slide content for a swipe post, or to turn a topic into a slide-by-slide deck. Australian English.
+  Generates social carousel content in the exact markdown format the carousel maker's batch parser understands, anchored to the member's brand, pillars, and revenue path. Use when the member asks to make a carousel, batch carousels, an Instagram carousel, a LinkedIn document post, a multi-slide post, slide content for a swipe post, or to turn a topic into a slide-by-slide deck.
 audiences: [founder, professional, life]
 level: L1 to L2
 version: 1.0
@@ -169,7 +169,7 @@ These are commonly present in batch files but are stripped during parsing:
 
 ### Voice and style notes
 
-- Write all copy in the member's English variant (read it from `memory/business-context.md`; default to Australian English).
+- Write all copy in the member's English variant. The variant comes from `memory/business-context.md` or wherever their context lives; if none is set, match the variant they write in.
 - Emoji usage: apply the member's emoji preference from `memory/business-context.md`.
 - CTA style: apply the member's CTA style from `memory/business-context.md`.
 - Weave in the member's hallmark phrases where they fit naturally (read them from `memory/business-context.md` or `memory/voice.md`, if any are set).

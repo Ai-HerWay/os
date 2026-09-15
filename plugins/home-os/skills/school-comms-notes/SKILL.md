@@ -97,7 +97,7 @@ One short summary, on one screen, ordered by urgency, never longer than it needs
 [teacher message about a child, summarised neutrally, for you to handle]
 ```
 
-Keep entries to one line each. If there is nothing in a section, write "nothing this week" rather than padding it. Australian English. No jargon; write the way the family talks.
+Keep entries to one line each. If there is nothing in a section, write "nothing this week" rather than padding it. Write in the family's English variant. No jargon; write the way the family talks. The variant comes from `memory/business-context.md` or wherever their context lives; if none is set, match the variant they write in.
 
 ## 11. What good looks like
 

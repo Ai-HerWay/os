@@ -79,7 +79,7 @@ The named failure mode for this skill is confident fabrication: filling a silent
 Reads: the source SOP, checklist, or process doc supplied by the human; `memory/business-context.md` (voice, people, tools, decision defaults, autonomy grants); `memory/industry-context.md` if present (sector-specific rules and never-dos); the canonical 11-section structure in Section 10 of this file, which the output must meet; `admin-ops-os/memory/admin-settings.md` (this department's own settings: triage stance, VIPs, urgent and escalation channels, calendar buffer, SOP threshold, travel preferences). Writes: the draft skill file (held for approval, then saved to `skills/` on approval); `logs/activity-log.md` (what was converted); `logs/decision-log.md` (every gap filled and assumption made).
 
 ## 10. Output format
-A single complete skill file in the canonical 11-section structure below, with correct YAML frontmatter, followed by a short conversion note. Markdown. Australian English, no em dashes.
+A single complete skill file in the canonical 11-section structure below, with correct YAML frontmatter, followed by a short conversion note. Markdown, written in the member's English variant, no em dashes. The variant comes from `memory/business-context.md` or wherever their context lives; if none is set, match the variant they write in.
 
 ```
 ---

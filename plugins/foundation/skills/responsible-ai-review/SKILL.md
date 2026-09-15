@@ -7,7 +7,7 @@ description: >
   AI-assistance disclosure, and the governance never-list. Triggers:
   "responsible AI review", "ethics check", "is this safe to publish", "review
   before publish", "bias check", "privacy check", "should we send this", "is
-  this on-charter", "did we disclose AI", "harm check". Australian English.
+  this on-charter", "did we disclose AI", "harm check".
 audiences: [founder, professional, life]
 level: L2 to L5 (governs any output an assistant, automation, or OS produces)
 version: 1.0

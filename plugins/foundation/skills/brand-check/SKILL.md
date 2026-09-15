@@ -8,8 +8,8 @@ description: >
   governance respected. A cross-cutting quality gate. Triggers: "brand check",
   "is this on-brand", "does this fit our values", "run brand-check", "is this
   okay to publish", "check the ethics on this", "would we say this", or called
-  automatically by any skill that produces something external. Always use
-  Australian English spelling.
+  automatically by any skill that produces something external. Language and
+  spelling follow the member's own settings, never a fixed default.
 audiences: [founder, professional, life]
 level: L1 to L3
 version: 1.0

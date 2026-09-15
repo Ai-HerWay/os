@@ -7,7 +7,7 @@ description: >
   into platform-specific social posts. Triggers: "repurpose this newsletter", "turn this into social
   content", "create posts from this email", "LinkedIn post from my newsletter", "Instagram carousel
   from this", "social media batch", "content repurposing", "atomise this content".
-  Always use the member's English variant (from memory/business-context.md).
+  Always use the member's English variant, never a fixed one.
 audiences: [founder, professional, life]
 level: L1 to L4
 version: 1.0
@@ -77,7 +77,7 @@ Run every extracted element through the decision rubric in section 4. Assign pla
 ### Phase 3: Content creation
 Draft each mapped piece in the member's voice (read it from `memory/voice.md`, `skills/brand-voice.md`, and `memory/business-context.md`). Every piece must:
 - Sound like the member wrote it.
-- Use the member's English variant (from `memory/business-context.md`).
+- Use the member's English variant. The variant comes from `memory/business-context.md` or wherever their context lives; if none is set, match the variant they write in.
 - Follow the member's emoji guideline (from `memory/business-context.md`).
 - Include an appropriate CTA in the member's CTA style (from `memory/business-context.md`).
 - Serve a clear revenue function from the rubric.
@@ -142,7 +142,7 @@ Fill each line by reading the member's context. If a value is not set, propose o
 - Primary handle: primary social handle from `memory/business-context.md`
 - Voice: from `memory/voice.md`, `skills/brand-voice.md`, and `memory/business-context.md`
 - CTA style: from `memory/business-context.md`
-- Language: the member's English variant from `memory/business-context.md`
+- Language: the member's English variant
 - Emoji usage: from `memory/business-context.md`
 
 Social handles: read the member's Instagram and LinkedIn handles from `memory/business-context.md` and list any that are set.
@@ -184,7 +184,7 @@ Target output per newsletter:
 - 1 to 2 Instagram story sequences
 
 ### Formatting rules
-- The member's English variant (from `memory/business-context.md`) always.
+- The member's English variant, always.
 - LinkedIn: 1 to 2 sentence paragraphs, a line break between each, 3 to 5 hashtags maximum.
 - Instagram captions: storytelling format, 15 to 20 hashtags.
 - Emoji usage: per the member's setting in `memory/business-context.md`.

@@ -8,7 +8,8 @@ description: >
   cross-cutting quality gate. Triggers: "voice check", "does this sound like me",
   "is this on-brand", "run voice-check", "check before I send", "make this sound
   human", "did AI flatten this", or called automatically at the end of any
-  drafting skill. Always use Australian English spelling.
+  drafting skill. Language and spelling are checked against the member's own
+  settings, never a fixed default.
 audiences: [founder, professional, life]
 level: L1 to L3
 version: 1.0
@@ -37,7 +38,8 @@ Run every check. Decide per the table. Default decision when in doubt is FLAG, n
 | Condition found in the draft | Severity | Decision |
 |---|---|---|
 | Contains a word on the member's banned list (from business-context.md) | High | FLAG and propose a replacement, do not pass |
-| Non-Australian or non-member spelling (organize, color, realize, etc.) | High | FLAG with the corrected spelling |
+| Draft is not in the Output language set in `memory/business-context.md` (for example drafted in English when the member writes in German) | High | FLAG and offer it redrafted natively in their language, not translated from the English |
+| The Output language is English and the spelling does not match the member's English variant (for example "organize" when the member writes Australian or British English, or "organise" when the member writes US English) | High | FLAG with the spelling corrected to their variant. The variant comes from `memory/business-context.md` or wherever their context lives; if none is set, match the variant they write in, and flag only against that. If the Output language is not English, skip this row entirely |
 | Fabricated claim, statistic, credential, testimonial, or quote | Critical | STOP, escalate, do not return as a voice flag only (see section 7) |
 | Opens with us, not the reader ("I am excited to announce", "We are the leading...") | Medium | FLAG, propose a reader-first opening |
 | Generic claim with no specific proof ("trusted by many", "industry-leading") | Medium | FLAG, ask for the specific proof point |

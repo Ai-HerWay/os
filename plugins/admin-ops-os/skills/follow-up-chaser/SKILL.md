@@ -84,7 +84,9 @@ This skill's real failure mode is becoming a pestering machine, so the guardrail
 Reads: the member's sent items and threads awaiting a reply; `memory/business-context.md` (voice, signature, priority people, cadence overrides, sending tier, transparency line); `memory/industry-context.md` if present (sector norms on chasing); `admin-ops-os/logs/awaiting-reply-log.md` (open threads and next-due dates); `admin-ops-os/memory/admin-settings.md` (this department's own settings: triage stance, VIPs, urgent and escalation channels, calendar buffer, SOP threshold, travel preferences). Writes: `logs/activity-log.md` (nudges drafted and sent, threads closed or marked dormant); `logs/decision-log.md` (any judgement call); `admin-ops-os/logs/awaiting-reply-log.md` (updated next-due dates and outcomes).
 
 ## 10. Output format
-A single chase digest, Australian English, no em dashes:
+A single chase digest, written in the member's English variant, no em dashes. The variant comes from `memory/business-context.md` or wherever their context lives; if none is set, match the variant they write in.
+
+The digest:
 
 ```
 ## Follow-up Digest: [time], [date]

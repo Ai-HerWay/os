@@ -101,7 +101,7 @@ Tue | ... | ... | ... | ...
 [anything worth knowing: a meal that repeats next week, a use-by to watch, an estimate against budget]
 ```
 
-Keep it to one screen where possible. Australian English. No fabricated nutrition claims or invented prices; if you estimate cost, say it is an estimate.
+Keep it to one screen where possible. Write in the family's English variant. No fabricated nutrition claims or invented prices; if you estimate cost, say it is an estimate. The variant comes from `memory/business-context.md` or wherever their context lives; if none is set, match the variant they write in.
 
 ## 11. What good looks like
 

@@ -72,7 +72,7 @@ This skill's failure modes are specific. Do not fabricate a rationale or a rejec
 Reads: `memory/business-context.md` (who decides, the recognised circle, the log-worthiness threshold, voice and transparency line), `memory/industry-context.md` if present (sector rules on what must be documented), and `logs/decision-log.md` (to check whether this decision supersedes an existing one); `admin-ops-os/memory/admin-settings.md` (this department's own settings: triage stance, VIPs, urgent and escalation channels, calendar buffer, SOP threshold, travel preferences). Writes: `logs/decision-log.md` (the decision entry) and `logs/activity-log.md` (a one-line note that a decision was logged). Never read or write outside these named files.
 
 ## 10. Output format
-One entry per decision, appended to `logs/decision-log.md`, newest at the top. Australian English, plain prose in the rationale, no em dashes.
+One entry per decision, appended to `logs/decision-log.md`, newest at the top. Written in the member's English variant, plain prose in the rationale, no em dashes. The variant comes from `memory/business-context.md` or wherever their context lives; if none is set, match the variant they write in.
 
 ```
 ## [YYYY-MM-DD] Decision: [short title]

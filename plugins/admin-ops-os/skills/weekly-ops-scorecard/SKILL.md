@@ -97,7 +97,7 @@ At a glance: [n green] / [n amber] / [n red] / [n no data]
 ### Early warnings ([n])
 - [leading indicator slipping before the result does]
 ```
-Keep the whole thing to one screen. The read is one paragraph, not a report. No metric appears twice. Australian English.
+Keep the whole thing to one screen. The read is one paragraph, not a report. No metric appears twice. Write in the member's English variant. The variant comes from `memory/business-context.md` or wherever their context lives; if none is set, match the variant they write in.
 
 ## 11. What good looks like
 

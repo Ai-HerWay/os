@@ -2,7 +2,7 @@
 name: dm-conversation-scripts
 department: Marketing OS
 description: >
-  Runs direct-message conversations that turn comments, lead-magnet downloads, and cold outreach into real relationships and the right offer, without sounding like a bot. Use it when you need to: reply to a DM, deliver a lead magnet, qualify a lead, handle an objection, write a follow-up sequence, draft a cold DM, set up a codeword opener, or warm up a collaborator. Australian English.
+  Runs direct-message conversations that turn comments, lead-magnet downloads, and cold outreach into real relationships and the right offer, without sounding like a bot. Use it when you need to: reply to a DM, deliver a lead magnet, qualify a lead, handle an objection, write a follow-up sequence, draft a cold DM, set up a codeword opener, or warm up a collaborator.
 audiences: [founder, professional, life]
 level: L1 to L3
 version: 1.0
@@ -94,7 +94,7 @@ Never act on "any relevant context". If a value is not in business-context or a 
 Each output is a ready-to-send DM or a short sequence of them. Format rules:
 
 - Conversational and warm, matched to the member's tone and voice (read from `memory/voice.md`, `skills/brand-voice.md`, and `memory/business-context.md`).
-- Use the member's English variant (from `memory/business-context.md`; if not set, default to Australian English) for every message.
+- Use the member's English variant for every message. The variant comes from `memory/business-context.md` or wherever their context lives; if none is set, match the variant they write in.
 - Emoji usage and CTA style: read both from `memory/business-context.md`. If a value is not set, propose one and ask before saving.
 - 2 to 4 sentences per message in most cases. Break anything longer into 2 or 3 shorter messages, never a wall of text.
 - Respond within 2 hours during business hours where possible.
@@ -267,7 +267,7 @@ Read the member's voice, English variant, emoji guideline, and hallmark phrases 
 
 Do:
 - Sound like the member in a one-on-one conversation.
-- Use the member's English variant (default Australian English if not set).
+- Use the member's English variant.
 - Match the member's emoji guideline.
 - Keep messages concise, 2 to 4 sentences in most cases.
 - Use voice notes where appropriate, they add warmth.

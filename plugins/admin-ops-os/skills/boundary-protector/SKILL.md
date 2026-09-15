@@ -91,7 +91,7 @@ If escalated: trade-off = [what moves, what it costs]
 Logged: activity-log.md [+ decision-log.md if a judgement call]
 ```
 
-Drafts are two to four sentences. Always include two alternative times when declining. Australian English, the person's voice.
+Drafts are two to four sentences. Always include two alternative times when declining. The person's voice, and the member's English variant. The variant comes from `memory/business-context.md` or wherever their context lives; if none is set, match the variant they write in.
 
 ## 11. What good looks like
 

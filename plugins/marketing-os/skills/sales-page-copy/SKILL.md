@@ -2,7 +2,7 @@
 name: sales-page-copy
 department: Marketing OS
 description: >
-  Writes, reviews, and briefs high-converting sales pages in the member's voice, anchored to one transformation and one audience. Use it whenever you need to write a sales page, draft a landing page, review sales copy, brief a copywriter, structure a long-form offer page, fix a page that is not converting, write a hero headline, handle objections in copy, or sequence the sections of an offer page. Triggers: "write a sales page", "sales page for", "landing page copy", "review my sales page", "my page isn't converting", "hero headline for", "fix this offer page". Australian English.
+  Writes, reviews, and briefs high-converting sales pages in the member's voice, anchored to one transformation and one audience. Use it whenever you need to write a sales page, draft a landing page, review sales copy, brief a copywriter, structure a long-form offer page, fix a page that is not converting, write a hero headline, handle objections in copy, or sequence the sections of an offer page. Triggers: "write a sales page", "sales page for", "landing page copy", "review my sales page", "my page isn't converting", "hero headline for", "fix this offer page".
 audiences: [founder, professional, life]
 level: L1 to L3
 version: 1.0
@@ -281,7 +281,7 @@ CTA placement rules:
 
 Read the member's voice, tone, hallmark phrases, language variant, emoji rule, and CTA style from `memory/business-context.md`, `memory/voice.md`, and `skills/brand-voice.md` at runtime. If a value is not set, propose one and ask before saving.
 
-- Language: the member's language variant (Australian English by default) throughout.
+- Language: the member's English variant throughout. The variant comes from `memory/business-context.md` or wherever their context lives; if none is set, match the variant they write in.
 - Emoji usage: the member's emoji rule.
 - CTA style: the member's CTA style.
 - Voice description: the member's voice description.
@@ -308,7 +308,7 @@ Before publishing any page for the member's business, verify:
 - [ ] FAQ covers the top 5 to 8 questions from real prospects.
 - [ ] Any deadline or scarcity claim is genuinely true.
 - [ ] CTA buttons use the member's defined CTA style and the placement rules.
-- [ ] Page uses the member's language variant (Australian English by default) throughout.
+- [ ] Page uses the member's English variant throughout.
 - [ ] Voice matches the member's brand: conversational, not corporate.
 - [ ] Mobile experience is tested (50 percent or more of traffic is mobile).
 - [ ] Page loads quickly (under 3 seconds).

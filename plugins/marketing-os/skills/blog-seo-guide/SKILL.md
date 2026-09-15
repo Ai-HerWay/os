@@ -7,7 +7,7 @@ description: >
   AI Overviews). Use when you need to: write a blog post, expand a newsletter
   topic, optimise an article for SEO, rank for a keyword, get cited by AI search,
   draft a blog brief, repurpose long-form content, or improve an existing post's
-  on-page structure. Australian English.
+  on-page structure.
 audiences: [founder, professional, life]
 level: L1 to L3
 version: 1.0
@@ -209,7 +209,7 @@ See `brand-voice.md` for tone and style. Blog posts should be:
 - Empowering, not condescending
 - Practical and actionable
 - Confident without being salesy
-- Written in the member's English variant (read it from `memory/business-context.md`; default to Australian English)
+- Written in the member's English variant. The variant comes from `memory/business-context.md` or wherever their context lives; if none is set, match the variant they write in.
 
 Apply the member's voice rules from `brand-voice.md`.
 

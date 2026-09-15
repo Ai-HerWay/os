@@ -86,7 +86,7 @@ Flagged for your review: [bullet list, or "none"]
 Not touched (facts/prices/commitments): [confirmed]
 Proposed template change: [yes + detail / no]
 ```
-Keep the change note under 120 words. Australian English. No em dashes.
+Keep the change note under 120 words. Write in the member's English variant. No em dashes. The variant comes from `memory/business-context.md` or wherever their context lives; if none is set, match the variant they write in.
 
 ## 11. What good looks like
 

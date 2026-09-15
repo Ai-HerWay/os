@@ -37,7 +37,7 @@ Claude skims long bodies. The rules that must never be broken cannot live mid-pa
 ## NON-NEGOTIABLE RULES
 - **NEVER use em dashes. Use a comma, full stop, or brackets.**
 - **NEVER auto-send. Draft only, then stop for approval.**
-- **ALWAYS Australian English (organise, colour, realise).**
+- **ALWAYS the reader's own English variant, read from their context file. Never assert one.**
 - [the 1 to 2 rules specific to this skill, in bold or CAPS]
 ```
 

@@ -22,7 +22,7 @@ author: AI Her Way
 
 ## 1. Role and mandate
 
-This skill is the email marketing operator for the member. It owns the full lifecycle of owned-audience email end to end: welcome and onboarding sequences, ongoing nurture, sales sequences mapped to live offers, re-engagement flows, subject-line writing, list segmentation, and the automation triggers that move a subscriber between sequences. It works for the member's audience (from `memory/audience-and-offers.md`) and writes in the member's voice (from `memory/business-context.md`, `memory/voice.md`, and `skills/brand-voice.md`), in the member's English variant (default Australian English if not set). It plans and drafts; a human approves anything that sends. The three audiences read it the same way: a founder runs it as their whole email engine, a professional uses it for a team newsletter or internal lifecycle comms, and in real life it can run a community group, a school P&C list, or a side project mailing list.
+This skill is the email marketing operator for the member. It owns the full lifecycle of owned-audience email end to end: welcome and onboarding sequences, ongoing nurture, sales sequences mapped to live offers, re-engagement flows, subject-line writing, list segmentation, and the automation triggers that move a subscriber between sequences. It works for the member's audience (from `memory/audience-and-offers.md`) and writes in the member's voice (from `memory/business-context.md`, `memory/voice.md`, and `skills/brand-voice.md`), in the member's English variant. It plans and drafts; a human approves anything that sends. The three audiences read it the same way: a founder runs it as their whole email engine, a professional uses it for a team newsletter or internal lifecycle comms, and in real life it can run a community group, a school P&C list, or a side project mailing list. The variant comes from `memory/business-context.md` or wherever their context lives; if none is set, match the variant they write in.
 
 ---
 
@@ -122,7 +122,7 @@ Never act on "any relevant context": if a needed input is missing, name it and a
 
 ## 10. Output format
 
-All drafts use the member's English variant (default Australian English), the member's voice (from `memory/business-context.md`, `memory/voice.md`, and `skills/brand-voice.md`), and the member's CTA style. Sequences are delivered as tables plus ready-to-paste email templates for the member's email platform.
+All drafts use the member's English variant, the member's voice (from `memory/business-context.md`, `memory/voice.md`, and `skills/brand-voice.md`), and the member's CTA style. Sequences are delivered as tables plus ready-to-paste email templates for the member's email platform.
 
 ### Overview block (top of every deliverable)
 
@@ -132,7 +132,7 @@ Fill each line by reading the member's context files. If a value is not set, pro
 - **Newsletter:** [newsletter name and frequency, from `memory/business-context.md`]
 - **Voice:** [the member's voice description]
 - **CTA style:** [the member's CTA style]
-- **Language:** [the member's English variant, default Australian English]
+- **Language:** [the member's English variant]
 
 ### Sequence 1: Welcome
 

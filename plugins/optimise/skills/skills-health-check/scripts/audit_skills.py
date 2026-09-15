@@ -113,8 +113,10 @@ down out over under again further once here there each few both same own only ju
 """.split())
 
 # House-style / brand boilerplate that appears in almost every AI Her Way skill
-# (the em-dash ban, AU English, the brand name). Shared because they are RULES,
-# not because two skills do the same job — so they must not count as overlap.
+# (the em-dash ban, a spelling-variant rule, the brand name). Shared because they
+# are RULES, not because two skills do the same job, so they must not count as
+# overlap. The spelling words below are listed to be IGNORED, never enforced:
+# this script does not check or change anyone's English variant.
 BOILERPLATE = set("""australian english spelling dashes em dash house voice herway her way
 ai hub nici always use never spelling realise organise colour favourite content member
 members women founder founders trigger triggers phrases also high-converting authentic
@@ -377,7 +379,7 @@ def main():
                           "fix": "Add a 'Use THIS not THAT when...' line naming what it is NOT for and which skill to use instead."})
         if not s["has_non_negotiable_block"] and not s["is_generic"]:
             fixes.append({"skill": s["name"], "priority": "P2",
-                          "issue": "Critical rules (em-dash ban, draft-don't-send, AU English) are not pulled to the top.",
+                          "issue": "Critical rules (em-dash ban, draft-don't-send, the spelling variant this library writes in) are not pulled to the top.",
                           "fix": "Add a `## NON-NEGOTIABLE RULES` block at the very top, rules as bold/CAPS dot points."})
         if len(s["equiai_pillars_hit"]) < 4 and not s["is_generic"]:
             missing = [EQUIAI_PILLARS[k]["label"] for k in EQUIAI_PILLARS

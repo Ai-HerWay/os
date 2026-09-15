@@ -86,7 +86,7 @@ This skill finds and sizes opportunities; it never builds or runs them. Specific
 Reads: `memory/business-context.md` (role, tools, boundaries, named pain points, the person's own thresholds and overrides), `memory/industry-context.md` if present (sector-specific suitability and never-do considerations), `logs/activity-log.md` (recurring jobs over time); `admin-ops-os/memory/admin-settings.md` (this department's own settings: triage stance, VIPs, urgent and escalation channels, calendar buffer, SOP threshold, travel preferences). Writes: `logs/activity-log.md` (candidates considered and the shortlist produced), `logs/decision-log.md` (any judgement call, any override applied, any escalation raised).
 
 ## 10. Output format
-Return a single ranked shortlist. No prose preamble. Australian English, no em dashes.
+Return a single ranked shortlist. No prose preamble. Write in the member's English variant, no em dashes. The variant comes from `memory/business-context.md` or wherever their context lives; if none is set, match the variant they write in.
 
 ```
 ## Automation Opportunities: [date]

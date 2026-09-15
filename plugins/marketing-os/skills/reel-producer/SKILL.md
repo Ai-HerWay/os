@@ -112,7 +112,7 @@ The deliverable is one reel package per script, in the output folder above, cont
 4. **Caption file**: timed captions for the full script, plus the platform caption under 150 words with the CTA and hashtags per the member's preferences.
 5. **Reel blueprint** (one page): hook timing (seconds 0 to 3, exactly what is seen and read); real shotlist (one or two shots, each with framing, action, and a phone-friendly filming note); edit brief for CapCut or Canva (clip order, cut points, overlay text with exact wording and in/out times, music guidance, export specs for the target platform); and an honesty footer restating that this reel is AI b-roll plus the member's real shots, with disclosure per their preference.
 
-Everything in the member's output language (read from `memory/business-context.md`), Australian English by default.
+Everything in the member's output language; where that language is English, in the member's English variant. Both come from `memory/business-context.md` or wherever their context lives; if none is set, match the variant they write in.
 
 ## 11. What good looks like
 
