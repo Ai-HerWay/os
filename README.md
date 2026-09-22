@@ -47,6 +47,7 @@ Start with `foundation` (the shared spine: voice, checks, responsible AI review)
 | `marketing-os` | Your AI marketing department: strategy, campaigns, content, email, social, plus the Content Studio. |
 | `sales-os` | Your AI sales department: qualification, fast inbound response, discovery, proposals, objection and pricing coaching, and the follow-up guardian. Honest urgency only. |
 | `client-delivery-os` | Your AI client delivery department: onboarding, expectations, status on cadence, scope defended kindly, hard conversations, surprise and delight, case studies, and endings worth referring. |
+| `strategy-os` | Your AI strategy department: diagnosis-first planning, quarterly cadence, scenario modelling, competitor analysis, and the discipline of what to stop. Direction it sets, the CEO layer delegates. |
 | `admin-ops-os` | Your AI operations department: inbox, calendar, meetings, tasks, SOPs, travel. |
 | `home-os` | The operating system for real life: family calendar, meals, chores, school comms. |
 | `optimise` | Tune-up tools: Skills Health Check, Tool Stack Audit. |
