@@ -11,8 +11,8 @@ description: >
   AI do", "time saved report", "what stalled", "OS report", "weekly OS review".
 audiences: [founder, professional, life]
 level: L3 to L5
-version: 1.0
-updated: 2026-07-07
+version: 1.1
+updated: 2026-09-30
 author: AI Her Way
 ---
 
@@ -77,7 +77,7 @@ This skill's specific failure modes: flattering dashboards (inflated or invented
 
 ## 9. Inputs and memory
 
-- **Reads:** `logs/activity-log.md` (the what), `logs/decision-log.md` (the why and the judgement calls), `memory/business-context.md` (thresholds: stall days, per-task time-saved defaults if set, cadence, named people), `schedule.md` for the department cadences; `memory/values.md` (if present: the member's mission and values, so the review can ask whether the work matched what they said they stand for, not just whether it got done).
+- **Reads:** `logs/activity-log.md` (the what), `logs/decision-log.md` (the why and the judgement calls), `memory/business-context.md` (thresholds: stall days, per-task time-saved defaults if set, cadence, named people), the Foundation's `schedule.md` for the OS-wide review rhythm, and each department's `schedule.md` for its own cadence; `memory/values.md` (if present: the member's mission and values, so the review can ask whether the work matched what they said they stand for, not just whether it got done).
 - **Writes:** the cockpit HTML file (default `logs/cockpit.html`, overwriting the previous render after backing it up to `logs/cockpit-previous.html`), a one-row entry in `logs/activity-log.md`, and any governance finding in `logs/decision-log.md`.
 
 Never read "any relevant context". Read the named files above.
@@ -137,3 +137,4 @@ The AI proposes, the human approves. Never silently edit your own instructions.
 | Date | Version | Change | Author |
 |---|---|---|---|
 | 2026-07-07 | 1.0 | Initial version. | AI Her Way |
+| 2026-09-30 | 1.1 | Reads the Foundation's new `schedule.md` for the OS-wide rhythm, alongside each department's own. | AI Her Way |
